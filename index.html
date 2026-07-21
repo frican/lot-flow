@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Stop leaving money on the lot — dealer pricing intelligence</title>
+<title>Stop leaving money on the lot | dealer pricing intelligence</title>
 <meta name="description" content="Per-unit pricing intelligence for used-car dealers: find the units you have underpriced, the aging metal tying up your capital, and price each one to margin or to move.">
 <link rel="stylesheet" href="pitch.css">
 </head>
@@ -49,7 +49,7 @@
 <section>
   <div class="wrap">
     <p class="section-tag">Two ways money slips away</p>
-    <h2>Every unit is either priced to margin or priced to move — rarely both.</h2>
+    <h2>Every unit is either priced to margin or priced to move, and rarely both.</h2>
     <p class="lead">These are real, anonymized examples from the tracked market. Figures rounded; no dealer, VIN, or address is ever shown.</p>
 
     <div class="cards" style="margin-top:var(--s6)">
@@ -64,10 +64,10 @@
             <b id="profit-under">—</b> under market value and sold in
             <b id="profit-days">—</b>.
           </p>
-          <p class="muted">That gap is margin handed straight to the buyer — value you priced away without meaning to.</p>
+          <p class="muted">That gap is margin handed straight to the buyer: value you priced away without meaning to.</p>
         </div>
         <p id="profit-empty" class="muted hidden">
-          No fast-selling underpriced units in the current window — but the moment one appears, it surfaces here first.
+          No fast-selling underpriced units in the current window. The moment one appears, it surfaces here first.
         </p>
       </div>
 
@@ -80,31 +80,58 @@
             A <b id="aging-vehicle">unit</b> has sat for
             <b id="aging-days">—</b> through
             <b id="aging-cuts">—</b> totaling
-            <b id="aging-markdown">—</b> — and is still
+            <b id="aging-markdown">—</b>, and is still
             <b id="aging-over">—</b> above market.
           </p>
           <div class="timeline" id="aging-timeline" aria-label="price-cut timeline"></div>
         </div>
         <p id="aging-empty" class="muted hidden">
-          No deeply-aged, repeatedly-cut units in the current window — the timeline lights up the moment one crosses the line.
+          No deeply-aged, repeatedly-cut units in the current window. The timeline lights up the moment one crosses the line.
         </p>
       </div>
     </div>
 
     <div class="arbitrate">
-      <p><b>These two strategies compete on every single unit.</b> Chase full margin and the car can sit,
-      tying up floor-plan capital while it depreciates. Price to move and you clear the metal but surrender margin.
-      The tool arbitrates <em>per unit</em> — not with a blanket rule — so you decide with the number in front of you:</p>
-      <div class="strat">
-        <div>
-          <h4>Price to margin</h4>
-          <p class="muted tiny">When a unit is genuinely underpriced against verified comps, hold the line and recover the gap.</p>
+      <p class="arb-intro"><b>Price the same car two ways and you lose two different ways.</b> One car, one number,
+      and both mistakes are already priced into your lot right now. Here is what each one costs you.</p>
+
+      <div class="leaks">
+
+        <!-- Leak 1: priced over market -> carry + markdown -->
+        <div class="leak over">
+          <div class="leak-head">
+            <span class="leak-tag">Priced over market</span>
+            <span class="leak-verdict">The car sits</span>
+          </div>
+          <p class="leak-mech">Floor-plan interest, reconditioning, and the space it takes up keep charging every
+          day it does not sell. So you cut the price to move it, and lose the spread you were holding out for anyway.</p>
+          <div class="leak-bar" aria-hidden="true">
+            <span class="seg carry" style="width:60%"><b>Carry cost</b></span>
+            <span class="seg markdown" style="width:40%"><b>Markdown</b></span>
+          </div>
+          <div class="leak-cost"><b>≈ $3,500</b> bleeds out of a single aged unit, in carry plus the markdown it takes to finally clear it.</div>
         </div>
-        <div>
-          <h4>Price to move</h4>
-          <p class="muted tiny">When a unit is overpriced and aging, cut decisively before carry cost and depreciation eat the spread.</p>
+
+        <!-- Leak 2: priced under market -> surrendered margin -->
+        <div class="leak under">
+          <div class="leak-head">
+            <span class="leak-tag">Priced under market</span>
+            <span class="leak-verdict">The car goes fast</span>
+          </div>
+          <p class="leak-mech">It sells in days, which feels like a win. But it sold for less than a real buyer would
+          have paid, and that margin walked out with the car. Nobody flags a fast sale, so the gap never shows up.</p>
+          <div class="leak-bar" aria-hidden="true">
+            <span class="seg kept"><b>What you charged</b></span>
+            <span class="seg given"><b>Margin given away</b></span>
+          </div>
+          <div class="leak-cost"><b>≈ $2,600</b> in margin surrendered on a single under-priced unit the day it drives off the lot.</div>
         </div>
+
       </div>
+
+      <p class="arb-verdict">Every unit on your lot is leaning toward one of these leaks. Lot Flow scores each one
+      against its verified comps and tells you which side it is on, so you set the price on purpose, one car at a time,
+      instead of guessing and hoping.</p>
     </div>
   </div>
 </section>
@@ -114,7 +141,7 @@
   <div class="wrap">
     <p class="section-tag">Run your own lot</p>
     <h2>What could you put back on the bottom line?</h2>
-    <p class="lead">Set the two leaks to your lot per quarter, then how much of it you'd act on. Every unit Lot Flow flags is a call you can make — here's what capturing them compounds to over a year.</p>
+    <p class="lead">Set the two leaks to your lot per quarter, then how much of it you'd act on. Every unit Lot Flow flags is a call you can make, and here's what capturing them compounds to over a year.</p>
 
     <div class="optimizer">
       <div class="opt-controls">
@@ -148,10 +175,9 @@
   <div class="wrap">
     <span class="badge-soft">Early access</span>
     <h2>Fast, accurate trade-in valuations.</h2>
-    <p class="lead">Decode a VIN, drop it into its real cohort, and get a defensible number in seconds —
-    then work it with either strategy: buy for margin, or buy to turn. This is in early access and we're
-    honest about it: the valuation engine is live and improving weekly, and we'd rather show you a real
-    number with its confidence than a confident-looking guess.</p>
+    <p class="lead">Decode a VIN, drop it into its real cohort, and get a defensible number in seconds.
+    In early access now: the engine is live and improving weekly, and every number comes with the confidence
+    behind it, not a confident-looking guess.</p>
     <a class="cta-secondary" href="mailto:enpowerenergy@proton.me?subject=Lot%20Flow%20%E2%80%94%20trade-in%20early%20access">Ask about early access</a>
   </div>
 </section>
@@ -161,7 +187,7 @@
   <div class="wrap" style="text-align:center">
     <p class="section-tag" style="text-align:center">See it on real inventory</p>
     <h2>Open the live market viewer.</h2>
-    <p class="lead" style="margin:var(--s3) auto 0">Browse the tracked market yourself — every listing scored against its
+    <p class="lead" style="margin:var(--s3) auto 0">Browse the tracked market yourself. Every listing is scored against its
     verified cohort, with the trust and confidence behind each call shown in the open.</p>
     <div><a class="cta-big" href="app/">Open the live demo &rarr;</a></div>
   </div>
@@ -176,22 +202,22 @@
       <div class="step">
         <div class="n">1</div>
         <h4>VIN-decoded cohorts</h4>
-        <p>Every listing is decoded to its true year, trim, and powertrain, then grouped with genuine like-for-like comps — a wrong powertrain never poisons a cohort.</p>
+        <p>Every listing is decoded to its true year, trim, and powertrain, then grouped with genuine like-for-like comps, so a wrong powertrain never poisons a cohort.</p>
       </div>
       <div class="step">
         <div class="n">2</div>
         <h4>Robust fair-value fits</h4>
-        <p>Prices are fit with an outlier-resistant robust regression — our "Flow Line" — falling back to MSRP-retention curves where a cohort is thin, so no single strange listing drags the line.</p>
+        <p>Prices are fit with an outlier-resistant robust regression we call the "Flow Line," falling back to MSRP-retention curves where a cohort is thin, so no single strange listing drags the line.</p>
       </div>
       <div class="step">
         <div class="n">3</div>
         <h4>Verified listings</h4>
-        <p>Trim and powertrain are confirmed against the dealer's own listing, and every record carries the provenance of how it was cleared — shown, not hidden.</p>
+        <p>Trim and powertrain are confirmed against the dealer's own listing, and every record carries the provenance of how it was cleared, shown in the open rather than hidden.</p>
       </div>
       <div class="step">
         <div class="n">4</div>
         <h4>Continuous price history</h4>
-        <p>We track every listing over time — days on lot, each price cut, and when it finally sells — so aging and negotiability are measured, not guessed.</p>
+        <p>We track every listing over time: days on lot, each price cut, and when it finally sells, so aging and negotiability are measured, not guessed.</p>
       </div>
     </div>
   </div>
@@ -202,7 +228,7 @@
   <div class="wrap contact">
     <p class="section-tag" style="text-align:center">Get in touch</p>
     <h2>See what your lot is leaving on the table.</h2>
-    <p class="lead">Send us your rooftop and metro — we'll show you the underpriced units, the aging metal, and the number on each.</p>
+    <p class="lead">Send us your rooftop and metro, and we'll show you the underpriced units, the aging metal, and the number on each.</p>
     <div>
       <a class="cta-big" href="mailto:enpowerenergy@proton.me?subject=Lot%20Flow%20%E2%80%94%20dealer%20pricing%20intelligence">Email us &rarr;</a>
     </div>
@@ -211,7 +237,7 @@
 
 <footer>
   <div class="wrap">
-    <span>Lot Flow — dealer pricing intelligence</span>
+    <span>Lot Flow · dealer pricing intelligence</span>
     <span class="muted" id="foot-generated">Aggregate market figures; individual examples anonymized.</span>
   </div>
 </footer>
@@ -238,7 +264,7 @@
 
     // hero
     if (s.region) $("hero-region").textContent =
-      s.region + " — per-unit pricing intelligence for the used-car market.";
+      s.region + ": per-unit pricing intelligence for the used-car market.";
     $("stat-median").textContent = money(metro.medianLotMoneyOnTable);
     $("stat-listings").textContent = num(totals.listings);
     $("stat-aggregate").textContent = money(metro.aggregateMispricing);

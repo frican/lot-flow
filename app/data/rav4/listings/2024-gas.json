@@ -25077,7 +25077,7 @@
     "oneOwner": true,
     "usageType": "Rental Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
     "lastSeen": "2026-07-20",
     "listedDays": 106,
