@@ -3,7 +3,7 @@
   "metroMi": 50,
   "totals": {
     "listings": 2617,
-    "live": 1597,
+    "live": 1596,
     "scored": 1760,
     "cohortReady": 1762
   },
@@ -33,37 +33,6 @@
       }
     ],
     "aging": [
-      {
-        "year": 2024,
-        "trim": "XLE",
-        "powertrain": "gas",
-        "listedDays": 106,
-        "cuts": 2,
-        "markdownTotal": 1000,
-        "stillOverBy": 3900,
-        "dropSeries": [
-          {
-            "day": 0,
-            "price": 30700
-          },
-          {
-            "day": 2,
-            "price": 29800
-          },
-          {
-            "day": 10,
-            "price": 33300
-          },
-          {
-            "day": 24,
-            "price": 33200
-          },
-          {
-            "day": 31,
-            "price": 33800
-          }
-        ]
-      },
       {
         "year": 2023,
         "trim": "LE",
