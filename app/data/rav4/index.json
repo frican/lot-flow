@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-07-20",
+  "total": 2417,
+  "cohortReady": 1604,
+  "flagged": 813,
+  "shards": [
+    {
+      "shard": "2019-gas",
+      "file": "listings/2019-gas.json",
+      "count": 165,
+      "cohortReady": 118,
+      "gone": 68
+    },
+    {
+      "shard": "2019-hybrid",
+      "file": "listings/2019-hybrid.json",
+      "count": 15,
+      "cohortReady": 13,
+      "gone": 6
+    },
+    {
+      "shard": "2020-gas",
+      "file": "listings/2020-gas.json",
+      "count": 122,
+      "cohortReady": 97,
+      "gone": 51
+    },
+    {
+      "shard": "2020-hybrid",
+      "file": "listings/2020-hybrid.json",
+      "count": 24,
+      "cohortReady": 20,
+      "gone": 12
+    },
+    {
+      "shard": "2021-gas",
+      "file": "listings/2021-gas.json",
+      "count": 232,
+      "cohortReady": 177,
+      "gone": 98
+    },
+    {
+      "shard": "2021-hybrid",
+      "file": "listings/2021-hybrid.json",
+      "count": 71,
+      "cohortReady": 60,
+      "gone": 22
+    },
+    {
+      "shard": "2021-prime",
+      "file": "listings/2021-prime.json",
+      "count": 5,
+      "cohortReady": 4,
+      "gone": 2
+    },
+    {
+      "shard": "2022-gas",
+      "file": "listings/2022-gas.json",
+      "count": 150,
+      "cohortReady": 113,
+      "gone": 56
+    },
+    {
+      "shard": "2022-hybrid",
+      "file": "listings/2022-hybrid.json",
+      "count": 94,
+      "cohortReady": 78,
+      "gone": 30
+    },
+    {
+      "shard": "2022-prime",
+      "file": "listings/2022-prime.json",
+      "count": 3,
+      "cohortReady": 2,
+      "gone": 0
+    },
+    {
+      "shard": "2023-gas",
+      "file": "listings/2023-gas.json",
+      "count": 249,
+      "cohortReady": 168,
+      "gone": 107
+    },
+    {
+      "shard": "2023-hybrid",
+      "file": "listings/2023-hybrid.json",
+      "count": 92,
+      "cohortReady": 61,
+      "gone": 26
+    },
+    {
+      "shard": "2023-prime",
+      "file": "listings/2023-prime.json",
+      "count": 2,
+      "cohortReady": 1,
+      "gone": 0
+    },
+    {
+      "shard": "2024-gas",
+      "file": "listings/2024-gas.json",
+      "count": 443,
+      "cohortReady": 278,
+      "gone": 181
+    },
+    {
+      "shard": "2024-hybrid",
+      "file": "listings/2024-hybrid.json",
+      "count": 155,
+      "cohortReady": 94,
+      "gone": 53
+    },
+    {
+      "shard": "2024-prime",
+      "file": "listings/2024-prime.json",
+      "count": 5,
+      "cohortReady": 5,
+      "gone": 0
+    },
+    {
+      "shard": "2025-gas",
+      "file": "listings/2025-gas.json",
+      "count": 446,
+      "cohortReady": 231,
+      "gone": 184
+    },
+    {
+      "shard": "2025-hybrid",
+      "file": "listings/2025-hybrid.json",
+      "count": 136,
+      "cohortReady": 79,
+      "gone": 54
+    },
+    {
+      "shard": "2025-prime",
+      "file": "listings/2025-prime.json",
+      "count": 8,
+      "cohortReady": 5,
+      "gone": 1
+    }
+  ]
+}

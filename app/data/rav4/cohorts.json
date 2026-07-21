@@ -1,0 +1,2399 @@
+{
+  "generatedAt": "2026-07-20",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2019|XLE Premium|gas": {
+      "year": 2019,
+      "trim": "XLE Premium",
+      "powertrain": "gas",
+      "n": 23,
+      "mileageRange": [
+        27446,
+        166632
+      ],
+      "theilSen": {
+        "slope": -0.1102,
+        "intercept": 32932.94
+      },
+      "ols": {
+        "slope": -0.0884,
+        "intercept": 31192.25
+      },
+      "parentKey": "XLE Premium|gas",
+      "msrp": 29650
+    },
+    "2019|LE|gas": {
+      "year": 2019,
+      "trim": "LE",
+      "powertrain": "gas",
+      "n": 33,
+      "mileageRange": [
+        18053,
+        224655
+      ],
+      "theilSen": {
+        "slope": -0.0815,
+        "intercept": 27730.99
+      },
+      "ols": {
+        "slope": -0.0812,
+        "intercept": 27903.76
+      },
+      "parentKey": "LE|gas",
+      "msrp": 26900
+    },
+    "2019|Adventure|gas": {
+      "year": 2019,
+      "trim": "Adventure",
+      "powertrain": "gas",
+      "n": 10,
+      "mileageRange": [
+        30444,
+        138276
+      ],
+      "theilSen": {
+        "slope": -0.151,
+        "intercept": 38847.06
+      },
+      "ols": {
+        "slope": -0.1584,
+        "intercept": 39205.4
+      },
+      "parentKey": "Adventure|gas",
+      "msrp": 33050
+    },
+    "2019|Limited|gas": {
+      "year": 2019,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 12,
+      "mileageRange": [
+        45497,
+        143740
+      ],
+      "theilSen": {
+        "slope": -0.0756,
+        "intercept": 31097.83
+      },
+      "ols": {
+        "slope": -0.0756,
+        "intercept": 30952.05
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 33650
+    },
+    "2019|XLE|gas": {
+      "year": 2019,
+      "trim": "XLE",
+      "powertrain": "gas",
+      "n": 40,
+      "mileageRange": [
+        29128,
+        164455
+      ],
+      "theilSen": {
+        "slope": -0.0741,
+        "intercept": 28742.55
+      },
+      "ols": {
+        "slope": -0.0742,
+        "intercept": 29017.83
+      },
+      "parentKey": "XLE|gas",
+      "msrp": 27450
+    },
+    "2019|Limited|hybrid": {
+      "year": 2019,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 4,
+      "mileageRange": [
+        94721,
+        118816
+      ],
+      "theilSen": {
+        "slope": -0.3448,
+        "intercept": 62503.28
+      },
+      "ols": {
+        "slope": -0.253,
+        "intercept": 51425.74
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 35850
+    },
+    "2019|XSE|hybrid": {
+      "year": 2019,
+      "trim": "XSE",
+      "powertrain": "hybrid",
+      "n": 6,
+      "mileageRange": [
+        30696,
+        98189
+      ],
+      "theilSen": {
+        "slope": -0.1557,
+        "intercept": 38881.01
+      },
+      "ols": {
+        "slope": -0.1532,
+        "intercept": 38821.76
+      },
+      "parentKey": "XSE|hybrid",
+      "msrp": 33850
+    },
+    "2019|LE|hybrid": {
+      "year": 2019,
+      "trim": "LE",
+      "powertrain": "hybrid",
+      "n": 1,
+      "mileageRange": [
+        91788,
+        91788
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "LE|hybrid",
+      "msrp": 27850
+    },
+    "2019|XLE|hybrid": {
+      "year": 2019,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 2,
+      "mileageRange": [
+        120034,
+        128171
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "XLE|hybrid",
+      "msrp": 29650
+    },
+    "2020|XLE Premium|gas": {
+      "year": 2020,
+      "trim": "XLE Premium",
+      "powertrain": "gas",
+      "n": 27,
+      "mileageRange": [
+        9393,
+        169369
+      ],
+      "theilSen": {
+        "slope": -0.0584,
+        "intercept": 30278.6
+      },
+      "ols": {
+        "slope": -0.0565,
+        "intercept": 30200.09
+      },
+      "parentKey": "XLE Premium|gas",
+      "msrp": 29950
+    },
+    "2020|XLE|gas": {
+      "year": 2020,
+      "trim": "XLE",
+      "powertrain": "gas",
+      "n": 42,
+      "mileageRange": [
+        23164,
+        195007
+      ],
+      "theilSen": {
+        "slope": -0.0767,
+        "intercept": 30052.81
+      },
+      "ols": {
+        "slope": -0.0772,
+        "intercept": 30429.66
+      },
+      "parentKey": "XLE|gas",
+      "msrp": 27245
+    },
+    "2020|LE|gas": {
+      "year": 2020,
+      "trim": "LE",
+      "powertrain": "gas",
+      "n": 15,
+      "mileageRange": [
+        24851,
+        148355
+      ],
+      "theilSen": {
+        "slope": -0.0778,
+        "intercept": 28679.34
+      },
+      "ols": {
+        "slope": -0.0716,
+        "intercept": 28513.23
+      },
+      "parentKey": "LE|gas",
+      "msrp": 27350
+    },
+    "2020|Adventure|gas": {
+      "year": 2020,
+      "trim": "Adventure",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        64775,
+        114346
+      ],
+      "theilSen": {
+        "slope": -0.109,
+        "intercept": 36076.81
+      },
+      "ols": {
+        "slope": -0.1191,
+        "intercept": 36902.4
+      },
+      "parentKey": "Adventure|gas",
+      "msrp": null
+    },
+    "2020|Limited|gas": {
+      "year": 2020,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 9,
+      "mileageRange": [
+        9580,
+        111924
+      ],
+      "theilSen": {
+        "slope": -0.0307,
+        "intercept": 30492.23
+      },
+      "ols": {
+        "slope": -0.0405,
+        "intercept": 31791.02
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 34480
+    },
+    "2020|Limited|hybrid": {
+      "year": 2020,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 4,
+      "mileageRange": [
+        82834,
+        129928
+      ],
+      "theilSen": {
+        "slope": -0.1906,
+        "intercept": 47404.0
+      },
+      "ols": {
+        "slope": -0.2146,
+        "intercept": 49396.88
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 36880
+    },
+    "2020|LE|hybrid": {
+      "year": 2020,
+      "trim": "LE",
+      "powertrain": "hybrid",
+      "n": 1,
+      "mileageRange": [
+        82808,
+        82808
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "LE|hybrid",
+      "msrp": 28350
+    },
+    "2020|XLE|hybrid": {
+      "year": 2020,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 6,
+      "mileageRange": [
+        36278,
+        136675
+      ],
+      "theilSen": {
+        "slope": -0.1559,
+        "intercept": 37147.9
+      },
+      "ols": {
+        "slope": -0.1446,
+        "intercept": 36406.58
+      },
+      "parentKey": "XLE|hybrid",
+      "msrp": 29645
+    },
+    "2020|XSE|hybrid": {
+      "year": 2020,
+      "trim": "XSE",
+      "powertrain": "hybrid",
+      "n": 9,
+      "mileageRange": [
+        63611,
+        166499
+      ],
+      "theilSen": {
+        "slope": -0.0432,
+        "intercept": 32138.9
+      },
+      "ols": {
+        "slope": -0.0113,
+        "intercept": 29432.14
+      },
+      "parentKey": "XSE|hybrid",
+      "msrp": 34300
+    },
+    "2021|XLE Premium|gas": {
+      "year": 2021,
+      "trim": "XLE Premium",
+      "powertrain": "gas",
+      "n": 35,
+      "mileageRange": [
+        30767,
+        137774
+      ],
+      "theilSen": {
+        "slope": -0.0857,
+        "intercept": 33258.2
+      },
+      "ols": {
+        "slope": -0.0762,
+        "intercept": 32464.26
+      },
+      "parentKey": "XLE Premium|gas",
+      "msrp": 30350
+    },
+    "2021|LE|gas": {
+      "year": 2021,
+      "trim": "LE",
+      "powertrain": "gas",
+      "n": 55,
+      "mileageRange": [
+        0,
+        162106
+      ],
+      "theilSen": {
+        "slope": -0.0837,
+        "intercept": 29922.23
+      },
+      "ols": {
+        "slope": -0.0678,
+        "intercept": 28525.37
+      },
+      "parentKey": "LE|gas",
+      "msrp": 26350
+    },
+    "2021|Limited|gas": {
+      "year": 2021,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        28393,
+        138560
+      ],
+      "theilSen": {
+        "slope": -0.1237,
+        "intercept": 37870.86
+      },
+      "ols": {
+        "slope": -0.1059,
+        "intercept": 36374.36
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 36280
+    },
+    "2021|Adventure|gas": {
+      "year": 2021,
+      "trim": "Adventure",
+      "powertrain": "gas",
+      "n": 5,
+      "mileageRange": [
+        70339,
+        128776
+      ],
+      "theilSen": {
+        "slope": -0.1243,
+        "intercept": 37205.38
+      },
+      "ols": {
+        "slope": -0.1243,
+        "intercept": 37208.97
+      },
+      "parentKey": "Adventure|gas",
+      "msrp": 33455
+    },
+    "2021|XLE|gas": {
+      "year": 2021,
+      "trim": "XLE",
+      "powertrain": "gas",
+      "n": 74,
+      "mileageRange": [
+        33465,
+        176903
+      ],
+      "theilSen": {
+        "slope": -0.0847,
+        "intercept": 31053.47
+      },
+      "ols": {
+        "slope": -0.0797,
+        "intercept": 30686.12
+      },
+      "parentKey": "XLE|gas",
+      "msrp": 27645
+    },
+    "2021|TRD Off-Road|gas": {
+      "year": 2021,
+      "trim": "TRD Off-Road",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        64385,
+        64385
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "TRD Off-Road|gas",
+      "msrp": 36080
+    },
+    "2021|XLE Premium|hybrid": {
+      "year": 2021,
+      "trim": "XLE Premium",
+      "powertrain": "hybrid",
+      "n": 8,
+      "mileageRange": [
+        24048,
+        89947
+      ],
+      "theilSen": {
+        "slope": -0.1382,
+        "intercept": 39844.36
+      },
+      "ols": {
+        "slope": -0.1084,
+        "intercept": 36857.76
+      },
+      "parentKey": "XLE Premium|hybrid",
+      "msrp": 32900
+    },
+    "2021|Limited|hybrid": {
+      "year": 2021,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 6,
+      "mileageRange": [
+        13818,
+        114497
+      ],
+      "theilSen": {
+        "slope": -0.1402,
+        "intercept": 39599.71
+      },
+      "ols": {
+        "slope": -0.1415,
+        "intercept": 39740.74
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 37430
+    },
+    "2021|XSE|hybrid": {
+      "year": 2021,
+      "trim": "XSE",
+      "powertrain": "hybrid",
+      "n": 18,
+      "mileageRange": [
+        34394,
+        134470
+      ],
+      "theilSen": {
+        "slope": -0.126,
+        "intercept": 40390.5
+      },
+      "ols": {
+        "slope": -0.1268,
+        "intercept": 40530.97
+      },
+      "parentKey": "XSE|hybrid",
+      "msrp": 34850
+    },
+    "2021|XLE|hybrid": {
+      "year": 2021,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 17,
+      "mileageRange": [
+        31403,
+        138466
+      ],
+      "theilSen": {
+        "slope": -0.0826,
+        "intercept": 34511.31
+      },
+      "ols": {
+        "slope": -0.0873,
+        "intercept": 34353.5
+      },
+      "parentKey": "XLE|hybrid",
+      "msrp": 30195
+    },
+    "2021|LE|hybrid": {
+      "year": 2021,
+      "trim": "LE",
+      "powertrain": "hybrid",
+      "n": 11,
+      "mileageRange": [
+        50762,
+        106779
+      ],
+      "theilSen": {
+        "slope": -0.0965,
+        "intercept": 33082.14
+      },
+      "ols": {
+        "slope": -0.0782,
+        "intercept": 31890.96
+      },
+      "parentKey": "LE|hybrid",
+      "msrp": 28900
+    },
+    "2021|SE|prime": {
+      "year": 2021,
+      "trim": "SE",
+      "powertrain": "prime",
+      "n": 2,
+      "mileageRange": [
+        52146,
+        92491
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE|prime",
+      "msrp": 38250
+    },
+    "2021|XSE|prime": {
+      "year": 2021,
+      "trim": "XSE",
+      "powertrain": "prime",
+      "n": 2,
+      "mileageRange": [
+        59791,
+        72550
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "XSE|prime",
+      "msrp": 41575
+    },
+    "2022|XLE Premium|gas": {
+      "year": 2022,
+      "trim": "XLE Premium",
+      "powertrain": "gas",
+      "n": 28,
+      "mileageRange": [
+        17405,
+        103439
+      ],
+      "theilSen": {
+        "slope": -0.0877,
+        "intercept": 35993.42
+      },
+      "ols": {
+        "slope": -0.0943,
+        "intercept": 36596.09
+      },
+      "parentKey": "XLE Premium|gas",
+      "msrp": 31335
+    },
+    "2022|LE|gas": {
+      "year": 2022,
+      "trim": "LE",
+      "powertrain": "gas",
+      "n": 34,
+      "mileageRange": [
+        14994,
+        130629
+      ],
+      "theilSen": {
+        "slope": -0.0843,
+        "intercept": 31444.34
+      },
+      "ols": {
+        "slope": -0.0835,
+        "intercept": 31488.12
+      },
+      "parentKey": "LE|gas",
+      "msrp": 26975
+    },
+    "2022|Adventure|gas": {
+      "year": 2022,
+      "trim": "Adventure",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        61732,
+        61732
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Adventure|gas",
+      "msrp": 33230
+    },
+    "2022|Limited|gas": {
+      "year": 2022,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 7,
+      "mileageRange": [
+        18003,
+        110312
+      ],
+      "theilSen": {
+        "slope": -0.1074,
+        "intercept": 38345.43
+      },
+      "ols": {
+        "slope": -0.1162,
+        "intercept": 38876.88
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 35475
+    },
+    "2022|XLE|gas": {
+      "year": 2022,
+      "trim": "XLE",
+      "powertrain": "gas",
+      "n": 41,
+      "mileageRange": [
+        13193,
+        132373
+      ],
+      "theilSen": {
+        "slope": -0.0819,
+        "intercept": 32371.37
+      },
+      "ols": {
+        "slope": -0.0902,
+        "intercept": 33190.35
+      },
+      "parentKey": "XLE|gas",
+      "msrp": 28445
+    },
+    "2022|TRD Off-Road|gas": {
+      "year": 2022,
+      "trim": "TRD Off-Road",
+      "powertrain": "gas",
+      "n": 2,
+      "mileageRange": [
+        32717,
+        83617
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "TRD Off-Road|gas",
+      "msrp": 36915
+    },
+    "2022|XLE Premium|hybrid": {
+      "year": 2022,
+      "trim": "XLE Premium",
+      "powertrain": "hybrid",
+      "n": 13,
+      "mileageRange": [
+        27914,
+        103656
+      ],
+      "theilSen": {
+        "slope": -0.0809,
+        "intercept": 37914.0
+      },
+      "ols": {
+        "slope": -0.0799,
+        "intercept": 38108.09
+      },
+      "parentKey": "XLE Premium|hybrid",
+      "msrp": 33935
+    },
+    "2022|Limited|hybrid": {
+      "year": 2022,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 9,
+      "mileageRange": [
+        21938,
+        103982
+      ],
+      "theilSen": {
+        "slope": -0.1434,
+        "intercept": 42418.71
+      },
+      "ols": {
+        "slope": -0.1331,
+        "intercept": 41279.36
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 38075
+    },
+    "2022|XSE|hybrid": {
+      "year": 2022,
+      "trim": "XSE",
+      "powertrain": "hybrid",
+      "n": 16,
+      "mileageRange": [
+        17774,
+        128980
+      ],
+      "theilSen": {
+        "slope": -0.0724,
+        "intercept": 37934.42
+      },
+      "ols": {
+        "slope": -0.0684,
+        "intercept": 38378.81
+      },
+      "parentKey": "XSE|hybrid",
+      "msrp": 35555
+    },
+    "2022|XLE|hybrid": {
+      "year": 2022,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 22,
+      "mileageRange": [
+        19222,
+        84506
+      ],
+      "theilSen": {
+        "slope": -0.0837,
+        "intercept": 35347.04
+      },
+      "ols": {
+        "slope": -0.069,
+        "intercept": 34156.03
+      },
+      "parentKey": "XLE|hybrid",
+      "msrp": 31045
+    },
+    "2022|LE|hybrid": {
+      "year": 2022,
+      "trim": "LE",
+      "powertrain": "hybrid",
+      "n": 10,
+      "mileageRange": [
+        42898,
+        167221
+      ],
+      "theilSen": {
+        "slope": -0.0757,
+        "intercept": 32043.14
+      },
+      "ols": {
+        "slope": -0.0667,
+        "intercept": 31408.7
+      },
+      "parentKey": "LE|hybrid",
+      "msrp": 29575
+    },
+    "2022|SE|hybrid": {
+      "year": 2022,
+      "trim": "SE",
+      "powertrain": "hybrid",
+      "n": 8,
+      "mileageRange": [
+        20995,
+        92623
+      ],
+      "theilSen": {
+        "slope": -0.114,
+        "intercept": 38924.77
+      },
+      "ols": {
+        "slope": -0.1066,
+        "intercept": 38126.45
+      },
+      "parentKey": "SE|hybrid",
+      "msrp": 32230
+    },
+    "2022|SE|prime": {
+      "year": 2022,
+      "trim": "SE",
+      "powertrain": "prime",
+      "n": 1,
+      "mileageRange": [
+        30878,
+        30878
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE|prime",
+      "msrp": 40300
+    },
+    "2022|XSE|prime": {
+      "year": 2022,
+      "trim": "XSE",
+      "powertrain": "prime",
+      "n": 1,
+      "mileageRange": [
+        38266,
+        38266
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "XSE|prime",
+      "msrp": 43625
+    },
+    "2023|XLE Premium|gas": {
+      "year": 2023,
+      "trim": "XLE Premium",
+      "powertrain": "gas",
+      "n": 39,
+      "mileageRange": [
+        17182,
+        116814
+      ],
+      "theilSen": {
+        "slope": -0.0878,
+        "intercept": 37072.82
+      },
+      "ols": {
+        "slope": -0.0792,
+        "intercept": 36297.32
+      },
+      "parentKey": "XLE Premium|gas",
+      "msrp": 32675
+    },
+    "2023|LE|gas": {
+      "year": 2023,
+      "trim": "LE",
+      "powertrain": "gas",
+      "n": 54,
+      "mileageRange": [
+        11059,
+        173716
+      ],
+      "theilSen": {
+        "slope": -0.0876,
+        "intercept": 31226.02
+      },
+      "ols": {
+        "slope": -0.0642,
+        "intercept": 30371.09
+      },
+      "parentKey": "LE|gas",
+      "msrp": 28275
+    },
+    "2023|XLE|gas": {
+      "year": 2023,
+      "trim": "XLE",
+      "powertrain": "gas",
+      "n": 59,
+      "mileageRange": [
+        11649,
+        123211
+      ],
+      "theilSen": {
+        "slope": -0.0778,
+        "intercept": 32885.3
+      },
+      "ols": {
+        "slope": -0.077,
+        "intercept": 32848.17
+      },
+      "parentKey": "XLE|gas",
+      "msrp": 29785
+    },
+    "2023|Adventure|gas": {
+      "year": 2023,
+      "trim": "Adventure",
+      "powertrain": "gas",
+      "n": 4,
+      "mileageRange": [
+        25785,
+        64185
+      ],
+      "theilSen": {
+        "slope": -0.0075,
+        "intercept": 33992.43
+      },
+      "ols": {
+        "slope": -0.0713,
+        "intercept": 36907.13
+      },
+      "parentKey": "Adventure|gas",
+      "msrp": 34470
+    },
+    "2023|Limited|gas": {
+      "year": 2023,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 11,
+      "mileageRange": [
+        0,
+        91684
+      ],
+      "theilSen": {
+        "slope": -0.1319,
+        "intercept": 41330.63
+      },
+      "ols": {
+        "slope": -0.0935,
+        "intercept": 39159.16
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 36580
+    },
+    "2023|TRD Off-Road|gas": {
+      "year": 2023,
+      "trim": "TRD Off-Road",
+      "powertrain": "gas",
+      "n": 1,
+      "mileageRange": [
+        28760,
+        28760
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "TRD Off-Road|gas",
+      "msrp": 37895
+    },
+    "2023|XSE|hybrid": {
+      "year": 2023,
+      "trim": "XSE",
+      "powertrain": "hybrid",
+      "n": 19,
+      "mileageRange": [
+        11215,
+        83316
+      ],
+      "theilSen": {
+        "slope": -0.0325,
+        "intercept": 37186.59
+      },
+      "ols": {
+        "slope": -0.0352,
+        "intercept": 37680.68
+      },
+      "parentKey": "XSE|hybrid",
+      "msrp": 36885
+    },
+    "2023|XLE|hybrid": {
+      "year": 2023,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 13,
+      "mileageRange": [
+        22549,
+        135737
+      ],
+      "theilSen": {
+        "slope": -0.1223,
+        "intercept": 40190.83
+      },
+      "ols": {
+        "slope": -0.1266,
+        "intercept": 40367.35
+      },
+      "parentKey": "XLE|hybrid",
+      "msrp": 32735
+    },
+    "2023|Woodland|hybrid": {
+      "year": 2023,
+      "trim": "Woodland",
+      "powertrain": "hybrid",
+      "n": 2,
+      "mileageRange": [
+        23947,
+        34692
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Woodland|hybrid",
+      "msrp": 34025
+    },
+    "2023|XLE Premium|hybrid": {
+      "year": 2023,
+      "trim": "XLE Premium",
+      "powertrain": "hybrid",
+      "n": 5,
+      "mileageRange": [
+        33753,
+        68292
+      ],
+      "theilSen": {
+        "slope": -0.09,
+        "intercept": 41583.09
+      },
+      "ols": {
+        "slope": -0.0824,
+        "intercept": 40957.9
+      },
+      "parentKey": "XLE Premium|hybrid",
+      "msrp": 35625
+    },
+    "2023|Limited|hybrid": {
+      "year": 2023,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 10,
+      "mileageRange": [
+        16296,
+        119897
+      ],
+      "theilSen": {
+        "slope": -0.135,
+        "intercept": 44207.51
+      },
+      "ols": {
+        "slope": -0.1358,
+        "intercept": 44111.94
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 39530
+    },
+    "2023|LE|hybrid": {
+      "year": 2023,
+      "trim": "LE",
+      "powertrain": "hybrid",
+      "n": 6,
+      "mileageRange": [
+        37302,
+        91891
+      ],
+      "theilSen": {
+        "slope": -0.0917,
+        "intercept": 33093.56
+      },
+      "ols": {
+        "slope": -0.115,
+        "intercept": 35468.66
+      },
+      "parentKey": "LE|hybrid",
+      "msrp": 31225
+    },
+    "2023|SE|hybrid": {
+      "year": 2023,
+      "trim": "SE",
+      "powertrain": "hybrid",
+      "n": 6,
+      "mileageRange": [
+        43834,
+        92980
+      ],
+      "theilSen": {
+        "slope": -0.1471,
+        "intercept": 41824.86
+      },
+      "ols": {
+        "slope": -0.1612,
+        "intercept": 42753.62
+      },
+      "parentKey": "SE|hybrid",
+      "msrp": 33920
+    },
+    "2023|XSE|prime": {
+      "year": 2023,
+      "trim": "XSE",
+      "powertrain": "prime",
+      "n": 1,
+      "mileageRange": [
+        9882,
+        9882
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "XSE|prime",
+      "msrp": 46960
+    },
+    "2024|XLE Premium|gas": {
+      "year": 2024,
+      "trim": "XLE Premium",
+      "powertrain": "gas",
+      "n": 37,
+      "mileageRange": [
+        8318,
+        60876
+      ],
+      "theilSen": {
+        "slope": -0.1133,
+        "intercept": 39192.75
+      },
+      "ols": {
+        "slope": -0.1146,
+        "intercept": 39401.86
+      },
+      "parentKey": "XLE Premium|gas",
+      "msrp": 34275
+    },
+    "2024|XLE|gas": {
+      "year": 2024,
+      "trim": "XLE",
+      "powertrain": "gas",
+      "n": 136,
+      "mileageRange": [
+        10491,
+        117868
+      ],
+      "theilSen": {
+        "slope": -0.0737,
+        "intercept": 33298.43
+      },
+      "ols": {
+        "slope": -0.0788,
+        "intercept": 33439.29
+      },
+      "parentKey": "XLE|gas",
+      "msrp": 30185
+    },
+    "2024|LE|gas": {
+      "year": 2024,
+      "trim": "LE",
+      "powertrain": "gas",
+      "n": 61,
+      "mileageRange": [
+        9410,
+        93987
+      ],
+      "theilSen": {
+        "slope": -0.0873,
+        "intercept": 31507.35
+      },
+      "ols": {
+        "slope": -0.0883,
+        "intercept": 31567.41
+      },
+      "parentKey": "LE|gas",
+      "msrp": 28675
+    },
+    "2024|Limited|gas": {
+      "year": 2024,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 8,
+      "mileageRange": [
+        0,
+        36219
+      ],
+      "theilSen": {
+        "slope": -0.087,
+        "intercept": 39636.7
+      },
+      "ols": {
+        "slope": -0.0613,
+        "intercept": 38877.69
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 36980
+    },
+    "2024|Adventure|gas": {
+      "year": 2024,
+      "trim": "Adventure",
+      "powertrain": "gas",
+      "n": 36,
+      "mileageRange": [
+        18975,
+        64843
+      ],
+      "theilSen": {
+        "slope": -0.0522,
+        "intercept": 34368.39
+      },
+      "ols": {
+        "slope": -0.0934,
+        "intercept": 37322.39
+      },
+      "parentKey": "Adventure|gas",
+      "msrp": 34870
+    },
+    "2024|Limited|hybrid": {
+      "year": 2024,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 8,
+      "mileageRange": [
+        20525,
+        56825
+      ],
+      "theilSen": {
+        "slope": -0.094,
+        "intercept": 42438.39
+      },
+      "ols": {
+        "slope": -0.1131,
+        "intercept": 43201.0
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 40030
+    },
+    "2024|XSE|hybrid": {
+      "year": 2024,
+      "trim": "XSE",
+      "powertrain": "hybrid",
+      "n": 22,
+      "mileageRange": [
+        12791,
+        80573
+      ],
+      "theilSen": {
+        "slope": -0.0894,
+        "intercept": 41260.78
+      },
+      "ols": {
+        "slope": -0.0854,
+        "intercept": 41491.93
+      },
+      "parentKey": "XSE|hybrid",
+      "msrp": 37385
+    },
+    "2024|XLE|hybrid": {
+      "year": 2024,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 27,
+      "mileageRange": [
+        5304,
+        86421
+      ],
+      "theilSen": {
+        "slope": -0.119,
+        "intercept": 38046.45
+      },
+      "ols": {
+        "slope": -0.1063,
+        "intercept": 37967.14
+      },
+      "parentKey": "XLE|hybrid",
+      "msrp": 33235
+    },
+    "2024|LE|hybrid": {
+      "year": 2024,
+      "trim": "LE",
+      "powertrain": "hybrid",
+      "n": 26,
+      "mileageRange": [
+        12235,
+        85285
+      ],
+      "theilSen": {
+        "slope": -0.07,
+        "intercept": 34569.21
+      },
+      "ols": {
+        "slope": -0.0746,
+        "intercept": 34863.67
+      },
+      "parentKey": "LE|hybrid",
+      "msrp": 31725
+    },
+    "2024|Woodland|hybrid": {
+      "year": 2024,
+      "trim": "Woodland",
+      "powertrain": "hybrid",
+      "n": 1,
+      "mileageRange": [
+        28028,
+        28028
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Woodland|hybrid",
+      "msrp": 34945
+    },
+    "2024|XLE Premium|hybrid": {
+      "year": 2024,
+      "trim": "XLE Premium",
+      "powertrain": "hybrid",
+      "n": 4,
+      "mileageRange": [
+        7330,
+        51761
+      ],
+      "theilSen": {
+        "slope": -0.0989,
+        "intercept": 41268.06
+      },
+      "ols": {
+        "slope": -0.1292,
+        "intercept": 42861.89
+      },
+      "parentKey": "XLE Premium|hybrid",
+      "msrp": 35875
+    },
+    "2024|SE|hybrid": {
+      "year": 2024,
+      "trim": "SE",
+      "powertrain": "hybrid",
+      "n": 6,
+      "mileageRange": [
+        13146,
+        101337
+      ],
+      "theilSen": {
+        "slope": -0.0704,
+        "intercept": 37612.7
+      },
+      "ols": {
+        "slope": -0.0706,
+        "intercept": 37772.38
+      },
+      "parentKey": "SE|hybrid",
+      "msrp": 34420
+    },
+    "2024|SE|prime": {
+      "year": 2024,
+      "trim": "SE",
+      "powertrain": "prime",
+      "n": 2,
+      "mileageRange": [
+        21042,
+        26980
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE|prime",
+      "msrp": 43440
+    },
+    "2024|XSE|prime": {
+      "year": 2024,
+      "trim": "XSE",
+      "powertrain": "prime",
+      "n": 3,
+      "mileageRange": [
+        11208,
+        32776
+      ],
+      "theilSen": {
+        "slope": -0.11,
+        "intercept": 48290.63
+      },
+      "ols": {
+        "slope": -0.0733,
+        "intercept": 46777.71
+      },
+      "parentKey": "XSE|prime",
+      "msrp": 47310
+    },
+    "2025|XLE Premium|gas": {
+      "year": 2025,
+      "trim": "XLE Premium",
+      "powertrain": "gas",
+      "n": 37,
+      "mileageRange": [
+        0,
+        68756
+      ],
+      "theilSen": {
+        "slope": -0.0365,
+        "intercept": 38214.58
+      },
+      "ols": {
+        "slope": -0.0201,
+        "intercept": 38326.8
+      },
+      "parentKey": "XLE Premium|gas",
+      "msrp": 34200
+    },
+    "2025|LE|gas": {
+      "year": 2025,
+      "trim": "LE",
+      "powertrain": "gas",
+      "n": 49,
+      "mileageRange": [
+        0,
+        41667
+      ],
+      "theilSen": {
+        "slope": -0.1189,
+        "intercept": 32120.94
+      },
+      "ols": {
+        "slope": -0.1213,
+        "intercept": 32337.78
+      },
+      "parentKey": "LE|gas",
+      "msrp": 29800
+    },
+    "2025|Limited|gas": {
+      "year": 2025,
+      "trim": "Limited",
+      "powertrain": "gas",
+      "n": 8,
+      "mileageRange": [
+        0,
+        27948
+      ],
+      "theilSen": {
+        "slope": -0.7309,
+        "intercept": 43234.03
+      },
+      "ols": {
+        "slope": -0.3688,
+        "intercept": 41194.36
+      },
+      "parentKey": "Limited|gas",
+      "msrp": 38105
+    },
+    "2025|XLE|gas": {
+      "year": 2025,
+      "trim": "XLE",
+      "powertrain": "gas",
+      "n": 137,
+      "mileageRange": [
+        0,
+        66292
+      ],
+      "theilSen": {
+        "slope": -0.0658,
+        "intercept": 34791.34
+      },
+      "ols": {
+        "slope": -0.0579,
+        "intercept": 34550.2
+      },
+      "parentKey": "XLE|gas",
+      "msrp": 31760
+    },
+    "2025|Limited|hybrid": {
+      "year": 2025,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 8,
+      "mileageRange": [
+        0,
+        14554
+      ],
+      "theilSen": {
+        "slope": -0.031,
+        "intercept": 46080.91
+      },
+      "ols": {
+        "slope": -0.0475,
+        "intercept": 45968.36
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 40205
+    },
+    "2025|LE|hybrid": {
+      "year": 2025,
+      "trim": "LE",
+      "powertrain": "hybrid",
+      "n": 20,
+      "mileageRange": [
+        2,
+        52293
+      ],
+      "theilSen": {
+        "slope": -0.1077,
+        "intercept": 36155.18
+      },
+      "ols": {
+        "slope": -0.0948,
+        "intercept": 36161.17
+      },
+      "parentKey": "LE|hybrid",
+      "msrp": 32300
+    },
+    "2025|XLE|hybrid": {
+      "year": 2025,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 38,
+      "mileageRange": [
+        1,
+        48762
+      ],
+      "theilSen": {
+        "slope": -0.0763,
+        "intercept": 38241.71
+      },
+      "ols": {
+        "slope": -0.0816,
+        "intercept": 38379.93
+      },
+      "parentKey": "XLE|hybrid",
+      "msrp": 34360
+    },
+    "2025|Woodland|hybrid": {
+      "year": 2025,
+      "trim": "Woodland",
+      "powertrain": "hybrid",
+      "n": 2,
+      "mileageRange": [
+        12040,
+        15470
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Woodland|hybrid",
+      "msrp": 36070
+    },
+    "2025|XLE Premium|hybrid": {
+      "year": 2025,
+      "trim": "XLE Premium",
+      "powertrain": "hybrid",
+      "n": 7,
+      "mileageRange": [
+        9084,
+        28342
+      ],
+      "theilSen": {
+        "slope": 0.1296,
+        "intercept": 39371.93
+      },
+      "ols": {
+        "slope": -0.2473,
+        "intercept": 44511.73
+      },
+      "parentKey": "XLE Premium|hybrid",
+      "msrp": 37250
+    },
+    "2025|XSE|hybrid": {
+      "year": 2025,
+      "trim": "XSE",
+      "powertrain": "hybrid",
+      "n": 2,
+      "mileageRange": [
+        10160,
+        16655
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "XSE|hybrid",
+      "msrp": 38510
+    },
+    "2025|SE|hybrid": {
+      "year": 2025,
+      "trim": "SE",
+      "powertrain": "hybrid",
+      "n": 2,
+      "mileageRange": [
+        22292,
+        35114
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE|hybrid",
+      "msrp": 34995
+    },
+    "2025|SE|prime": {
+      "year": 2025,
+      "trim": "SE",
+      "powertrain": "prime",
+      "n": 1,
+      "mileageRange": [
+        0,
+        0
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE|prime",
+      "msrp": 44815
+    },
+    "2025|XSE|prime": {
+      "year": 2025,
+      "trim": "XSE",
+      "powertrain": "prime",
+      "n": 4,
+      "mileageRange": [
+        2516,
+        10762
+      ],
+      "theilSen": {
+        "slope": -0.7129,
+        "intercept": 52382.94
+      },
+      "ols": {
+        "slope": -0.3695,
+        "intercept": 51334.15
+      },
+      "parentKey": "XSE|prime",
+      "msrp": 48135
+    }
+  },
+  "parents": {
+    "XLE Premium|gas": {
+      "slope": -0.1504,
+      "intercept": 39225.2
+    },
+    "LE|gas": {
+      "slope": -0.1014,
+      "intercept": 31540.14
+    },
+    "Adventure|gas": {
+      "slope": -0.1418,
+      "intercept": 38828.7
+    },
+    "Limited|gas": {
+      "slope": -0.1445,
+      "intercept": 40070.94
+    },
+    "XLE|gas": {
+      "slope": -0.1168,
+      "intercept": 34962.8
+    },
+    "Limited|hybrid": {
+      "slope": -0.1783,
+      "intercept": 45550.6
+    },
+    "XSE|hybrid": {
+      "slope": -0.1305,
+      "intercept": 41947.88
+    },
+    "LE|hybrid": {
+      "slope": -0.1244,
+      "intercept": 36163.94
+    },
+    "XLE|hybrid": {
+      "slope": -0.1313,
+      "intercept": 38441.26
+    },
+    "TRD Off-Road|gas": {
+      "slope": -0.1524,
+      "intercept": 43207.29
+    },
+    "XLE Premium|hybrid": {
+      "slope": -0.1484,
+      "intercept": 41909.03
+    },
+    "SE|prime": {
+      "slope": -0.2348,
+      "intercept": 46417.69
+    },
+    "XSE|prime": {
+      "slope": -0.2227,
+      "intercept": 49553.68
+    },
+    "SE|hybrid": {
+      "slope": -0.0976,
+      "intercept": 38265.02
+    },
+    "Woodland|hybrid": {
+      "slope": -0.2971,
+      "intercept": 43810.26
+    }
+  },
+  "depreciation": {
+    "XLE Premium|gas": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 81703,
+        "marketValue": 23925,
+        "msrp": 29650,
+        "retained": 0.807
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 89641,
+        "marketValue": 25040,
+        "msrp": 29950,
+        "retained": 0.836
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 77449,
+        "marketValue": 26620,
+        "msrp": 30350,
+        "retained": 0.877
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 53756,
+        "marketValue": 31277,
+        "msrp": 31335,
+        "retained": 0.998
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 41973,
+        "marketValue": 33386,
+        "msrp": 32675,
+        "retained": 1.022
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 31929,
+        "marketValue": 35575,
+        "msrp": 34275,
+        "retained": 1.038
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 12792,
+        "marketValue": 37748,
+        "msrp": 34200,
+        "retained": 1.104
+      }
+    ],
+    "LE|gas": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 97793,
+        "marketValue": 19761,
+        "msrp": 26900,
+        "retained": 0.735
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 72704,
+        "marketValue": 23025,
+        "msrp": 27350,
+        "retained": 0.842
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 82658,
+        "marketValue": 23006,
+        "msrp": 26350,
+        "retained": 0.873
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 77477,
+        "marketValue": 24910,
+        "msrp": 26975,
+        "retained": 0.923
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 43222,
+        "marketValue": 27442,
+        "msrp": 28275,
+        "retained": 0.971
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 38124,
+        "marketValue": 28180,
+        "msrp": 28675,
+        "retained": 0.983
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 10088,
+        "marketValue": 30922,
+        "msrp": 29800,
+        "retained": 1.038
+      }
+    ],
+    "Adventure|gas": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 74076,
+        "marketValue": 27660,
+        "msrp": 33050,
+        "retained": 0.837
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 95706,
+        "marketValue": 25446,
+        "msrp": null,
+        "retained": null
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 95845,
+        "marketValue": 25042,
+        "msrp": 33455,
+        "retained": 0.749
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 61732,
+        "marketValue": 30702,
+        "msrp": 33230,
+        "retained": 0.924
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 63990,
+        "marketValue": 31118,
+        "msrp": 34470,
+        "retained": 0.903
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 52709,
+        "marketValue": 31618,
+        "msrp": 34870,
+        "retained": 0.907
+      }
+    ],
+    "Limited|gas": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 105951,
+        "marketValue": 23090,
+        "msrp": 33650,
+        "retained": 0.686
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 61115,
+        "marketValue": 28617,
+        "msrp": 34480,
+        "retained": 0.83
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 53583,
+        "marketValue": 31244,
+        "msrp": 36280,
+        "retained": 0.861
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 50278,
+        "marketValue": 32944,
+        "msrp": 35475,
+        "retained": 0.929
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 47491,
+        "marketValue": 35065,
+        "msrp": 36580,
+        "retained": 0.959
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 21129,
+        "marketValue": 37798,
+        "msrp": 36980,
+        "retained": 1.022
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 7928,
+        "marketValue": 37439,
+        "msrp": 38105,
+        "retained": 0.983
+      }
+    ],
+    "XLE|gas": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 101223,
+        "marketValue": 21243,
+        "msrp": 27450,
+        "retained": 0.774
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 97085,
+        "marketValue": 22603,
+        "msrp": 27245,
+        "retained": 0.83
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 89755,
+        "marketValue": 23452,
+        "msrp": 27645,
+        "retained": 0.848
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 63396,
+        "marketValue": 27176,
+        "msrp": 28445,
+        "retained": 0.955
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 47647,
+        "marketValue": 29180,
+        "msrp": 29785,
+        "retained": 0.98
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 50317,
+        "marketValue": 29592,
+        "msrp": 30185,
+        "retained": 0.98
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 28617,
+        "marketValue": 32907,
+        "msrp": 31760,
+        "retained": 1.036
+      }
+    ],
+    "Limited|hybrid": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 106155,
+        "marketValue": 24270,
+        "msrp": 35850,
+        "retained": 0.677
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 110877,
+        "marketValue": 26330,
+        "msrp": 36880,
+        "retained": 0.714
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 49711,
+        "marketValue": 32628,
+        "msrp": 37430,
+        "retained": 0.872
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 48261,
+        "marketValue": 35498,
+        "msrp": 38075,
+        "retained": 0.932
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 62508,
+        "marketValue": 35768,
+        "msrp": 39530,
+        "retained": 0.905
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 25848,
+        "marketValue": 40008,
+        "msrp": 40030,
+        "retained": 0.999
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 7647,
+        "marketValue": 45844,
+        "msrp": 40205,
+        "retained": 1.14
+      }
+    ],
+    "XSE|hybrid": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 77645,
+        "marketValue": 26790,
+        "msrp": 33850,
+        "retained": 0.791
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 104936,
+        "marketValue": 27610,
+        "msrp": 34300,
+        "retained": 0.805
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 78501,
+        "marketValue": 30500,
+        "msrp": 34850,
+        "retained": 0.875
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 73576,
+        "marketValue": 32604,
+        "msrp": 35555,
+        "retained": 0.917
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 47284,
+        "marketValue": 35648,
+        "msrp": 36885,
+        "retained": 0.966
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 39844,
+        "marketValue": 37700,
+        "msrp": 37385,
+        "retained": 1.008
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 13407,
+        "marketValue": 41544,
+        "msrp": 38510,
+        "retained": 1.079
+      }
+    ],
+    "LE|hybrid": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 91788,
+        "marketValue": 22625,
+        "msrp": 27850,
+        "retained": 0.812
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 82808,
+        "marketValue": 24009,
+        "msrp": 28350,
+        "retained": 0.847
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 83925,
+        "marketValue": 24982,
+        "msrp": 28900,
+        "retained": 0.864
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 74667,
+        "marketValue": 26390,
+        "msrp": 29575,
+        "retained": 0.892
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 75847,
+        "marketValue": 26136,
+        "msrp": 31225,
+        "retained": 0.837
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 45502,
+        "marketValue": 31384,
+        "msrp": 31725,
+        "retained": 0.989
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 23823,
+        "marketValue": 33589,
+        "msrp": 32300,
+        "retained": 1.04
+      }
+    ],
+    "XLE|hybrid": [
+      {
+        "year": 2019,
+        "age": 7,
+        "medianMileage": 124102,
+        "marketValue": 19944,
+        "msrp": 29650,
+        "retained": 0.673
+      },
+      {
+        "year": 2020,
+        "age": 6,
+        "medianMileage": 60021,
+        "marketValue": 27789,
+        "msrp": 29645,
+        "retained": 0.937
+      },
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 75774,
+        "marketValue": 28255,
+        "msrp": 30195,
+        "retained": 0.936
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 49285,
+        "marketValue": 31220,
+        "msrp": 31045,
+        "retained": 1.006
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 61176,
+        "marketValue": 32711,
+        "msrp": 32735,
+        "retained": 0.999
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 33455,
+        "marketValue": 34066,
+        "msrp": 33235,
+        "retained": 1.025
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 21009,
+        "marketValue": 36640,
+        "msrp": 34360,
+        "retained": 1.066
+      }
+    ],
+    "TRD Off-Road|gas": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 64385,
+        "marketValue": 32682,
+        "msrp": 36080,
+        "retained": 0.906
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 58167,
+        "marketValue": 35359,
+        "msrp": 36915,
+        "retained": 0.958
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 28760,
+        "marketValue": 38674,
+        "msrp": 37895,
+        "retained": 1.021
+      }
+    ],
+    "XLE Premium|hybrid": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 55207,
+        "marketValue": 32212,
+        "msrp": 32900,
+        "retained": 0.979
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 58825,
+        "marketValue": 33154,
+        "msrp": 33935,
+        "retained": 0.977
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 40230,
+        "marketValue": 37584,
+        "msrp": 35625,
+        "retained": 1.055
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 31830,
+        "marketValue": 38641,
+        "msrp": 35875,
+        "retained": 1.077
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 12268,
+        "marketValue": 40962,
+        "msrp": 37250,
+        "retained": 1.1
+      }
+    ],
+    "SE|prime": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 72318,
+        "marketValue": 29438,
+        "msrp": 38250,
+        "retained": 0.77
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 30878,
+        "marketValue": 40455,
+        "msrp": 40300,
+        "retained": 1.004
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 24011,
+        "marketValue": 40106,
+        "msrp": 43440,
+        "retained": 0.923
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 0,
+        "marketValue": 50081,
+        "msrp": 44815,
+        "retained": 1.118
+      }
+    ],
+    "XSE|prime": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 66170,
+        "marketValue": 35278,
+        "msrp": 41575,
+        "retained": 0.849
+      },
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 38266,
+        "marketValue": 42958,
+        "msrp": 43625,
+        "retained": 0.985
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 9882,
+        "marketValue": 50222,
+        "msrp": 46960,
+        "retained": 1.069
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 15956,
+        "marketValue": 46001,
+        "msrp": 47310,
+        "retained": 0.972
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 7284,
+        "marketValue": 48644,
+        "msrp": 48135,
+        "retained": 1.011
+      }
+    ],
+    "SE|hybrid": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 52517,
+        "marketValue": 32936,
+        "msrp": 32230,
+        "retained": 1.022
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 54163,
+        "marketValue": 33857,
+        "msrp": 33920,
+        "retained": 0.998
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 34032,
+        "marketValue": 35218,
+        "msrp": 34420,
+        "retained": 1.023
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 28703,
+        "marketValue": 35098,
+        "msrp": 34995,
+        "retained": 1.003
+      }
+    ],
+    "Woodland|hybrid": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 29319,
+        "marketValue": 38690,
+        "msrp": 34025,
+        "retained": 1.137
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 28028,
+        "marketValue": 36122,
+        "msrp": 34945,
+        "retained": 1.034
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 13755,
+        "marketValue": 39328,
+        "msrp": 36070,
+        "retained": 1.09
+      }
+    ]
+  }
+}

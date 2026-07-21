@@ -1,0 +1,696 @@
+[
+  {
+    "id": "api-jtmab3fv7rd195619",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "year": 2024,
+    "mileage": 26980,
+    "price": 36514,
+    "priceBasis": "listing",
+    "dealer": "Franklin Toyota",
+    "dealerId": "d_1f7c3f3767696119",
+    "distanceMi": 174,
+    "state": "GA",
+    "city": "Statesboro",
+    "cpo": "none",
+    "exteriorColor": "Unspecified",
+    "interiorColor": "Black",
+    "vin": "JTMAB3FV7RD195619",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.franklintoyota.com/inventory/used-2024-toyota-rav4-prime-se-awd-4d-sport-utility-jtmab3fv7rd195619/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FV7RD195619&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMAB3FV7RD195619-1.jpg",
+    "photoCount": 15,
+    "baseMsrp": 43690,
+    "squishVin": "JTMAB3FVRD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-06-19",
+    "lastSeen": "2026-07-20",
+    "listedDays": 25,
+    "priceHistory": [
+      {
+        "date": "2026-06-19",
+        "price": 36988
+      },
+      {
+        "date": "2026-06-21",
+        "price": 37247
+      },
+      {
+        "date": "2026-06-29",
+        "price": 36352
+      },
+      {
+        "date": "2026-07-13",
+        "price": 35990
+      },
+      {
+        "date": "2026-07-20",
+        "price": 36514
+      }
+    ],
+    "powertrainConfidence": 0.995,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 39408,
+      "expected": 40141,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "franchise": 0.01,
+        "distance": -55.800000000000004
+      },
+      "dealDelta": -3627,
+      "dealPct": -0.0904,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 25,
+        "cohortMedianDaysListed": 26,
+        "priceDrop": {
+          "total": 474,
+          "pct": -0.0128,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "powertrainVin": "prime",
+    "trimSite": "SE",
+    "powertrainSite": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-06-19",
+        "how": "search",
+        "tier": "site",
+        "host": "franklintoyota.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-06-19",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": 26980,
+        "price": 36988
+      }
+    ],
+    "stock": "46575A",
+    "trimSearch": "SE",
+    "powertrainSearch": "prime",
+    "comboConflict": false,
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "cpoFeed": false,
+    "sellerType": "franchise",
+    "plantCountry": "Japan",
+    "plantCity": "Nagakusa",
+    "plantSource": "vpic",
+    "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jtmab3fv8rd167988",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "year": 2024,
+    "mileage": 21042,
+    "price": 43697,
+    "priceBasis": "listing",
+    "dealer": "Toyota of Knoxville",
+    "dealerId": "d_99c8e2829be16ec9",
+    "distanceMi": 152,
+    "state": "TN",
+    "city": "Knoxville",
+    "cpo": "none",
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "JTMAB3FV8RD167988",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#8717013466841165264",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FV8RD167988&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMAB3FV8RD167988-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 43690,
+    "squishVin": "JTMAB3FVRD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-06-19",
+    "lastSeen": "2026-07-20",
+    "listedDays": 27,
+    "priceHistory": [
+      {
+        "date": "2026-06-19",
+        "price": 43696
+      },
+      {
+        "date": "2026-06-21",
+        "price": 44595
+      },
+      {
+        "date": "2026-07-06",
+        "price": 43697
+      },
+      {
+        "date": "2026-07-13",
+        "price": 44595
+      },
+      {
+        "date": "2026-07-20",
+        "price": 43697
+      }
+    ],
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 40803,
+      "expected": 41573,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "franchise": 0.01,
+        "distance": -45.9
+      },
+      "dealDelta": 2124,
+      "dealPct": 0.0511,
+      "rating": "high",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 27,
+        "cohortMedianDaysListed": 26,
+        "negotiability": "medium"
+      }
+    },
+    "powertrainVin": "prime",
+    "trimSearch": "SE",
+    "powertrainSearch": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-06-19",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": 21042,
+        "price": 45793
+      },
+      {
+        "date": "2026-06-19",
+        "how": "search",
+        "tier": "search",
+        "host": "vwsouthcharlotte.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-06-19",
+        "how": "search",
+        "tier": "search",
+        "host": "toyotaofmurfreesboro.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "comboConflict": false,
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "cpoFeed": false,
+    "sellerType": "franchise",
+    "plantCountry": "Japan",
+    "plantCity": "Nagakusa",
+    "plantSource": "vpic",
+    "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jtmeb3fv1rd175027",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "year": 2024,
+    "mileage": 15956,
+    "price": 44195,
+    "priceBasis": "listing",
+    "dealer": "John Roberts Toyota",
+    "dealerId": "d_80e81fce1ae670ae",
+    "distanceMi": 154,
+    "state": "TN",
+    "city": "Manchester",
+    "cpo": "unknown",
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "JTMEB3FV1RD175027",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.johnrobertstoyota.com/used-Manchester-2024-Toyota-RAV4+Prime-XSE-JTMEB3FV1RD175027",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV1RD175027&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEB3FV1RD175027-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47560,
+    "squishVin": "JTMEB3FVRD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-06-19",
+    "lastSeen": "2026-07-20",
+    "listedDays": 16,
+    "priceHistory": [
+      {
+        "date": "2026-06-19",
+        "price": 45445
+      },
+      {
+        "date": "2026-06-29",
+        "price": 45195
+      },
+      {
+        "date": "2026-07-13",
+        "price": 44495
+      },
+      {
+        "date": "2026-07-20",
+        "price": 44195
+      }
+    ],
+    "powertrainConfidence": 0.995,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 46001,
+      "expected": 47334,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01,
+        "franchise": 0.01,
+        "distance": -46.800000000000004
+      },
+      "dealDelta": -3139,
+      "dealPct": -0.0663,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 16,
+        "cohortMedianDaysListed": 19,
+        "priceDrop": {
+          "total": 1250,
+          "pct": -0.0275,
+          "drops": 3
+        },
+        "negotiability": "high"
+      }
+    },
+    "powertrainVin": "prime",
+    "trimSite": "XSE",
+    "powertrainSite": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-06-19",
+        "how": "search",
+        "tier": "site",
+        "host": "johnrobertstoyota.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-06-19",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "TD000766A",
+    "trimSearch": "XSE",
+    "powertrainSearch": "prime",
+    "comboConflict": false,
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "cpoFeed": true,
+    "sellerType": "franchise",
+    "plantCountry": "Japan",
+    "plantCity": "Nagakusa",
+    "plantSource": "vpic",
+    "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jtmeb3fv7rd232492",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 11208,
+    "price": 47058,
+    "priceBasis": "listing",
+    "dealer": "Fox Toyota",
+    "dealerId": "d_1dcaafb7c3b39790",
+    "distanceMi": 170,
+    "state": "TN",
+    "city": "Clinton",
+    "cpo": "dealer",
+    "cpoFeed": false,
+    "exteriorColor": "Magnetic Gray Metallic/Midnight Black Metallic",
+    "interiorColor": "Black",
+    "vin": "JTMEB3FV7RD232492",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://foxtoyotaclinton.com/vehicle/JTMEB3FV7RD232492/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV7RD232492&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEB3FV7RD232492-1.jpg",
+    "photoCount": 16,
+    "baseMsrp": 47560,
+    "squishVin": "JTMEB3FVRD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-06",
+    "lastSeen": "2026-07-20",
+    "listedDays": 19,
+    "priceHistory": [
+      {
+        "date": "2026-07-06",
+        "price": 47058
+      }
+    ],
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 47058,
+      "expected": 48416,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01,
+        "franchise": 0.01,
+        "distance": -54.0
+      },
+      "dealDelta": -1358,
+      "dealPct": -0.028,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 19,
+        "cohortMedianDaysListed": 19,
+        "negotiability": "medium"
+      }
+    },
+    "trimSite": "XSE",
+    "powertrainSite": "hybrid",
+    "cpoSite": "dealer",
+    "verifyLog": [
+      {
+        "date": "2026-07-07",
+        "how": "constructed",
+        "tier": "site",
+        "host": "foxtoyotaclinton.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "jsonld",
+        "mileage": 11208,
+        "price": 47058
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Heated Seats",
+      "JBL Premium Audio",
+      "Moonroof",
+      "Navigation",
+      "Power Liftgate",
+      "Roof Rails",
+      "Weather Package"
+    ],
+    "sellerType": "franchise",
+    "plantCountry": "Japan",
+    "plantCity": "Nagakusa",
+    "plantSource": "vpic",
+    "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jtmeb3fv8rd187384",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 32776,
+    "price": 44686,
+    "priceBasis": "listing",
+    "dealer": "World Toyota",
+    "dealerId": "d_33da7bd3e2de089f",
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "JTMEB3FV8RD187384",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.worldtoyota.com/inventory/used-2024-toyota-rav4-prime-xse-awd-sport-utility-jtmeb3fv8rd187384/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV8RD187384&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEB3FV8RD187384-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 47560,
+    "squishVin": "JTMEB3FVRD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-06-21",
+    "lastSeen": "2026-07-20",
+    "listedDays": 27,
+    "priceHistory": [
+      {
+        "date": "2026-06-21",
+        "price": 45169
+      },
+      {
+        "date": "2026-07-06",
+        "price": 45445
+      },
+      {
+        "date": "2026-07-13",
+        "price": 44446
+      },
+      {
+        "date": "2026-07-20",
+        "price": 44686
+      }
+    ],
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.998,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 42255,
+      "expected": 43101,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "franchise": 0.01
+      },
+      "dealDelta": 1585,
+      "dealPct": 0.0368,
+      "rating": "fair",
+      "dealScore": 0.333,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 27,
+        "cohortMedianDaysListed": 19,
+        "priceDrop": {
+          "total": 483,
+          "pct": -0.0107,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "trimSite": "XSE",
+    "powertrainSite": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-06-21",
+        "how": "search",
+        "tier": "site",
+        "host": "worldtoyota.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-06-21",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": 32760,
+        "price": 42424
+      },
+      {
+        "date": "2026-06-21",
+        "how": "search",
+        "tier": "search",
+        "host": "lexusoffortmyers.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-06-21",
+        "how": "search",
+        "tier": "search",
+        "host": "mbofaugusta.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "XSE",
+    "powertrainSearch": "prime",
+    "cpoFeed": false,
+    "sellerType": "franchise",
+    "plantCountry": "Japan",
+    "plantCity": "Nagakusa",
+    "plantSource": "vpic",
+    "urlOrigin": "stored"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-07-20",
+  "total": 57,
+  "cohortReady": 49,
+  "flagged": 8,
+  "shards": [
+    {
+      "shard": "2021-hybrid",
+      "file": "listings/2021-hybrid.json",
+      "count": 22,
+      "cohortReady": 18,
+      "gone": 4
+    },
+    {
+      "shard": "2022-hybrid",
+      "file": "listings/2022-hybrid.json",
+      "count": 8,
+      "cohortReady": 7,
+      "gone": 2
+    },
+    {
+      "shard": "2023-hybrid",
+      "file": "listings/2023-hybrid.json",
+      "count": 16,
+      "cohortReady": 14,
+      "gone": 5
+    },
+    {
+      "shard": "2024-hybrid",
+      "file": "listings/2024-hybrid.json",
+      "count": 11,
+      "cohortReady": 10,
+      "gone": 5
+    }
+  ]
+}

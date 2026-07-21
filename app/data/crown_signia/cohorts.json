@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-07-20",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2025|XLE|hybrid": {
+      "year": 2025,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 9,
+      "mileageRange": [
+        0,
+        38895
+      ],
+      "theilSen": {
+        "slope": -0.1348,
+        "intercept": 44823.47
+      },
+      "ols": {
+        "slope": -0.0832,
+        "intercept": 44367.58
+      },
+      "parentKey": "XLE|hybrid",
+      "msrp": 43590
+    },
+    "2025|Limited|hybrid": {
+      "year": 2025,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 12,
+      "mileageRange": [
+        5569,
+        25606
+      ],
+      "theilSen": {
+        "slope": -0.0193,
+        "intercept": 47280.57
+      },
+      "ols": {
+        "slope": -0.007,
+        "intercept": 47049.13
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 47990
+    },
+    "2026|Limited|hybrid": {
+      "year": 2026,
+      "trim": "Limited",
+      "powertrain": "hybrid",
+      "n": 74,
+      "mileageRange": [
+        0,
+        5321
+      ],
+      "theilSen": {
+        "slope": -0.9244,
+        "intercept": 53917.5
+      },
+      "ols": {
+        "slope": -0.709,
+        "intercept": 53927.59
+      },
+      "parentKey": "Limited|hybrid",
+      "msrp": 48790
+    },
+    "2026|XLE|hybrid": {
+      "year": 2026,
+      "trim": "XLE",
+      "powertrain": "hybrid",
+      "n": 14,
+      "mileageRange": [
+        0,
+        10
+      ],
+      "theilSen": null,
+      "ols": {
+        "slope": 230.1766,
+        "intercept": 47155.22
+      },
+      "parentKey": "XLE|hybrid",
+      "msrp": 44390
+    }
+  },
+  "parents": {
+    "XLE|hybrid": {
+      "slope": -0.2151,
+      "intercept": 46803.0
+    },
+    "Limited|hybrid": {
+      "slope": -0.5236,
+      "intercept": 53953.0
+    }
+  },
+  "depreciation": {
+    "XLE|hybrid": [
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 17265,
+        "marketValue": 42496,
+        "msrp": 43590,
+        "retained": 0.975
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 0,
+        "marketValue": 47266,
+        "msrp": 44390,
+        "retained": 1.065
+      }
+    ],
+    "Limited|hybrid": [
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 12628,
+        "marketValue": 47038,
+        "msrp": 47990,
+        "retained": 0.98
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 2,
+        "marketValue": 53916,
+        "msrp": 48790,
+        "retained": 1.105
+      }
+    ]
+  }
+}

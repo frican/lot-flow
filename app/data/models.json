@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-07-20",
+  "models": [
+    {
+      "id": "rav4",
+      "make": "Toyota",
+      "model": "RAV4",
+      "label": "Toyota RAV4",
+      "powertrains": [
+        {
+          "id": "gas",
+          "label": "Gas"
+        },
+        {
+          "id": "hybrid",
+          "label": "Hybrid"
+        },
+        {
+          "id": "prime",
+          "label": "Prime"
+        }
+      ],
+      "years": [
+        2019,
+        2025
+      ],
+      "targetPowertrain": "hybrid"
+    },
+    {
+      "id": "venza",
+      "make": "Toyota",
+      "model": "Venza",
+      "label": "Toyota Venza",
+      "powertrains": [
+        {
+          "id": "hybrid",
+          "label": "Hybrid"
+        }
+      ],
+      "years": [
+        2021,
+        2024
+      ],
+      "targetPowertrain": "hybrid"
+    },
+    {
+      "id": "crown_signia",
+      "make": "Toyota",
+      "model": "Crown Signia",
+      "label": "Toyota Crown Signia",
+      "powertrains": [
+        {
+          "id": "hybrid",
+          "label": "Hybrid"
+        }
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "targetPowertrain": "hybrid"
+    }
+  ]
+}

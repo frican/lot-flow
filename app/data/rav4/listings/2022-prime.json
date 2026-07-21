@@ -1,0 +1,370 @@
+[
+  {
+    "id": "api-jtmab3fv3nd106638",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2022,
+    "mileage": 30878,
+    "price": 37397,
+    "priceBasis": "listing",
+    "dealer": "Toyota of Knoxville",
+    "dealerId": "d_99c8e2829be16ec9",
+    "distanceMi": 152,
+    "state": "TN",
+    "city": "Knoxville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "JTMAB3FV3ND106638",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#4187576968934337361",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FV3ND106638&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMAB3FV3ND106638-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 40300,
+    "squishVin": "JTMAB3FVND",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-06",
+    "lastSeen": "2026-07-20",
+    "listedDays": 18,
+    "priceHistory": [
+      {
+        "date": "2026-07-06",
+        "price": 38295
+      },
+      {
+        "date": "2026-07-20",
+        "price": 37397
+      }
+    ],
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 40455,
+      "expected": 40207,
+      "adjustments": {
+        "owners": -0.015,
+        "franchise": 0.01,
+        "distance": -45.9
+      },
+      "dealDelta": -2810,
+      "dealPct": -0.0699,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 18,
+        "cohortMedianDaysListed": 18,
+        "priceDrop": {
+          "total": 898,
+          "pct": -0.0234,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "trimSearch": "SE",
+    "powertrainSearch": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-07-12",
+        "how": "search",
+        "tier": "search",
+        "host": "naplesinfiniti.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-12",
+        "how": "search",
+        "tier": "search",
+        "host": "louisvillehondaworld.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-12",
+        "how": "search",
+        "tier": "search",
+        "host": "lakenormanhyundai.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "sellerType": "franchise",
+    "plantCountry": "Japan",
+    "plantCity": "Obu",
+    "plantSource": "vpic",
+    "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jtmab3fv9nd093118",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2022,
+    "mileage": 51712,
+    "price": 33196,
+    "priceBasis": "listing",
+    "dealer": "Group 1 Ford of Kennesaw",
+    "dealerId": "d_aa3c808ad5776409",
+    "distanceMi": 24,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Black",
+    "vin": "JTMAB3FV9ND093118",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#492958268950703522",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FV9ND093118&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMAB3FV9ND093118-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 40300,
+    "squishVin": "JTMAB3FVND",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-07-13",
+    "lastSeen": "2026-07-20",
+    "listedDays": 13,
+    "priceHistory": [
+      {
+        "date": "2026-07-13",
+        "price": 33596
+      },
+      {
+        "date": "2026-07-20",
+        "price": 33196
+      }
+    ],
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.955,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "sellerType": "independent",
+    "plantCountry": "Japan",
+    "plantCity": "Obu",
+    "plantSource": "vpic",
+    "urlOrigin": "stored",
+    "searchedAt": "2026-07-20",
+    "trimSearch": "SE",
+    "powertrainSearch": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-07-20",
+        "how": "search",
+        "tier": "search",
+        "host": "group1auto.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-jtmeb3fv1nd082969",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2022,
+    "mileage": 38266,
+    "price": 38820,
+    "priceBasis": "listing",
+    "dealer": "Nalley Lexus Smyrna",
+    "dealerId": "d_1852bc615f5076d1",
+    "distanceMi": 14,
+    "state": "GA",
+    "city": "Smyrna",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTMEB3FV1ND082969",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/jtmeb3fv1nd082969/2022-toyota-rav4-prime-sport-utility",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV1ND082969&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEB3FV1ND082969-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 43625,
+    "squishVin": "JTMEB3FVND",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-07-06",
+    "lastSeen": "2026-07-20",
+    "listedDays": 15,
+    "priceHistory": [
+      {
+        "date": "2026-07-06",
+        "price": 39522
+      },
+      {
+        "date": "2026-07-13",
+        "price": 40097
+      },
+      {
+        "date": "2026-07-20",
+        "price": 38820
+      }
+    ],
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.998,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 42958,
+      "expected": 43387,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -4567,
+      "dealPct": -0.1053,
+      "rating": "great",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 15,
+        "cohortMedianDaysListed": 15,
+        "priceDrop": {
+          "total": 702,
+          "pct": -0.0178,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "trimSite": "XSE",
+    "powertrainSite": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-07-12",
+        "how": "search",
+        "tier": "site",
+        "host": "nalleyinfinitiatlanta.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": 38266,
+        "price": null
+      },
+      {
+        "date": "2026-07-12",
+        "how": "search",
+        "tier": "search",
+        "host": "toyotaofroswell.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-12",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "NLSTND082969",
+    "trimSearch": "XSE",
+    "powertrainSearch": "prime",
+    "sellerType": "independent",
+    "plantCountry": "Japan",
+    "plantCity": "Obu",
+    "plantSource": "vpic",
+    "urlOrigin": "stored"
+  }
+]
