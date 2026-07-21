@@ -34,29 +34,56 @@
     ],
     "aging": [
       {
-        "year": 2023,
-        "trim": "LE",
+        "year": 2020,
+        "trim": "Limited",
         "powertrain": "gas",
-        "listedDays": 115,
-        "cuts": 2,
-        "markdownTotal": 600,
-        "stillOverBy": 2600,
+        "listedDays": 25,
+        "cuts": 3,
+        "markdownTotal": 3100,
+        "stillOverBy": 2200,
         "dropSeries": [
           {
             "day": 0,
-            "price": 28000
+            "price": 35000
           },
           {
-            "day": 7,
-            "price": 27600
+            "day": 10,
+            "price": 34000
           },
           {
-            "day": 14,
-            "price": 27400
+            "day": 17,
+            "price": 33000
           },
           {
-            "day": 21,
-            "price": 28300
+            "day": 24,
+            "price": 31900
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "trim": "XLE Premium",
+        "powertrain": "gas",
+        "listedDays": 27,
+        "cuts": 3,
+        "markdownTotal": 3000,
+        "stillOverBy": 1800,
+        "dropSeries": [
+          {
+            "day": 0,
+            "price": 43000
+          },
+          {
+            "day": 17,
+            "price": 42000
+          },
+          {
+            "day": 24,
+            "price": 41000
+          },
+          {
+            "day": 31,
+            "price": 40000
           }
         ]
       }
