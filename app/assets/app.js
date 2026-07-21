@@ -406,6 +406,22 @@ function lineSeg(fit, xMin, xMax) {
   return fit ? [{ x: xMin, y: fit.slope * xMin + fit.intercept }, { x: xMax, y: fit.slope * xMax + fit.intercept }] : [];
 }
 
+// Fixed y-range for the price-vs-mileage scatter: spans every plotted point's CURRENT price AND,
+// for points carrying a price history, their first (usually higher) listed price. The resting
+// chart is pinned to this SAME range the "Price changes" replay animates within, so starting the
+// replay doesn't grow the axis and ending it doesn't shrink it — one range the whole time.
+function scatterYRange(datasets) {
+  const ys = [];
+  datasets.forEach(d => { if (d.type === "line") return; (d.data || []).forEach(p => {
+    if (typeof p.y === "number") ys.push(p.y);
+    const h = p._r && p._r.priceHistory;
+    if (h && h.length > 1 && typeof h[0].price === "number") ys.push(h[0].price);
+  }); });
+  if (!ys.length) return null;
+  const lo = Math.min(...ys), hi = Math.max(...ys), pad = (hi - lo) * 0.06 || 500;
+  return { min: lo - pad, max: hi + pad };
+}
+
 function renderCohortChart(rec) {
   const cv = document.getElementById("cohortChart");
   if (!cv || !window.Chart) return;
@@ -497,12 +513,14 @@ function renderCohortChart(rec) {
     note.textContent = `No Flow Line — too few comps (n=${n}).`;
   }
 
+  // Pin the y-axis to the replay's range up front so it never moves when "Price changes" plays.
+  const yr = scatterYRange(datasets);
   detailChart = new Chart(cv, {
     type: "scatter",
     data: { datasets },
     options: { responsive: true, maintainAspectRatio: false, animation: false,
       scales: { x: { title: { display: true, text: "Mileage" }, ticks: { color: muted, callback: v => (v / 1000) + "k" }, grid: { color: grid } },
-                y: { title: { display: true, text: "Price" }, ticks: { color: muted, callback: v => "$" + (v / 1000).toFixed(0) + "k" }, grid: { color: grid } } },
+                y: { ...(yr ? { min: yr.min, max: yr.max } : {}), title: { display: true, text: "Price" }, ticks: { color: muted, callback: v => "$" + (v / 1000).toFixed(0) + "k" }, grid: { color: grid } } },
       plugins: { legend: { labels: { color: txt } },
         tooltip: { callbacks: { label: c => { const r = c.raw && c.raw._r; if (!r) return c.dataset.label;
           const v = r.valuation || {}; return `${r.trim} · ${(r.mileage||0).toLocaleString()}mi · ${f$(r.price)}${v.dealPct!=null ? " · "+fPct(v.dealPct)+" "+(v.rating||"") : ""}`; } } } },
@@ -519,20 +537,17 @@ function renderCohortChart(rec) {
 function replayPriceDrops() {
   if (!detailChart || chartToggles.mode !== "scatter") return;
   const ds = detailChart.data.datasets.filter(d => d.type !== "line");
-  const frames = [], ys = [];
+  const frames = [];
   ds.forEach(d => d.data.forEach(p => {
-    if (typeof p.y === "number") ys.push(p.y);
     const h = p._r && p._r.priceHistory;
-    if (h && h.length > 1) { frames.push({ p, from: h[0].price, to: p.y }); ys.push(h[0].price); }
+    if (h && h.length > 1) frames.push({ p, from: h[0].price, to: p.y });
   }));
   if (!frames.length) return;
-  // Pin the y-axis for the WHOLE interaction — during the animation AND after it settles — so the
-  // axis never jumps. The range spans every point's current AND starting price; earlier the axis
-  // was un-pinned by a full rebuild at the end, which snapped it back to auto-scale (the "not
-  // solid" jitter). We keep the pinned min/max and just restore the bands + final positions inline.
-  const lo = Math.min(...ys), hi = Math.max(...ys), pad = (hi - lo) * 0.06 || 500;
-  detailChart.options.scales.y.min = lo - pad;
-  detailChart.options.scales.y.max = hi + pad;
+  // The axis is already pinned to this exact range at render time (scatterYRange), so the resting
+  // chart and the replay share ONE range — starting the replay doesn't grow the axis and ending it
+  // doesn't shrink it. Re-assert it here in case an earlier interaction cleared it; identical math.
+  const yr = scatterYRange(detailChart.data.datasets);
+  if (yr) { detailChart.options.scales.y.min = yr.min; detailChart.options.scales.y.max = yr.max; }
   const t0 = performance.now(), dur = 1400;
   const savedBands = detailChart.$bands;                 // bands follow the fit line, not the
   detailChart.$bands = null;                             // moving points → hide only during motion
