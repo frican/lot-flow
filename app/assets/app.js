@@ -399,7 +399,7 @@ const bandPlugin = {
 };
 if (window.Chart) Chart.register(bandPlugin);
 
-const chartToggles = { ols: false, parent: false, bands: true, mode: "scatter" };
+const chartToggles = { parent: false, bands: true, mode: "scatter" };
 let CURRENT_REC = null;
 
 function lineSeg(fit, xMin, xMax) {
@@ -416,37 +416,50 @@ function renderCohortChart(rec) {
   const cdata = (COHORTS && COHORTS.cohorts) ? COHORTS.cohorts[key] : null;
 
   if (chartToggles.mode === "depreciation") {
-    const dep = (COHORTS && COHORTS.depreciation) ? COHORTS.depreciation[`${rec.trim}|${rec.powertrain}`] : null;
-    if (!dep || !dep.length) { if (note) note.textContent = "No depreciation series for this trim yet."; return; }
-    // MSRP is absent for some models (e.g. the feed mislabels the trim, so there's no verified base
-    // MSRP) — fall back to a market-value-vs-age series so the chart stays honest instead of blank.
-    // Both branches map over the full dep array so dep[c.dataIndex] stays aligned in the tooltip.
-    const hasMsrp = dep.some(d => d.retained != null);
+    // Depreciation across EVERY model year for this car's trim+powertrain, built from the full
+    // client-side record set (not the thin per-year medians we used to emit) so the curve rests on
+    // real sample size. Each live listing is a point plotted by vehicle age; a median-per-age line
+    // draws the trend. x is vehicle age ascending left→right, so the curve falls the way a
+    // depreciation curve should (the old chart reversed the axis, which read as "going backwards").
+    // y is the listed price in $ — the retained-% version read ABOVE 100% for recent years because
+    // in-demand near-new units list over base MSRP, so retention is a tooltip detail, not the axis.
+    const matches = ALL.filter(r => !r.gone && r.price != null && r.year != null
+      && r.trim === rec.trim && r.powertrain === rec.powertrain);
+    if (matches.length < 2) { if (note) note.textContent = "Not enough listings across model years for a depreciation curve yet."; return; }
+    // Age off the newest year present (falls back to the calendar year) so a stale calendar clock
+    // can't push every point off the "0" edge; clamp at 0 so a next-model-year unit reads as new.
+    const nowYear = Math.max(new Date().getFullYear(), ...matches.map(r => r.year));
+    const ageOf = r => Math.max(0, nowYear - r.year);
     const usd = v => "$" + (v / 1000).toFixed(0) + "k";
-    if (!hasMsrp && note) note.textContent = "No verified MSRP for this trim — showing market value vs. age.";
     const accent = cssVar("--accent", "#7aa2ff"), muted = cssVar("--text-muted", "#8a8a98"),
-      grid = cssVar("--border", "#262633"), txt = cssVar("--text", "#d8d8e0");
+      grid = cssVar("--border", "#262633"), txt = cssVar("--text", "#d8d8e0"),
+      surface = cssVar("--surface", "#fff");
+    const byAge = {};
+    matches.forEach(r => { const a = ageOf(r); (byAge[a] = byAge[a] || []).push(r.price); });
+    const trend = Object.keys(byAge).map(Number).sort((a, b) => a - b)
+      .map(a => ({ x: a, y: medianOf(byAge[a]) }));
+    const nMY = new Set(matches.map(r => r.year)).size;
+    if (note) note.textContent = `${matches.length} listings across ${nMY} model years.`;
     detailChart = new Chart(cv, {
-      type: "line",
+      type: "scatter",
       data: { datasets: [
-        { label: hasMsrp ? "% of MSRP retained" : "Market value (median)",
-          data: hasMsrp ? dep.map(d => ({ x: d.age, y: d.retained == null ? null : +(d.retained * 100).toFixed(1) }))
-                        : dep.map(d => ({ x: d.age, y: d.marketValue })),
-          borderColor: accent, backgroundColor: accent, tension: .25, pointRadius: 4 },
+        { label: "Median by age", type: "line", data: trend, borderColor: accent,
+          backgroundColor: accent, borderWidth: 2, pointRadius: 3, tension: .25, fill: false, order: 0 },
+        { label: "Listings", data: matches.filter(r => r.vin !== rec.vin).map(r => ({ x: ageOf(r), y: r.price, _r: r })),
+          pointRadius: 3, backgroundColor: hexA(muted, .45), order: 1 },
+        { label: "This car", data: [{ x: ageOf(rec), y: rec.price, _r: rec }], pointRadius: 7,
+          pointStyle: "rectRot", backgroundColor: surface, borderColor: accent, borderWidth: 2, order: 2 },
       ] },
       options: { responsive: true, maintainAspectRatio: false,
-        // x MUST be linear — a line chart defaults to a category axis, which collapses the numeric
-        // ages onto one tick (the old "single year" bug); linear spreads ages 1..N into a real curve.
-        scales: { x: { type: "linear", title: { display: true, text: "Age (years)" }, reverse: true,
+        scales: { x: { type: "linear", title: { display: true, text: "Vehicle age (years)" },
                        ticks: { color: muted, stepSize: 1, precision: 0 }, grid: { color: grid } },
-                  y: { title: { display: true, text: hasMsrp ? "% of MSRP retained" : "Market value" },
-                       ticks: { color: muted, callback: hasMsrp ? undefined : (v => usd(v)) }, grid: { color: grid } } },
+                  y: { title: { display: true, text: "Listed price" },
+                       ticks: { color: muted, callback: v => usd(v) }, grid: { color: grid } } },
         plugins: { legend: { labels: { color: txt } },
-          tooltip: { callbacks: { label: c => { const d = dep[c.dataIndex];
-            const mi = d.medianMileage != null ? ` @ ${d.medianMileage.toLocaleString()}mi` : "";
-            return hasMsrp
-              ? `${d.year}: ${c.parsed.y}% retained · mkt ${f$(d.marketValue)}${mi} · MSRP ${f$(d.msrp)}`
-              : `${d.year}: ${f$(d.marketValue)}${mi}`; } } } } },
+          tooltip: { callbacks: { label: c => { const r = c.raw && c.raw._r;
+            if (!r) return `age ${c.parsed.x}: median ${f$(c.parsed.y)}`;
+            const ret = r.baseMsrp ? ` · ${Math.round(r.price / r.baseMsrp * 100)}% of MSRP` : "";
+            return `${r.year} · ${(r.mileage || 0).toLocaleString()}mi · ${f$(r.price)}${ret}`; } } } } },
     });
     return;
   }
@@ -471,20 +484,17 @@ function renderCohortChart(rec) {
   datasets.push({ label: "This car", data: [pt(rec)], pointRadius: 7, pointStyle: "rectRot",
     backgroundColor: surface, borderColor: accent, borderWidth: 2 });
   if (cdata) {
-    datasets.push({ label: "Flow Line (robust fit)", type: "line", data: lineSeg(cdata.theilSen, xMin, xMax),
+    datasets.push({ label: "Flow Line", type: "line", data: lineSeg(cdata.theilSen, xMin, xMax),
       borderColor: ratingColor("great"), borderWidth: 2, pointRadius: 0, fill: false });
-    datasets.push({ label: "OLS (naive)", type: "line", data: lineSeg(cdata.ols, xMin, xMax),
-      borderColor: ratingColor("high"), borderWidth: 1.5, borderDash: [6, 4], pointRadius: 0, fill: false,
-      hidden: !chartToggles.ols });
   }
 
-  // Cohorts with no robust fit (common for low-volume models like Venza, but also a well-populated
+  // Cohorts with no Flow Line (common for low-volume models like Venza, but also a well-populated
   // cohort whose comps share one mileage → null Theil-Sen) get an explanatory note so the empty
   // deal-band area reads as intentional. Report the engine's cohort size (cohorts.json n = count of
   // cohort-ready members), falling back to the plotted comps (excluding this car) when no viz entry.
   if (note && (!cdata || !cdata.theilSen)) {
     const n = (cdata && cdata.n != null) ? cdata.n : cohort.filter(r => r.vin !== rec.vin).length;
-    note.textContent = `No robust fit (n=${n}).`;
+    note.textContent = `No Flow Line — too few comps (n=${n}).`;
   }
 
   detailChart = new Chart(cv, {
@@ -493,7 +503,7 @@ function renderCohortChart(rec) {
     options: { responsive: true, maintainAspectRatio: false, animation: false,
       scales: { x: { title: { display: true, text: "Mileage" }, ticks: { color: muted, callback: v => (v / 1000) + "k" }, grid: { color: grid } },
                 y: { title: { display: true, text: "Price" }, ticks: { color: muted, callback: v => "$" + (v / 1000).toFixed(0) + "k" }, grid: { color: grid } } },
-      plugins: { legend: { labels: { color: txt, filter: i => i.text !== "OLS (naive)" || chartToggles.ols } },
+      plugins: { legend: { labels: { color: txt } },
         tooltip: { callbacks: { label: c => { const r = c.raw && c.raw._r; if (!r) return c.dataset.label;
           const v = r.valuation || {}; return `${r.trim} · ${(r.mileage||0).toLocaleString()}mi · ${f$(r.price)}${v.dealPct!=null ? " · "+fPct(v.dealPct)+" "+(v.rating||"") : ""}`; } } } },
     },
@@ -516,20 +526,26 @@ function replayPriceDrops() {
     if (h && h.length > 1) { frames.push({ p, from: h[0].price, to: p.y }); ys.push(h[0].price); }
   }));
   if (!frames.length) return;
-  // Pin the y-axis across the whole animation so it doesn't rescale as points climb to their first
-  // (higher) listed price and settle back — a shifting axis is disorienting. Range spans every
-  // point's current AND starting price; the rebuild at the end restores auto-scaling.
+  // Pin the y-axis for the WHOLE interaction — during the animation AND after it settles — so the
+  // axis never jumps. The range spans every point's current AND starting price; earlier the axis
+  // was un-pinned by a full rebuild at the end, which snapped it back to auto-scale (the "not
+  // solid" jitter). We keep the pinned min/max and just restore the bands + final positions inline.
   const lo = Math.min(...ys), hi = Math.max(...ys), pad = (hi - lo) * 0.06 || 500;
   detailChart.options.scales.y.min = lo - pad;
   detailChart.options.scales.y.max = hi + pad;
   const t0 = performance.now(), dur = 1400;
-  detailChart.$bands && (detailChart.$bands._save = detailChart.$bands, detailChart.$bands = null);
+  const savedBands = detailChart.$bands;                 // bands follow the fit line, not the
+  detailChart.$bands = null;                             // moving points → hide only during motion
   const step = now => {
     const k = clamp((now - t0) / dur, 0, 1), e = 1 - Math.pow(1 - k, 3);
     frames.forEach(f => f.p.y = f.from + (f.to - f.from) * e);
     detailChart.update("none");
     if (k < 1) requestAnimationFrame(step);
-    else renderCohortChart(CURRENT_REC);   // rebuild → restores bands, final state + auto y-axis
+    else {                                               // settle at final prices, restore the
+      frames.forEach(f => f.p.y = f.to);                 // bands, but KEEP the pinned axis so it
+      detailChart.$bands = savedBands;                   // doesn't snap back to auto-scale
+      detailChart.update("none");
+    }
   };
   requestAnimationFrame(step);
 }
@@ -589,7 +605,6 @@ function openDetail(rec) {
         <button id="tgDep" class="${chartToggles.mode === "depreciation" ? "on" : ""}">Depreciation</button>
         <span style="flex:1"></span>
         <button id="tgBands" class="${chartToggles.bands ? "on" : ""}">Deal bands</button>
-        <button id="tgOls" class="${chartToggles.ols ? "on" : ""}">vs naive OLS</button>
         <button id="tgParent" class="${chartToggles.parent ? "on" : ""}">Other trims</button>
         <button id="tgReplay">▶ Price changes</button>
       </div>
@@ -631,14 +646,13 @@ function openDetail(rec) {
 
   if (hasChart) {
     const set = (id, fn) => { const el = document.getElementById(id); if (el) el.onclick = fn; };
-    const reflectAndRender = () => { ["tgBands","tgOls","tgParent","tgScatter","tgDep"].forEach(id => {
+    const reflectAndRender = () => { ["tgBands","tgParent","tgScatter","tgDep"].forEach(id => {
       const el = document.getElementById(id); if (!el) return;
-      const on = id === "tgBands" ? chartToggles.bands : id === "tgOls" ? chartToggles.ols
+      const on = id === "tgBands" ? chartToggles.bands
         : id === "tgParent" ? chartToggles.parent : id === "tgScatter" ? chartToggles.mode === "scatter"
         : chartToggles.mode === "depreciation"; el.classList.toggle("on", on); });
       renderCohortChart(rec); };
     set("tgBands", () => { chartToggles.bands = !chartToggles.bands; reflectAndRender(); });
-    set("tgOls", () => { chartToggles.ols = !chartToggles.ols; reflectAndRender(); });
     set("tgParent", () => { chartToggles.parent = !chartToggles.parent; reflectAndRender(); });
     set("tgScatter", () => { chartToggles.mode = "scatter"; reflectAndRender(); });
     set("tgDep", () => { chartToggles.mode = "depreciation"; reflectAndRender(); });
