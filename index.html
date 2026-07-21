@@ -109,6 +109,40 @@
   </div>
 </section>
 
+<!-- ============================ OPTIMIZER ============================ -->
+<section>
+  <div class="wrap">
+    <p class="section-tag">Run your own lot</p>
+    <h2>What could you put back on the bottom line?</h2>
+    <p class="lead">Set the two leaks to your lot per quarter, then how much of it you'd act on. Every unit Lot Flow flags is a call you can make — here's what capturing them compounds to over a year.</p>
+
+    <div class="optimizer">
+      <div class="opt-controls">
+        <div class="opt-slider">
+          <label>Units left to age <b class="over">over</b> market <span class="opt-v" id="opt-over-val">8</span> / qtr</label>
+          <input type="range" id="opt-over" min="0" max="30" value="8" aria-label="units aged over market per quarter">
+        </div>
+        <div class="opt-slider">
+          <label>Units given away <b class="under">under</b> market <span class="opt-v" id="opt-under-val">12</span> / qtr</label>
+          <input type="range" id="opt-under" min="0" max="30" value="12" aria-label="units given away under market per quarter">
+        </div>
+        <div class="opt-slider">
+          <label>How much of it you act on <span class="opt-v" id="opt-capture-val">60</span>%</label>
+          <input type="range" id="opt-capture" min="0" max="100" value="60" step="5" aria-label="share you reprice">
+        </div>
+      </div>
+      <div class="opt-readout">
+        <div class="opt-lab">Recoverable a year with Lot Flow</div>
+        <div class="opt-big" id="opt-year">$142,080</div>
+        <div class="opt-sub">of <b id="opt-leak">$59,200</b> / quarter leaking on gut pricing today</div>
+        <div class="opt-meter"><span id="opt-fill"></span></div>
+        <div class="opt-legend">the green share is what you'd capture; the rest keeps leaking</div>
+      </div>
+    </div>
+    <p class="tiny muted">Per-unit costs from the tracked market: an aged over-market unit ≈ $3,500 in carry + markdown; an under-market sale ≈ $2,600 in surrendered margin. "Act on" is the share you reprice; the annual figure compounds one quarter &times;4.</p>
+  </div>
+</section>
+
 <!-- ============================ TRADE-IN ============================ -->
 <section class="band">
   <div class="wrap">
@@ -147,7 +181,7 @@
       <div class="step">
         <div class="n">2</div>
         <h4>Robust fair-value fits</h4>
-        <p>Prices are fit with outlier-resistant Theil-Sen regressions, falling back to MSRP-retention curves where a cohort is thin — no single strange listing drags the line.</p>
+        <p>Prices are fit with an outlier-resistant robust regression — our "Flow Line" — falling back to MSRP-retention curves where a cohort is thin, so no single strange listing drags the line.</p>
       </div>
       <div class="step">
         <div class="n">3</div>
@@ -232,7 +266,7 @@
       $("aging-cuts").textContent = num(a.cuts) + (a.cuts === 1 ? " price cut" : " price cuts");
       $("aging-markdown").textContent = money(a.markdownTotal);
       $("aging-over").textContent = money(a.stillOverBy);
-      drawTimeline($("aging-timeline"), a.dropSeries || []);
+      drawTimeline($("aging-timeline"), a.dropSeries || [], a.listedDays);
     } else {
       $("aging-dynamic").classList.add("hidden");
       $("aging-empty").classList.remove("hidden");
@@ -245,32 +279,66 @@
     $("aging-empty").classList.remove("hidden");
   });
 
-  // Build a tiny inline-SVG price-drop timeline from [{day, price}] — no libraries, no CDN.
-  function drawTimeline(host, series) {
+  // Build a tiny inline-SVG price timeline over the FULL days-on-lot. Our tracked price points are
+  // anchored to when we first saw the car (0..~30d), but the unit has actually been listed
+  // `listedDays` total — so we offset the tracked points to sit at the END of a 0..listedDays axis
+  // (the recent window we observed) and dash in the earlier, untracked stretch. Without this the
+  // graph stopped at ~day 31 while the headline said "106 days" — the two now agree.
+  function drawTimeline(host, series, listedDays) {
     if (!host || !series || series.length < 2) { if (host) host.remove(); return; }
-    var W = 460, H = 120, padL = 8, padR = 8, padT = 14, padB = 22;
+    var W = 460, H = 120, padL = 8, padR = 8, padT = 16, padB = 22;
     var days = series.map(function (d) { return d.day; });
     var prices = series.map(function (d) { return d.price; });
-    var dMin = Math.min.apply(null, days), dMax = Math.max.apply(null, days);
+    var dMax = Math.max.apply(null, days);
+    var total = (listedDays && listedDays > dMax) ? listedDays : dMax;
+    var offset = total - dMax;                    // shift tracked points to the recent end
+    var onLot = series.map(function (d) { return d.day + offset; });
     var pMin = Math.min.apply(null, prices), pMax = Math.max.apply(null, prices);
-    var dSpan = (dMax - dMin) || 1, pSpan = (pMax - pMin) || 1;
-    var x = function (d) { return padL + (d - dMin) / dSpan * (W - padL - padR); };
+    var xSpan = total || 1, pSpan = (pMax - pMin) || 1;
+    var x = function (d) { return padL + d / xSpan * (W - padL - padR); };
     var y = function (p) { return padT + (1 - (p - pMin) / pSpan) * (H - padT - padB); };
+    var base = H - padB;
 
-    var pts = series.map(function (d) { return x(d.day) + "," + y(d.price); }).join(" ");
     var svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img">';
+    // the stretch it sat before we started tracking — dashed, so 106 days reads as 106 days
+    if (offset > 0) {
+      svg += '<line x1="' + x(0) + '" y1="' + base + '" x2="' + x(onLot[0]) + '" y2="' + base +
+             '" stroke="var(--border)" stroke-width="2" stroke-dasharray="3 4"/>';
+    }
+    var pts = onLot.map(function (d, i) { return x(d) + "," + y(prices[i]); }).join(" ");
     svg += '<polyline points="' + pts + '" fill="none" stroke="var(--warn)" stroke-width="2" stroke-linejoin="round"/>';
-    series.forEach(function (d, i) {
-      var cx = x(d.day), cy = y(d.price);
+    onLot.forEach(function (d, i) {
+      var cx = x(d), cy = y(prices[i]);
       svg += '<circle cx="' + cx + '" cy="' + cy + '" r="3.5" fill="var(--warn)"/>';
-      var anchor = i === 0 ? 'start' : (i === series.length - 1 ? 'end' : 'middle');
-      svg += '<text x="' + cx + '" y="' + (cy - 8) + '" text-anchor="' + anchor +
-             '" font-size="10" fill="var(--muted)">$' + Math.round(d.price / 1000) + 'k</text>';
-      svg += '<text x="' + cx + '" y="' + (H - 6) + '" text-anchor="' + anchor +
-             '" font-size="9" fill="var(--muted)">d' + d.day + '</text>';
+      // label only the first + last tracked price so the clustered recent points stay legible
+      if (i === 0 || i === onLot.length - 1) {
+        svg += '<text x="' + cx + '" y="' + (cy - 8) + '" text-anchor="' + (i === 0 ? 'start' : 'end') +
+               '" font-size="10" fill="var(--muted)">$' + Math.round(prices[i] / 1000) + 'k</text>';
+      }
     });
+    svg += '<text x="' + x(0) + '" y="' + (H - 6) + '" text-anchor="start" font-size="9" fill="var(--muted)">listed</text>';
+    svg += '<text x="' + x(total) + '" y="' + (H - 6) + '" text-anchor="end" font-size="9" fill="var(--muted)">day ' + total + ' · today</text>';
     svg += '</svg>';
     host.innerHTML = svg;
+  }
+
+  // ---- optimizer: user-changeable levers → what capturing them compounds to ----
+  var OVER = 3500, UNDER = 2600;   // per-unit: aged over-market carry+markdown / under-market margin
+  var ov = $("opt-over"), un = $("opt-under"), cap = $("opt-capture");
+  if (ov && un && cap) {
+    var upd = function () {
+      var a = +ov.value, b = +un.value, c = +cap.value / 100;
+      $("opt-over-val").textContent = a;
+      $("opt-under-val").textContent = b;
+      $("opt-capture-val").textContent = +cap.value;
+      var leakQ = a * OVER + b * UNDER;
+      var recoverYr = leakQ * c * 4;                 // compound the quarter across the year
+      $("opt-leak").textContent = money(leakQ);
+      $("opt-year").textContent = money(recoverYr);
+      $("opt-fill").style.width = Math.round(c * 100) + "%";
+    };
+    ov.oninput = un.oninput = cap.oninput = upd;
+    upd();
   }
 })();
 </script>
