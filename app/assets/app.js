@@ -102,13 +102,14 @@ function cpoBadge(r) {
   // which isn't confidence-inspiring. Only the two verified states earn a badge.
   return "";
 }
-// Basis = how much like-for-like comp support the valuation had. cohort (dense comps) is the normal,
-// trustworthy case and needs no flag; pooled = a thin/rare configuration; msrp_curve = an MSRP-
-// retention estimate. Only the caveat cases get a badge so the column stays quiet on normal rows.
+// Basis = how much like-for-like comp support the valuation had. cohort (median ~39 comps) is the
+// normal, trustworthy case and needs no flag. msrp_curve is the RAREST/thinnest spec (median 1 comp,
+// only ~10 records) — no direct comps, priced off the model's MSRP-retention curve, so it's the true
+// "Rare spec". pooled sits between (median ~4 comps, pooled across similar trims) — "Few comps".
 function basisBadge(v) {
   const b = v && v.basis;
-  if (b === "pooled") return `<span class="badge b-pooled" title="Rare spec — thin comp set, fewer like-for-like comparisons">Rare spec</span>`;
-  if (b === "msrp_curve") return `<span class="badge b-msrp_curve" title="MSRP-retention estimate — few or no direct comps">Est.</span>`;
+  if (b === "msrp_curve") return `<span class="badge b-rare" title="Rare spec — no direct comps; priced off the model's MSRP-retention curve">Rare spec</span>`;
+  if (b === "pooled") return `<span class="badge b-thin" title="Few comps — pooled across similar trims for a fair-value fit">Few comps</span>`;
   return "";
 }
 function carfaxLink(r) {
