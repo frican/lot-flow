@@ -1,0 +1,73 @@
+[
+  {
+    "id": "api-3fmtk3r43sma12511",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2025,
+    "mileage": 18010,
+    "price": 34223,
+    "priceBasis": "listing",
+    "dealer": "Bella Nissan of Union City",
+    "dealerId": "d_0f6a65de8b3a0b75",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Green",
+    "interiorColor": "Gray",
+    "vin": "3FMTK3R43SMA12511",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carfax.com/vehicle/3FMTK3R43SMA12511",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R43SMA12511&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3R43SMA12511-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 41995,
+    "squishVin": "3FMTK3R4SM",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-10-21",
+    "lastSeen": "2026-10-21",
+    "listedDays": 56,
+    "priceHistory": [
+      {
+        "date": "2026-10-21",
+        "price": 34223
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-10-21"
+  }
+]

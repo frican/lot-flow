@@ -1,0 +1,157 @@
+{
+  "generatedAt": "2026-10-21",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2022|Premium|electric": {
+      "year": 2022,
+      "trim": "Premium",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        75950,
+        75950
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Premium|electric",
+      "msrp": 51800
+    },
+    "2022|GT|electric": {
+      "year": 2022,
+      "trim": "GT",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        53014,
+        53014
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "GT|electric",
+      "msrp": 61995
+    },
+    "2023|Select|electric": {
+      "year": 2023,
+      "trim": "Select",
+      "powertrain": "electric",
+      "n": 5,
+      "mileageRange": [
+        21569,
+        27469
+      ],
+      "theilSen": {
+        "slope": -0.2384,
+        "intercept": 32542.81
+      },
+      "ols": {
+        "slope": -0.3115,
+        "intercept": 34555.3
+      },
+      "parentKey": "Select|electric",
+      "msrp": 42995
+    },
+    "2023|Premium|electric": {
+      "year": 2023,
+      "trim": "Premium",
+      "powertrain": "electric",
+      "n": 7,
+      "mileageRange": [
+        13917,
+        41824
+      ],
+      "theilSen": {
+        "slope": -0.0323,
+        "intercept": 30185.47
+      },
+      "ols": {
+        "slope": -0.01,
+        "intercept": 29615.08
+      },
+      "parentKey": "Premium|electric",
+      "msrp": 46995
+    },
+    "2024|Premium|electric": {
+      "year": 2024,
+      "trim": "Premium",
+      "powertrain": "electric",
+      "n": 4,
+      "mileageRange": [
+        20748,
+        38974
+      ],
+      "theilSen": {
+        "slope": -0.08,
+        "intercept": 32915.32
+      },
+      "ols": {
+        "slope": -0.022,
+        "intercept": 31278.02
+      },
+      "parentKey": "Premium|electric",
+      "msrp": 43995
+    }
+  },
+  "parents": {
+    "Premium|electric": {
+      "slope": -0.0822,
+      "intercept": 31724.53
+    },
+    "Select|electric": {
+      "slope": -0.2384,
+      "intercept": 32542.81
+    }
+  },
+  "depreciation": {
+    "Premium|electric": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 75950,
+        "marketValue": 23142,
+        "msrp": 51800,
+        "retained": 0.447
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 30119,
+        "marketValue": 29213,
+        "msrp": 46995,
+        "retained": 0.622
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 30522,
+        "marketValue": 30461,
+        "msrp": 43995,
+        "retained": 0.692
+      }
+    ],
+    "GT|electric": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 53014,
+        "marketValue": 30190,
+        "msrp": 61995,
+        "retained": 0.487
+      }
+    ],
+    "Select|electric": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 24061,
+        "marketValue": 26806,
+        "msrp": 42995,
+        "retained": 0.623
+      }
+    ]
+  }
+}

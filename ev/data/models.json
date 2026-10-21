@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-10-21",
+  "models": [
+    {
+      "id": "ioniq_5",
+      "make": "Hyundai",
+      "model": "IONIQ 5",
+      "label": "Hyundai IONIQ 5",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2022,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "ev6",
+      "make": "Kia",
+      "model": "EV6",
+      "label": "Kia EV6",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2022,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "mustang_mach_e",
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "label": "Ford Mustang Mach-E",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2021,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    }
+  ]
+}
