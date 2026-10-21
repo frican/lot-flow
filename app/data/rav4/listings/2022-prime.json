@@ -40,10 +40,10 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-06",
-    "lastSeen": "2026-07-20",
-    "listedDays": 18,
+    "lastSeen": "2026-07-31",
+    "listedDays": 29,
     "priceHistory": [
       {
         "date": "2026-07-06",
@@ -51,6 +51,14 @@
       },
       {
         "date": "2026-07-20",
+        "price": 37397
+      },
+      {
+        "date": "2026-07-22",
+        "price": 38295
+      },
+      {
+        "date": "2026-07-27",
         "price": 37397
       }
     ],
@@ -66,15 +74,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40455,
-      "expected": 40207,
+      "marketValue": 40340,
+      "expected": 40093,
       "adjustments": {
         "owners": -0.015,
         "franchise": 0.01,
         "distance": -45.9
       },
-      "dealDelta": -2810,
-      "dealPct": -0.0699,
+      "dealDelta": -2696,
+      "dealPct": -0.0672,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -82,12 +90,12 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 18,
+        "listedDays": 29,
+        "cohortMedianDaysListed": 29,
         "priceDrop": {
           "total": 898,
           "pct": -0.0234,
-          "drops": 1
+          "drops": 2
         },
         "negotiability": "high"
       }
@@ -133,7 +141,8 @@
     "plantCountry": "Japan",
     "plantCity": "Obu",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmab3fv9nd093118",
@@ -149,10 +158,10 @@
     "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "2.5L 4Cyl regular unleaded",
+    "engine": "2.5L 4Cyl Gasoline",
     "year": 2022,
     "mileage": 51712,
-    "price": 33196,
+    "price": 32790,
     "priceBasis": "listing",
     "dealer": "Group 1 Ford of Kennesaw",
     "dealerId": "d_aa3c808ad5776409",
@@ -168,7 +177,7 @@
     "url": "#492958268950703522",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FV9ND093118&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTMAB3FV9ND093118-1.jpg",
-    "photoCount": 1,
+    "photoCount": 33,
     "baseMsrp": 40300,
     "squishVin": "JTMAB3FVND",
     "accidentCount": 1,
@@ -176,10 +185,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-13",
-    "lastSeen": "2026-07-20",
-    "listedDays": 13,
+    "lastSeen": "2026-07-22",
+    "listedDays": 15,
     "priceHistory": [
       {
         "date": "2026-07-13",
@@ -188,6 +197,10 @@
       {
         "date": "2026-07-20",
         "price": 33196
+      },
+      {
+        "date": "2026-07-22",
+        "price": 32790
       }
     ],
     "powertrainVin": "prime",
@@ -243,11 +256,11 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2022,
     "mileage": 38266,
-    "price": 38820,
+    "price": 40769,
     "priceBasis": "listing",
-    "dealer": "Nalley Lexus Smyrna",
-    "dealerId": "d_1852bc615f5076d1",
-    "distanceMi": 14,
+    "dealer": "Nalley Toyota Roswell",
+    "dealerId": "d_3136e50c4a760125",
+    "distanceMi": 23,
     "state": "GA",
     "city": "Smyrna",
     "cpo": "none",
@@ -255,11 +268,11 @@
     "exteriorColor": "Black",
     "interiorColor": "Black",
     "vin": "JTMEB3FV1ND082969",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed. Relisted; back in feed.",
     "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/jtmeb3fv1nd082969/2022-toyota-rav4-prime-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV1ND082969&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTMEB3FV1ND082969-1.jpg",
-    "photoCount": 34,
+    "photoCount": 36,
     "baseMsrp": 43625,
     "squishVin": "JTMEB3FVND",
     "accidentCount": 0,
@@ -267,10 +280,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-06",
-    "lastSeen": "2026-07-20",
-    "listedDays": 15,
+    "lastSeen": "2026-08-17",
+    "listedDays": 10,
     "priceHistory": [
       {
         "date": "2026-07-06",
@@ -283,6 +296,18 @@
       {
         "date": "2026-07-20",
         "price": 38820
+      },
+      {
+        "date": "2026-07-22",
+        "price": 39918
+      },
+      {
+        "date": "2026-07-31",
+        "price": 41125
+      },
+      {
+        "date": "2026-08-17",
+        "price": 40769
       }
     ],
     "powertrainVin": "prime",
@@ -297,28 +322,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42958,
-      "expected": 43387,
+      "marketValue": 40920,
+      "expected": 41738,
       "adjustments": {
-        "oneOwner": 0.01
+        "oneOwner": 0.01,
+        "franchise": 0.01
       },
-      "dealDelta": -4567,
-      "dealPct": -0.1053,
-      "rating": "great",
+      "dealDelta": -969,
+      "dealPct": -0.0232,
+      "rating": "fair",
       "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 15,
-        "priceDrop": {
-          "total": 702,
-          "pct": -0.0178,
-          "drops": 1
-        },
-        "negotiability": "high"
+        "listedDays": 10,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
       }
     },
     "trimSite": "XSE",
@@ -361,10 +382,240 @@
     "stock": "NLSTND082969",
     "trimSearch": "XSE",
     "powertrainSearch": "prime",
-    "sellerType": "independent",
+    "sellerType": "franchise",
     "plantCountry": "Japan",
     "plantCity": "Obu",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmfb3fv9nd101336",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2022,
+    "mileage": 31292,
+    "price": 42437,
+    "priceBasis": "listing",
+    "dealer": "Jim Hudson Lexus of Augusta",
+    "dealerId": "d_b96614db96fd18b8",
+    "distanceMi": 131,
+    "state": "GA",
+    "city": "Augusta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Black",
+    "vin": "JTMFB3FV9ND101336",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.augustalexus.com/inventory/used-2022-toyota-rav4-prime-awd-4d-sport-utility-jtmfb3fv9nd101336/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMFB3FV9ND101336&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMFB3FV9ND101336-1.jpg",
+    "photoCount": 35,
+    "baseMsrp": 43625,
+    "squishVin": "JTMFB3FVND",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-24",
+    "lastSeen": "2026-09-14",
+    "listedDays": 33,
+    "priceHistory": [
+      {
+        "date": "2026-08-24",
+        "price": 43244
+      },
+      {
+        "date": "2026-08-31",
+        "price": 42249
+      },
+      {
+        "date": "2026-09-07",
+        "price": 41226
+      },
+      {
+        "date": "2026-09-14",
+        "price": 42437
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.995,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantCity": "Obu",
+    "plantSource": "vpic",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 42286,
+      "expected": 42673,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -36.45
+      },
+      "dealDelta": -236,
+      "dealPct": -0.0055,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 33,
+        "cohortMedianDaysListed": 22,
+        "priceDrop": {
+          "total": 807,
+          "pct": -0.0187,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-24",
+    "trimSite": "XSE",
+    "powertrainSite": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "site",
+        "host": "augustalexus.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": 31292,
+        "price": null
+      },
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XSE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": 31292,
+        "price": 43746
+      },
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "sales",
+    "trimSearch": "XSE",
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmprmxse22000001",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Plug-in Hybrid",
+    "series": null,
+    "transmission": null,
+    "drivetrain": null,
+    "engine": null,
+    "year": 2022,
+    "mileage": 30000,
+    "price": 41000,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Toyota",
+    "dealerId": "GWIN",
+    "distanceMi": 2,
+    "state": "",
+    "city": null,
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Black",
+    "vin": "JTMPRMXSE22000001",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://gwinnett.example.com/used/JTMPRMXSE22000001",
+    "carfaxUrl": "https://carfax.com/JTMPRMXSE22000001",
+    "primaryImage": "https://img/JTMPRMXSE22000001.jpg",
+    "photoCount": 20,
+    "baseMsrp": null,
+    "squishVin": "JTMPRMXSE22",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-08-14",
+    "lastSeen": "2026-08-14",
+    "listedDays": 74,
+    "priceHistory": [
+      {
+        "date": "2026-08-14",
+        "price": 41000
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainConfidence": 0.35,
+    "powertrainVerifiedBy": "feed",
+    "powertrainFlagged": true,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "exitReason": "unseen"
   }
 ]

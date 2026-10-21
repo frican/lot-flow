@@ -1,5 +1,83 @@
 [
   {
+    "id": "api-jtmab3fv7rd179680",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 23158,
+    "price": 37157,
+    "priceBasis": "listing",
+    "dealer": "Mountain View Hyundai",
+    "dealerId": "d_371b09c68d3e05fe",
+    "distanceMi": 93,
+    "state": "GA",
+    "city": "Ringgold",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Black",
+    "vin": "JTMAB3FV7RD179680",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.mvhyundai.com/used-Ringgold-2024-Toyota-RAV4+Prime-SE-JTMAB3FV7RD179680",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FV7RD179680&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMAB3FV7RD179680-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 43690,
+    "squishVin": "JTMAB3FVRD",
+    "accidentCount": 1,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Multiple Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-09-28",
+    "lastSeen": "2026-10-19",
+    "listedDays": 27,
+    "priceHistory": [
+      {
+        "date": "2026-09-28",
+        "price": 39213
+      },
+      {
+        "date": "2026-10-05",
+        "price": 37952
+      },
+      {
+        "date": "2026-10-12",
+        "price": 37157
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
+  },
+  {
     "id": "api-jtmab3fv7rd195619",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -11,10 +89,10 @@
     "powertrainFeed": "prime",
     "year": 2024,
     "mileage": 26980,
-    "price": 36514,
+    "price": 36238,
     "priceBasis": "listing",
     "dealer": "Franklin Toyota",
-    "dealerId": "d_1f7c3f3767696119",
+    "dealerId": "d_f8656a24e265e6df",
     "distanceMi": 174,
     "state": "GA",
     "city": "Statesboro",
@@ -34,10 +112,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 25,
+    "lastSeen": "2026-08-17",
+    "listedDays": 8,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -58,6 +136,18 @@
       {
         "date": "2026-07-20",
         "price": 36514
+      },
+      {
+        "date": "2026-07-27",
+        "price": 35211
+      },
+      {
+        "date": "2026-08-03",
+        "price": 36064
+      },
+      {
+        "date": "2026-08-10",
+        "price": 36238
       }
     ],
     "powertrainConfidence": 0.995,
@@ -70,28 +160,28 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 39408,
-      "expected": 40141,
+      "marketValue": 36453,
+      "expected": 37126,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -55.800000000000004
       },
-      "dealDelta": -3627,
-      "dealPct": -0.0904,
-      "rating": "good",
+      "dealDelta": -888,
+      "dealPct": -0.0239,
+      "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
       "cohortN": 2,
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 25,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 8,
+        "cohortMedianDaysListed": 28,
         "priceDrop": {
-          "total": 474,
-          "pct": -0.0128,
-          "drops": 2
+          "total": 750,
+          "pct": -0.0203,
+          "drops": 3
         },
         "negotiability": "high"
       }
@@ -137,7 +227,8 @@
     "plantCountry": "Japan",
     "plantCity": "Nagakusa",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmab3fv8rd167988",
@@ -151,7 +242,7 @@
     "powertrainFeed": "prime",
     "year": 2024,
     "mileage": 21042,
-    "price": 43697,
+    "price": 37697,
     "priceBasis": "listing",
     "dealer": "Toyota of Knoxville",
     "dealerId": "d_99c8e2829be16ec9",
@@ -174,10 +265,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 27,
+    "lastSeen": "2026-08-10",
+    "listedDays": 48,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -198,6 +289,18 @@
       {
         "date": "2026-07-20",
         "price": 43697
+      },
+      {
+        "date": "2026-07-27",
+        "price": 38867
+      },
+      {
+        "date": "2026-08-03",
+        "price": 38397
+      },
+      {
+        "date": "2026-08-10",
+        "price": 37697
       }
     ],
     "powertrainConfidence": 0.984,
@@ -210,25 +313,30 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40803,
-      "expected": 41573,
+      "marketValue": 37482,
+      "expected": 38186,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -45.9
       },
-      "dealDelta": 2124,
-      "dealPct": 0.0511,
-      "rating": "high",
+      "dealDelta": -489,
+      "dealPct": -0.0128,
+      "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
       "cohortN": 2,
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "medium"
+        "listedDays": 48,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 5999,
+          "pct": -0.1373,
+          "drops": 5
+        },
+        "negotiability": "high"
       }
     },
     "powertrainVin": "prime",
@@ -280,7 +388,149 @@
     "plantCountry": "Japan",
     "plantCity": "Nagakusa",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmcb3fv6rd229056",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 25335,
+    "price": 37780,
+    "priceBasis": "listing",
+    "dealer": "Atlanta Toyota",
+    "dealerId": "d_502b8e552ef3fcf1",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Blue",
+    "interiorColor": "Black",
+    "vin": "JTMCB3FV6RD229056",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de20009e4b6afd5d56532ffc35ebcb15b7339b628aa04128380c8c1f4fc8e3f5285fd48f3b5dad449d1d9421b3b47819f5f93d3bad8cc325a27a6cacf5adee4c083fb7f16011f22412ebedeee38685f0721f74c31246e538ff42db94d2ceb09e6950fb15e40f90d9a2a0fa486f173a58cc4/?pl=82&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMCB3FV6RD229056&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMCB3FV6RD229056-1.jpg",
+    "photoCount": 35,
+    "baseMsrp": 43690,
+    "squishVin": "JTMCB3FVRD",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-07-22",
+    "lastSeen": "2026-07-27",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-07-22",
+        "price": 37780
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantCity": "Nagakusa",
+    "plantSource": "vpic",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
+  },
+  {
+    "id": "api-jtmeb3fv0rd166979",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 39973,
+    "price": 40642,
+    "priceBasis": "listing",
+    "dealer": "Limbaugh Toyota",
+    "dealerId": "d_598f2f4ab5b4aca8",
+    "distanceMi": 147,
+    "state": "AL",
+    "city": "Birmingham",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTMEB3FV0RD166979",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carfax.com/vehicle/JTMEB3FV0RD166979",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV0RD166979&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEB3FV0RD166979-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 47560,
+    "squishVin": "JTMEB3FVRD",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-31",
+    "lastSeen": "2026-10-19",
+    "listedDays": 53,
+    "priceHistory": [
+      {
+        "date": "2026-08-31",
+        "price": 40642
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   },
   {
     "id": "api-jtmeb3fv1rd175027",
@@ -293,15 +543,15 @@
     "powertrain": "prime",
     "powertrainFeed": "prime",
     "year": 2024,
-    "mileage": 15956,
-    "price": 44195,
+    "mileage": 15963,
+    "price": 43399,
     "priceBasis": "listing",
     "dealer": "John Roberts Toyota",
     "dealerId": "d_80e81fce1ae670ae",
     "distanceMi": 154,
     "state": "TN",
     "city": "Manchester",
-    "cpo": "unknown",
+    "cpo": "none",
     "exteriorColor": "Gray",
     "interiorColor": "Black",
     "vin": "JTMEB3FV1RD175027",
@@ -309,7 +559,7 @@
     "url": "https://www.johnrobertstoyota.com/used-Manchester-2024-Toyota-RAV4+Prime-XSE-JTMEB3FV1RD175027",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV1RD175027&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTMEB3FV1RD175027-1.jpg",
-    "photoCount": 1,
+    "photoCount": 40,
     "baseMsrp": 47560,
     "squishVin": "JTMEB3FVRD",
     "accidentCount": 0,
@@ -317,10 +567,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 16,
+    "lastSeen": "2026-08-03",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -337,6 +587,14 @@
       {
         "date": "2026-07-20",
         "price": 44195
+      },
+      {
+        "date": "2026-07-22",
+        "price": 43695
+      },
+      {
+        "date": "2026-08-03",
+        "price": 43399
       }
     ],
     "powertrainConfidence": 0.995,
@@ -349,16 +607,15 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46001,
-      "expected": 47334,
+      "marketValue": 45426,
+      "expected": 46288,
       "adjustments": {
         "oneOwner": 0.01,
-        "cpo": 0.01,
         "franchise": 0.01,
         "distance": -46.800000000000004
       },
-      "dealDelta": -3139,
-      "dealPct": -0.0663,
+      "dealDelta": -2889,
+      "dealPct": -0.0624,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -366,12 +623,12 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 16,
-        "cohortMedianDaysListed": 19,
+        "listedDays": 30,
+        "cohortMedianDaysListed": 33,
         "priceDrop": {
-          "total": 1250,
-          "pct": -0.0275,
-          "drops": 3
+          "total": 2046,
+          "pct": -0.045,
+          "drops": 5
         },
         "negotiability": "high"
       }
@@ -412,12 +669,13 @@
     "transmission": "Automatic",
     "drivetrain": "AWD",
     "engine": "2.5L 4Cyl regular unleaded",
-    "cpoFeed": true,
+    "cpoFeed": false,
     "sellerType": "franchise",
     "plantCountry": "Japan",
     "plantCity": "Nagakusa",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmeb3fv7rd232492",
@@ -433,10 +691,10 @@
     "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "2.5L 4Cyl Gasoline",
+    "engine": "2.5L 4Cyl regular unleaded",
     "year": 2024,
     "mileage": 11208,
-    "price": 47058,
+    "price": 46358,
     "priceBasis": "listing",
     "dealer": "Fox Toyota",
     "dealerId": "d_1dcaafb7c3b39790",
@@ -452,7 +710,7 @@
     "url": "https://foxtoyotaclinton.com/vehicle/JTMEB3FV7RD232492/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV7RD232492&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTMEB3FV7RD232492-1.jpg",
-    "photoCount": 16,
+    "photoCount": 1,
     "baseMsrp": 47560,
     "squishVin": "JTMEB3FVRD",
     "accidentCount": 0,
@@ -460,14 +718,22 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-06",
-    "lastSeen": "2026-07-20",
-    "listedDays": 19,
+    "lastSeen": "2026-08-03",
+    "listedDays": 33,
     "priceHistory": [
       {
         "date": "2026-07-06",
         "price": 47058
+      },
+      {
+        "date": "2026-07-22",
+        "price": 46758
+      },
+      {
+        "date": "2026-07-31",
+        "price": 46358
       }
     ],
     "powertrainVin": "prime",
@@ -482,15 +748,15 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 47058,
-      "expected": 48416,
+      "marketValue": 46358,
+      "expected": 47695,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01,
         "franchise": 0.01,
         "distance": -54.0
       },
-      "dealDelta": -1358,
+      "dealDelta": -1337,
       "dealPct": -0.028,
       "rating": "fair",
       "dealScore": 0.667,
@@ -499,9 +765,14 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 19,
-        "cohortMedianDaysListed": 19,
-        "negotiability": "medium"
+        "listedDays": 33,
+        "cohortMedianDaysListed": 33,
+        "priceDrop": {
+          "total": 700,
+          "pct": -0.0149,
+          "drops": 2
+        },
+        "negotiability": "high"
       }
     },
     "trimSite": "XSE",
@@ -535,7 +806,8 @@
     "plantCountry": "Japan",
     "plantCity": "Nagakusa",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmeb3fv8rd187384",
@@ -554,7 +826,7 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 32776,
-    "price": 44686,
+    "price": 42826,
     "priceBasis": "listing",
     "dealer": "World Toyota",
     "dealerId": "d_33da7bd3e2de089f",
@@ -577,10 +849,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-21",
-    "lastSeen": "2026-07-20",
-    "listedDays": 27,
+    "lastSeen": "2026-08-10",
+    "listedDays": 48,
     "priceHistory": [
       {
         "date": "2026-06-21",
@@ -597,6 +869,22 @@
       {
         "date": "2026-07-20",
         "price": 44686
+      },
+      {
+        "date": "2026-07-27",
+        "price": 43876
+      },
+      {
+        "date": "2026-07-31",
+        "price": 43341
+      },
+      {
+        "date": "2026-08-03",
+        "price": 42835
+      },
+      {
+        "date": "2026-08-10",
+        "price": 42826
       }
     ],
     "powertrainVin": "prime",
@@ -611,14 +899,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42255,
-      "expected": 43101,
+      "marketValue": 42132,
+      "expected": 42975,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": 1585,
-      "dealPct": 0.0368,
+      "dealDelta": -149,
+      "dealPct": -0.0035,
       "rating": "fair",
       "dealScore": 0.333,
       "basis": "pooled",
@@ -626,12 +914,12 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 19,
+        "listedDays": 48,
+        "cohortMedianDaysListed": 33,
         "priceDrop": {
-          "total": 483,
-          "pct": -0.0107,
-          "drops": 1
+          "total": 2343,
+          "pct": -0.0519,
+          "drops": 5
         },
         "negotiability": "high"
       }
@@ -691,6 +979,157 @@
     "plantCountry": "Japan",
     "plantCity": "Nagakusa",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmfb3fv3rd179973",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 20502,
+    "price": 42317,
+    "priceBasis": "listing",
+    "dealer": "AutoNation Toyota Newnan",
+    "dealerId": "d_24181d6ccecaac11",
+    "distanceMi": 33,
+    "state": "GA",
+    "city": "Newnan",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Black",
+    "vin": "JTMFB3FV3RD179973",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed. Relisted; back in feed.",
+    "url": "https://www.carfax.com/vehicle/JTMFB3FV3RD179973",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMFB3FV3RD179973&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMFB3FV3RD179973-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 47560,
+    "squishVin": "JTMFB3FVRD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-08-17",
+    "lastSeen": "2026-10-19",
+    "listedDays": 71,
+    "priceHistory": [
+      {
+        "date": "2026-08-17",
+        "price": 44964
+      },
+      {
+        "date": "2026-09-21",
+        "price": 43661
+      },
+      {
+        "date": "2026-10-19",
+        "price": 42317
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantCity": "Nagakusa",
+    "plantSource": "vpic",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
+  },
+  {
+    "id": "api-jtmfb3fvxrd220390",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 19462,
+    "price": 44489,
+    "priceBasis": "listing",
+    "dealer": "Lagrange Toyota",
+    "dealerId": "d_10e4f30ec0198123",
+    "distanceMi": 61,
+    "state": "GA",
+    "city": "Lagrange",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "JTMFB3FVXRD220390",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carfax.com/vehicle/JTMFB3FVXRD220390",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMFB3FVXRD220390&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMFB3FVXRD220390-1.jpg",
+    "photoCount": 40,
+    "baseMsrp": 47560,
+    "squishVin": "JTMFB3FVRD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-10-05",
+    "lastSeen": "2026-10-19",
+    "listedDays": 20,
+    "priceHistory": [
+      {
+        "date": "2026-10-05",
+        "price": 44489
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantCity": "Nagakusa",
+    "plantSource": "vpic",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
   }
 ]

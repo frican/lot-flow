@@ -40,10 +40,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-13",
-    "lastSeen": "2026-07-20",
-    "listedDays": 10,
+    "lastSeen": "2026-07-22",
+    "listedDays": 12,
     "priceHistory": [
       {
         "date": "2026-07-13",
@@ -62,23 +62,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34174,
-      "expected": 34467,
+      "marketValue": 33998,
+      "expected": 34289,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -49.050000000000004
       },
-      "dealDelta": -469,
-      "dealPct": -0.0136,
+      "dealDelta": -291,
+      "dealPct": -0.0085,
       "rating": "fair",
-      "dealScore": 1.0,
+      "dealScore": 0.667,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 10,
-        "cohortMedianDaysListed": 16,
+        "listedDays": 12,
+        "cohortMedianDaysListed": 22,
         "negotiability": "low"
       }
     },
@@ -114,6 +114,77 @@
     "plantCity": "Obu",
     "plantSource": "vpic",
     "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jtmab3fv5md048918",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2021,
+    "mileage": 89963,
+    "price": 24000,
+    "priceBasis": "listing",
+    "dealer": "BMVW Auto Sales",
+    "dealerId": "d_e6f10db2ef38fd13",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTMAB3FV5MD048918",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://bmvw.com/vdp/24338081/Used-2021-Toyota-RAV4-Prime-SE-Natl-for-sale-in-Union-City-GA-30291",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FV5MD048918&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMAB3FV5MD048918-1.jpg",
+    "photoCount": 24,
+    "baseMsrp": 38250,
+    "squishVin": "JTMAB3FVMD",
+    "accidentCount": 0,
+    "ownerCount": 4,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-10-05",
+    "lastSeen": "2026-10-05",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-10-05",
+        "price": 24000
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmab3fv8md064496",
@@ -171,20 +242,20 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24702,
-      "expected": 24702,
+      "marketValue": 27002,
+      "expected": 27002,
       "adjustments": {},
-      "dealDelta": 176,
-      "dealPct": 0.0071,
-      "rating": "fair",
-      "dealScore": 0.5,
+      "dealDelta": -2124,
+      "dealPct": -0.0787,
+      "rating": "good",
+      "dealScore": 1.0,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 16,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       }
     },
@@ -220,6 +291,128 @@
     "plantCity": "Obu",
     "plantSource": "vpic",
     "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jtmab3fv9md061008",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2021,
+    "mileage": 104311,
+    "price": 25380,
+    "priceBasis": "listing",
+    "dealer": "Paramount Kia of Asheville",
+    "dealerId": "d_5137ed5a0c11352b",
+    "distanceMi": 159,
+    "state": "NC",
+    "city": "Asheville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "JTMAB3FV9MD061008",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.paramountauto.com/viewdetails/used/jtmab3fv9md061008/2021-toyota-rav4-prime-sport-utility",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FV9MD061008&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMAB3FV9MD061008-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 38250,
+    "squishVin": "JTMAB3FVMD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-14",
+    "lastSeen": "2026-10-05",
+    "listedDays": 27,
+    "priceHistory": [
+      {
+        "date": "2026-09-14",
+        "price": 27497
+      },
+      {
+        "date": "2026-09-21",
+        "price": 27680
+      },
+      {
+        "date": "2026-09-28",
+        "price": 26880
+      },
+      {
+        "date": "2026-10-05",
+        "price": 25380
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24952,
+      "expected": 25153,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -49.050000000000004
+      },
+      "dealDelta": 227,
+      "dealPct": 0.009,
+      "rating": "fair",
+      "dealScore": 0.333,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 27,
+        "cohortMedianDaysListed": 22,
+        "priceDrop": {
+          "total": 2117,
+          "pct": -0.077,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-14",
+    "trimSite": "SE",
+    "powertrainSite": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "site",
+        "host": "paramountauto.com",
+        "trim": "SE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmeb3fv2md073017",
@@ -262,10 +455,10 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-13",
-    "lastSeen": "2026-07-20",
-    "listedDays": 18,
+    "lastSeen": "2026-08-03",
+    "listedDays": 32,
     "priceHistory": [
       {
         "date": "2026-07-13",
@@ -284,24 +477,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 33857,
-      "expected": 33290,
+      "marketValue": 33399,
+      "expected": 32839,
       "adjustments": {
         "owners": -0.015,
         "distance": -59.4
       },
-      "dealDelta": 109,
-      "dealPct": 0.0033,
+      "dealDelta": 560,
+      "dealPct": 0.0171,
       "rating": "fair",
-      "dealScore": 1.0,
+      "dealScore": 0.667,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 16,
-        "negotiability": "medium"
+        "listedDays": 32,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "high"
       }
     },
     "sellerType": "independent",
@@ -338,7 +531,123 @@
     "plantCountry": "Japan",
     "plantCity": "Obu",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmeb3fvxmd010604",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2021,
+    "mileage": 72669,
+    "price": 33290,
+    "priceBasis": "listing",
+    "dealer": "Toyota of Greenville",
+    "dealerId": "d_393e4edc73d3377a",
+    "distanceMi": 137,
+    "state": "SC",
+    "city": "Greenville",
+    "cpo": "manufacturer",
+    "cpoFeed": false,
+    "exteriorColor": "Blizzard Pearl",
+    "interiorColor": "Black",
+    "vin": "JTMEB3FVXMD010604",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://toyotaofgreenville.com/certified/Toyota/2021-Toyota-RAV4-Prime-in-Greenville-37f417a6ac181975138eb8c151eff309.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FVXMD010604&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEB3FVXMD010604-1.jpg",
+    "photoCount": 46,
+    "baseMsrp": 41575,
+    "squishVin": "JTMEB3FVMD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-07",
+    "lastSeen": "2026-09-07",
+    "listedDays": 12,
+    "priceHistory": [
+      {
+        "date": "2026-09-07",
+        "price": 33290
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 33376,
+      "expected": 35005,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.03,
+        "franchise": 0.01,
+        "distance": -39.15
+      },
+      "dealDelta": -1715,
+      "dealPct": -0.049,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 12,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "low"
+      }
+    },
+    "trimSite": "XSE",
+    "powertrainSite": "prime",
+    "cpoSite": "manufacturer",
+    "verifyLog": [
+      {
+        "date": "2026-09-07",
+        "how": "stored",
+        "tier": "site",
+        "host": "toyotaofgreenville.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "jsonld",
+        "mileage": 72669,
+        "price": 32891
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Heated Seats",
+      "Moonroof",
+      "Power Liftgate",
+      "Weather Package"
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmfb3fv7md049381",
@@ -403,24 +712,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 36699,
-      "expected": 34864,
+      "marketValue": 35899,
+      "expected": 34104,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01
       },
-      "dealDelta": 2293,
-      "dealPct": 0.0658,
+      "dealDelta": 3053,
+      "dealPct": 0.0895,
       "rating": "high",
-      "dealScore": 0.5,
+      "dealScore": 0.333,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
         "listedDays": 14,
-        "cohortMedianDaysListed": 16,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       }
     },
@@ -510,7 +819,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-20",
     "lastSeen": "2026-07-20",
     "listedDays": 6,

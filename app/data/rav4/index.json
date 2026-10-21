@@ -1,141 +1,141 @@
 {
-  "generatedAt": "2026-07-20",
-  "total": 2417,
-  "cohortReady": 1604,
-  "flagged": 813,
+  "generatedAt": "2026-10-19",
+  "total": 5544,
+  "cohortReady": 2733,
+  "flagged": 2811,
   "shards": [
     {
       "shard": "2019-gas",
       "file": "listings/2019-gas.json",
-      "count": 165,
-      "cohortReady": 118,
-      "gone": 68
+      "count": 383,
+      "cohortReady": 283,
+      "gone": 293
     },
     {
       "shard": "2019-hybrid",
       "file": "listings/2019-hybrid.json",
-      "count": 15,
-      "cohortReady": 13,
-      "gone": 6
+      "count": 40,
+      "cohortReady": 34,
+      "gone": 35
     },
     {
       "shard": "2020-gas",
       "file": "listings/2020-gas.json",
-      "count": 122,
-      "cohortReady": 97,
-      "gone": 51
+      "count": 266,
+      "cohortReady": 217,
+      "gone": 210
     },
     {
       "shard": "2020-hybrid",
       "file": "listings/2020-hybrid.json",
-      "count": 24,
-      "cohortReady": 20,
-      "gone": 12
+      "count": 51,
+      "cohortReady": 43,
+      "gone": 40
     },
     {
       "shard": "2021-gas",
       "file": "listings/2021-gas.json",
-      "count": 232,
-      "cohortReady": 177,
-      "gone": 98
+      "count": 512,
+      "cohortReady": 393,
+      "gone": 372
     },
     {
       "shard": "2021-hybrid",
       "file": "listings/2021-hybrid.json",
-      "count": 71,
-      "cohortReady": 60,
-      "gone": 22
+      "count": 132,
+      "cohortReady": 117,
+      "gone": 96
     },
     {
       "shard": "2021-prime",
       "file": "listings/2021-prime.json",
-      "count": 5,
-      "cohortReady": 4,
-      "gone": 2
+      "count": 8,
+      "cohortReady": 6,
+      "gone": 8
     },
     {
       "shard": "2022-gas",
       "file": "listings/2022-gas.json",
-      "count": 150,
-      "cohortReady": 113,
-      "gone": 56
+      "count": 351,
+      "cohortReady": 269,
+      "gone": 238
     },
     {
       "shard": "2022-hybrid",
       "file": "listings/2022-hybrid.json",
-      "count": 94,
-      "cohortReady": 78,
-      "gone": 30
+      "count": 160,
+      "cohortReady": 131,
+      "gone": 130
     },
     {
       "shard": "2022-prime",
       "file": "listings/2022-prime.json",
-      "count": 3,
-      "cohortReady": 2,
-      "gone": 0
+      "count": 5,
+      "cohortReady": 3,
+      "gone": 5
     },
     {
       "shard": "2023-gas",
       "file": "listings/2023-gas.json",
-      "count": 249,
-      "cohortReady": 168,
-      "gone": 107
+      "count": 575,
+      "cohortReady": 402,
+      "gone": 427
     },
     {
       "shard": "2023-hybrid",
       "file": "listings/2023-hybrid.json",
-      "count": 92,
-      "cohortReady": 61,
-      "gone": 26
+      "count": 194,
+      "cohortReady": 118,
+      "gone": 155
     },
     {
       "shard": "2023-prime",
       "file": "listings/2023-prime.json",
-      "count": 2,
-      "cohortReady": 1,
-      "gone": 0
+      "count": 4,
+      "cohortReady": 2,
+      "gone": 4
     },
     {
       "shard": "2024-gas",
       "file": "listings/2024-gas.json",
-      "count": 443,
-      "cohortReady": 278,
-      "gone": 181
+      "count": 929,
+      "cohortReady": 301,
+      "gone": 661
     },
     {
       "shard": "2024-hybrid",
       "file": "listings/2024-hybrid.json",
-      "count": 155,
+      "count": 311,
       "cohortReady": 94,
-      "gone": 53
+      "gone": 232
     },
     {
       "shard": "2024-prime",
       "file": "listings/2024-prime.json",
-      "count": 5,
+      "count": 10,
       "cohortReady": 5,
-      "gone": 0
+      "gone": 6
     },
     {
       "shard": "2025-gas",
       "file": "listings/2025-gas.json",
-      "count": 446,
+      "count": 1292,
       "cohortReady": 231,
-      "gone": 184
+      "gone": 774
     },
     {
       "shard": "2025-hybrid",
       "file": "listings/2025-hybrid.json",
-      "count": 136,
+      "count": 304,
       "cohortReady": 79,
-      "gone": 54
+      "gone": 218
     },
     {
       "shard": "2025-prime",
       "file": "listings/2025-prime.json",
-      "count": 8,
+      "count": 17,
       "cohortReady": 5,
-      "gone": 1
+      "gone": 13
     }
   ]
 }
