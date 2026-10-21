@@ -85,6 +85,12 @@ a:hover { text-decoration: underline; }
   background: var(--accent); color: var(--accent-ink);
 }
 .nav-cta:hover { text-decoration: none; filter: brightness(1.05); }
+.nav-ctas { display: flex; gap: var(--s2); }
+.nav-cta { white-space: nowrap; }
+@media (max-width: 480px) {
+  .nav-ctas { gap: var(--s1); }
+  .nav-cta { padding: var(--s2) var(--s3); }
+}
 
 /* ---- sections ---- */
 section { padding: var(--s8) 0; }
@@ -222,6 +228,13 @@ h2 { font-size: var(--t-2xl); margin-bottom: var(--s3); }
   box-shadow: var(--shadow);
 }
 .cta-big:hover { text-decoration: none; filter: brightness(1.05); }
+.cta-row { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s3); }
+/* Secondary CTA (EV demo, added 2026-10-21): same shape, outlined so the primary demo reads first.
+   Declared after .nav-cta/.cta-big so it wins on equal specificity. */
+.nav-cta.nav-cta-alt, .cta-big.cta-big-alt {
+  background: transparent; color: var(--accent);
+  box-shadow: none; outline: 1px solid var(--accent); outline-offset: -1px;
+}
 .cta-secondary {
   display: inline-block; margin-top: var(--s4); font-weight: 600;
   padding: var(--s3) var(--s5); border-radius: var(--r2);
