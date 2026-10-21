@@ -2,88 +2,88 @@
   "region": "Metro Atlanta",
   "metroMi": 50,
   "totals": {
-    "listings": 2617,
-    "live": 1596,
-    "scored": 1760,
-    "cohortReady": 1762
+    "listings": 6024,
+    "live": 1743,
+    "scored": 3141,
+    "cohortReady": 3141
   },
   "metro": {
-    "liveCount": 571,
-    "aggregateMispricing": 412867,
-    "medianLotMoneyOnTable": 5908,
-    "dealersScored": 15,
-    "medianListedDays": 16
+    "liveCount": 659,
+    "aggregateMispricing": 279971,
+    "medianLotMoneyOnTable": 7240,
+    "dealersScored": 11,
+    "medianListedDays": 31
   },
-  "generatedAt": "2026-07-21",
+  "generatedAt": "2026-10-21",
   "vignettes": {
     "profit": [
       {
         "year": 2024,
         "trim": "Limited",
         "powertrain": "gas",
-        "underBy": 8400,
+        "underBy": 8600,
         "daysToGone": 1
       },
       {
         "year": 2023,
         "trim": "LE",
         "powertrain": "gas",
-        "underBy": 4900,
+        "underBy": 5400,
         "daysToGone": 3
       }
     ],
     "aging": [
       {
-        "year": 2020,
-        "trim": "Limited",
+        "year": 2023,
+        "trim": "XLE",
         "powertrain": "gas",
-        "listedDays": 25,
-        "cuts": 3,
-        "markdownTotal": 3100,
-        "stillOverBy": 2200,
+        "listedDays": 64,
+        "cuts": 4,
+        "markdownTotal": 6000,
+        "stillOverBy": 2900,
         "dropSeries": [
           {
             "day": 0,
-            "price": 35000
+            "price": 33200
           },
           {
-            "day": 10,
-            "price": 34000
+            "day": 21,
+            "price": 31800
           },
           {
-            "day": 17,
-            "price": 33000
+            "day": 35,
+            "price": 29100
           },
           {
-            "day": 24,
-            "price": 31900
+            "day": 49,
+            "price": 27200
+          },
+          {
+            "day": 56,
+            "price": 27200
           }
         ]
       },
       {
-        "year": 2025,
-        "trim": "XLE Premium",
+        "year": 2020,
+        "trim": "Limited",
         "powertrain": "gas",
-        "listedDays": 27,
-        "cuts": 3,
-        "markdownTotal": 3000,
-        "stillOverBy": 1800,
+        "listedDays": 29,
+        "cuts": 2,
+        "markdownTotal": 5400,
+        "stillOverBy": 2100,
         "dropSeries": [
           {
             "day": 0,
-            "price": 43000
+            "price": 35400
           },
           {
-            "day": 17,
-            "price": 42000
+            "day": 14,
+            "price": 31400
           },
           {
-            "day": 24,
-            "price": 41000
-          },
-          {
-            "day": 31,
-            "price": 40000
+            "day": 28,
+            "price": 30000
           }
         ]
       }

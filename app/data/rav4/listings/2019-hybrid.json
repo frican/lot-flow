@@ -1,5 +1,395 @@
 [
   {
+    "id": "api-2t3dwrfv0kw040679",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 150800,
+    "price": 18988,
+    "priceBasis": "listing",
+    "dealer": "Five Star Auto",
+    "dealerId": "d_9762e7826ec9711e",
+    "distanceMi": 142,
+    "state": "TN",
+    "city": "Maryville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "2T3DWRFV0KW040679",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-rav4+hybrid#vin=2T3DWRFV0KW040679",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3DWRFV0KW040679&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3DWRFV0KW040679-1.jpg",
+    "photoCount": 27,
+    "baseMsrp": 35850,
+    "squishVin": "2T3DWRFVKW",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-08-24",
+    "listedDays": 15,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 19488
+      },
+      {
+        "date": "2026-08-10",
+        "price": 18988
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.955,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 18790,
+      "expected": 18467,
+      "adjustments": {
+        "owners": -0.015,
+        "distance": -41.4
+      },
+      "dealDelta": 521,
+      "dealPct": 0.0282,
+      "rating": "fair",
+      "dealScore": 0.4,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 15,
+        "cohortMedianDaysListed": 16,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.0257,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-07-27",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 150800,
+        "price": 19488
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 150800,
+        "price": 19488
+      }
+    ],
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-2t3dwrfv4kw034531",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 102790,
+    "price": 23799,
+    "priceBasis": "listing",
+    "dealer": "Subaru of Gwinnett-Atlanta",
+    "dealerId": "d_6a7e2f72a1f793fa",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "2T3DWRFV4KW034531",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.subaruofgwinnett.com/viewdetails/used/2t3dwrfv4kw034531/2019-toyota-rav4-hybrid-suv",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3DWRFV4KW034531&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3DWRFV4KW034531-1.jpg",
+    "photoCount": 42,
+    "baseMsrp": 35850,
+    "squishVin": "2T3DWRFVKW",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-10",
+    "lastSeen": "2026-09-14",
+    "listedDays": 36,
+    "priceHistory": [
+      {
+        "date": "2026-08-10",
+        "price": 25299
+      },
+      {
+        "date": "2026-08-17",
+        "price": 25000
+      },
+      {
+        "date": "2026-08-24",
+        "price": 24299
+      },
+      {
+        "date": "2026-08-31",
+        "price": 25500
+      },
+      {
+        "date": "2026-09-14",
+        "price": 23799
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.995,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24840,
+      "expected": 24467,
+      "adjustments": {
+        "owners": -0.015
+      },
+      "dealDelta": -668,
+      "dealPct": -0.0273,
+      "rating": "fair",
+      "dealScore": 0.8,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 36,
+        "cohortMedianDaysListed": 16,
+        "priceDrop": {
+          "total": 1500,
+          "pct": -0.0593,
+          "drops": 3
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-10",
+    "trimSite": "Limited",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "site",
+        "host": "subaruofgwinnett.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 102790,
+        "price": null
+      },
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "S56477A",
+    "trimSearch": "Limited",
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-2t3dwrfv6kw027368",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 87646,
+    "price": 27898,
+    "priceBasis": "listing",
+    "dealer": "Bryan Easler Toyota",
+    "dealerId": "d_6e34c872a7ecd815",
+    "distanceMi": 153,
+    "state": "NC",
+    "city": "Hendersonville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Gray",
+    "vin": "2T3DWRFV6KW027368",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-rav4+hybrid#vin=2T3DWRFV6KW027368",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3DWRFV6KW027368&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3DWRFV6KW027368-1.jpg",
+    "photoCount": 32,
+    "baseMsrp": 35850,
+    "squishVin": "2T3DWRFVKW",
+    "accidentCount": 1,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-10",
+    "lastSeen": "2026-09-21",
+    "listedDays": 43,
+    "priceHistory": [
+      {
+        "date": "2026-08-10",
+        "price": 27898
+      },
+      {
+        "date": "2026-08-24",
+        "price": 27399
+      },
+      {
+        "date": "2026-09-21",
+        "price": 27898
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 26748,
+      "expected": 24696,
+      "adjustments": {
+        "accidents": -0.07,
+        "owners": -0.015,
+        "franchise": 0.01,
+        "distance": -46.35
+      },
+      "dealDelta": 3202,
+      "dealPct": 0.1297,
+      "rating": "overpriced",
+      "dealScore": 0.2,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 43,
+        "cohortMedianDaysListed": 16,
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-10",
+    "trimSearch": "Limited",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "search",
+        "host": "everycarlisted.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "search",
+        "host": "autofind.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
     "id": "api-2t3dwrfv7kw021238",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -62,25 +452,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26309,
-      "expected": 24971,
+      "marketValue": 25857,
+      "expected": 24541,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -23.400000000000002
       },
-      "dealDelta": 5450,
-      "dealPct": 0.2183,
+      "dealDelta": 5880,
+      "dealPct": 0.2396,
       "rating": "overpriced",
-      "dealScore": 0.25,
-      "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
-      "ratingConfident": false,
+      "dealScore": 0.1,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 8,
-        "cohortMedianDaysListed": 7,
+        "cohortMedianDaysListed": 16,
         "negotiability": "low"
       }
     },
@@ -120,6 +510,127 @@
     "urlOrigin": "stored"
   },
   {
+    "id": "api-2t3ewrfv4kw035912",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 98792,
+    "price": 27398,
+    "priceBasis": "listing",
+    "dealer": "Bryan Easler Toyota",
+    "dealerId": "d_6e34c872a7ecd815",
+    "distanceMi": 153,
+    "state": "NC",
+    "city": "Hendersonville",
+    "cpo": "dealer",
+    "cpoFeed": false,
+    "exteriorColor": "Silver Sky Metallic w Black Roof",
+    "interiorColor": "Black",
+    "vin": "2T3EWRFV4KW035912",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://bryaneaslertoyota.com/used/Toyota/2019-Toyota-RAV4-b0e378cbac181ee57e33348bdb88a0ad.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3EWRFV4KW035912&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3EWRFV4KW035912-1.jpg",
+    "photoCount": 32,
+    "baseMsrp": 33850,
+    "squishVin": "2T3EWRFVKW",
+    "accidentCount": 0,
+    "ownerCount": 3,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-07",
+    "lastSeen": "2026-09-28",
+    "listedDays": 36,
+    "priceHistory": [
+      {
+        "date": "2026-09-07",
+        "price": 26999
+      },
+      {
+        "date": "2026-09-21",
+        "price": 27398
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24948,
+      "expected": 24652,
+      "adjustments": {
+        "owners": -0.03,
+        "cpo": 0.01,
+        "franchise": 0.01,
+        "distance": -46.35
+      },
+      "dealDelta": 2746,
+      "dealPct": 0.1114,
+      "rating": "overpriced",
+      "dealScore": 0.286,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 36,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "medium"
+      }
+    },
+    "trimSite": "XSE",
+    "powertrainSite": "hybrid",
+    "cpoSite": "dealer",
+    "verifyLog": [
+      {
+        "date": "2026-09-07",
+        "how": "stored",
+        "tier": "site",
+        "host": "bryaneaslertoyota.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "jsonld",
+        "mileage": 98792,
+        "price": 26999
+      }
+    ],
+    "options": [
+      "360 Camera",
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Heated Seats",
+      "Heated Steering Wheel",
+      "Moonroof",
+      "Power Liftgate",
+      "Weather Package"
+    ],
+    "exitReason": "unseen"
+  },
+  {
     "id": "api-2t3ewrfv7kw035497",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -130,8 +641,8 @@
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
     "year": 2019,
-    "mileage": 30696,
-    "price": 33888,
+    "mileage": 31887,
+    "price": 29979,
     "priceBasis": "listing",
     "dealer": "Countryside Chevrolet",
     "dealerId": "d_15bf58dfd1711dab",
@@ -154,10 +665,10 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 27,
+    "lastSeen": "2026-08-17",
+    "listedDays": 8,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -174,6 +685,18 @@
       {
         "date": "2026-07-20",
         "price": 33888
+      },
+      {
+        "date": "2026-07-27",
+        "price": 31162
+      },
+      {
+        "date": "2026-07-31",
+        "price": 30894
+      },
+      {
+        "date": "2026-08-17",
+        "price": 29979
       }
     ],
     "powertrainConfidence": 0.984,
@@ -186,25 +709,30 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34101,
-      "expected": 30661,
+      "marketValue": 30596,
+      "expected": 27507,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.03,
         "distance": -29.7
       },
-      "dealDelta": 3227,
-      "dealPct": 0.1052,
-      "rating": "overpriced",
-      "dealScore": 0.167,
+      "dealDelta": 2472,
+      "dealPct": 0.0899,
+      "rating": "high",
+      "dealScore": 0.357,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 20,
-        "negotiability": "medium"
+        "listedDays": 8,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 1115,
+          "pct": -0.0359,
+          "drops": 5
+        },
+        "negotiability": "high"
       }
     },
     "powertrainVin": "hybrid",
@@ -256,7 +784,514 @@
     "plantCountry": "Canada",
     "plantCity": "Woodstock",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-2t3ewrfv9kw008785",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 63101,
+    "price": 27999,
+    "priceBasis": "listing",
+    "dealer": "Kia of LaGrange",
+    "dealerId": "d_aa8f6b72e9f883dd",
+    "distanceMi": 61,
+    "state": "GA",
+    "city": "Lagrange",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Unspecified",
+    "vin": "2T3EWRFV9KW008785",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de2cd0a3daea1c33b0d62b28556ae9ded86910f73bd26e12b2de0a464e6e2af4041ad9a04a2a2539b462cac688d6ad7c9431a015077c28df814c6ae254e205e6b8afb7f16011f22412ebedeee38685f0721f74c31246e538ff42db94d2ceb09e6950fb15e40f90d9a2a0fa486f173a58cc4/?pl=42&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3EWRFV9KW008785&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3EWRFV9KW008785-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 33850,
+    "squishVin": "2T3EWRFVKW",
+    "accidentCount": 1,
+    "ownerCount": 3,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-22",
+    "lastSeen": "2026-09-14",
+    "listedDays": 30,
+    "priceHistory": [
+      {
+        "date": "2026-07-22",
+        "price": 28000
+      },
+      {
+        "date": "2026-08-10",
+        "price": 27999
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 27961,
+      "expected": 25160,
+      "adjustments": {
+        "accidents": -0.07,
+        "owners": -0.03,
+        "distance": -4.95
+      },
+      "dealDelta": 2839,
+      "dealPct": 0.1128,
+      "rating": "overpriced",
+      "dealScore": 0.214,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 30,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 1,
+          "pct": -0.0,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-17",
+    "trimSearch": "XSE",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-17",
+        "how": "search",
+        "tier": "search",
+        "host": "kiaofauburn.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-17",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-17",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-2t3ewrfv9kw024999",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 132626,
+    "price": 20298,
+    "priceBasis": "listing",
+    "dealer": "Wade Ford",
+    "dealerId": "d_48862a787c39f9d1",
+    "distanceMi": 14,
+    "state": "GA",
+    "city": "Smyrna",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "2T3EWRFV9KW024999",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-rav4+hybrid#vin=2T3EWRFV9KW024999",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3EWRFV9KW024999&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3EWRFV9KW024999-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 33850,
+    "squishVin": "2T3EWRFVKW",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-22",
+    "lastSeen": "2026-09-07",
+    "listedDays": 29,
+    "priceHistory": [
+      {
+        "date": "2026-07-22",
+        "price": 22500
+      },
+      {
+        "date": "2026-07-27",
+        "price": 23798
+      },
+      {
+        "date": "2026-07-31",
+        "price": 23298
+      },
+      {
+        "date": "2026-08-10",
+        "price": 22798
+      },
+      {
+        "date": "2026-08-17",
+        "price": 21798
+      },
+      {
+        "date": "2026-08-24",
+        "price": 21298
+      },
+      {
+        "date": "2026-08-31",
+        "price": 20898
+      },
+      {
+        "date": "2026-09-07",
+        "price": 20298
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.955,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 22092,
+      "expected": 20766,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": -468,
+      "dealPct": -0.0225,
+      "rating": "fair",
+      "dealScore": 0.786,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 29,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 2202,
+          "pct": -0.0979,
+          "drops": 6
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-07-27",
+    "trimSearch": "XSE",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XSE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "lithia.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": 22500
+      }
+    ],
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-2t3ewrfv9kw034013",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2019,
+    "mileage": 98345,
+    "price": 24948,
+    "priceBasis": "listing",
+    "dealer": "Hennessy Ford Lincoln Atlanta",
+    "dealerId": "d_624d9dda2b39dbd9",
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Black",
+    "vin": "2T3EWRFV9KW034013",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de2dc19a6ec5a0bd4c3669f645c2d38683a2d3b208231f7c7001ef5c4cba086dea545dde1b56cb4bbcea229ffe39d59caf6c9571c32000db986f8e052b1a663c059de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=88&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3EWRFV9KW034013&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3EWRFV9KW034013-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 33850,
+    "squishVin": "2T3EWRFVKW",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-31",
+    "lastSeen": "2026-08-03",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-07-31",
+        "price": 24948
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.955,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24986,
+      "expected": 24986,
+      "adjustments": {},
+      "dealDelta": -38,
+      "dealPct": -0.0015,
+      "rating": "fair",
+      "dealScore": 0.714,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "XSE",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XSE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 98345,
+        "price": 25963
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-2t3mwrfv2kw039341",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 164877,
+    "price": 17655,
+    "priceBasis": "listing",
+    "dealer": "Ted Russell Ford Lincoln",
+    "dealerId": "d_868b90448e1e7ee9",
+    "distanceMi": 153,
+    "state": "TN",
+    "city": "Knoxville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "2T3MWRFV2KW039341",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://www.tedrussellford.net/inventory/used-2019-toyota-rav4-hybrid-le-awd-4-door-suv-2t3mwrfv2kw039341/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3MWRFV2KW039341&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3MWRFV2KW039341-1.jpg",
+    "photoCount": 10,
+    "baseMsrp": 27850,
+    "squishVin": "2T3MWRFVKW",
+    "accidentCount": 1,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Multiple Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-10",
+    "lastSeen": "2026-08-10",
+    "listedDays": 8,
+    "priceHistory": [
+      {
+        "date": "2026-08-10",
+        "price": 17655
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 15929,
+      "expected": 14528,
+      "adjustments": {
+        "accidents": -0.07,
+        "owners": -0.015,
+        "distance": -46.35
+      },
+      "dealDelta": 3127,
+      "dealPct": 0.2152,
+      "rating": "overpriced",
+      "dealScore": 0.25,
+      "basis": "pooled",
+      "cohortN": 4,
+      "confidence": 0.4,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 8,
+        "cohortMedianDaysListed": 19,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-08-10",
+    "trimSite": "LE",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "site",
+        "host": "tedrussellford.net",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 164,
+        "price": null
+      }
+    ],
+    "stock": "Engine",
+    "exitReason": "unseen"
   },
   {
     "id": "api-2t3mwrfv6kw034143",
@@ -313,23 +1348,23 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22625,
-      "expected": 20702,
+      "marketValue": 23765,
+      "expected": 21745,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.015
       },
-      "dealDelta": 288,
-      "dealPct": 0.0139,
+      "dealDelta": -755,
+      "dealPct": -0.0347,
       "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "dealScore": 0.75,
+      "basis": "pooled",
+      "cohortN": 4,
+      "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
         "listedDays": 18,
-        "cohortMedianDaysListed": 18,
+        "cohortMedianDaysListed": 19,
         "negotiability": "medium"
       }
     },
@@ -478,6 +1513,341 @@
     "urlOrigin": "stored"
   },
   {
+    "id": "api-2t3rwrfv2kw031889",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "XLE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 80030,
+    "price": 26090,
+    "priceBasis": "listing",
+    "dealer": "Nalley Toyota Roswell",
+    "dealerId": "d_3136e50c4a760125",
+    "distanceMi": 23,
+    "state": "GA",
+    "city": "Smyrna",
+    "cpo": "manufacturer",
+    "cpoFeed": false,
+    "exteriorColor": "Super White",
+    "interiorColor": "Nutmeg",
+    "vin": "2T3RWRFV2KW031889",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://nalleylexussmyrna.com/used/Toyota/2019-Toyota-RAV4-69eff48eac184d75e32c2e103e264313.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3RWRFV2KW031889&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3RWRFV2KW031889-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 29650,
+    "squishVin": "2T3RWRFVKW",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Multiple Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-07",
+    "lastSeen": "2026-09-21",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-09-07",
+        "price": 25315
+      },
+      {
+        "date": "2026-09-14",
+        "price": 25130
+      },
+      {
+        "date": "2026-09-21",
+        "price": 26090
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 25670,
+      "expected": 26311,
+      "adjustments": {
+        "owners": -0.015,
+        "cpo": 0.03,
+        "franchise": 0.01
+      },
+      "dealDelta": -221,
+      "dealPct": -0.0084,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 17,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "medium"
+      }
+    },
+    "trimSite": "XLE",
+    "powertrainSite": "hybrid",
+    "cpoSite": "manufacturer",
+    "verifyLog": [
+      {
+        "date": "2026-09-07",
+        "how": "stored",
+        "tier": "site",
+        "host": "nalleylexussmyrna.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "jsonld",
+        "mileage": 80030,
+        "price": 26413
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Convenience Package",
+      "Moonroof"
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-2t3rwrfv5kw022880",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "XLE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2019,
+    "mileage": 63268,
+    "price": 25888,
+    "priceBasis": "listing",
+    "dealer": "Parkside Kia",
+    "dealerId": "d_1bb48f915ab84088",
+    "distanceMi": 152,
+    "state": "TN",
+    "city": "Knoxville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "2T3RWRFV5KW022880",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de2badb4abefbb6d8a406e0226123af807c887c1de72ee2eb378bd0fb5b9e4fe93bd307ec1055412177dee3bfe12722ca5f32fbc8f17f0542595ccb550fab93f2dcfb7f16011f22412ebedeee38685f0721f74c31246e538ff42db94d2ceb09e6950fb15e40f90d9a2a0fa486f173a58cc4/?pl=13&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=2T3RWRFV5KW022880&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/2T3RWRFV5KW022880-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 29650,
+    "squishVin": "2T3RWRFVKW",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-08-03",
+    "listedDays": 11,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 25889
+      },
+      {
+        "date": "2026-08-03",
+        "price": 25888
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Canada",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 27574,
+      "expected": 27114,
+      "adjustments": {
+        "owners": -0.015,
+        "distance": -45.9
+      },
+      "dealDelta": -1226,
+      "dealPct": -0.0452,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 11,
+        "cohortMedianDaysListed": 14,
+        "priceDrop": {
+          "total": 1,
+          "pct": -0.0,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-07-27",
+    "trimSearch": "XLE",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "fordlincolnofcookeville.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 63268,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmdwrfv0kd009655",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 112680,
+    "price": 24698,
+    "priceBasis": "listing",
+    "dealer": "Bryan Easler Toyota",
+    "dealerId": "d_6e34c872a7ecd815",
+    "distanceMi": 153,
+    "state": "NC",
+    "city": "Hendersonville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Black",
+    "vin": "JTMDWRFV0KD009655",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carfax.com/vehicle/JTMDWRFV0KD009655",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMDWRFV0KD009655&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMDWRFV0KD009655-1.jpg",
+    "photoCount": 32,
+    "baseMsrp": 35850,
+    "squishVin": "JTMDWRFVKD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-10-05",
+    "lastSeen": "2026-10-19",
+    "listedDays": 18,
+    "priceHistory": [
+      {
+        "date": "2026-10-05",
+        "price": 27644
+      },
+      {
+        "date": "2026-10-19",
+        "price": 24698
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.955,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-10-12",
+    "trimSearch": "Limited",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-jtmdwrfv1kd005999",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -512,10 +1882,10 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 16,
+    "lastSeen": "2026-08-03",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -540,20 +1910,20 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23034,
-      "expected": 23034,
+      "marketValue": 23542,
+      "expected": 23542,
       "adjustments": {},
-      "dealDelta": 415,
-      "dealPct": 0.018,
+      "dealDelta": -93,
+      "dealPct": -0.004,
       "rating": "fair",
-      "dealScore": 0.75,
-      "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
-      "ratingConfident": false,
+      "dealScore": 0.7,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 16,
-        "cohortMedianDaysListed": 7,
+        "listedDays": 30,
+        "cohortMedianDaysListed": 16,
         "negotiability": "high"
       }
     },
@@ -615,7 +1985,115 @@
     "plantCountry": "Japan",
     "plantCity": "Obu",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmdwrfv2kd510871",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2019,
+    "mileage": 69382,
+    "price": 27846,
+    "priceBasis": "listing",
+    "dealer": "Hoover Toyota",
+    "dealerId": "d_7a55a60831e44fa0",
+    "distanceMi": 146,
+    "state": "AL",
+    "city": "Birmingham",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTMDWRFV2KD510871",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hoovertoyota.com/inventory/used-2019-toyota-rav4-hybrid-limited-awd-4d-sport-utility-jtmdwrfv2kd510871/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMDWRFV2KD510871&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMDWRFV2KD510871-1.jpg",
+    "photoCount": 9,
+    "baseMsrp": 35850,
+    "squishVin": "JTMDWRFVKD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-08-03",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 27846
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 29050,
+      "expected": 29588,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "franchise": 0.01,
+        "distance": -43.2
+      },
+      "dealDelta": -1742,
+      "dealPct": -0.0589,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 3,
+        "cohortMedianDaysListed": 16,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSite": "Limited",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "site",
+        "host": "hoovertoyota.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 69382,
+        "price": null
+      }
+    ],
+    "stock": "Black",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmdwrfv4kd011019",
@@ -672,23 +2150,23 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22012,
-      "expected": 20692,
+      "marketValue": 22821,
+      "expected": 21451,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 905,
-      "dealPct": 0.0438,
+      "dealDelta": 146,
+      "dealPct": 0.0068,
       "rating": "fair",
       "dealScore": 0.5,
-      "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
-      "ratingConfident": false,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 6,
-        "cohortMedianDaysListed": 7,
+        "cohortMedianDaysListed": 16,
         "negotiability": "low"
       }
     },
@@ -798,23 +2276,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25507,
-      "expected": 24440,
+      "marketValue": 25290,
+      "expected": 24232,
       "adjustments": {
         "owners": -0.04,
         "distance": -46.35
       },
-      "dealDelta": -1941,
-      "dealPct": -0.0794,
+      "dealDelta": -1733,
+      "dealPct": -0.0715,
       "rating": "good",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
-      "ratingConfident": false,
+      "dealScore": 0.9,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 4,
-        "cohortMedianDaysListed": 7,
+        "cohortMedianDaysListed": 16,
         "negotiability": "low"
       }
     },
@@ -857,7 +2335,7 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2019,
     "mileage": 103989,
-    "price": 25694,
+    "price": 25197,
     "priceBasis": "listing",
     "dealer": "Heyward Allen Toyota",
     "dealerId": "d_ddfa880624d8242e",
@@ -881,14 +2359,18 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-20",
-    "lastSeen": "2026-07-20",
-    "listedDays": 3,
+    "lastSeen": "2026-07-31",
+    "listedDays": 14,
     "priceHistory": [
       {
         "date": "2026-07-20",
         "price": 25694
+      },
+      {
+        "date": "2026-07-27",
+        "price": 25197
       }
     ],
     "sellerType": "franchise",
@@ -909,7 +2391,374 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-07-20"
+    "searchedAt": "2026-07-20",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmdwrfv8kd035548",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 74568,
+    "price": 28594,
+    "priceBasis": "listing",
+    "dealer": "Dublin Nissan",
+    "dealerId": "d_d4e8187351357d1b",
+    "distanceMi": 114,
+    "state": "GA",
+    "city": "Dublin",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "JTMDWRFV8KD035548",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.mydublingmc.com/sitemap.aspx",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMDWRFV8KD035548&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMDWRFV8KD035548-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 35850,
+    "squishVin": "JTMDWRFVKD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-12",
+    "lastSeen": "2026-10-19",
+    "listedDays": 24,
+    "priceHistory": [
+      {
+        "date": "2026-10-12",
+        "price": 28594
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.995,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 28396,
+      "expected": 28651,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -28.8
+      },
+      "dealDelta": -57,
+      "dealPct": -0.002,
+      "rating": "fair",
+      "dealScore": 0.6,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 24,
+        "cohortMedianDaysListed": 16,
+        "negotiability": "medium"
+      }
+    },
+    "searchedAt": "2026-10-12",
+    "trimSite": "Limited",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "site",
+        "host": "mydublingmc.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "ritcheyautos.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 74259,
+        "price": null
+      }
+    ],
+    "trimSearch": "Limited",
+    "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-jtmdwrfvxkd514683",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 118236,
+    "price": 22987,
+    "priceBasis": "listing",
+    "dealer": "Milton Martin Toyota",
+    "dealerId": "d_2ecd43d66b981b41",
+    "distanceMi": 44,
+    "state": "GA",
+    "city": "Gainesville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "JTMDWRFVXKD514683",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.miltonmartintoyota.com/inventory/used-2019-toyota-rav4-hybrid-limited-awd-4d-sport-utility-jtmdwrfvxkd514683/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMDWRFVXKD514683&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMDWRFVXKD514683-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 35850,
+    "squishVin": "JTMDWRFVKD",
+    "accidentCount": 0,
+    "ownerCount": 3,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-31",
+    "lastSeen": "2026-09-14",
+    "listedDays": 18,
+    "priceHistory": [
+      {
+        "date": "2026-08-31",
+        "price": 23887
+      },
+      {
+        "date": "2026-09-07",
+        "price": 23487
+      },
+      {
+        "date": "2026-09-14",
+        "price": 22987
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.998,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 22894,
+      "expected": 22436,
+      "adjustments": {
+        "owners": -0.03,
+        "franchise": 0.01
+      },
+      "dealDelta": 551,
+      "dealPct": 0.0246,
+      "rating": "fair",
+      "dealScore": 0.3,
+      "basis": "cohort",
+      "cohortN": 10,
+      "confidence": 0.917,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 18,
+        "cohortMedianDaysListed": 16,
+        "priceDrop": {
+          "total": 900,
+          "pct": -0.0377,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-07",
+    "trimSite": "Limited",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-07",
+        "how": "search",
+        "tier": "site",
+        "host": "miltonmartintoyota.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-09-07",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 118236,
+        "price": null
+      },
+      {
+        "date": "2026-09-07",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "61036A",
+    "trimSearch": "Limited",
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmewrfv0kd507715",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 140645,
+    "price": 22190,
+    "priceBasis": "listing",
+    "dealer": "Eddie Preuitt Ford, Inc.",
+    "dealerId": "d_a16669b534839968",
+    "distanceMi": 157,
+    "state": "AL",
+    "city": "Hartselle",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTMEWRFV0KD507715",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.eddiepreuitt.com/inventory/used-2019-toyota-rav4-hybrid-xse-awd-4-door-suv-jtmewrfv0kd507715/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEWRFV0KD507715&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEWRFV0KD507715-1.jpg",
+    "photoCount": 21,
+    "baseMsrp": 33850,
+    "squishVin": "JTMEWRFVKD",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-07",
+    "lastSeen": "2026-09-21",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-09-07",
+        "price": 22190
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 21415,
+      "expected": 20082,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01,
+        "distance": -48.15
+      },
+      "dealDelta": 2108,
+      "dealPct": 0.105,
+      "rating": "overpriced",
+      "dealScore": 0.429,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 17,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "medium"
+      }
+    },
+    "searchedAt": "2026-09-07",
+    "trimSite": "XSE",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-07",
+        "how": "search",
+        "tier": "site",
+        "host": "eddiepreuitt.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmewrfv2kd502211",
@@ -946,10 +2795,10 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 16,
+    "lastSeen": "2026-07-22",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -966,20 +2815,20 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25003,
-      "expected": 25003,
+      "marketValue": 25764,
+      "expected": 25764,
       "adjustments": {},
-      "dealDelta": -84,
-      "dealPct": -0.0034,
+      "dealDelta": -845,
+      "dealPct": -0.0328,
       "rating": "fair",
-      "dealScore": 0.833,
+      "dealScore": 0.857,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 16,
-        "cohortMedianDaysListed": 20,
+        "listedDays": 18,
+        "cohortMedianDaysListed": 28,
         "negotiability": "medium"
       }
     },
@@ -1033,6 +2882,428 @@
     "plantCity": "Obu",
     "plantSource": "vpic",
     "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jtmewrfv2kd510003",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 38727,
+    "price": 30773,
+    "priceBasis": "listing",
+    "dealer": "Ralph Hayes Toyota",
+    "dealerId": "d_3d8657a7f83a96de",
+    "distanceMi": 111,
+    "state": "SC",
+    "city": "Anderson",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Black",
+    "vin": "JTMEWRFV2KD510003",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.ralphhayestoyota.com/inventory/used-2019-toyota-rav4-hybrid-xse-awd-4d-sport-utility-jtmewrfv2kd510003/?srsltid=AfmBOorVzC0NiWLCJ1e1pAvEX5TSB1fmjJaaDptoscDzWWiwPaRiO7-R",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEWRFV2KD510003&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEWRFV2KD510003-1.jpg",
+    "photoCount": 29,
+    "baseMsrp": 33850,
+    "squishVin": "JTMEWRFVKD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-10",
+    "lastSeen": "2026-08-17",
+    "listedDays": 8,
+    "priceHistory": [
+      {
+        "date": "2026-08-10",
+        "price": 30773
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.998,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 30019,
+      "expected": 30592,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "franchise": 0.01,
+        "distance": -27.45
+      },
+      "dealDelta": 181,
+      "dealPct": 0.0059,
+      "rating": "fair",
+      "dealScore": 0.643,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 8,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-08-10",
+    "trimSite": "XSE",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "site",
+        "host": "ralphhayestoyota.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-10",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": 863
+      }
+    ],
+    "stock": "Engine",
+    "trimSearch": "LE",
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmewrfv2kd511068",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 177628,
+    "price": 20670,
+    "priceBasis": "listing",
+    "dealer": "Integrity Motors LLC",
+    "dealerId": "d_22e0dc0a89c408e8",
+    "distanceMi": 168,
+    "state": "NC",
+    "city": "Asheville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "JTMEWRFV2KD511068",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-rav4+hybrid#vin=JTMEWRFV2KD511068",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEWRFV2KD511068&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEWRFV2KD511068-1.jpg",
+    "photoCount": 25,
+    "baseMsrp": 33850,
+    "squishVin": "JTMEWRFVKD",
+    "accidentCount": 1,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-09-21",
+    "lastSeen": "2026-10-19",
+    "listedDays": 31,
+    "priceHistory": [
+      {
+        "date": "2026-09-21",
+        "price": 21670
+      },
+      {
+        "date": "2026-09-28",
+        "price": 21425
+      },
+      {
+        "date": "2026-10-05",
+        "price": 20670
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 18293,
+      "expected": 16685,
+      "adjustments": {
+        "accidents": -0.07,
+        "owners": -0.015,
+        "distance": -53.1
+      },
+      "dealDelta": 3985,
+      "dealPct": 0.2389,
+      "rating": "overpriced",
+      "dealScore": 0.071,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 31,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 1000,
+          "pct": -0.0461,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-10-12",
+    "trimSearch": "XSE",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "imotorsnc.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": 20750
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-jtmewrfv2kj017424",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 133306,
+    "price": 23312,
+    "priceBasis": "listing",
+    "dealer": "Fred Anderson Toyota of Asheville",
+    "dealerId": "d_de5c012394e61be1",
+    "distanceMi": 160,
+    "state": "NC",
+    "city": "Asheville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Black",
+    "vin": "JTMEWRFV2KJ017424",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de2ab73ce59d5d6769a6a5b242adfcc36491f1fa98d4cf9442fc8294427967c3d6913b29a91f4767bbb43648d437081a10e50ffda5b12011cff6b78393ae79070a3de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=36&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEWRFV2KJ017424&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEWRFV2KJ017424-1.jpg",
+    "photoCount": 39,
+    "baseMsrp": 33850,
+    "squishVin": "JTMEWRFVKJ",
+    "accidentCount": 1,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-08-10",
+    "listedDays": 18,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 23815
+      },
+      {
+        "date": "2026-08-03",
+        "price": 23549
+      },
+      {
+        "date": "2026-08-10",
+        "price": 23312
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmewrfv4kj002990",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 81097,
+    "price": 29579,
+    "priceBasis": "listing",
+    "dealer": "JT's Autoland of Columbia",
+    "dealerId": "d_3abff7fd0a3c9b35",
+    "distanceMi": 185,
+    "state": "SC",
+    "city": "Columbia",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Unspecified",
+    "vin": "JTMEWRFV4KJ002990",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-rav4+hybrid#vin=JTMEWRFV4KJ002990",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEWRFV4KJ002990&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEWRFV4KJ002990-1.jpg",
+    "photoCount": 35,
+    "baseMsrp": 33850,
+    "squishVin": "JTMEWRFVKJ",
+    "accidentCount": 1,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-10-12",
+    "lastSeen": "2026-10-19",
+    "listedDays": 12,
+    "priceHistory": [
+      {
+        "date": "2026-10-12",
+        "price": 29579
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-10-12"
   },
   {
     "id": "api-jtmewrfv6kd510960",
@@ -1089,20 +3360,20 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23591,
-      "expected": 23591,
+      "marketValue": 24999,
+      "expected": 24999,
       "adjustments": {},
-      "dealDelta": -213,
-      "dealPct": -0.009,
-      "rating": "fair",
-      "dealScore": 1.0,
+      "dealDelta": -1621,
+      "dealPct": -0.0648,
+      "rating": "good",
+      "dealScore": 0.929,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 6,
-        "cohortMedianDaysListed": 20,
+        "cohortMedianDaysListed": 28,
         "negotiability": "low"
       }
     },
@@ -1147,6 +3418,146 @@
     "urlOrigin": "stored"
   },
   {
+    "id": "api-jtmewrfv7kd507176",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 127117,
+    "price": 22519,
+    "priceBasis": "listing",
+    "dealer": "Auto Solutions",
+    "dealerId": "d_b948e547fe318813",
+    "distanceMi": 142,
+    "state": "TN",
+    "city": "Maryville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Black",
+    "vin": "JTMEWRFV7KD507176",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#-62264321798120489",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEWRFV7KD507176&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEWRFV7KD507176-1.jpg",
+    "photoCount": 45,
+    "baseMsrp": 33850,
+    "squishVin": "JTMEWRFVKD",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-31",
+    "lastSeen": "2026-09-07",
+    "listedDays": 29,
+    "priceHistory": [
+      {
+        "date": "2026-07-31",
+        "price": 23796
+      },
+      {
+        "date": "2026-08-10",
+        "price": 22623
+      },
+      {
+        "date": "2026-08-24",
+        "price": 22519
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 22557,
+      "expected": 22177,
+      "adjustments": {
+        "owners": -0.015,
+        "distance": -41.4
+      },
+      "dealDelta": 342,
+      "dealPct": 0.0154,
+      "rating": "fair",
+      "dealScore": 0.571,
+      "basis": "cohort",
+      "cohortN": 14,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 29,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 1277,
+          "pct": -0.0537,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "XSE",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "mynextride.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 127117,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "cruz.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 127117,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
     "id": "api-jtmewrfv7kj003857",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1158,7 +3569,7 @@
     "powertrainFeed": "hybrid",
     "year": 2019,
     "mileage": 56305,
-    "price": 30197,
+    "price": 30665,
     "priceBasis": "listing",
     "dealer": "Infiniti of Greenville",
     "dealerId": "d_158097268e92ddce",
@@ -1181,10 +3592,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 16,
+    "lastSeen": "2026-07-31",
+    "listedDays": 27,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -1201,6 +3612,10 @@
       {
         "date": "2026-07-06",
         "price": 30197
+      },
+      {
+        "date": "2026-07-27",
+        "price": 30665
       }
     ],
     "powertrainConfidence": 0.995,
@@ -1213,30 +3628,25 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30113,
-      "expected": 28267,
+      "marketValue": 28535,
+      "expected": 26784,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "distance": -39.15
       },
-      "dealDelta": 1930,
-      "dealPct": 0.0683,
-      "rating": "high",
-      "dealScore": 0.333,
+      "dealDelta": 3881,
+      "dealPct": 0.1449,
+      "rating": "overpriced",
+      "dealScore": 0.143,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 16,
-        "cohortMedianDaysListed": 20,
-        "priceDrop": {
-          "total": 239,
-          "pct": -0.0079,
-          "drops": 2
-        },
-        "negotiability": "high"
+        "listedDays": 27,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "medium"
       }
     },
     "powertrainVin": "hybrid",
@@ -1280,7 +3690,8 @@
     "plantCountry": "Japan",
     "plantCity": "Toyota City",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmewrfv9kj002595",
@@ -1294,7 +3705,7 @@
     "powertrainFeed": "hybrid",
     "year": 2019,
     "mileage": 66168,
-    "price": 29218,
+    "price": 29000,
     "priceBasis": "listing",
     "dealer": "Honda Cars of Aiken",
     "dealerId": "d_269a4a284e8cde2d",
@@ -1317,10 +3728,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 25,
+    "lastSeen": "2026-07-31",
+    "listedDays": 36,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -1337,6 +3748,14 @@
       {
         "date": "2026-07-20",
         "price": 29218
+      },
+      {
+        "date": "2026-07-27",
+        "price": 29217
+      },
+      {
+        "date": "2026-07-31",
+        "price": 29000
       }
     ],
     "powertrainConfidence": 0.998,
@@ -1349,27 +3768,27 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28577,
-      "expected": 28819,
+      "marketValue": 27702,
+      "expected": 27936,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -43.65
       },
-      "dealDelta": 399,
-      "dealPct": 0.0138,
+      "dealDelta": 1064,
+      "dealPct": 0.0381,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 25,
-        "cohortMedianDaysListed": 20,
+        "listedDays": 36,
+        "cohortMedianDaysListed": 28,
         "priceDrop": {
-          "total": 519,
-          "pct": -0.0175,
-          "drops": 2
+          "total": 737,
+          "pct": -0.0248,
+          "drops": 4
         },
         "negotiability": "high"
       }
@@ -1443,7 +3862,84 @@
     "plantCountry": "Japan",
     "plantCity": "Toyota City",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmewrfv9kj008963",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 93110,
+    "price": 29709,
+    "priceBasis": "listing",
+    "dealer": "Jim Hudson Toyota",
+    "dealerId": "d_66515b94826dbe3a",
+    "distanceMi": 183,
+    "state": "SC",
+    "city": "Irmo",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Unspecified",
+    "vin": "JTMEWRFV9KJ008963",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de225392937cdf8b60a472488d21deedf7de33fdc17ae72f50ea8c7d5f92d6045d39530371857d74eef3c54e4e6cf3c686eebe376e6b8d9456e387fcda8adb8ca08fb7f16011f22412ebedeee38685f0721f74c31246e538ff42db94d2ceb09e6950fb15e40f90d9a2a0fa486f173a58cc4/?pl=1&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEWRFV9KJ008963&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEWRFV9KJ008963-1.jpg",
+    "photoCount": 38,
+    "baseMsrp": 33850,
+    "squishVin": "JTMEWRFVKJ",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-08-03",
+    "listedDays": 12,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 31079
+      },
+      {
+        "date": "2026-08-03",
+        "price": 29709
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-07-27",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmewrfvxkj011516",
@@ -1462,10 +3958,10 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2019,
     "mileage": 96668,
-    "price": 24346,
+    "price": 23818,
     "priceBasis": "listing",
     "dealer": "Franklin Toyota",
-    "dealerId": "d_1f7c3f3767696119",
+    "dealerId": "d_f8656a24e265e6df",
     "distanceMi": 174,
     "state": "GA",
     "city": "Statesboro",
@@ -1485,10 +3981,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-21",
-    "lastSeen": "2026-07-20",
-    "listedDays": 27,
+    "lastSeen": "2026-09-28",
+    "listedDays": 50,
     "priceHistory": [
       {
         "date": "2026-06-21",
@@ -1509,6 +4005,42 @@
       {
         "date": "2026-07-20",
         "price": 24346
+      },
+      {
+        "date": "2026-07-27",
+        "price": 25254
+      },
+      {
+        "date": "2026-08-03",
+        "price": 24413
+      },
+      {
+        "date": "2026-08-17",
+        "price": 24213
+      },
+      {
+        "date": "2026-08-24",
+        "price": 23747
+      },
+      {
+        "date": "2026-08-31",
+        "price": 23547
+      },
+      {
+        "date": "2026-09-07",
+        "price": 23252
+      },
+      {
+        "date": "2026-09-14",
+        "price": 23998
+      },
+      {
+        "date": "2026-09-21",
+        "price": 23956
+      },
+      {
+        "date": "2026-09-28",
+        "price": 23818
       }
     ],
     "powertrainVin": "hybrid",
@@ -1523,28 +4055,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23828,
-      "expected": 24249,
+      "marketValue": 25127,
+      "expected": 25574,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
         "distance": -55.800000000000004
       },
-      "dealDelta": 97,
-      "dealPct": 0.004,
-      "rating": "fair",
-      "dealScore": 0.667,
+      "dealDelta": -1756,
+      "dealPct": -0.0687,
+      "rating": "good",
+      "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 14,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 20,
+        "listedDays": 50,
+        "cohortMedianDaysListed": 28,
         "priceDrop": {
-          "total": 1570,
-          "pct": -0.0606,
-          "drops": 4
+          "total": 2098,
+          "pct": -0.081,
+          "drops": 11
         },
         "negotiability": "high"
       }
@@ -1570,7 +4102,488 @@
     "plantCountry": "Japan",
     "plantCity": "Toyota City",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmlwrfv4kd518336",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 117914,
+    "price": 22694,
+    "priceBasis": "listing",
+    "dealer": "Paramount Kia of Asheville",
+    "dealerId": "d_5137ed5a0c11352b",
+    "distanceMi": 159,
+    "state": "NC",
+    "city": "Asheville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Tan",
+    "vin": "JTMLWRFV4KD518336",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.paramountauto.com/viewdetails/used/jtmlwrfv4kd518336/2019-toyota-rav4-sport-utility",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMLWRFV4KD518336&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMLWRFV4KD518336-1.jpg",
+    "photoCount": 13,
+    "baseMsrp": 27850,
+    "squishVin": "JTMLWRFVKD",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-09-28",
+    "lastSeen": "2026-10-19",
+    "listedDays": 23,
+    "priceHistory": [
+      {
+        "date": "2026-09-28",
+        "price": 20894
+      },
+      {
+        "date": "2026-10-05",
+        "price": 20394
+      },
+      {
+        "date": "2026-10-12",
+        "price": 22794
+      },
+      {
+        "date": "2026-10-19",
+        "price": 22694
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.995,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 20964,
+      "expected": 19657,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01,
+        "distance": -49.050000000000004
+      },
+      "dealDelta": 3037,
+      "dealPct": 0.1545,
+      "rating": "overpriced",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 4,
+      "confidence": 0.4,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 23,
+        "cohortMedianDaysListed": 19,
+        "negotiability": "medium"
+      }
+    },
+    "searchedAt": "2026-09-28",
+    "trimSite": "LE",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "site",
+        "host": "paramountauto.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 117914,
+        "price": null
+      },
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "search",
+        "host": "cruz.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "M8422",
+    "trimSearch": "LE",
+    "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-jtmmwrfvxkd008156",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 55945,
+    "price": 25882,
+    "priceBasis": "listing",
+    "dealer": "Rick Case Hyundai-Roswell",
+    "dealerId": "d_041c1aa1403e0cc1",
+    "distanceMi": 23,
+    "state": "GA",
+    "city": "Roswell",
+    "cpo": "dealer",
+    "cpoFeed": false,
+    "exteriorColor": "Super White",
+    "interiorColor": "Black",
+    "vin": "JTMMWRFVXKD008156",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://rickcasehyundaiatlanta.com/used/Toyota/2019-Toyota-RAV4-Hybrid-352b6755ac185c30e41528d4a6a395ea.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMMWRFVXKD008156&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMMWRFVXKD008156-1.jpg",
+    "photoCount": 25,
+    "baseMsrp": 27850,
+    "squishVin": "JTMMWRFVKD",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-31",
+    "lastSeen": "2026-09-14",
+    "listedDays": 20,
+    "priceHistory": [
+      {
+        "date": "2026-08-31",
+        "price": 27679
+      },
+      {
+        "date": "2026-09-14",
+        "price": 25882
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.987,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 27608,
+      "expected": 27470,
+      "adjustments": {
+        "owners": -0.015,
+        "cpo": 0.01
+      },
+      "dealDelta": -1588,
+      "dealPct": -0.0578,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 4,
+      "confidence": 0.4,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 20,
+        "cohortMedianDaysListed": 19,
+        "priceDrop": {
+          "total": 1797,
+          "pct": -0.0649,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "trimSite": "LE",
+    "powertrainSite": "hybrid",
+    "cpoSite": "dealer",
+    "verifyLog": [
+      {
+        "date": "2026-09-07",
+        "how": "stored",
+        "tier": "site",
+        "host": "rickcasehyundaiatlanta.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "jsonld",
+        "mileage": 55945,
+        "price": 27679
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Roof Rails"
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmrwrfv2kd002227",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "XLE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2019,
+    "mileage": 87762,
+    "price": 24493,
+    "priceBasis": "listing",
+    "dealer": "United BMW",
+    "dealerId": "d_402e8f7e21b09dbe",
+    "distanceMi": 23,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "JTMRWRFV2KD002227",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#322759199019369655",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMRWRFV2KD002227&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMRWRFV2KD002227-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 29650,
+    "squishVin": "JTMRWRFVKD",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-08-03",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 24493
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24791,
+      "expected": 24791,
+      "adjustments": {},
+      "dealDelta": -298,
+      "dealPct": -0.012,
+      "rating": "fair",
+      "dealScore": 0.833,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 2,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "XLE",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "autabuy.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmrwrfv6kd029429",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "XLE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2019,
+    "mileage": 63094,
+    "price": 27892,
+    "priceBasis": "listing",
+    "dealer": "Fred Anderson Toyota of Greer",
+    "dealerId": "d_42039162a6424d46",
+    "distanceMi": 148,
+    "state": "SC",
+    "city": "Greer",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Unspecified",
+    "interiorColor": "Black",
+    "vin": "JTMRWRFV6KD029429",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://kiaofgreer.com/used/Toyota/2019-Toyota-RAV4-Hybrid-a1258b5eac180441fbb2b087ff910d83.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMRWRFV6KD029429&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMRWRFV6KD029429-1.jpg",
+    "photoCount": 13,
+    "baseMsrp": 29650,
+    "squishVin": "JTMRWRFVKD",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-21",
+    "lastSeen": "2026-09-21",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-09-21",
+        "price": 27892
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 0.984,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 27594,
+      "expected": 27412,
+      "adjustments": {
+        "owners": -0.015,
+        "franchise": 0.01,
+        "distance": -44.1
+      },
+      "dealDelta": 480,
+      "dealPct": 0.0175,
+      "rating": "fair",
+      "dealScore": 0.333,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-09-21",
+    "trimSearch": "XLE",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "search",
+        "host": "toyotaofcapecoral.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "search",
+        "host": "trucks.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmrwrfv9kd501039",
@@ -1584,7 +4597,7 @@
     "powertrainFeed": "hybrid",
     "year": 2019,
     "mileage": 128171,
-    "price": 19900,
+    "price": 20499,
     "priceBasis": "listing",
     "dealer": "Jeff Smith Ford",
     "dealerId": "d_0d7c18dc4fb2e952",
@@ -1595,7 +4608,7 @@
     "exteriorColor": "Magnetic Gray Metallic",
     "interiorColor": "Black",
     "vin": "JTMRWRFV9KD501039",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed. Relisted; back in feed.",
     "url": "https://www.jeffsmithford.com/used/Toyota/2019-Toyota-RAV4-Hybrid-7e21e779ac181c211b7627e34c033267.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMRWRFV9KD501039&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTMRWRFV9KD501039-1.jpg",
@@ -1607,10 +4620,10 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 25,
+    "lastSeen": "2026-09-21",
+    "listedDays": 43,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -1623,6 +4636,22 @@
       {
         "date": "2026-07-13",
         "price": 19900
+      },
+      {
+        "date": "2026-07-22",
+        "price": 19800
+      },
+      {
+        "date": "2026-08-03",
+        "price": 19900
+      },
+      {
+        "date": "2026-09-07",
+        "price": 20799
+      },
+      {
+        "date": "2026-09-21",
+        "price": 20499
       }
     ],
     "powertrainConfidence": 0.995,
@@ -1635,29 +4664,29 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 19409,
-      "expected": 17649,
+      "marketValue": 20201,
+      "expected": 18369,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.03,
         "cpo": 0.01,
         "distance": -13.950000000000001
       },
-      "dealDelta": 2251,
-      "dealPct": 0.1276,
+      "dealDelta": 2130,
+      "dealPct": 0.116,
       "rating": "overpriced",
-      "dealScore": 0.5,
-      "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
-      "ratingConfident": false,
+      "dealScore": 0.167,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 25,
-        "cohortMedianDaysListed": 20,
+        "listedDays": 43,
+        "cohortMedianDaysListed": 14,
         "priceDrop": {
-          "total": 1800,
-          "pct": -0.0829,
-          "drops": 2
+          "total": 1201,
+          "pct": -0.0553,
+          "drops": 4
         },
         "negotiability": "high"
       }
@@ -1708,7 +4737,8 @@
     "plantCountry": "Japan",
     "plantCity": "Obu",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmrwrfvxkd019499",
@@ -1751,10 +4781,10 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-06",
-    "lastSeen": "2026-07-20",
-    "listedDays": 15,
+    "lastSeen": "2026-07-22",
+    "listedDays": 17,
     "priceHistory": [
       {
         "date": "2026-07-06",
@@ -1781,25 +4811,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20478,
-      "expected": 19249,
+      "marketValue": 21125,
+      "expected": 19858,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.03,
         "cpo": 0.03,
         "franchise": 0.01
       },
-      "dealDelta": 738,
-      "dealPct": 0.0383,
+      "dealDelta": 129,
+      "dealPct": 0.0065,
       "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
-      "ratingConfident": false,
+      "dealScore": 0.5,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 20,
+        "listedDays": 17,
+        "cohortMedianDaysListed": 14,
         "priceDrop": {
           "total": 2784,
           "pct": -0.1223,

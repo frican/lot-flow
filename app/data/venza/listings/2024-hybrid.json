@@ -1,5 +1,218 @@
 [
   {
+    "id": "api-jteaaaah0rj155503",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 21689,
+    "price": 33998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Columbus",
+    "dealerId": "d_b1719d5288a5799c",
+    "distanceMi": 89,
+    "state": "GA",
+    "city": "Columbus",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blueprint",
+    "interiorColor": "Boulder cloth",
+    "vin": "JTEAAAAH0RJ155503",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAH0RJ155503",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH0RJ155503&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH0RJ155503-1.jpg",
+    "photoCount": 27,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-28",
+    "lastSeen": "2026-10-05",
+    "listedDays": 34,
+    "priceHistory": [
+      {
+        "date": "2026-09-28",
+        "price": 33998
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 36744,
+      "expected": 37094,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -17.55
+      },
+      "dealDelta": -3096,
+      "dealPct": -0.0835,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 34,
+        "cohortMedianDaysListed": 12,
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-28",
+    "trimSearch": "LE",
+    "powertrainSearch": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 21677,
+        "price": 34718
+      },
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "search",
+        "host": "caredge.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah0rj168073",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 31050,
+    "price": 38998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Town Center",
+    "dealerId": "d_18bd36f40629047a",
+    "distanceMi": 24,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH0RJ168073",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAH0RJ168073",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH0RJ168073&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH0RJ168073-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-09-14",
+    "lastSeen": "2026-09-14",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-09-14",
+        "price": 38998
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-09-14",
+    "trimSearch": "LE",
+    "verifyLog": [
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "search",
+        "host": "voylescdjr.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
     "id": "api-jteaaaah0rj171782",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -16,7 +229,7 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 39543,
-    "price": 35598,
+    "price": 35997,
     "priceBasis": "listing",
     "dealer": "Fred Anderson Hyundai",
     "dealerId": "d_ea626a4190eb5fc0",
@@ -32,7 +245,7 @@
     "url": "#-1401872638063143094",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH0RJ171782&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTEAAAAH0RJ171782-1.jpg",
-    "photoCount": 10,
+    "photoCount": 25,
     "baseMsrp": 35070,
     "squishVin": "JTEAAAAHRJ",
     "accidentCount": 0,
@@ -40,10 +253,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-06",
-    "lastSeen": "2026-07-20",
-    "listedDays": 17,
+    "lastSeen": "2026-08-17",
+    "listedDays": 8,
     "priceHistory": [
       {
         "date": "2026-07-06",
@@ -56,6 +269,22 @@
       {
         "date": "2026-07-20",
         "price": 35598
+      },
+      {
+        "date": "2026-07-22",
+        "price": 35212
+      },
+      {
+        "date": "2026-07-31",
+        "price": 34886
+      },
+      {
+        "date": "2026-08-10",
+        "price": 35398
+      },
+      {
+        "date": "2026-08-17",
+        "price": 35997
       }
     ],
     "powertrainVin": "hybrid",
@@ -70,27 +299,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 32499,
-      "expected": 32779,
+      "marketValue": 34270,
+      "expected": 34568,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -44.550000000000004
       },
-      "dealDelta": 2819,
-      "dealPct": 0.086,
-      "rating": "high",
-      "dealScore": 0.333,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealDelta": 1429,
+      "dealPct": 0.0413,
+      "rating": "fair",
+      "dealScore": 0.455,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 17,
+        "listedDays": 8,
         "cohortMedianDaysListed": 12,
         "priceDrop": {
-          "total": 1794,
-          "pct": -0.048,
-          "drops": 2
+          "total": 1395,
+          "pct": -0.0373,
+          "drops": 4
         },
         "negotiability": "high"
       }
@@ -147,7 +376,8 @@
     "sellerType": "independent",
     "plantCountry": "Japan",
     "plantSource": "vin1",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jteaaaah0rj175993",
@@ -212,20 +442,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 31697,
-      "expected": 32012,
+      "marketValue": 33260,
+      "expected": 33591,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -1.8
       },
-      "dealDelta": -315,
-      "dealPct": -0.0098,
-      "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealDelta": -1894,
+      "dealPct": -0.0564,
+      "rating": "good",
+      "dealScore": 0.818,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 12,
         "cohortMedianDaysListed": 12,
@@ -288,6 +518,347 @@
     "urlOrigin": "stored"
   },
   {
+    "id": "api-jteaaaah0rj182216",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 11429,
+    "price": 34998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Town Center",
+    "dealerId": "d_18bd36f40629047a",
+    "distanceMi": 24,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH0RJ182216",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAH0RJ182216",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH0RJ182216&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH0RJ182216-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-10-12",
+    "lastSeen": "2026-10-12",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-10-12",
+        "price": 34998
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-10-12",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah1rj167417",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Nightshade",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 19255,
+    "price": 37897,
+    "priceBasis": "listing",
+    "dealer": "Toyota of Knoxville",
+    "dealerId": "d_99c8e2829be16ec9",
+    "distanceMi": 152,
+    "state": "TN",
+    "city": "Knoxville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH1RJ167417",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.fortmillhyundai.com/viewdetails/used/jteaaaah1rj167417/2024-toyota-venza-suv?type=finance",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH1RJ167417&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH1RJ167417-1.jpg",
+    "photoCount": 29,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-14",
+    "lastSeen": "2026-10-05",
+    "listedDays": 24,
+    "priceHistory": [
+      {
+        "date": "2026-09-14",
+        "price": 41197
+      },
+      {
+        "date": "2026-10-05",
+        "price": 37897
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 37756,
+      "expected": 35445,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01,
+        "distance": -45.9
+      },
+      "dealDelta": 2452,
+      "dealPct": 0.0692,
+      "rating": "high",
+      "dealScore": 0.222,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 24,
+        "cohortMedianDaysListed": 34,
+        "priceDrop": {
+          "total": 3300,
+          "pct": -0.0801,
+          "drops": 1
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-14",
+    "trimSearch": "Nightshade",
+    "verifyLog": [
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "search",
+        "host": "fortmillhyundai.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 19255,
+        "price": null
+      },
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "search",
+        "host": "louisvillehondaworld.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 41196
+      },
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "search",
+        "host": "stauntonautomall.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah1rj190728",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 63577,
+    "price": 35843,
+    "priceBasis": "listing",
+    "dealer": "Nalley Toyota of Roswell",
+    "dealerId": "d_b0159f8799234e78",
+    "distanceMi": 23,
+    "state": "GA",
+    "city": "Roswell",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Brown",
+    "interiorColor": "Black leatherette",
+    "vin": "JTEAAAAH1RJ190728",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/jteaaaah1rj190728/2024-toyota-venza-sport-utility",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH1RJ190728&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH1RJ190728-1.jpg",
+    "photoCount": 35,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-21",
+    "lastSeen": "2026-10-12",
+    "listedDays": 25,
+    "priceHistory": [
+      {
+        "date": "2026-09-21",
+        "price": 36839
+      },
+      {
+        "date": "2026-09-28",
+        "price": 35646
+      },
+      {
+        "date": "2026-10-05",
+        "price": 36042
+      },
+      {
+        "date": "2026-10-12",
+        "price": 35843
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 34049,
+      "expected": 34730,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": 1113,
+      "dealPct": 0.032,
+      "rating": "fair",
+      "dealScore": 0.429,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 25,
+        "cohortMedianDaysListed": 25,
+        "priceDrop": {
+          "total": 996,
+          "pct": -0.027,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-21",
+    "trimSite": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "site",
+        "host": "nalleyinfinitiatlanta.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "LE",
+    "exitReason": "unseen"
+  },
+  {
     "id": "api-jteaaaah2rj161058",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -301,37 +872,37 @@
     "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "2.5L 4Cyl regular unleaded",
+    "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
-    "mileage": 84040,
-    "price": 31991,
+    "mileage": 84067,
+    "price": 30415,
     "priceBasis": "listing",
-    "dealer": "Lake Murray Mitsubishi",
-    "dealerId": "d_01f094c2cf1c61e4",
-    "distanceMi": 183,
+    "dealer": "TLC Motors Inc.",
+    "dealerId": "d_8d95ff6ec5d63fc1",
+    "distanceMi": 157,
     "state": "SC",
     "city": "Irmo",
     "cpo": "none",
     "cpoFeed": false,
     "exteriorColor": "Gray",
-    "interiorColor": null,
+    "interiorColor": "Unspecified",
     "vin": "JTEAAAAH2RJ161058",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
     "url": "https://www.lakemurraymitsubishi.com/used-Irmo-2024-Toyota-Venza-Limited-JTEAAAAH2RJ161058",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH2RJ161058&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTEAAAAH2RJ161058-1.jpg",
-    "photoCount": 1,
+    "photoCount": 41,
     "baseMsrp": 35070,
     "squishVin": "JTEAAAAHRJ",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Commercial Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-01",
-    "lastSeen": "2026-07-20",
-    "listedDays": 25,
+    "lastSeen": "2026-10-19",
+    "listedDays": 71,
     "priceHistory": [
       {
         "date": "2026-07-01",
@@ -348,6 +919,30 @@
       {
         "date": "2026-07-20",
         "price": 31991
+      },
+      {
+        "date": "2026-07-27",
+        "price": 35996
+      },
+      {
+        "date": "2026-08-24",
+        "price": 32765
+      },
+      {
+        "date": "2026-09-07",
+        "price": 32094
+      },
+      {
+        "date": "2026-09-21",
+        "price": 31215
+      },
+      {
+        "date": "2026-10-05",
+        "price": 30915
+      },
+      {
+        "date": "2026-10-12",
+        "price": 30415
       }
     ],
     "powertrainVin": "hybrid",
@@ -362,26 +957,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 31991,
-      "expected": 31931,
+      "marketValue": 30795,
+      "expected": 31054,
       "adjustments": {
-        "distance": -59.85
+        "oneOwner": 0.01,
+        "distance": -48.15
       },
-      "dealDelta": 60,
-      "dealPct": 0.0019,
+      "dealDelta": -639,
+      "dealPct": -0.0206,
       "rating": "fair",
-      "dealScore": 0.667,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealScore": 0.714,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 25,
+        "listedDays": 71,
         "cohortMedianDaysListed": 25,
         "priceDrop": {
-          "total": 921,
-          "pct": -0.028,
-          "drops": 3
+          "total": 2497,
+          "pct": -0.0759,
+          "drops": 8
         },
         "negotiability": "high"
       }
@@ -405,6 +1001,785 @@
     "plantCountry": "Japan",
     "plantSource": "vin1",
     "urlOrigin": "stored"
+  },
+  {
+    "id": "api-jteaaaah2rj163070",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "XLE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "CVT",
+    "drivetrain": "AWD",
+    "engine": "2.5L i-4",
+    "year": 2024,
+    "mileage": 77352,
+    "price": 27702,
+    "priceBasis": "listing",
+    "dealer": "jack ingram motors",
+    "dealerId": "d_e71a18d2788ed80e",
+    "distanceMi": 143,
+    "state": "AL",
+    "city": "Montgomery",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Unspecified",
+    "vin": "JTEAAAAH2RJ163070",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#-6953329860272128088",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH2RJ163070&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH2RJ163070-1.jpg",
+    "photoCount": 32,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Commercial Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-10-12",
+    "listedDays": 64,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 30128
+      },
+      {
+        "date": "2026-08-17",
+        "price": 32269
+      },
+      {
+        "date": "2026-09-07",
+        "price": 30878
+      },
+      {
+        "date": "2026-09-14",
+        "price": 30684
+      },
+      {
+        "date": "2026-09-21",
+        "price": 30548
+      },
+      {
+        "date": "2026-09-28",
+        "price": 28413
+      },
+      {
+        "date": "2026-10-05",
+        "price": 27196
+      },
+      {
+        "date": "2026-10-12",
+        "price": 27702
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 30874,
+      "expected": 31141,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -41.85
+      },
+      "dealDelta": -3439,
+      "dealPct": -0.1104,
+      "rating": "great",
+      "dealScore": 0.889,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 64,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 2426,
+          "pct": -0.0805,
+          "drops": 5
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "XLE",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "autos.al.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah2rj171377",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Nightshade",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 49150,
+    "price": 32074,
+    "priceBasis": "listing",
+    "dealer": "Team One Toyota",
+    "dealerId": "d_20476f865229f421",
+    "distanceMi": 100,
+    "state": "AL",
+    "city": "Rainbow City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Unspecified",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH2RJ171377",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.teamonetoyota.com/used-vehicles/?srsltid=AfmBOoppPzCy5KVLrotBsrBmp62aAzhFaWLGMjB4hlVDRDUuaE6DaJ8b",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH2RJ171377&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH2RJ171377-1.jpg",
+    "photoCount": 32,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-17",
+    "lastSeen": "2026-09-28",
+    "listedDays": 44,
+    "priceHistory": [
+      {
+        "date": "2026-08-17",
+        "price": 36387
+      },
+      {
+        "date": "2026-08-24",
+        "price": 37124
+      },
+      {
+        "date": "2026-08-31",
+        "price": 35850
+      },
+      {
+        "date": "2026-09-07",
+        "price": 35623
+      },
+      {
+        "date": "2026-09-14",
+        "price": 35187
+      },
+      {
+        "date": "2026-09-21",
+        "price": 32648
+      },
+      {
+        "date": "2026-09-28",
+        "price": 32074
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.965,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 35318,
+      "expected": 35649,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -22.5
+      },
+      "dealDelta": -3575,
+      "dealPct": -0.1003,
+      "rating": "great",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 44,
+        "cohortMedianDaysListed": 34,
+        "priceDrop": {
+          "total": 4313,
+          "pct": -0.1185,
+          "drops": 5
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-17",
+    "trimSite": "Nightshade",
+    "verifyLog": [
+      {
+        "date": "2026-08-17",
+        "how": "search",
+        "tier": "site",
+        "host": "teamonetoyota.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 49105,
+        "price": null
+      },
+      {
+        "date": "2026-08-17",
+        "how": "search",
+        "tier": "search",
+        "host": "hyundaiofgadsden.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 36387
+      }
+    ],
+    "stock": "RJ171377",
+    "trimSearch": "Nightshade",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah2rj173226",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Nightshade",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 13524,
+    "price": 36648,
+    "priceBasis": "listing",
+    "dealer": "Group 1 Toyota Rivertown",
+    "dealerId": "d_0ccc8094e40a2d51",
+    "distanceMi": 90,
+    "state": "GA",
+    "city": "Columbus",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH2RJ173226",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.group1toyotarivertown.com/inventory/used-2024-toyota-venza-nightshade-awd-awd-jteaaaah2rj173226/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH2RJ173226&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH2RJ173226-1.jpg",
+    "photoCount": 29,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 1,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-09-07",
+    "lastSeen": "2026-10-19",
+    "listedDays": 44,
+    "priceHistory": [
+      {
+        "date": "2026-09-07",
+        "price": 41814
+      },
+      {
+        "date": "2026-09-14",
+        "price": 41648
+      },
+      {
+        "date": "2026-09-28",
+        "price": 40648
+      },
+      {
+        "date": "2026-10-12",
+        "price": 37648
+      },
+      {
+        "date": "2026-10-19",
+        "price": 36648
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.988,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 38224,
+      "expected": 34957,
+      "adjustments": {
+        "accidents": -0.07,
+        "owners": -0.015,
+        "distance": -18.0
+      },
+      "dealDelta": 1691,
+      "dealPct": 0.0484,
+      "rating": "fair",
+      "dealScore": 0.333,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 44,
+        "cohortMedianDaysListed": 34,
+        "priceDrop": {
+          "total": 5166,
+          "pct": -0.1235,
+          "drops": 4
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-14",
+    "trimSite": "Nightshade",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "site",
+        "host": "group1toyotarivertown.com",
+        "trim": "Nightshade",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 13296,
+        "price": null
+      },
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "search",
+        "host": "group1auto.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 40649
+      },
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "search",
+        "host": "lexusoffortmyers.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 41797
+      },
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 13299,
+        "price": null
+      }
+    ],
+    "stock": "VT",
+    "trimSearch": "Nightshade"
+  },
+  {
+    "id": "api-jteaaaah3rj159979",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Nightshade",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 50000,
+    "price": 35761,
+    "priceBasis": "listing",
+    "dealer": "AutoNation Toyota Newnan",
+    "dealerId": "d_24181d6ccecaac11",
+    "distanceMi": 33,
+    "state": "GA",
+    "city": "Newnan",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Celestial Black",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH3RJ159979",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.autonationtoyotanewnan.com/inventory/certified-used-2024-toyota-venza-nightshade-all-wheel-drive-sport-utility-jteaaaah3rj159979/www.facebook.com/www.instagram.com/autonationtoyotanewnan?srsltid=AU7gw4V99zqczym_AF8LJUorfql9syZmjHLTZVUNaYfgRq3mK1iSAjIv",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH3RJ159979&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH3RJ159979-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-09-28",
+    "lastSeen": "2026-10-19",
+    "listedDays": 26,
+    "priceHistory": [
+      {
+        "date": "2026-09-28",
+        "price": 36656
+      },
+      {
+        "date": "2026-10-12",
+        "price": 36301
+      },
+      {
+        "date": "2026-10-19",
+        "price": 35761
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 35249,
+      "expected": 35954,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": -193,
+      "dealPct": -0.0054,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 26,
+        "cohortMedianDaysListed": 34,
+        "priceDrop": {
+          "total": 895,
+          "pct": -0.0244,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-10-05",
+    "trimSite": "Nightshade",
+    "verifyLog": [
+      {
+        "date": "2026-10-05",
+        "how": "search",
+        "tier": "site",
+        "host": "autonationtoyotanewnan.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "RJ159979"
+  },
+  {
+    "id": "api-jteaaaah3rj161408",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Nightshade",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 73919,
+    "price": 33298,
+    "priceBasis": "listing",
+    "dealer": "Flow Companies of Asheville",
+    "dealerId": "d_8c25a75ab5b1394a",
+    "distanceMi": 160,
+    "state": "NC",
+    "city": "Asheville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Wind Chill Pearl Interior Color Black",
+    "interiorColor": "Unspecified",
+    "vin": "JTEAAAAH3RJ161408",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.flowkiacharlottesville.com/used-Charlottesville-2024-Toyota-Venza-Nightshade-JTEAAAAH3RJ161408",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH3RJ161408&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH3RJ161408-1.jpg",
+    "photoCount": 40,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-09-21",
+    "lastSeen": "2026-10-19",
+    "listedDays": 34,
+    "priceHistory": [
+      {
+        "date": "2026-09-21",
+        "price": 35398
+      },
+      {
+        "date": "2026-10-05",
+        "price": 35098
+      },
+      {
+        "date": "2026-10-12",
+        "price": 34098
+      },
+      {
+        "date": "2026-10-19",
+        "price": 33298
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 33298,
+      "expected": 33581,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -49.5
+      },
+      "dealDelta": -283,
+      "dealPct": -0.0084,
+      "rating": "fair",
+      "dealScore": 0.778,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 34,
+        "cohortMedianDaysListed": 34,
+        "priceDrop": {
+          "total": 2100,
+          "pct": -0.0593,
+          "drops": 3
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-21",
+    "trimSite": "Nightshade",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "site",
+        "host": "flowkiacharlottesville.com",
+        "trim": "Nightshade",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 73919,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-jteaaaah4rj164365",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "XLE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "XLE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 89075,
+    "price": 29387,
+    "priceBasis": "listing",
+    "dealer": "Hyundai of Cookeville",
+    "dealerId": "d_21e381b89a5d6d2d",
+    "distanceMi": 182,
+    "state": "TN",
+    "city": "Cookeville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Unspecified",
+    "interiorColor": "Boulder leatherette",
+    "vin": "JTEAAAAH4RJ164365",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carfax.com/vehicle/JTEAAAAH4RJ164365",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH4RJ164365&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH4RJ164365-1.jpg",
+    "photoCount": 47,
+    "baseMsrp": 39280,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-10-19",
+    "lastSeen": "2026-10-19",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-10-19",
+        "price": 29387
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-10-19",
+    "trimSearch": "XLE",
+    "verifyLog": [
+      {
+        "date": "2026-10-19",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-jteaaaah4rj177925",
@@ -469,19 +1844,19 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34269,
-      "expected": 33240,
+      "marketValue": 36497,
+      "expected": 35402,
       "adjustments": {
         "owners": -0.03
       },
-      "dealDelta": 954,
-      "dealPct": 0.0287,
+      "dealDelta": -1208,
+      "dealPct": -0.0341,
       "rating": "fair",
-      "dealScore": 0.667,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealScore": 0.727,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 8,
         "cohortMedianDaysListed": 12,
@@ -548,20 +1923,20 @@
       "auto.dev"
     ],
     "trim": "Nightshade",
-    "trimFeed": "LE",
+    "trimFeed": "Nightshade",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
     "fuel": "Gasoline",
     "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
-    "transmission": "Automatic",
+    "transmission": "Continuously Variable (Ecvt)",
     "drivetrain": "AWD",
-    "engine": "2.5L 4Cyl regular unleaded",
+    "engine": "4 Cyl - 2.50 L",
     "year": 2024,
     "mileage": 32438,
-    "price": 38132,
+    "price": 36494,
     "priceBasis": "listing",
-    "dealer": "Honda Morristown",
-    "dealerId": "d_07be40b4abdfa2b5",
+    "dealer": "johnson city ford",
+    "dealerId": "d_3e1e79b117cfd0cc",
     "distanceMi": 180,
     "state": "TN",
     "city": "Morristown",
@@ -574,7 +1949,7 @@
     "url": "https://www.morristownchevrolet.com/used-Morristown-2024-Toyota-Venza-Nightshade-JTEAAAAH5RJ155755",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH5RJ155755&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTEAAAAH5RJ155755-1.jpg",
-    "photoCount": 32,
+    "photoCount": 6,
     "baseMsrp": 35070,
     "squishVin": "JTEAAAAHRJ",
     "accidentCount": null,
@@ -582,10 +1957,10 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-01",
-    "lastSeen": "2026-07-20",
-    "listedDays": 26,
+    "lastSeen": "2026-08-10",
+    "listedDays": 47,
     "priceHistory": [
       {
         "date": "2026-07-01",
@@ -598,6 +1973,22 @@
       {
         "date": "2026-07-13",
         "price": 38132
+      },
+      {
+        "date": "2026-07-22",
+        "price": 37896
+      },
+      {
+        "date": "2026-07-27",
+        "price": 37200
+      },
+      {
+        "date": "2026-07-31",
+        "price": 36200
+      },
+      {
+        "date": "2026-08-10",
+        "price": 36494
       }
     ],
     "powertrainVin": "hybrid",
@@ -605,33 +1996,33 @@
     "powertrainVerifiedBy": "single",
     "powertrainFlagged": false,
     "powertrainConflict": false,
-    "trimConfidence": 0.988,
+    "trimConfidence": 0.992,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 37576,
-      "expected": 37518,
+      "marketValue": 36681,
+      "expected": 36622,
       "adjustments": {
         "distance": -58.5
       },
-      "dealDelta": 614,
-      "dealPct": 0.0164,
+      "dealDelta": -128,
+      "dealPct": -0.0035,
       "rating": "fair",
-      "dealScore": 0.5,
-      "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
-      "ratingConfident": false,
+      "dealScore": 0.556,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 26,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 47,
+        "cohortMedianDaysListed": 34,
         "priceDrop": {
-          "total": 668,
-          "pct": -0.0172,
-          "drops": 2
+          "total": 2306,
+          "pct": -0.0594,
+          "drops": 5
         },
         "negotiability": "high"
       }
@@ -677,7 +2068,270 @@
     "sellerType": "independent",
     "plantCountry": "Japan",
     "plantSource": "vin1",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah5rj165976",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 31699,
+    "price": 40437,
+    "priceBasis": "listing",
+    "dealer": "Beaver Mazda",
+    "dealerId": "d_07556b05fc136bc1",
+    "distanceMi": 33,
+    "state": "GA",
+    "city": "Cumming",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH5RJ165976",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#4962098881188723201",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH5RJ165976&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH5RJ165976-1.jpg",
+    "photoCount": 49,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-09-21",
+    "listedDays": 43,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 42937
+      },
+      {
+        "date": "2026-08-10",
+        "price": 42437
+      },
+      {
+        "date": "2026-08-17",
+        "price": 41937
+      },
+      {
+        "date": "2026-08-24",
+        "price": 41437
+      },
+      {
+        "date": "2026-09-07",
+        "price": 40937
+      },
+      {
+        "date": "2026-09-14",
+        "price": 40437
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 38296,
+      "expected": 38679,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 1758,
+      "dealPct": 0.0455,
+      "rating": "fair",
+      "dealScore": 0.222,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 43,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 2500,
+          "pct": -0.0582,
+          "drops": 5
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "XLE",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah5rj185984",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 30758,
+    "price": 38449,
+    "priceBasis": "listing",
+    "dealer": "Hunter Subaru Hyundai Volvo",
+    "dealerId": "d_74d86b3aa7733e02",
+    "distanceMi": 156,
+    "state": "NC",
+    "city": "Charlotte",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Wind Chill Pearl",
+    "interiorColor": "Boulder",
+    "vin": "JTEAAAAH5RJ185984",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hunterhyundai.com/inventory/used-2024-toyota-venza-xle-awd-sport-utility-jteaaaah5rj185984/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH5RJ185984&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH5RJ185984-1.jpg",
+    "photoCount": 5,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Multiple Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-09-14",
+    "lastSeen": "2026-09-21",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-09-14",
+        "price": 37650
+      },
+      {
+        "date": "2026-09-21",
+        "price": 38449
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.965,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 38449,
+      "expected": 37825,
+      "adjustments": {
+        "owners": -0.015,
+        "distance": -47.7
+      },
+      "dealDelta": 624,
+      "dealPct": 0.0165,
+      "rating": "fair",
+      "dealScore": 0.444,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 39,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-09-14",
+    "trimSite": "XLE",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "site",
+        "host": "hunterhyundai.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 30624,
+        "price": null
+      },
+      {
+        "date": "2026-09-14",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "HA61040",
+    "trimSearch": "XLE",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jteaaaah5rj187833",
@@ -746,23 +2400,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 35934,
-      "expected": 36234,
+      "marketValue": 37064,
+      "expected": 37376,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -58.5
       },
-      "dealDelta": -1874,
-      "dealPct": -0.0517,
+      "dealDelta": -3016,
+      "dealPct": -0.0807,
       "rating": "good",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
-      "ratingConfident": false,
+      "dealScore": 0.778,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 13,
-        "cohortMedianDaysListed": 19,
+        "cohortMedianDaysListed": 39,
         "priceDrop": {
           "total": 799,
           "pct": -0.0227,
@@ -818,20 +2472,20 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "LE",
-    "trimFeed": "LE",
+    "trim": "XLE",
+    "trimFeed": "XLE",
     "powertrain": "hybrid",
     "powertrainFeed": "hybrid",
     "fuel": "Gasoline",
     "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
-    "transmission": "Automatic",
+    "transmission": "CVT",
     "drivetrain": "AWD",
-    "engine": "2.5L 4Cyl Gasoline",
+    "engine": "2.5L 4-Cylinder DOHC 16V",
     "year": 2024,
-    "mileage": 108234,
-    "price": 30987,
+    "mileage": 108236,
+    "price": 25989,
     "priceBasis": "listing",
-    "dealer": "Long Hyundai of Chattanooga",
+    "dealer": "long hyundai of chattanooga",
     "dealerId": "d_15b37bd13c58e063",
     "distanceMi": 105,
     "state": "TN",
@@ -845,22 +2499,38 @@
     "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de210d7a34f203faaa9421ffce5ed12fb01d2f8d33750371aeba902484f7d264c8c03917374eaf4a2c488a04578e5db9752800bcf652b74e6dfba94f3f61195bc33de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=13&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH6RJ162133&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTEAAAAH6RJ162133-1.jpg",
-    "photoCount": 6,
+    "photoCount": 35,
     "baseMsrp": 35070,
     "squishVin": "JTEAAAAHRJ",
     "accidentCount": 1,
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Commercial Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-07-20",
-    "lastSeen": "2026-07-20",
-    "listedDays": 9,
+    "lastSeen": "2026-10-19",
+    "listedDays": 71,
     "priceHistory": [
       {
         "date": "2026-07-20",
         "price": 30987
+      },
+      {
+        "date": "2026-07-31",
+        "price": 28989
+      },
+      {
+        "date": "2026-08-31",
+        "price": 27989
+      },
+      {
+        "date": "2026-09-14",
+        "price": 26989
+      },
+      {
+        "date": "2026-10-12",
+        "price": 25989
       }
     ],
     "sellerType": "independent",
@@ -872,16 +2542,65 @@
     "powertrainConflict": false,
     "plantCountry": "Japan",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 25853,
+      "expected": 24277,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01,
+        "distance": -24.75
+      },
+      "dealDelta": 1712,
+      "dealPct": 0.0705,
+      "rating": "high",
+      "dealScore": 0.333,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 71,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 4998,
+          "pct": -0.1613,
+          "drops": 4
+        },
+        "negotiability": "high"
+      }
     },
-    "searchedAt": "2026-07-20"
+    "searchedAt": "2026-07-27",
+    "trimSearch": "XLE",
+    "verifyLog": [
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "drivershub.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-07-27",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-jteaaaah7rj173299",
@@ -946,20 +2665,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40432,
-      "expected": 40773,
+      "marketValue": 38850,
+      "expected": 39175,
       "adjustments": {
         "oneOwner": 0.01,
         "distance": -63.45
       },
-      "dealDelta": -793,
-      "dealPct": -0.0195,
+      "dealDelta": 805,
+      "dealPct": 0.0205,
       "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealScore": 0.571,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 7,
         "cohortMedianDaysListed": 25,
@@ -1038,10 +2757,10 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-01",
-    "lastSeen": "2026-07-20",
-    "listedDays": 25,
+    "lastSeen": "2026-08-03",
+    "listedDays": 39,
     "priceHistory": [
       {
         "date": "2026-07-01",
@@ -1060,22 +2779,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42280,
-      "expected": 42213,
+      "marketValue": 43449,
+      "expected": 43382,
       "adjustments": {
         "distance": -67.05
       },
-      "dealDelta": 1641,
-      "dealPct": 0.0389,
+      "dealDelta": 472,
+      "dealPct": 0.0109,
       "rating": "fair",
-      "dealScore": 0.5,
-      "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
-      "ratingConfident": false,
+      "dealScore": 0.556,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 25,
-        "cohortMedianDaysListed": 19,
+        "listedDays": 39,
+        "cohortMedianDaysListed": 39,
         "negotiability": "medium"
       }
     },
@@ -1108,7 +2827,140 @@
     "sellerType": "franchise",
     "plantCountry": "Japan",
     "plantSource": "vin1",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah7rj187462",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 29913,
+    "price": 34976,
+    "priceBasis": "listing",
+    "dealer": "World Toyota",
+    "dealerId": "d_33da7bd3e2de089f",
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Unspecified",
+    "vin": "JTEAAAAH7RJ187462",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAH7RJ187462",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH7RJ187462&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH7RJ187462-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-05",
+    "lastSeen": "2026-10-19",
+    "listedDays": 27,
+    "priceHistory": [
+      {
+        "date": "2026-10-05",
+        "price": 34432
+      },
+      {
+        "date": "2026-10-12",
+        "price": 35980
+      },
+      {
+        "date": "2026-10-19",
+        "price": 34976
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 35604,
+      "expected": 35070,
+      "adjustments": {
+        "owners": -0.015
+      },
+      "dealDelta": -94,
+      "dealPct": -0.0027,
+      "rating": "fair",
+      "dealScore": 0.545,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 27,
+        "cohortMedianDaysListed": 12,
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-10-05",
+    "trimSearch": "LE",
+    "verifyLog": [
+      {
+        "date": "2026-10-05",
+        "how": "search",
+        "tier": "search",
+        "host": "group1toyotarivertown.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-05",
+        "how": "search",
+        "tier": "search",
+        "host": "group1fordofrivertown.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-05",
+        "how": "search",
+        "tier": "search",
+        "host": "group1auto.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-jteaaaah8rj161226",
@@ -1139,7 +2991,7 @@
     "exteriorColor": "Gray",
     "interiorColor": "Black",
     "vin": "JTEAAAAH8RJ161226",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed.",
     "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAH8RJ161226",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH8RJ161226&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTEAAAAH8RJ161226-1.jpg",
@@ -1153,8 +3005,8 @@
     "flagged": false,
     "gone": true,
     "firstSeen": "2026-07-01",
-    "lastSeen": "2026-07-13",
-    "listedDays": 54,
+    "lastSeen": "2026-07-22",
+    "listedDays": 63,
     "priceHistory": [
       {
         "date": "2026-07-01",
@@ -1173,21 +3025,21 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 43949,
-      "expected": 43931,
+      "marketValue": 42204,
+      "expected": 42187,
       "adjustments": {
         "distance": -17.55
       },
-      "dealDelta": 67,
-      "dealPct": 0.0015,
+      "dealDelta": 1811,
+      "dealPct": 0.0429,
       "rating": "fair",
-      "dealScore": 0.333,
-      "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
-      "ratingConfident": false,
+      "dealScore": 0.286,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 54,
+        "listedDays": 63,
         "cohortMedianDaysListed": 25,
         "negotiability": "high"
       }
@@ -1240,7 +3092,7 @@
     "engine": "2.5L 4Cyl Gasoline",
     "year": 2024,
     "mileage": 23797,
-    "price": 37903,
+    "price": 37102,
     "priceBasis": "listing",
     "dealer": "Marietta Toyota",
     "dealerId": "d_30dc12b778ad65d1",
@@ -1256,7 +3108,7 @@
     "url": "https://mariettatoyota.com/vehicle/JTEAAAAH8RJ171111/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH8RJ171111&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JTEAAAAH8RJ171111-1.jpg",
-    "photoCount": 34,
+    "photoCount": 36,
     "baseMsrp": 35070,
     "squishVin": "JTEAAAAHRJ",
     "accidentCount": 0,
@@ -1264,10 +3116,10 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-01",
-    "lastSeen": "2026-07-20",
-    "listedDays": 27,
+    "lastSeen": "2026-09-07",
+    "listedDays": 29,
     "priceHistory": [
       {
         "date": "2026-07-01",
@@ -1280,6 +3132,26 @@
       {
         "date": "2026-07-20",
         "price": 37903
+      },
+      {
+        "date": "2026-07-27",
+        "price": 37416
+      },
+      {
+        "date": "2026-07-31",
+        "price": 37124
+      },
+      {
+        "date": "2026-08-10",
+        "price": 36905
+      },
+      {
+        "date": "2026-08-17",
+        "price": 37162
+      },
+      {
+        "date": "2026-08-31",
+        "price": 37102
       }
     ],
     "powertrainVin": "hybrid",
@@ -1294,27 +3166,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 38459,
-      "expected": 39997,
+      "marketValue": 37386,
+      "expected": 38881,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.03
       },
-      "dealDelta": -2094,
-      "dealPct": -0.0524,
-      "rating": "good",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
-      "ratingConfident": false,
+      "dealDelta": -1779,
+      "dealPct": -0.0458,
+      "rating": "fair",
+      "dealScore": 0.889,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 29,
+        "cohortMedianDaysListed": 34,
         "priceDrop": {
-          "total": 475,
-          "pct": -0.0124,
-          "drops": 1
+          "total": 1276,
+          "pct": -0.0332,
+          "drops": 5
         },
         "negotiability": "high"
       }
@@ -1344,6 +3216,1823 @@
     "sellerType": "franchise",
     "plantCountry": "Japan",
     "plantSource": "vin1",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah8rj188605",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Nightshade",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 42502,
+    "price": 37945,
+    "priceBasis": "listing",
+    "dealer": "Toyota of Murfreesboro",
+    "dealerId": "d_69382f5e81fa8855",
+    "distanceMi": 191,
+    "state": "TN",
+    "city": "Murfreesboro",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Pearl Interior Color Black",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH8RJ188605",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.fordofmurfreesboro.com/used-Murfreesboro-2024-Toyota-Venza-Nightshade-JTEAAAAH8RJ188605",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH8RJ188605&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH8RJ188605-1.jpg",
+    "photoCount": 2,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-19",
+    "lastSeen": "2026-10-19",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-10-19",
+        "price": 37945
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 35860,
+      "expected": 33645,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01,
+        "distance": -63.45
+      },
+      "dealDelta": 4300,
+      "dealPct": 0.1278,
+      "rating": "overpriced",
+      "dealScore": 0.111,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 34,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-10-19",
+    "trimSite": "Nightshade",
+    "verifyLog": [
+      {
+        "date": "2026-10-19",
+        "how": "search",
+        "tier": "site",
+        "host": "fordofmurfreesboro.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 42502,
+        "price": null
+      },
+      {
+        "date": "2026-10-19",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": 2438
+      }
+    ],
+    "stock": "P13015",
+    "trimSearch": "LE",
+    "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-jteaaaah8rj188930",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 33039,
+    "price": 34895,
+    "priceBasis": "listing",
+    "dealer": "Toyota Of Montgomery",
+    "dealerId": "d_123be11ab7b11b79",
+    "distanceMi": 140,
+    "state": "AL",
+    "city": "Montgomery",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH8RJ188930",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.toyotamontgomery.com/vehicle/Used/2024/Toyota/Venza/JTEAAAAH8RJ188930/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH8RJ188930&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH8RJ188930-1.jpg",
+    "photoCount": 26,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-08-24",
+    "lastSeen": "2026-10-19",
+    "listedDays": 75,
+    "priceHistory": [
+      {
+        "date": "2026-08-24",
+        "price": 36795
+      },
+      {
+        "date": "2026-09-07",
+        "price": 35895
+      },
+      {
+        "date": "2026-09-28",
+        "price": 35395
+      },
+      {
+        "date": "2026-10-19",
+        "price": 34895
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.965,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 38078,
+      "expected": 38799,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01,
+        "distance": -40.5
+      },
+      "dealDelta": -3904,
+      "dealPct": -0.1006,
+      "rating": "great",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 75,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 1900,
+          "pct": -0.0516,
+          "drops": 3
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-21",
+    "trimSite": "XLE",
+    "verifyLog": [
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "site",
+        "host": "toyotamontgomery.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "search",
+        "host": "vinassessment.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 37689
+      },
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "search",
+        "host": "youtube.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-09-21",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "XLE"
+  },
+  {
+    "id": "api-jteaaaah8rj191746",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 21643,
+    "price": 41374,
+    "priceBasis": "listing",
+    "dealer": "Group 1 Toyota Rivertown",
+    "dealerId": "d_0ccc8094e40a2d51",
+    "distanceMi": 90,
+    "state": "GA",
+    "city": "Columbus",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH8RJ191746",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.group1fordofrivertown.com/inventory/used-2024-toyota-venza-le-awd-awd-jteaaaah8rj191746/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH8RJ191746&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH8RJ191746-1.jpg",
+    "photoCount": 29,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-12",
+    "lastSeen": "2026-10-19",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-10-12",
+        "price": 41374
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.988,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 36751,
+      "expected": 37100,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -18.0
+      },
+      "dealDelta": 4274,
+      "dealPct": 0.1152,
+      "rating": "overpriced",
+      "dealScore": 0.091,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 12,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-10-12",
+    "trimSite": "LE",
+    "verifyLog": [
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "site",
+        "host": "group1fordofrivertown.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 40,
+        "price": null
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "group1auto.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 41572
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "group1toyotastonemountain.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 41572
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "cars.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "Engine",
+    "trimSearch": "LE",
+    "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-jteaaaah9rj155855",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Nightshade",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2024,
+    "mileage": 13000,
+    "price": 40275,
+    "priceBasis": "listing",
+    "dealer": "Cherokee County Toyota",
+    "dealerId": "d_252b31db661712b2",
+    "distanceMi": 38,
+    "state": "GA",
+    "city": "Canton",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Pearl",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH9RJ155855",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.cherokeecountytoyota.com/used-Canton-2024-Toyota-Venza-Nightshade-JTEAAAAH9RJ155855?stocknum=262185A&atc_ownerid=12499586&utm_source=autotrader.com&utm_medium=referral&utm_campaign=autotrader_listings",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH9RJ155855&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH9RJ155855-1.jpg",
+    "photoCount": 33,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-08-31",
+    "lastSeen": "2026-10-19",
+    "listedDays": 51,
+    "priceHistory": [
+      {
+        "date": "2026-08-31",
+        "price": 40275
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.965,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 38266,
+      "expected": 38649,
+      "adjustments": {
+        "cpo": 0.01
+      },
+      "dealDelta": 1626,
+      "dealPct": 0.0421,
+      "rating": "fair",
+      "dealScore": 0.444,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 51,
+        "cohortMedianDaysListed": 34,
+        "negotiability": "medium"
+      }
+    },
+    "searchedAt": "2026-09-01",
+    "trimSite": "Nightshade",
+    "verifyLog": [
+      {
+        "date": "2026-09-01",
+        "how": "search",
+        "tier": "site",
+        "host": "cherokeecountytoyota.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-09-01",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Nightshade",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "262185A",
+    "trimSearch": "Nightshade"
+  },
+  {
+    "id": "api-jteaaaah9rj173529",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 22957,
+    "price": 38990,
+    "priceBasis": "listing",
+    "dealer": "Audi Huntsville",
+    "dealerId": "d_dfa07062e9b4adb7",
+    "distanceMi": 153,
+    "state": "AL",
+    "city": "Huntsville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Unspecified",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH9RJ173529",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAH9RJ173529",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH9RJ173529&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH9RJ173529-1.jpg",
+    "photoCount": 41,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-17",
+    "lastSeen": "2026-08-17",
+    "listedDays": 13,
+    "priceHistory": [
+      {
+        "date": "2026-08-17",
+        "price": 38990
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 40501,
+      "expected": 40860,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -46.35
+      },
+      "dealDelta": -1870,
+      "dealPct": -0.0458,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 13,
+        "cohortMedianDaysListed": 25,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-08-17",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-08-17",
+        "how": "search",
+        "tier": "search",
+        "host": "cruz.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-17",
+        "how": "search",
+        "tier": "search",
+        "host": "autos.al.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaah9rj174938",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Hybrid",
+    "series": null,
+    "transmission": "CVT",
+    "drivetrain": "AWD",
+    "engine": "2.5L I-4 cyl",
+    "year": 2024,
+    "mileage": 45856,
+    "price": 36864,
+    "priceBasis": "listing",
+    "dealer": "hennessy lexus",
+    "dealerId": "d_a552f74aacec36c7",
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Wind Chill Pearl",
+    "interiorColor": "Boulder",
+    "vin": "JTEAAAAH9RJ174938",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://lexusatlanta.com/used/Toyota/2024-Toyota-Venza-e4b1db6fac184b985b31168a7d3087d9.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH9RJ174938&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH9RJ174938-1.jpg",
+    "photoCount": 36,
+    "baseMsrp": null,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-05",
+    "lastSeen": "2026-10-19",
+    "listedDays": 21,
+    "priceHistory": [
+      {
+        "date": "2026-10-05",
+        "price": 38490
+      },
+      {
+        "date": "2026-10-12",
+        "price": 37990
+      },
+      {
+        "date": "2026-10-19",
+        "price": 36864
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 36864,
+      "expected": 34652,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 2212,
+      "dealPct": 0.0638,
+      "rating": "high",
+      "dealScore": 0.143,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 21,
+        "cohortMedianDaysListed": 25,
+        "priceDrop": {
+          "total": 1626,
+          "pct": -0.0422,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-10-12",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-10-05",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "autos.al.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 45856,
+        "price": 39518
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "lexusatlanta.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "api-jteaaaah9rj179010",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 112644,
+    "price": 26795,
+    "priceBasis": "listing",
+    "dealer": "Doug Justus Auto Center",
+    "dealerId": "d_091b05b5400576cf",
+    "distanceMi": 148,
+    "state": "TN",
+    "city": "Louisville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "JTEAAAAH9RJ179010",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.dougjustus.com/used-2024-TOYOTA-VENZA-LE-louisville-tennessee-37777/flyer/652445",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH9RJ179010&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH9RJ179010-1.jpg",
+    "photoCount": 33,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Commercial Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-08-24",
+    "lastSeen": "2026-10-19",
+    "listedDays": 61,
+    "priceHistory": [
+      {
+        "date": "2026-08-24",
+        "price": 26795
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.965,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24138,
+      "expected": 24335,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -44.1
+      },
+      "dealDelta": 2460,
+      "dealPct": 0.1011,
+      "rating": "overpriced",
+      "dealScore": 0.364,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 61,
+        "cohortMedianDaysListed": 12,
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-24",
+    "trimSite": "LE",
+    "verifyLog": [
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "site",
+        "host": "dougjustus.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "LE",
+    "powertrainSearch": "hybrid"
+  },
+  {
+    "id": "api-jteaaaah9rj185843",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 35384,
+    "price": 37589,
+    "priceBasis": "listing",
+    "dealer": "Days Pre-Owned Supercenter Rockmart",
+    "dealerId": "d_116961a23a3b7891",
+    "distanceMi": 44,
+    "state": "GA",
+    "city": "Rockmart",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAH9RJ185843",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAH9RJ185843",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAH9RJ185843&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAH9RJ185843-1.jpg",
+    "photoCount": 21,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-24",
+    "lastSeen": "2026-09-28",
+    "listedDays": 44,
+    "priceHistory": [
+      {
+        "date": "2026-08-24",
+        "price": 37589
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 38527,
+      "expected": 38913,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1324,
+      "dealPct": -0.034,
+      "rating": "fair",
+      "dealScore": 0.857,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 44,
+        "cohortMedianDaysListed": 25,
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-01",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-09-01",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "Limited",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": 36990
+      }
+    ],
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaahxrj154181",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 21283,
+    "price": 37165,
+    "priceBasis": "listing",
+    "dealer": "Group 1 Toyota Rivertown",
+    "dealerId": "d_0ccc8094e40a2d51",
+    "distanceMi": 90,
+    "state": "GA",
+    "city": "Columbus",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAHXRJ154181",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.group1toyotarivertown.com/inventory/used-2024-toyota-venza-le-awd-awd-jteaaaahxrj154181/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAHXRJ154181&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAHXRJ154181-1.jpg",
+    "photoCount": 29,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-09-28",
+    "lastSeen": "2026-10-19",
+    "listedDays": 27,
+    "priceHistory": [
+      {
+        "date": "2026-09-28",
+        "price": 39054
+      },
+      {
+        "date": "2026-10-05",
+        "price": 39954
+      },
+      {
+        "date": "2026-10-12",
+        "price": 38954
+      },
+      {
+        "date": "2026-10-19",
+        "price": 37165
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.988,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 36801,
+      "expected": 34575,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01,
+        "distance": -18.0
+      },
+      "dealDelta": 2590,
+      "dealPct": 0.0749,
+      "rating": "high",
+      "dealScore": 0.273,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 27,
+        "cohortMedianDaysListed": 12,
+        "priceDrop": {
+          "total": 1889,
+          "pct": -0.0484,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-09-28",
+    "trimSite": "LE",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "site",
+        "host": "group1toyotarivertown.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 21269,
+        "price": null
+      },
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "search",
+        "host": "group1auto.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 21269,
+        "price": null
+      },
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "search",
+        "host": "mbofaugusta.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 21270,
+        "price": null
+      },
+      {
+        "date": "2026-09-28",
+        "how": "search",
+        "tier": "search",
+        "host": "mercedesofbuckhead.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 38055
+      }
+    ],
+    "stock": "Transmission",
+    "trimSearch": "LE"
+  },
+  {
+    "id": "api-jteaaaahxrj157534",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 36503,
+    "price": 34691,
+    "priceBasis": "listing",
+    "dealer": "World Toyota",
+    "dealerId": "d_33da7bd3e2de089f",
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Unspecified",
+    "vin": "JTEAAAAHXRJ157534",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAHXRJ157534",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAHXRJ157534&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAHXRJ157534-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-31",
+    "lastSeen": "2026-08-31",
+    "listedDays": 22,
+    "priceHistory": [
+      {
+        "date": "2026-07-31",
+        "price": 35744
+      },
+      {
+        "date": "2026-08-03",
+        "price": 35578
+      },
+      {
+        "date": "2026-08-17",
+        "price": 35284
+      },
+      {
+        "date": "2026-08-24",
+        "price": 35191
+      },
+      {
+        "date": "2026-08-31",
+        "price": 34691
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 34691,
+      "expected": 35038,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -347,
+      "dealPct": -0.0099,
+      "rating": "fair",
+      "dealScore": 0.636,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 22,
+        "cohortMedianDaysListed": 12,
+        "priceDrop": {
+          "total": 1053,
+          "pct": -0.0295,
+          "drops": 4
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSearch": "LE",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "mercedesofbuckhead.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 36503,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "group1fordofkennesaw.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 36503,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "group1subarurivertown.com",
+        "trim": "LE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 36503,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaahxrj173717",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 28709,
+    "price": 41196,
+    "priceBasis": "listing",
+    "dealer": "Nalley Toyota Roswell",
+    "dealerId": "d_3136e50c4a760125",
+    "distanceMi": 23,
+    "state": "GA",
+    "city": "Roswell",
+    "cpo": "manufacturer",
+    "cpoFeed": false,
+    "exteriorColor": "Pearl",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAHXRJ173717",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://nalleybmw.com/used/Toyota/2024-Toyota-Venza-in-Atlanta-e2bf45d8ac180936a0a72ed8ed144b5a.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAHXRJ173717&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAHXRJ173717-1.jpg",
+    "photoCount": 35,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-17",
+    "lastSeen": "2026-08-17",
+    "listedDays": 8,
+    "priceHistory": [
+      {
+        "date": "2026-08-17",
+        "price": 41196
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 35771,
+      "expected": 37202,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.03
+      },
+      "dealDelta": 3994,
+      "dealPct": 0.1074,
+      "rating": "overpriced",
+      "dealScore": 0.182,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 8,
+        "cohortMedianDaysListed": 12,
+        "negotiability": "low"
+      }
+    },
+    "trimSite": "LE",
+    "powertrainSite": "hybrid",
+    "cpoSite": "manufacturer",
+    "verifyLog": [
+      {
+        "date": "2026-08-17",
+        "how": "stored",
+        "tier": "site",
+        "host": "nalleybmw.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "jsonld",
+        "mileage": 28709,
+        "price": 40098
+      }
+    ],
+    "options": [
+      "Adaptive Cruise",
+      "Blind Spot Monitor",
+      "Head-Up Display",
+      "Moonroof",
+      "Navigation",
+      "Power Liftgate",
+      "Star Gaze Panoramic Roof",
+      "Wireless Charging"
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaahxrj176049",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 35597,
+    "price": 40142,
+    "priceBasis": "listing",
+    "dealer": "Capital Toyota",
+    "dealerId": "d_5b5fbeaa47dddd12",
+    "distanceMi": 102,
+    "state": "TN",
+    "city": "Chattanooga",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Unspecified",
+    "vin": "JTEAAAAHXRJ176049",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.capitaltoyota.com/auto/used-2024-toyota-venza-xle-near-signal-mountain-tn/123450548/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAHXRJ176049&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAHXRJ176049-1.jpg",
+    "photoCount": 24,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Commercial Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-08-17",
+    "listedDays": 8,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 40417
+      },
+      {
+        "date": "2026-08-03",
+        "price": 40363
+      },
+      {
+        "date": "2026-08-17",
+        "price": 40142
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.988,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 37662,
+      "expected": 38016,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -23.400000000000002
+      },
+      "dealDelta": 2126,
+      "dealPct": 0.0559,
+      "rating": "high",
+      "dealScore": 0.111,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 8,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 275,
+          "pct": -0.0068,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-03",
+    "trimSite": "XLE",
+    "verifyLog": [
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "site",
+        "host": "capitaltoyota.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 39618
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-03",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "XLE",
+    "powertrainSearch": "hybrid",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jteaaaahxrj185947",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LE",
+    "trimFeed": "Limited",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "Limited 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 56330,
+    "price": 29424,
+    "priceBasis": "listing",
+    "dealer": "Hunter Subaru Hyundai Volvo",
+    "dealerId": "d_74d86b3aa7733e02",
+    "distanceMi": 156,
+    "state": "NC",
+    "city": "Fletcher",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Unspecified",
+    "vin": "JTEAAAAHXRJ185947",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hunterhyundai.com/inventory/used-2024-toyota-venza-le-awd-sport-utility-jteaaaahxrj185947/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAHXRJ185947&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAHXRJ185947-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 43215,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Corporate Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-12",
+    "lastSeen": "2026-10-19",
+    "listedDays": 12,
+    "priceHistory": [
+      {
+        "date": "2026-10-12",
+        "price": 29424
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 31943,
+      "expected": 32215,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "distance": -47.7
+      },
+      "dealDelta": -2791,
+      "dealPct": -0.0866,
+      "rating": "good",
+      "dealScore": 0.909,
+      "basis": "cohort",
+      "cohortN": 11,
+      "confidence": 0.958,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 12,
+        "cohortMedianDaysListed": 12,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-10-12",
+    "trimSite": "LE",
+    "powertrainSite": "hybrid",
+    "verifyLog": [
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "site",
+        "host": "hunterhyundai.com",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 56328,
+        "price": null
+      }
+    ],
+    "stock": "Engine"
+  },
+  {
+    "id": "api-jteaaaahxrj192171",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XLE",
+    "trimFeed": "LE",
+    "powertrain": "hybrid",
+    "powertrainFeed": "hybrid",
+    "fuel": "Gasoline",
+    "series": "LE 4dr SUV AWD (2.5L 4cyl gas/electric hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2024,
+    "mileage": 12541,
+    "price": 38230,
+    "priceBasis": "listing",
+    "dealer": "Midlands Toyota",
+    "dealerId": "d_a7b0b557f08f92df",
+    "distanceMi": 196,
+    "state": "SC",
+    "city": "Columbia",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Black",
+    "vin": "JTEAAAAHXRJ192171",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/toyota-venza#vin=JTEAAAAHXRJ192171",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTEAAAAHXRJ192171&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTEAAAAHXRJ192171-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 35070,
+    "squishVin": "JTEAAAAHRJ",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-05",
+    "lastSeen": "2026-10-19",
+    "listedDays": 16,
+    "priceHistory": [
+      {
+        "date": "2026-10-05",
+        "price": 39741
+      },
+      {
+        "date": "2026-10-12",
+        "price": 39004
+      },
+      {
+        "date": "2026-10-19",
+        "price": 38230
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "hybrid",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 41411,
+      "expected": 38860,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01,
+        "distance": -65.7
+      },
+      "dealDelta": -630,
+      "dealPct": -0.0162,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 16,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 1511,
+          "pct": -0.038,
+          "drops": 2
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-10-12",
+    "trimSearch": "XLE",
+    "verifyLog": [
+      {
+        "date": "2026-10-05",
+        "how": "search",
+        "tier": "search",
+        "host": "keywesttoyota.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "hudsonauto.com",
+        "trim": "XLE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 12541,
+        "price": null
+      },
+      {
+        "date": "2026-10-12",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "strength": "snippet",
+        "mileage": 12541,
+        "price": 39741
+      }
+    ],
+    "powertrainSearch": "hybrid"
   }
 ]

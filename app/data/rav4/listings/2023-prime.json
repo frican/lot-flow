@@ -1,5 +1,76 @@
 [
   {
+    "id": "api-jtmab3fvxpd162904",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "SE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl regular unleaded",
+    "year": 2023,
+    "mileage": 21061,
+    "price": 38977,
+    "priceBasis": "listing",
+    "dealer": "Cobb County Toyota",
+    "dealerId": "d_b152955b364c059a",
+    "distanceMi": 24,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Black",
+    "vin": "JTMAB3FVXPD162904",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de26251119570a9bb06666869da9e137ba5dc3532800b5147f8c386102fd08725c906b2cb9f7959fa3d60452dd7f248fec5dafd7703befe0164ec634285dbbb5114fb7f16011f22412ebedeee38685f0721f74c31246e538ff42db94d2ceb09e6950fb15e40f90d9a2a0fa486f173a58cc4/?pl=11&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMAB3FVXPD162904&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMAB3FVXPD162904-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 43090,
+    "squishVin": "JTMAB3FVPD",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-07-27",
+    "lastSeen": "2026-08-03",
+    "listedDays": 14,
+    "priceHistory": [
+      {
+        "date": "2026-07-27",
+        "price": 38977
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.87,
+    "powertrainVerifiedBy": "vin",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "exitReason": "unseen"
+  },
+  {
     "id": "api-jtmeb3fv8pd138148",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -16,7 +87,7 @@
     "engine": "2.5L 4Cyl regular unleaded",
     "year": 2023,
     "mileage": 32734,
-    "price": 43818,
+    "price": 42788,
     "priceBasis": "listing",
     "dealer": "Secret City Chrysler Dodge Jeep Ram",
     "dealerId": "d_ae2e624895ed6dd0",
@@ -40,14 +111,22 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-07-13",
-    "lastSeen": "2026-07-20",
-    "listedDays": 9,
+    "lastSeen": "2026-08-03",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-07-13",
         "price": 43818
+      },
+      {
+        "date": "2026-07-27",
+        "price": 42988
+      },
+      {
+        "date": "2026-08-03",
+        "price": 42788
       }
     ],
     "powertrainVin": "prime",
@@ -68,7 +147,165 @@
     "plantCountry": "Japan",
     "plantCity": "Obu",
     "plantSource": "vpic",
-    "urlOrigin": "stored"
+    "urlOrigin": "stored",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-jtmeb3fv8pd159372",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "XSE",
+    "trimFeed": "XSE",
+    "powertrain": "prime",
+    "powertrainFeed": "prime",
+    "fuel": "Gasoline",
+    "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
+    "transmission": "Automatic",
+    "drivetrain": "AWD",
+    "engine": "2.5L 4Cyl Gasoline",
+    "year": 2023,
+    "mileage": 30235,
+    "price": 41096,
+    "priceBasis": "listing",
+    "dealer": "World Toyota",
+    "dealerId": "d_33da7bd3e2de089f",
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Unspecified",
+    "vin": "JTMEB3FV8PD159372",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.worldtoyota.com/inventory/used-2023-toyota-rav4-prime-xse-awd-sport-utility-jtmeb3fv8pd159372/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JTMEB3FV8PD159372&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JTMEB3FV8PD159372-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 46960,
+    "squishVin": "JTMEB3FVPD",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": true,
+    "firstSeen": "2026-08-03",
+    "lastSeen": "2026-08-31",
+    "listedDays": 22,
+    "priceHistory": [
+      {
+        "date": "2026-08-03",
+        "price": 42935
+      },
+      {
+        "date": "2026-08-17",
+        "price": 42766
+      },
+      {
+        "date": "2026-08-24",
+        "price": 41498
+      },
+      {
+        "date": "2026-08-31",
+        "price": 41096
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "prime",
+    "powertrainConfidence": 0.998,
+    "powertrainVerifiedBy": "site",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 39903,
+      "expected": 40701,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "franchise": 0.01
+      },
+      "dealDelta": 395,
+      "dealPct": 0.0097,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 22,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 1839,
+          "pct": -0.0428,
+          "drops": 3
+        },
+        "negotiability": "high"
+      }
+    },
+    "searchedAt": "2026-08-24",
+    "trimSite": "XSE",
+    "powertrainSite": "prime",
+    "verifyLog": [
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "site",
+        "host": "worldtoyota.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "search",
+        "host": "lexusoffortmyers.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": 40728
+      },
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "search",
+        "host": "group1toyotarivertown.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-08-24",
+        "how": "search",
+        "tier": "search",
+        "host": "group1fordofkennesaw.com",
+        "trim": "XSE",
+        "powertrain": "prime",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "XSE",
+    "powertrainSearch": "prime",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jtmfb3fv8pd154984",
@@ -82,11 +319,11 @@
     "powertrainFeed": "prime",
     "year": 2023,
     "mileage": 9882,
-    "price": 43897,
+    "price": 42697,
     "priceBasis": "listing",
     "dealer": "Toyota of Knoxville",
     "dealerId": "d_99c8e2829be16ec9",
-    "distanceMi": 152,
+    "distanceMi": 151,
     "state": "TN",
     "city": "Knoxville",
     "cpo": "none",
@@ -103,12 +340,12 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Corporate Use",
+    "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-06-19",
-    "lastSeen": "2026-07-20",
-    "listedDays": 27,
+    "lastSeen": "2026-07-27",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-06-19",
@@ -129,6 +366,10 @@
       {
         "date": "2026-07-20",
         "price": 43897
+      },
+      {
+        "date": "2026-07-22",
+        "price": 42697
       }
     ],
     "powertrainConfidence": 0.984,
@@ -141,28 +382,28 @@
     "trimConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 50222,
-      "expected": 51180,
+      "marketValue": 43890,
+      "expected": 44723,
       "adjustments": {
         "oneOwner": 0.01,
         "franchise": 0.01,
-        "distance": -45.9
+        "distance": -45.45
       },
-      "dealDelta": -7283,
-      "dealPct": -0.1423,
-      "rating": "great",
+      "dealDelta": -2026,
+      "dealPct": -0.0453,
+      "rating": "fair",
       "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 27,
+        "listedDays": 34,
+        "cohortMedianDaysListed": 28,
         "priceDrop": {
-          "total": 4699,
-          "pct": -0.0967,
-          "drops": 1
+          "total": 5899,
+          "pct": -0.1214,
+          "drops": 2
         },
         "negotiability": "high"
       }
@@ -210,7 +451,7 @@
     "series": "XSE 4dr SUV AWD (2.5L 4cyl gas/electric plug-in hybrid CVT)",
     "transmission": "Automatic",
     "drivetrain": "AWD",
-    "engine": "2.5L 4Cyl Gasoline",
+    "engine": "2.5L 4Cyl regular unleaded",
     "cpoFeed": false,
     "sellerType": "franchise",
     "plantCountry": "Japan",
