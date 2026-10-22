@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-10-22",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2022|Long Range Dual Motor|electric": {
+      "year": 2022,
+      "trim": "Long Range Dual Motor",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        42303,
+        116480
+      ],
+      "theilSen": {
+        "slope": -0.0792,
+        "intercept": 24826.64
+      },
+      "ols": {
+        "slope": -0.0814,
+        "intercept": 25218.96
+      },
+      "parentKey": "Long Range Dual Motor|electric",
+      "msrp": 49900
+    },
+    "2023|Long Range Dual Motor|electric": {
+      "year": 2023,
+      "trim": "Long Range Dual Motor",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        23179,
+        23179
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Long Range Dual Motor|electric",
+      "msrp": 51900
+    },
+    "2023|Long Range Single Motor|electric": {
+      "year": 2023,
+      "trim": "Long Range Single Motor",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        11414,
+        21405
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Long Range Single Motor|electric",
+      "msrp": 48400
+    },
+    "2023|Long Range Dual Motor Performance|electric": {
+      "year": 2023,
+      "trim": "Long Range Dual Motor Performance",
+      "powertrain": "electric",
+      "n": 5,
+      "mileageRange": [
+        14477,
+        25549
+      ],
+      "theilSen": {
+        "slope": -0.1335,
+        "intercept": 28920.18
+      },
+      "ols": {
+        "slope": -0.1359,
+        "intercept": 29361.69
+      },
+      "parentKey": "Long Range Dual Motor Performance|electric",
+      "msrp": null
+    },
+    "2024|Long Range Dual Motor|electric": {
+      "year": 2024,
+      "trim": "Long Range Dual Motor",
+      "powertrain": "electric",
+      "n": 23,
+      "mileageRange": [
+        6707,
+        33314
+      ],
+      "theilSen": {
+        "slope": -0.1195,
+        "intercept": 28203.93
+      },
+      "ols": {
+        "slope": -0.1223,
+        "intercept": 28051.58
+      },
+      "parentKey": "Long Range Dual Motor|electric",
+      "msrp": 57500
+    },
+    "2024|Long Range Single Motor|electric": {
+      "year": 2024,
+      "trim": "Long Range Single Motor",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        34107,
+        34107
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Long Range Single Motor|electric",
+      "msrp": 52100
+    }
+  },
+  "parents": {
+    "Long Range Dual Motor|electric": {
+      "slope": -0.1223,
+      "intercept": 28274.14
+    },
+    "Long Range Single Motor|electric": {
+      "slope": -0.1058,
+      "intercept": 26000.14
+    },
+    "Long Range Dual Motor Performance|electric": {
+      "slope": -0.1335,
+      "intercept": 28920.18
+    }
+  },
+  "depreciation": {
+    "Long Range Dual Motor|electric": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 66250,
+        "marketValue": 20275,
+        "msrp": 49900,
+        "retained": 0.406
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 23179,
+        "marketValue": 24231,
+        "msrp": 51900,
+        "retained": 0.467
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 18004,
+        "marketValue": 26052,
+        "msrp": 57500,
+        "retained": 0.453
+      }
+    ],
+    "Long Range Single Motor|electric": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 16409,
+        "marketValue": 24293,
+        "msrp": 48400,
+        "retained": 0.502
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 34107,
+        "marketValue": 21800,
+        "msrp": 52100,
+        "retained": 0.418
+      }
+    ],
+    "Long Range Dual Motor Performance|electric": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 19243,
+        "marketValue": 26352,
+        "msrp": null,
+        "retained": null
+      }
+    ]
+  }
+}

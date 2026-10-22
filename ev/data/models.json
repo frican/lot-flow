@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-22",
   "models": [
     {
       "id": "ioniq_5",
@@ -48,6 +48,125 @@
       ],
       "years": [
         2021,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "ioniq_6",
+      "make": "Hyundai",
+      "model": "IONIQ 6",
+      "label": "Hyundai IONIQ 6",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2023,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "ev9",
+      "make": "Kia",
+      "model": "EV9",
+      "label": "Kia EV9",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2024,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "ariya",
+      "make": "Nissan",
+      "model": "Ariya",
+      "label": "Nissan Ariya",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2023,
+        2025
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "id_4",
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "label": "Volkswagen ID.4",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2021,
+        2025
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "polestar_2",
+      "make": "Polestar",
+      "model": 2,
+      "label": "Polestar 2",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2021,
+        2025
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "i4",
+      "make": "BMW",
+      "model": "i4",
+      "label": "BMW i4",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2022,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "gv60",
+      "make": "Genesis",
+      "model": "GV60",
+      "label": "Genesis GV60",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2023,
         2026
       ],
       "targetPowertrain": "electric"

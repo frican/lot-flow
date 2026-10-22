@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-10-22",
+  "total": 3,
+  "cohortReady": 1,
+  "flagged": 2,
+  "shards": [
+    {
+      "shard": "2023-electric",
+      "file": "listings/2023-electric.json",
+      "count": 3,
+      "cohortReady": 1,
+      "gone": 0
+    }
+  ]
+}

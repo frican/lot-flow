@@ -1,0 +1,118 @@
+[
+  {
+    "id": "api-kndaefs50s6055663",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "GT-Line",
+    "trimFeed": "GT-Line",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "GT-Line 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2025,
+    "mileage": 20680,
+    "price": 46999,
+    "priceBasis": "listing",
+    "dealer": "Rick Case Kia at Gwinnett Place",
+    "dealerId": "d_e51ee39f370fd44d",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Brown",
+    "vin": "KNDAEFS50S6055663",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://express.rickcasemazda.com/express/used/KNDAEFS50S6055663",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDAEFS50S6055663&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KNDAEFS50S6055663-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 73900,
+    "squishVin": "KNDAEFS5S6",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-22",
+    "lastSeen": "2026-10-22",
+    "listedDays": 13,
+    "priceHistory": [
+      {
+        "date": "2026-10-22",
+        "price": 46999
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 48368,
+      "expected": 48852,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1853,
+      "dealPct": -0.0379,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 13,
+        "cohortMedianDaysListed": 13,
+        "negotiability": "low"
+      }
+    },
+    "searchedAt": "2026-10-22",
+    "trimSite": "GT-Line",
+    "verifyLog": [
+      {
+        "date": "2026-10-22",
+        "how": "search",
+        "tier": "site",
+        "host": "express.rickcasemazda.com",
+        "trim": "GT-Line",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-22",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "GT-Line",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "K055663",
+    "trimSearch": "GT-Line",
+    "powertrainSearch": "electric"
+  }
+]

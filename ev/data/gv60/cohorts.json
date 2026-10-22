@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-10-22",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2023|Performance|electric": {
+      "year": 2023,
+      "trim": "Performance",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        46421,
+        46421
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Performance|electric",
+      "msrp": 68290
+    }
+  },
+  "parents": {},
+  "depreciation": {}
+}
