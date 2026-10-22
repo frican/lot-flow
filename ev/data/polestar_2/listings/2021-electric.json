@@ -1,0 +1,85 @@
+[
+  {
+    "id": "api-lpsed3ka2ml024217",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Launch Edition",
+    "trimFeed": "Launch Edition",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Launch Edition 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2021,
+    "mileage": 26844,
+    "price": 18500,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "LPSED3KA2ML024217",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/polestar-2#vin=LPSED3KA2ML024217",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=LPSED3KA2ML024217&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/LPSED3KA2ML024217-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 59900,
+    "squishVin": "LPSED3KAML",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-10-22",
+    "lastSeen": "2026-10-22",
+    "listedDays": 90,
+    "priceHistory": [
+      {
+        "date": "2026-10-22",
+        "price": 18500
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "stored",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-10-22",
+    "trimSearch": "Launch Edition",
+    "verifyLog": [
+      {
+        "date": "2026-10-22",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Launch Edition",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  }
+]

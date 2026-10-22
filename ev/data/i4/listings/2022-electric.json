@@ -1,0 +1,117 @@
+[
+  {
+    "id": "api-wby73aw05nfm17538",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "eDrive40",
+    "trimFeed": "eDrive40",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "eDrive40 4dr Sedan (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2022,
+    "mileage": 47678,
+    "price": 29748,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Ford",
+    "dealerId": "d_2925fad6da725fdb",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "WBY73AW05NFM17538",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.gwinnettplaceford.com/used/BMW/2022-BMW-i4-12e49f3dac1844cced8e7ffc72e58c85.htm?srsltid=AYCX9vLM4LtMBULXvi2nVBgzU7ujEjoKnw7aliQArk8S3N3VuNoEbg1y",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY73AW05NFM17538&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY73AW05NFM17538-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 55400,
+    "squishVin": "WBY73AW0NF",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Corporate Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-22",
+    "lastSeen": "2026-10-22",
+    "listedDays": 15,
+    "priceHistory": [
+      {
+        "date": "2026-10-22",
+        "price": 29748
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 25312,
+      "expected": 25565,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 4183,
+      "dealPct": 0.1636,
+      "rating": "overpriced",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 15,
+        "cohortMedianDaysListed": 15,
+        "negotiability": "medium"
+      }
+    },
+    "searchedAt": "2026-10-22",
+    "trimSite": "eDrive40",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-10-22",
+        "how": "search",
+        "tier": "site",
+        "host": "gwinnettplaceford.com",
+        "trim": "eDrive40",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-22",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "trimSearch": "eDrive40"
+  }
+]

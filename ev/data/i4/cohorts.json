@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-10-22",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2022|eDrive40|electric": {
+      "year": 2022,
+      "trim": "eDrive40",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        47678,
+        47678
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "eDrive40|electric",
+      "msrp": 55400
+    },
+    "2023|eDrive35|electric": {
+      "year": 2023,
+      "trim": "eDrive35",
+      "powertrain": "electric",
+      "n": 5,
+      "mileageRange": [
+        12728,
+        38929
+      ],
+      "theilSen": {
+        "slope": -0.391,
+        "intercept": 41969.31
+      },
+      "ols": {
+        "slope": -0.3579,
+        "intercept": 41595.66
+      },
+      "parentKey": "eDrive35|electric",
+      "msrp": 51400
+    },
+    "2023|eDrive40|electric": {
+      "year": 2023,
+      "trim": "eDrive40",
+      "powertrain": "electric",
+      "n": 8,
+      "mileageRange": [
+        15184,
+        31615
+      ],
+      "theilSen": {
+        "slope": -0.1302,
+        "intercept": 38748.7
+      },
+      "ols": {
+        "slope": -0.1543,
+        "intercept": 39246.88
+      },
+      "parentKey": "eDrive40|electric",
+      "msrp": 55900
+    },
+    "2024|M50|electric": {
+      "year": 2024,
+      "trim": "M50",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        23635,
+        23635
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "M50|electric",
+      "msrp": 69700
+    },
+    "2024|eDrive35|electric": {
+      "year": 2024,
+      "trim": "eDrive35",
+      "powertrain": "electric",
+      "n": 5,
+      "mileageRange": [
+        11907,
+        35036
+      ],
+      "theilSen": {
+        "slope": 0.1713,
+        "intercept": 29491.89
+      },
+      "ols": {
+        "slope": 0.0168,
+        "intercept": 34052.54
+      },
+      "parentKey": "eDrive35|electric",
+      "msrp": 52200
+    },
+    "2024|eDrive40|electric": {
+      "year": 2024,
+      "trim": "eDrive40",
+      "powertrain": "electric",
+      "n": 5,
+      "mileageRange": [
+        22709,
+        94858
+      ],
+      "theilSen": {
+        "slope": -0.2644,
+        "intercept": 46101.82
+      },
+      "ols": {
+        "slope": -0.2503,
+        "intercept": 44772.67
+      },
+      "parentKey": "eDrive40|electric",
+      "msrp": 57300
+    },
+    "2025|eDrive40|electric": {
+      "year": 2025,
+      "trim": "eDrive40",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        20841,
+        43384
+      ],
+      "theilSen": {
+        "slope": -0.093,
+        "intercept": 40021.68
+      },
+      "ols": {
+        "slope": -0.1253,
+        "intercept": 40677.59
+      },
+      "parentKey": "eDrive40|electric",
+      "msrp": 57900
+    },
+    "2025|xDrive40|electric": {
+      "year": 2025,
+      "trim": "xDrive40",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        23816,
+        37029
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "xDrive40|electric",
+      "msrp": 62300
+    },
+    "2026|eDrive40|electric": {
+      "year": 2026,
+      "trim": "eDrive40",
+      "powertrain": "electric",
+      "n": 4,
+      "mileageRange": [
+        4294,
+        6514
+      ],
+      "theilSen": {
+        "slope": -3.4295,
+        "intercept": 72220.54
+      },
+      "ols": {
+        "slope": -1.5966,
+        "intercept": 63517.39
+      },
+      "parentKey": "eDrive40|electric",
+      "msrp": 57900
+    }
+  },
+  "parents": {
+    "eDrive40|electric": {
+      "slope": -0.3108,
+      "intercept": 45221.51
+    },
+    "eDrive35|electric": {
+      "slope": -0.251,
+      "intercept": 39831.36
+    }
+  },
+  "depreciation": {
+    "eDrive40|electric": [
+      {
+        "year": 2022,
+        "age": 4,
+        "medianMileage": 47678,
+        "marketValue": 25312,
+        "msrp": 55400,
+        "retained": 0.457
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 27857,
+        "marketValue": 35123,
+        "msrp": 55900,
+        "retained": 0.628
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 29981,
+        "marketValue": 38993,
+        "msrp": 57300,
+        "retained": 0.681
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 42909,
+        "marketValue": 34544,
+        "msrp": 57900,
+        "retained": 0.597
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 4772,
+        "marketValue": 55555,
+        "msrp": 57900,
+        "retained": 0.959
+      }
+    ],
+    "eDrive35|electric": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 32023,
+        "marketValue": 29787,
+        "msrp": 51400,
+        "retained": 0.58
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 25844,
+        "marketValue": 34102,
+        "msrp": 52200,
+        "retained": 0.653
+      }
+    ],
+    "M50|electric": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 23635,
+        "marketValue": 48094,
+        "msrp": 69700,
+        "retained": 0.69
+      }
+    ],
+    "xDrive40|electric": [
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 30422,
+        "marketValue": 44488,
+        "msrp": 62300,
+        "retained": 0.714
+      }
+    ]
+  }
+}

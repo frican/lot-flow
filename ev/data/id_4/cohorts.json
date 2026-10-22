@@ -1,0 +1,259 @@
+{
+  "generatedAt": "2026-10-22",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2021|1st Edition|electric": {
+      "year": 2021,
+      "trim": "1st Edition",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        19142,
+        19142
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "1st Edition|electric",
+      "msrp": 43995
+    },
+    "2021|Pro|electric": {
+      "year": 2021,
+      "trim": "Pro",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        87426,
+        87426
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Pro|electric",
+      "msrp": 43675
+    },
+    "2021|Pro S|electric": {
+      "year": 2021,
+      "trim": "Pro S",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        32367,
+        57837
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Pro S|electric",
+      "msrp": 44495
+    },
+    "2023|S|electric": {
+      "year": 2023,
+      "trim": "S",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        20916,
+        26945
+      ],
+      "theilSen": {
+        "slope": -0.1659,
+        "intercept": 26467.23
+      },
+      "ols": {
+        "slope": -0.2208,
+        "intercept": 27331.85
+      },
+      "parentKey": "S|electric",
+      "msrp": 43995
+    },
+    "2023|Standard|electric": {
+      "year": 2023,
+      "trim": "Standard",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        29766,
+        29766
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Standard|electric",
+      "msrp": 38995
+    },
+    "2023|Pro|electric": {
+      "year": 2023,
+      "trim": "Pro",
+      "powertrain": "electric",
+      "n": 5,
+      "mileageRange": [
+        19936,
+        39097
+      ],
+      "theilSen": {
+        "slope": -0.0207,
+        "intercept": 21748.16
+      },
+      "ols": {
+        "slope": -0.0259,
+        "intercept": 21836.4
+      },
+      "parentKey": "Pro|electric",
+      "msrp": 43995
+    },
+    "2023|Pro S|electric": {
+      "year": 2023,
+      "trim": "Pro S",
+      "powertrain": "electric",
+      "n": 6,
+      "mileageRange": [
+        13733,
+        36145
+      ],
+      "theilSen": {
+        "slope": -0.0661,
+        "intercept": 24808.1
+      },
+      "ols": {
+        "slope": -0.0586,
+        "intercept": 24916.38
+      },
+      "parentKey": "Pro S|electric",
+      "msrp": 48995
+    },
+    "2024|Standard|electric": {
+      "year": 2024,
+      "trim": "Standard",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        20937,
+        20937
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Standard|electric",
+      "msrp": 39735
+    },
+    "2025|Pro S|electric": {
+      "year": 2025,
+      "trim": "Pro S",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        5480,
+        7224
+      ],
+      "theilSen": {
+        "slope": -0.9748,
+        "intercept": 41941.74
+      },
+      "ols": {
+        "slope": -1.2691,
+        "intercept": 43482.46
+      },
+      "parentKey": "Pro S|electric",
+      "msrp": 54095
+    }
+  },
+  "parents": {
+    "Pro|electric": {
+      "slope": -0.0541,
+      "intercept": 22663.07
+    },
+    "Pro S|electric": {
+      "slope": -0.3448,
+      "intercept": 34331.53
+    },
+    "S|electric": {
+      "slope": -0.1659,
+      "intercept": 26467.23
+    }
+  },
+  "depreciation": {
+    "1st Edition|electric": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 19142,
+        "marketValue": 19474,
+        "msrp": 43995,
+        "retained": 0.443
+      }
+    ],
+    "Pro|electric": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 87426,
+        "marketValue": 14855,
+        "msrp": 43675,
+        "retained": 0.34
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 26938,
+        "marketValue": 21518,
+        "msrp": 43995,
+        "retained": 0.489
+      }
+    ],
+    "Pro S|electric": [
+      {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 45102,
+        "marketValue": 18677,
+        "msrp": 44495,
+        "retained": 0.42
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 27871,
+        "marketValue": 22965,
+        "msrp": 48995,
+        "retained": 0.469
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 7033,
+        "marketValue": 34966,
+        "msrp": 54095,
+        "retained": 0.646
+      }
+    ],
+    "S|electric": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 25038,
+        "marketValue": 22314,
+        "msrp": 43995,
+        "retained": 0.507
+      }
+    ],
+    "Standard|electric": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 29766,
+        "marketValue": 19470,
+        "msrp": 38995,
+        "retained": 0.499
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 20937,
+        "marketValue": 21808,
+        "msrp": 39735,
+        "retained": 0.549
+      }
+    ]
+  }
+}

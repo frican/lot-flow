@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-10-22",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2024|Light Long Range|electric": {
+      "year": 2024,
+      "trim": "Light Long Range",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        26062,
+        26062
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Light Long Range|electric",
+      "msrp": 59200
+    },
+    "2024|Land|electric": {
+      "year": 2024,
+      "trim": "Land",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        13547,
+        19488
+      ],
+      "theilSen": {
+        "slope": 0.3711,
+        "intercept": 38765.04
+      },
+      "ols": {
+        "slope": 0.632,
+        "intercept": 31137.25
+      },
+      "parentKey": "Land|electric",
+      "msrp": 69900
+    },
+    "2024|GT-Line|electric": {
+      "year": 2024,
+      "trim": "GT-Line",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        29205,
+        32263
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "GT-Line|electric",
+      "msrp": 73900
+    },
+    "2025|GT-Line|electric": {
+      "year": 2025,
+      "trim": "GT-Line",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        20680,
+        20680
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "GT-Line|electric",
+      "msrp": 73900
+    },
+    "2026|GT-Line|electric": {
+      "year": 2026,
+      "trim": "GT-Line",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        15134,
+        15134
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "GT-Line|electric",
+      "msrp": 71900
+    }
+  },
+  "parents": {
+    "Land|electric": {
+      "slope": 0.3711,
+      "intercept": 38765.04
+    },
+    "GT-Line|electric": {
+      "slope": -0.7152,
+      "intercept": 62971.93
+    }
+  },
+  "depreciation": {
+    "Light Long Range|electric": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 26062,
+        "marketValue": 33467,
+        "msrp": 59200,
+        "retained": 0.565
+      }
+    ],
+    "Land|electric": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 15824,
+        "marketValue": 44638,
+        "msrp": 69900,
+        "retained": 0.639
+      }
+    ],
+    "GT-Line|electric": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 30734,
+        "marketValue": 40990,
+        "msrp": 73900,
+        "retained": 0.555
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 20680,
+        "marketValue": 48368,
+        "msrp": 73900,
+        "retained": 0.655
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 15134,
+        "marketValue": 53498,
+        "msrp": 71900,
+        "retained": 0.744
+      }
+    ]
+  }
+}
