@@ -201,6 +201,8 @@ a:hover { text-decoration: underline; }
 .b-thin { color: var(--text-muted); border-color: var(--border); }
 /* b-unverified = not cohort-ready (opt-in via "show unverified"); unpriced, dashed to read as provisional. */
 .b-unverified { color: var(--text-muted); border-color: var(--border); border-style: dashed; }
+/* b-vinmatch = trim cleared by the VIN-pattern tier (not dealer-confirmed). */
+.b-vinmatch { color: var(--text-muted); border-color: var(--border); font-size: var(--fs-xs); }
 /* absolute deal rating (the headline) — CarGurus-style bands */
 .r-great { color: var(--deal-great); border-color: var(--deal-great); font-weight: 650; }
 .r-good { color: var(--deal-good); }
