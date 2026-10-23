@@ -65,7 +65,7 @@
         <div id="profit-dynamic">
           <p class="vignette-headline">
             A <b id="profit-vehicle">unit</b> was listed
-            <b id="profit-under">—</b> under market value and was gone within
+            <b id="profit-under">—</b> under market value and
             <b id="profit-days">—</b>.
           </p>
           <p class="muted">That gap is margin handed straight to the buyer: value you priced away without meaning to.</p>
@@ -300,7 +300,7 @@
     // hero
     $("case-tag").textContent = "Case study · " + (cs.region || "") + " · " + span;
     $("hero-region").textContent = "Every verified used listing within " + m.miles + " miles of downtown " +
-      "Atlanta, scored car by car against its comps for four months.";
+      "Atlanta, scored car by car against its comps for " + (w.days || 90) + " days.";
     $("stat-total").textContent = money((given.usd || 0) + (aging.usd || 0));
     $("stat-total-lbl").textContent = "Mispriced across " + num(m.carsPriced) + " verified used listings";
     $("stat-given").textContent = money(given.usd);
@@ -316,7 +316,8 @@
     if (p) {
       $("profit-vehicle").textContent = p.year + " " + p.trim + " with " + num(p.milesK) + "k miles";
       $("profit-under").textContent = money(p.underBy) + " (" + p.underPct + "%)";
-      $("profit-days").textContent = num(p.goneWithinDays) + " days";
+      $("profit-days").textContent = (p.soldInDays != null && p.soldInDays <= 3)
+        ? "sold in a weekend" : "was gone within " + num(p.goneWithinDays) + " days";
     } else {
       $("profit-dynamic").classList.add("hidden");
       $("profit-empty").classList.remove("hidden");

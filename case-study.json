@@ -2,27 +2,28 @@
   "kind": "case-study",
   "region": "Metro Atlanta",
   "window": {
-    "from": "2026-06-19",
-    "to": "2026-10-19"
+    "from": "2026-07-21",
+    "to": "2026-10-19",
+    "days": 90
   },
   "generatedAt": "2026-10-23",
   "metro": {
     "miles": 50,
-    "carsPriced": 1441,
+    "carsPriced": 1198,
     "givenAway": {
-      "usd": 363000,
-      "cars": 138
+      "usd": 239500,
+      "cars": 92
     },
     "agingOver": {
-      "usd": 154600,
-      "cars": 44
+      "usd": 148400,
+      "cars": 42
     }
   },
   "store": {
     "label": "A Toyota dealer in north metro Atlanta",
-    "cars": 12,
-    "overTotal": 69000,
-    "cutsMin": 0,
+    "cars": 10,
+    "overTotal": 62800,
+    "cutsMin": 2,
     "cutsMax": 10,
     "daysMin": 61,
     "daysMax": 122,
@@ -156,32 +157,6 @@
         "daysOnLot": 122,
         "cuts": 10,
         "status": "listed"
-      },
-      {
-        "year": 2025,
-        "model": "RAV4",
-        "trim": "XLE Premium",
-        "powertrain": "gas",
-        "milesK": 69,
-        "ask": 35700,
-        "market": 32100,
-        "overPct": 11.4,
-        "daysOnLot": 80,
-        "cuts": 0,
-        "status": "sold"
-      },
-      {
-        "year": 2024,
-        "model": "RAV4",
-        "trim": "XSE",
-        "powertrain": "hybrid",
-        "milesK": 58,
-        "ask": 37500,
-        "market": 34900,
-        "overPct": 7.3,
-        "daysOnLot": 67,
-        "cuts": 1,
-        "status": "sold"
       }
     ]
   },
@@ -193,6 +168,7 @@
         "milesK": 50,
         "underBy": 4400,
         "underPct": 16.8,
+        "soldInDays": 1,
         "goneWithinDays": 8
       }
     ],
