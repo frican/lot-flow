@@ -110,6 +110,7 @@ function basisBadge(v) {
   const b = v && v.basis;
   if (b === "msrp_curve") return `<span class="badge b-rare" title="Rare spec — no direct comps; priced off the model's MSRP-retention curve">Rare spec</span>`;
   if (b === "pooled") return `<span class="badge b-thin" title="Few comps — pooled across similar trims for a fair-value fit">Few comps</span>`;
+  if (b === "not-ready" || b == null) return `<span class="badge b-unverified" title="Not cohort-ready — trim/powertrain not verified yet, so no market value">Unverified</span>`;
   return "";
 }
 function carfaxLink(r) {
@@ -272,13 +273,16 @@ function isStale(v) {
 
 function renderDeals() {
   const lens = LENSES[activeLens] || LENSES.shopper;
+  const showUnverified = document.getElementById("showUnverified").checked;
   // Any (real) basis — an unscored record has nothing to rank. The old cohort/pooled trust filter
   // and the Trust column were retired from the buyer-facing view (kept computing behind the scenes
   // to gate the deal color).
   let rows = ALL.filter(r => {
     if (!commonFilter(r)) return false;
     const b = get(r, "valuation.basis");
-    if (b === "not-ready" || b == null) return false;
+    // not-ready = not cohort-ready (trim/powertrain unverified): no market value to rank by, so
+    // hidden by default; the toggle lists them unpriced (null dealPct sorts them to the bottom).
+    if ((b === "not-ready" || b == null) && !showUnverified) return false;
     if (lens.filter && !lens.filter(r)) return false;   // lens row filter (e.g. profit = over-market only)
     return true;
   });
@@ -703,7 +707,7 @@ document.getElementById("detailClose").addEventListener("click", closeDetail);
 document.getElementById("detail").addEventListener("click", e => { if (e.target.id === "detail") closeDetail(); });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && !document.getElementById("detail").hidden) closeDetail(); });
 
-["powertrain", "year", "hideGone"].forEach(id =>
+["powertrain", "year", "hideGone", "showUnverified"].forEach(id =>
   document.getElementById(id).addEventListener("change", render));
 
 // view tabs — write viewState (the old <select id=view>) and reflect the active tab
