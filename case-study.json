@@ -1,0 +1,249 @@
+{
+  "kind": "case-study",
+  "region": "Metro Atlanta",
+  "window": {
+    "from": "2026-06-19",
+    "to": "2026-10-19"
+  },
+  "generatedAt": "2026-10-23",
+  "metro": {
+    "miles": 50,
+    "carsPriced": 1441,
+    "givenAway": {
+      "usd": 363000,
+      "cars": 138
+    },
+    "agingOver": {
+      "usd": 154600,
+      "cars": 44
+    }
+  },
+  "store": {
+    "label": "A Toyota dealer in north metro Atlanta",
+    "cars": 12,
+    "overTotal": 69000,
+    "cutsMin": 0,
+    "cutsMax": 10,
+    "daysMin": 61,
+    "daysMax": 122,
+    "rows": [
+      {
+        "year": 2024,
+        "model": "Camry",
+        "trim": "SE",
+        "powertrain": "gas",
+        "milesK": 54,
+        "ask": 32900,
+        "market": 24700,
+        "overPct": 33.2,
+        "daysOnLot": 80,
+        "cuts": 7,
+        "status": "listed"
+      },
+      {
+        "year": 2021,
+        "model": "RAV4",
+        "trim": "LE",
+        "powertrain": "gas",
+        "milesK": 89,
+        "ask": 28400,
+        "market": 20600,
+        "overPct": 37.7,
+        "daysOnLot": 82,
+        "cuts": 6,
+        "status": "listed"
+      },
+      {
+        "year": 2024,
+        "model": "Camry",
+        "trim": "SE",
+        "powertrain": "gas",
+        "milesK": 65,
+        "ask": 31900,
+        "market": 24600,
+        "overPct": 29.5,
+        "daysOnLot": 80,
+        "cuts": 5,
+        "status": "listed"
+      },
+      {
+        "year": 2024,
+        "model": "Camry",
+        "trim": "XSE",
+        "powertrain": "gas",
+        "milesK": 62,
+        "ask": 33900,
+        "market": 26900,
+        "overPct": 25.8,
+        "daysOnLot": 80,
+        "cuts": 7,
+        "status": "listed"
+      },
+      {
+        "year": 2021,
+        "model": "RAV4",
+        "trim": "XLE Premium",
+        "powertrain": "hybrid",
+        "milesK": 55,
+        "ask": 38400,
+        "market": 32000,
+        "overPct": 19.8,
+        "daysOnLot": 68,
+        "cuts": 5,
+        "status": "listed"
+      },
+      {
+        "year": 2023,
+        "model": "RAV4",
+        "trim": "XLE",
+        "powertrain": "gas",
+        "milesK": 62,
+        "ask": 34400,
+        "market": 28300,
+        "overPct": 21.4,
+        "daysOnLot": 77,
+        "cuts": 8,
+        "status": "listed"
+      },
+      {
+        "year": 2023,
+        "model": "RAV4",
+        "trim": "XLE",
+        "powertrain": "gas",
+        "milesK": 61,
+        "ask": 34400,
+        "market": 28400,
+        "overPct": 21.2,
+        "daysOnLot": 63,
+        "cuts": 2,
+        "status": "sold"
+      },
+      {
+        "year": 2023,
+        "model": "RAV4",
+        "trim": "XLE",
+        "powertrain": "hybrid",
+        "milesK": 32,
+        "ask": 41400,
+        "market": 36500,
+        "overPct": 13.3,
+        "daysOnLot": 61,
+        "cuts": 4,
+        "status": "listed"
+      },
+      {
+        "year": 2023,
+        "model": "Venza",
+        "trim": "LE",
+        "powertrain": "hybrid",
+        "milesK": 46,
+        "ask": 35900,
+        "market": 31200,
+        "overPct": 15.2,
+        "daysOnLot": 82,
+        "cuts": 6,
+        "status": "sold"
+      },
+      {
+        "year": 2025,
+        "model": "RAV4",
+        "trim": "XLE",
+        "powertrain": "gas",
+        "milesK": 48,
+        "ask": 33900,
+        "market": 29200,
+        "overPct": 15.8,
+        "daysOnLot": 122,
+        "cuts": 10,
+        "status": "listed"
+      },
+      {
+        "year": 2025,
+        "model": "RAV4",
+        "trim": "XLE Premium",
+        "powertrain": "gas",
+        "milesK": 69,
+        "ask": 35700,
+        "market": 32100,
+        "overPct": 11.4,
+        "daysOnLot": 80,
+        "cuts": 0,
+        "status": "sold"
+      },
+      {
+        "year": 2024,
+        "model": "RAV4",
+        "trim": "XSE",
+        "powertrain": "hybrid",
+        "milesK": 58,
+        "ask": 37500,
+        "market": 34900,
+        "overPct": 7.3,
+        "daysOnLot": 67,
+        "cuts": 1,
+        "status": "sold"
+      }
+    ]
+  },
+  "vignettes": {
+    "profit": [
+      {
+        "year": 2020,
+        "trim": "RAV4 XLE",
+        "milesK": 50,
+        "underBy": 4400,
+        "underPct": 16.8,
+        "goneWithinDays": 8
+      }
+    ],
+    "aging": [
+      {
+        "year": 2023,
+        "trim": "RAV4 XLE",
+        "powertrain": "gas",
+        "listedDays": 77,
+        "cuts": 8,
+        "markdownTotal": 4000,
+        "stillOverBy": 6100,
+        "dropSeries": [
+          {
+            "day": 0,
+            "price": 38400
+          },
+          {
+            "day": 7,
+            "price": 37900
+          },
+          {
+            "day": 21,
+            "price": 37400
+          },
+          {
+            "day": 28,
+            "price": 36900
+          },
+          {
+            "day": 42,
+            "price": 36400
+          },
+          {
+            "day": 49,
+            "price": 35900
+          },
+          {
+            "day": 56,
+            "price": 35400
+          },
+          {
+            "day": 70,
+            "price": 34900
+          },
+          {
+            "day": 77,
+            "price": 34400
+          }
+        ]
+      }
+    ]
+  }
+}

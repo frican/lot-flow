@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stop leaving money on the lot | dealer pricing intelligence</title>
-<meta name="description" content="Per-unit pricing intelligence for used-car dealers: find the units you have underpriced, the aging metal tying up your capital, and price each one to margin or to move.">
+<meta name="description" content="Per-unit pricing intelligence for used-car dealers. Case study, Metro Atlanta: what four months of mispriced used cars cost one metro, and one store.">
 <link rel="stylesheet" href="pitch.css">
 </head>
 <body>
@@ -29,20 +29,21 @@
 <section class="hero">
   <div class="wrap">
     <h1>Your lot is leaving money on the table.</h1>
-    <p class="lead" id="hero-region">Per-unit pricing intelligence for the used-car market.</p>
+    <p class="lead"><span class="case-tag" id="case-tag">Case study</span></p>
+    <p class="lead" id="hero-region">Four months of used-car pricing across one metro, scored car by car against verified comps.</p>
 
     <div class="stat-row">
       <div class="stat">
-        <div class="num" id="stat-median">—</div>
-        <div class="lbl">Median mispricing on a typical dealer lot</div>
+        <div class="num" id="stat-total">—</div>
+        <div class="lbl" id="stat-total-lbl">Mispriced across the metro's verified used listings</div>
       </div>
       <div class="stat">
-        <div class="num" id="stat-listings">—</div>
-        <div class="lbl">Live listings tracked</div>
+        <div class="num" id="stat-given">—</div>
+        <div class="lbl" id="stat-given-lbl">Margin given away on cars that sold under market</div>
       </div>
       <div class="stat">
-        <div class="num" id="stat-aggregate">—</div>
-        <div class="lbl">Aggregate mispricing across the metro</div>
+        <div class="num" id="stat-aging">—</div>
+        <div class="lbl" id="stat-aging-lbl">Still over market after 60+ days on the lot</div>
       </div>
     </div>
   </div>
@@ -53,7 +54,7 @@
   <div class="wrap">
     <p class="section-tag">Two ways money slips away</p>
     <h2>Every unit is either priced to margin or priced to move, and rarely both.</h2>
-    <p class="lead">These are real, anonymized examples from the tracked market. Figures rounded; no dealer, VIN, or address is ever shown.</p>
+    <p class="lead">Real, anonymized examples from the case study. Figures rounded; no dealer, VIN, or address is ever shown.</p>
 
     <div class="cards" style="margin-top:var(--s6)">
 
@@ -64,13 +65,13 @@
         <div id="profit-dynamic">
           <p class="vignette-headline">
             A <b id="profit-vehicle">unit</b> was listed
-            <b id="profit-under">—</b> under market value and sold in
+            <b id="profit-under">—</b> under market value and was gone within
             <b id="profit-days">—</b>.
           </p>
           <p class="muted">That gap is margin handed straight to the buyer: value you priced away without meaning to.</p>
         </div>
         <p id="profit-empty" class="muted hidden">
-          No fast-selling underpriced units in the current window. The moment one appears, it surfaces here first.
+          No qualifying example in this case study.
         </p>
       </div>
 
@@ -89,11 +90,32 @@
           <div class="timeline" id="aging-timeline" aria-label="price-cut timeline"></div>
         </div>
         <p id="aging-empty" class="muted hidden">
-          No deeply-aged, repeatedly-cut units in the current window. The timeline lights up the moment one crosses the line.
+          No qualifying example in this case study.
         </p>
       </div>
     </div>
 
+  </div>
+</section>
+
+<!-- ============================ ONE STORE ============================ -->
+<section class="band">
+  <div class="wrap">
+    <p class="section-tag">Inside one store</p>
+    <h2 id="store-label">One dealer's aging inventory</h2>
+    <p class="store-sum" id="store-sum">—</p>
+    <div class="store-wrap">
+      <table class="store" aria-label="over-market used cars at one store">
+        <thead><tr><th>Vehicle</th><th>Miles</th><th>Asking</th><th>Market</th><th>Over</th><th>Days on lot</th><th>Price cuts</th><th>Status</th></tr></thead>
+        <tbody id="store-rows"></tbody>
+      </table>
+    </div>
+    <p class="method" id="method">—</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
     <div class="arbitrate">
       <p class="arb-intro"><b>Price the same car two ways and you lose two different ways.</b> One car, one number,
       and both mistakes are already priced into your lot right now. Here is what each one costs you.</p>
@@ -244,14 +266,14 @@
 <footer>
   <div class="wrap">
     <span>Lot Flow · dealer pricing intelligence</span>
-    <span class="muted" id="foot-generated">Aggregate market figures; individual examples anonymized.</span>
+    <span class="muted" id="foot-generated">Case study figures; individual examples anonymized.</span>
   </div>
 </footer>
 
 <script>
-// Zero external origins. Fetch the generated stats.json and fill placeholders. Any missing
-// figure degrades to an em dash; an empty vignette category hides its dynamic bits and shows
-// an honest fallback line. Nothing here talks to the network beyond same-origin stats.json.
+// Zero external origins. Fetch the committed case study (case-study.json, generated once by
+// docs/analysis/case_study.py — a dated study, not a live look) and fill placeholders. Any missing
+// figure degrades to an em dash. Nothing here talks to the network beyond that same-origin file.
 (function () {
   var $ = function (id) { return document.getElementById(id); };
   var money = function (n) {
@@ -264,38 +286,46 @@
       .filter(Boolean).join(" ").trim() || "unit";
   };
 
-  fetch("stats.json").then(function (r) { return r.json(); }).then(function (s) {
-    var metro = s.metro || {};
-    var totals = s.totals || {};
+  var fmtDate = function (iso) {
+    var d = new Date(iso + "T12:00:00");
+    return isNaN(d) ? iso : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  };
+  var plural = function (n, one, many) { return num(n) + " " + (n === 1 ? one : many); };
+
+  fetch("case-study.json").then(function (r) { return r.json(); }).then(function (cs) {
+    var m = cs.metro || {}, w = cs.window || {}, st = cs.store || {};
+    var given = (m.givenAway || {}), aging = (m.agingOver || {});
+    var span = fmtDate(w.from) + " – " + fmtDate(w.to);
 
     // hero
-    if (s.region) $("hero-region").textContent =
-      s.region + ": per-unit pricing intelligence for the used-car market.";
-    $("stat-median").textContent = money(metro.medianLotMoneyOnTable);
-    $("stat-listings").textContent = num(totals.listings);
-    $("stat-aggregate").textContent = money(metro.aggregateMispricing);
-    if (s.generatedAt) $("foot-generated").textContent =
-      "Aggregate market figures as of " + s.generatedAt + "; individual examples anonymized.";
+    $("case-tag").textContent = "Case study · " + (cs.region || "") + " · " + span;
+    $("hero-region").textContent = "Every verified used listing within " + m.miles + " miles of downtown " +
+      "Atlanta, scored car by car against its comps for four months.";
+    $("stat-total").textContent = money((given.usd || 0) + (aging.usd || 0));
+    $("stat-total-lbl").textContent = "Mispriced across " + num(m.carsPriced) + " verified used listings";
+    $("stat-given").textContent = money(given.usd);
+    $("stat-given-lbl").textContent = "Margin given away on " + plural(given.cars, "car", "cars") +
+      " that sold 5%+ under market";
+    $("stat-aging").textContent = money(aging.usd);
+    $("stat-aging-lbl").textContent = "Over market on " + plural(aging.cars, "car", "cars") +
+      " left sitting 60+ days at 5%+ above market";
+    $("foot-generated").textContent = "Case study, " + span + "; individual examples anonymized.";
 
-    var vg = s.vignettes || {};
-
-    // ---- profit vignette ----
+    var vg = cs.vignettes || {};
     var p = (vg.profit || [])[0];
     if (p) {
-      $("profit-vehicle").textContent = vehLabel(p);
-      $("profit-under").textContent = money(p.underBy);
-      $("profit-days").textContent = num(p.daysToGone) + (p.daysToGone === 1 ? " day" : " days");
+      $("profit-vehicle").textContent = p.year + " " + p.trim + " with " + num(p.milesK) + "k miles";
+      $("profit-under").textContent = money(p.underBy) + " (" + p.underPct + "%)";
+      $("profit-days").textContent = num(p.goneWithinDays) + " days";
     } else {
       $("profit-dynamic").classList.add("hidden");
       $("profit-empty").classList.remove("hidden");
     }
-
-    // ---- aging vignette ----
     var a = (vg.aging || [])[0];
     if (a) {
       $("aging-vehicle").textContent = vehLabel(a);
-      $("aging-days").textContent = num(a.listedDays) + (a.listedDays === 1 ? " day" : " days");
-      $("aging-cuts").textContent = num(a.cuts) + (a.cuts === 1 ? " price cut" : " price cuts");
+      $("aging-days").textContent = plural(a.listedDays, "day", "days");
+      $("aging-cuts").textContent = plural(a.cuts, "price cut", "price cuts");
       $("aging-markdown").textContent = money(a.markdownTotal);
       $("aging-over").textContent = money(a.stillOverBy);
       drawTimeline($("aging-timeline"), a.dropSeries || [], a.listedDays);
@@ -303,8 +333,29 @@
       $("aging-dynamic").classList.add("hidden");
       $("aging-empty").classList.remove("hidden");
     }
+
+    // one store
+    if (st.rows && st.rows.length) {
+      $("store-label").textContent = st.label + ": " + plural(st.cars, "used car", "used cars") +
+        " priced " + money(st.overTotal) + " over market.";
+      var listed = st.rows.filter(function (r) { return r.status === "listed"; }).length;
+      $("store-sum").textContent = "Each one was still over market after " + st.daysMin + " to " +
+        st.daysMax + " days on the lot, and most had already been cut several times (up to " +
+        st.cutsMax + "). On " + fmtDate(w.to) + ", " + listed + " of them were still for sale.";
+      $("store-rows").innerHTML = st.rows.map(function (r) {
+        return "<tr><td>" + r.year + " " + r.model + " " + r.trim + (r.powertrain === "hybrid" ? " Hybrid" : "") +
+          "</td><td>" + num(r.milesK) + "k</td><td>" + money(r.ask) + "</td><td>" + money(r.market) +
+          '</td><td class="over">+' + r.overPct + "%</td><td>" + num(r.daysOnLot) + "</td><td>" + num(r.cuts) +
+          '</td><td class="' + (r.status === "sold" ? "sold" : "") + '">' + (r.status === "sold" ? "Gone" : "Still listed") +
+          "</td></tr>";
+      }).join("");
+      $("method").textContent = "How these are counted: used cars only (500+ miles), within " + m.miles +
+        " miles, each priced against verified comps of the same year, trim and powertrain. " +
+        "\"Sold\" means the listing left the market feed, which is strong but not proof of a sale. " +
+        "Days on lot are the longer of the listing's age and the time we tracked it; a relist can " +
+        "reset a listing's age, so treat them as a minimum. Asking and market prices are rounded to $100.";
+    }
   }).catch(function () {
-    // stats.json missing/unreadable: leave em-dash placeholders, hide dynamic vignette bits.
     $("profit-dynamic").classList.add("hidden");
     $("profit-empty").classList.remove("hidden");
     $("aging-dynamic").classList.add("hidden");
@@ -349,7 +400,7 @@
       }
     });
     svg += '<text x="' + x(0) + '" y="' + (H - 6) + '" text-anchor="start" font-size="9" fill="var(--muted)">listed</text>';
-    svg += '<text x="' + x(total) + '" y="' + (H - 6) + '" text-anchor="end" font-size="9" fill="var(--muted)">day ' + total + ' · today</text>';
+    svg += '<text x="' + x(total) + '" y="' + (H - 6) + '" text-anchor="end" font-size="9" fill="var(--muted)">day ' + total + '</text>';
     svg += '</svg>';
     host.innerHTML = svg;
   }
