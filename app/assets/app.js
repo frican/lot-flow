@@ -63,8 +63,8 @@ const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g,
 // How a field's value was confirmed, mapped to a strength. manual/vin/site are independently
 // trustworthy; "search" means aggregators only (one listing's echoes can't run away, but it's
 // weaker); feed/none never clear on their own. See confidence.py for the tiers.
-const TIER_STRENGTH = { manual: "strong", vin: "strong", site: "strong", search: "mid", feed: "weak", none: "weak" };
-const TIER_ABBR     = { manual: "man", vin: "VIN", site: "site", search: "agg", feed: "feed", none: "—" };
+const TIER_STRENGTH = { manual: "strong", vin: "strong", site: "strong", search: "mid", vin_pattern: "mid", feed: "weak", none: "weak" };
+const TIER_ABBR     = { manual: "man", vin: "VIN", site: "site", search: "agg", vin_pattern: "VINp", feed: "feed", none: "—" };
 
 // A record is only as trustworthy as its WEAKER field — a rock-solid VIN powertrain doesn't
 // help if the trim that completes the cohort key was a bare feed guess. Drive the badge off
@@ -112,6 +112,14 @@ function basisBadge(v) {
   if (b === "pooled") return `<span class="badge b-thin" title="Few comps — pooled across similar trims for a fair-value fit">Few comps</span>`;
   if (b === "not-ready" || b == null) return `<span class="badge b-unverified" title="Not cohort-ready — trim/powertrain not verified yet, so no market value">Unverified</span>`;
   return "";
+}
+// Trim cleared by the VIN-pattern tier (vin_pattern.py): learned from our own verified cars and
+// gated by feed agreement + price sanity + a weekly search audit, but not dealer-confirmed. It
+// rates "mid" trust, so an under-market VIN-matched car shows the muted deal color, never the bright one.
+function vinMatchedBadge(r) {
+  return r.trimVerifiedBy === "vin_pattern"
+    ? ` <span class="badge b-vinmatch" title="Trim matched from VIN patterns of cars we've verified (not yet confirmed on the dealer's site)">VIN-matched</span>`
+    : "";
 }
 function carfaxLink(r) {
   const u = (typeof r.carfaxUrl === "string" && /^https?:/.test(r.carfaxUrl)) ? r.carfaxUrl : null;
@@ -293,14 +301,17 @@ function renderDeals() {
     // an underpriced deal only earns the bright "good" color when BOTH the classification
     // behind its cohort is solid AND the valuation basis is dense enough to trust the band;
     // otherwise show it muted so a shaky clear or a thin fit can't masquerade as a steal.
-    const solid = tr.strength === "strong" && v.ratingConfident !== false;
+    // A VIN-matched trim is never "solid" on its own: trustOf follows the weaker field and a
+    // confidence tie goes to the (VIN-decoded, strong) powertrain, which would hide it.
+    const solid = tr.strength === "strong" && v.ratingConfident !== false
+      && r.trimVerifiedBy !== "vin_pattern";
     const cls = dp == null ? ""
       : dp < -0.03 ? (solid ? "pct-good" : "pct-tentative")
       : dp > 0.03 ? "pct-bad" : "";
     const url = (typeof r.url === "string" && /^https?:/.test(r.url)) ? r.url : null;
     return `<tr class="${r.gone ? "gone" : ""}" data-vin="${esc(r.vin || "")}">
       <td class="num">${ratingBadge(v)} <span class="${cls}">${fPct(dp)}</span></td>
-      <td>${r.year}</td><td>${esc(r.trim || "—")}</td>
+      <td>${r.year}</td><td>${esc(r.trim || "—")}${vinMatchedBadge(r)}</td>
       <td>${r.powertrain || "—"}</td>
       <td class="num">${(r.mileage || 0).toLocaleString()}</td>
       <td class="num">${f$(r.price)}</td><td class="num" ${adjustmentTitle(v)}>${f$(v.expected)}</td>
