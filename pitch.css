@@ -301,3 +301,19 @@ footer .wrap { display: flex; justify-content: space-between; gap: var(--s4); fl
   .optimizer { grid-template-columns: 1fr; gap: var(--s5); }
   .opt-readout { border-left: none; border-top: 1px solid var(--border); padding-left: 0; padding-top: var(--s5); }
 }
+
+/* ---- case study (2026-10-23): a dated, anonymized study replaces the live headline ---- */
+.case-tag { display: inline-block; font-size: var(--t-xs); letter-spacing: .06em; text-transform: uppercase;
+  color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 2px var(--s3); }
+.store-sum { margin: var(--s4) 0 var(--s5); font-size: var(--t-lg); }
+.store-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.store { width: 100%; border-collapse: collapse; font-size: var(--t-sm); background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--r2); }
+.store th, .store td { padding: var(--s2) var(--s3); text-align: right; white-space: nowrap;
+  border-bottom: 1px solid var(--border); }
+.store th:first-child, .store td:first-child { text-align: left; }
+.store th { color: var(--muted); font-weight: 600; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .04em; }
+.store tr:last-child td { border-bottom: 0; }
+.store .over { color: var(--warn); font-weight: 600; }
+.store .sold { color: var(--muted); }
+.method { font-size: var(--t-sm); color: var(--muted); margin-top: var(--s4); max-width: 72ch; }
