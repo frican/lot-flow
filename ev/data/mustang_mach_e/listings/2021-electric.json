@@ -13,14 +13,14 @@
     "series": "Premium 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2021,
     "mileage": 37305,
-    "price": 24897,
+    "price": 24597,
     "priceBasis": "listing",
     "dealer": "Platinum Cars Marietta",
-    "dealerId": "d_0d1c5fc490356f20",
-    "distanceMi": 15,
+    "dealerId": "d_357a45061ffa3b8b",
+    "distanceMi": 14,
     "state": "GA",
     "city": "Marietta",
     "cpo": "none",
@@ -29,29 +29,33 @@
     "interiorColor": "Black",
     "vin": "3FMTK3RM4MMA09782",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.autolist.com/ford-mustang+mach+e#vin=3FMTK3RM4MMA09782",
+    "url": "https://www.platinumcarsmarietta.com/used-vehicle-2021-ford-mustang-mach-e-premium-c-2966/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3RM4MMA09782&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3RM4MMA09782-1.jpg",
     "photoCount": 36,
     "baseMsrp": 47600,
     "squishVin": "3FMTK3RMMM",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
-    "flagged": true,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 63,
+    "lastSeen": "2026-11-02",
+    "listedDays": 75,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 24897
+      },
+      {
+        "date": "2026-11-02",
+        "price": 24597
       }
     ],
     "sellerType": "independent",
-    "urlOrigin": "stored",
+    "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -59,16 +63,55 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 20766,
+      "expected": 20974,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 3623,
+      "dealPct": 0.1727,
+      "rating": "overpriced",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 75,
+        "cohortMedianDaysListed": 75,
+        "priceDrop": {
+          "total": 300,
+          "pct": -0.012,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "trimSite": "Premium",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "site",
+        "host": "platinumcarsmarietta.com",
+        "trim": "Premium",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 37305,
+        "price": 25599
+      }
+    ],
+    "stock": "MMA09782"
   },
   {
     "id": "api-3fmtk3ss7mma62095",
@@ -76,7 +119,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Premium",
+    "trim": "GT",
     "trimFeed": "Premium",
     "powertrain": "electric",
     "powertrainFeed": "electric",
@@ -84,14 +127,14 @@
     "series": "Premium 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2021,
     "mileage": 45731,
-    "price": 25878,
+    "price": 25578,
     "priceBasis": "listing",
     "dealer": "Platinum Cars Marietta",
-    "dealerId": "d_0d1c5fc490356f20",
-    "distanceMi": 15,
+    "dealerId": "d_357a45061ffa3b8b",
+    "distanceMi": 14,
     "state": "GA",
     "city": "Marietta",
     "cpo": "none",
@@ -100,29 +143,33 @@
     "interiorColor": "Black",
     "vin": "3FMTK3SS7MMA62095",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.autolist.com/ford-mustang+mach+e#vin=3FMTK3SS7MMA62095",
+    "url": "https://www.platinumcarsmarietta.com/vehicles-under-30k/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SS7MMA62095&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3SS7MMA62095-1.jpg",
     "photoCount": 36,
     "baseMsrp": 50300,
     "squishVin": "3FMTK3SSMM",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
-    "flagged": true,
+    "accidentCount": 0,
+    "ownerCount": 3,
+    "oneOwner": false,
+    "usageType": "Multiple Use",
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 53,
+    "lastSeen": "2026-11-02",
+    "listedDays": 65,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 25878
+      },
+      {
+        "date": "2026-11-02",
+        "price": 25578
       }
     ],
     "sellerType": "independent",
-    "urlOrigin": "stored",
+    "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -130,15 +177,41 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
-    "trimConflict": false,
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "basis": "none",
+      "cohortN": 1,
+      "signals": {
+        "listedDays": 65,
+        "cohortMedianDaysListed": 65,
+        "priceDrop": {
+          "total": 300,
+          "pct": -0.0116,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "trimSite": "GT",
+    "verifyLog": [
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "site",
+        "host": "platinumcarsmarietta.com",
+        "trim": "GT",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 25999
+      }
+    ]
   }
 ]

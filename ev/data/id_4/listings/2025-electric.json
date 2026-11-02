@@ -1,5 +1,100 @@
 [
   {
+    "id": "api-1v2dspe88sc016224",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro",
+    "trimFeed": "Pro",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "AWD Pro 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2025,
+    "mileage": 14884,
+    "price": 28998,
+    "priceBasis": "listing",
+    "dealer": "CarMax - Norcross",
+    "dealerId": "d_66a6210ef180e399",
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Norcross",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "1V2DSPE88SC016224",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29281404",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2DSPE88SC016224&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2DSPE88SC016224-1.jpg",
+    "photoCount": 26,
+    "baseMsrp": 48995,
+    "squishVin": "1V2DSPE8SC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 28998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Pro",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "truecar.com",
+        "trim": "Pro",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-1v2vrpe89sc016510",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -13,14 +108,14 @@
     "series": "Pro S 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 7224,
-    "price": 34900,
+    "price": 32600,
     "priceBasis": "listing",
     "dealer": "Stone Mountain Volkswagen",
     "dealerId": "d_b6808c61f14482d4",
-    "distanceMi": 20,
+    "distanceMi": 21,
     "state": "GA",
     "city": "Snellville",
     "cpo": "none",
@@ -42,12 +137,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 26,
+    "lastSeen": "2026-11-02",
+    "listedDays": 37,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 34900
+      },
+      {
+        "date": "2026-11-02",
+        "price": 32600
       }
     ],
     "sellerType": "franchise",
@@ -66,24 +165,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34900,
-      "expected": 35249,
+      "marketValue": 33839,
+      "expected": 34178,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -349,
-      "dealPct": -0.0099,
+      "dealDelta": -1578,
+      "dealPct": -0.0462,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 1.0,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 26,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "medium"
-      }
+        "listedDays": 37,
+        "cohortMedianDaysListed": 37,
+        "priceDrop": {
+          "total": 2300,
+          "pct": -0.0659,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Pro S",
@@ -142,7 +247,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 70,
@@ -168,24 +273,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34966,
-      "expected": 35316,
+      "marketValue": 33900,
+      "expected": 34239,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1416,
-      "dealPct": -0.0401,
+      "dealDelta": -339,
+      "dealPct": -0.0099,
       "rating": "fair",
-      "dealScore": 1.0,
+      "dealScore": 0.667,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
         "listedDays": 70,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 37,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "Pro S",
@@ -223,7 +329,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v2wspe82sc018463",
@@ -239,14 +346,14 @@
     "series": "AWD Pro S 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 5480,
-    "price": 36600,
+    "price": 35300,
     "priceBasis": "listing",
     "dealer": "Stone Mountain Volkswagen",
     "dealerId": "d_b6808c61f14482d4",
-    "distanceMi": 20,
+    "distanceMi": 21,
     "state": "GA",
     "city": "Snellville",
     "cpo": "none",
@@ -268,12 +375,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 22,
+    "lastSeen": "2026-11-02",
+    "listedDays": 33,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 36600
+      },
+      {
+        "date": "2026-11-02",
+        "price": 35300
       }
     ],
     "sellerType": "franchise",
@@ -292,11 +403,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 35501,
-      "expected": 35501,
+      "marketValue": 34394,
+      "expected": 34394,
       "adjustments": {},
-      "dealDelta": 1099,
-      "dealPct": 0.0309,
+      "dealDelta": 906,
+      "dealPct": 0.0263,
       "rating": "fair",
       "dealScore": 0.333,
       "basis": "pooled",
@@ -304,10 +415,16 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 22,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "medium"
-      }
+        "listedDays": 33,
+        "cohortMedianDaysListed": 37,
+        "priceDrop": {
+          "total": 1300,
+          "pct": -0.0355,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Pro S",

@@ -39,10 +39,10 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
-    "gone": false,
+    "flagged": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
+    "lastSeen": "2026-10-26",
     "listedDays": 254,
     "priceHistory": [
       {
@@ -59,16 +59,16 @@
     "powertrainConflict": false,
     "plantCountry": "Germany",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "basis": "new-inventory"
     },
-    "searchedAt": "2026-10-22",
+    "searchedAt": "2026-10-26",
     "trimSearch": "eDrive40",
     "verifyLog": [
       {
@@ -81,8 +81,20 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "nalleyinfinitiatlanta.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 3731,
+        "price": null
       }
-    ]
+    ],
+    "exitReason": "new-inventory"
   },
   {
     "id": "api-wby63hd01tfw35755",
@@ -101,7 +113,7 @@
     "engine": "electric",
     "year": 2026,
     "mileage": 2617,
-    "price": 59900,
+    "price": 57500,
     "priceBasis": "listing",
     "dealer": "NalleyBmwOfDecatur Used",
     "dealerId": "d_e1c60727f8759b2c",
@@ -121,18 +133,22 @@
     "baseMsrp": 57900,
     "squishVin": "WBY63HD0TF",
     "accidentCount": 0,
-    "ownerCount": 1,
-    "oneOwner": true,
-    "usageType": "Personal Use",
-    "flagged": true,
+    "ownerCount": 0,
+    "oneOwner": false,
+    "usageType": "Vehicle Use",
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 74,
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 59900
+      },
+      {
+        "date": "2026-11-02",
+        "price": 57500
       }
     ],
     "sellerType": "independent",
@@ -144,16 +160,37 @@
     "powertrainConflict": false,
     "plantCountry": "Germany",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 57412,
+      "expected": 57412,
+      "adjustments": {},
+      "dealDelta": 88,
+      "dealPct": 0.0015,
+      "rating": "fair",
+      "dealScore": 0.4,
+      "basis": "pooled",
+      "cohortN": 5,
+      "confidence": 0.425,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 85,
+        "cohortMedianDaysListed": 85,
+        "priceDrop": {
+          "total": 2400,
+          "pct": -0.0401,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-22",
+    "searchedAt": "2026-11-02",
     "trimSearch": "eDrive40",
     "verifyLog": [
       {
@@ -165,6 +202,28 @@
         "powertrain": null,
         "strength": "snippet",
         "mileage": 2617,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "M50",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "truecar.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
         "price": null
       }
     ]
@@ -210,7 +269,7 @@
     "oneOwner": false,
     "usageType": "Vehicle Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 74,
@@ -236,22 +295,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55703,
-      "expected": 55703,
+      "marketValue": 56741,
+      "expected": 56741,
       "adjustments": {},
-      "dealDelta": 2196,
-      "dealPct": 0.0394,
+      "dealDelta": 1158,
+      "dealPct": 0.0204,
       "rating": "fair",
-      "dealScore": 0.25,
+      "dealScore": 0.2,
       "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
+      "cohortN": 5,
+      "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
         "listedDays": 74,
-        "cohortMedianDaysListed": 74,
+        "cohortMedianDaysListed": 85,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "eDrive40",
@@ -278,7 +338,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-wby63hd04tfw34700",
@@ -297,10 +358,10 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2026,
     "mileage": 6514,
-    "price": 53986,
+    "price": 52986,
     "priceBasis": "listing",
     "dealer": "BMW of Gwinnett Place",
-    "dealerId": "d_8cf789a59f93fc69",
+    "dealerId": "d_0cd621b36668c03c",
     "distanceMi": 21,
     "state": "GA",
     "city": "Duluth",
@@ -323,12 +384,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 24,
+    "lastSeen": "2026-11-02",
+    "listedDays": 35,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 53986
+      },
+      {
+        "date": "2026-11-02",
+        "price": 52986
       }
     ],
     "sellerType": "franchise",
@@ -347,24 +412,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55013,
-      "expected": 55563,
+      "marketValue": 55853,
+      "expected": 56412,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": -1577,
-      "dealPct": -0.0284,
-      "rating": "fair",
-      "dealScore": 0.75,
+      "dealDelta": -3426,
+      "dealPct": -0.0607,
+      "rating": "good",
+      "dealScore": 1.0,
       "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
+      "cohortN": 5,
+      "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 24,
-        "cohortMedianDaysListed": 74,
-        "negotiability": "medium"
-      }
+        "listedDays": 35,
+        "cohortMedianDaysListed": 85,
+        "priceDrop": {
+          "total": 1000,
+          "pct": -0.0185,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "eDrive40",
@@ -425,8 +496,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 254,
+    "lastSeen": "2026-11-02",
+    "listedDays": 265,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -449,22 +520,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55668,
-      "expected": 55668,
+      "marketValue": 56695,
+      "expected": 56695,
       "adjustments": {},
-      "dealDelta": 1027,
-      "dealPct": 0.0185,
+      "dealDelta": 0,
+      "dealPct": 0.0,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.6,
       "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
+      "cohortN": 5,
+      "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 254,
-        "cohortMedianDaysListed": 74,
+        "listedDays": 265,
+        "cohortMedianDaysListed": 85,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "eDrive40",
@@ -547,8 +619,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 74,
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -571,22 +643,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55442,
-      "expected": 55442,
+      "marketValue": 56405,
+      "expected": 56405,
       "adjustments": {},
-      "dealDelta": -2447,
-      "dealPct": -0.0441,
-      "rating": "fair",
-      "dealScore": 1.0,
+      "dealDelta": -3410,
+      "dealPct": -0.0604,
+      "rating": "good",
+      "dealScore": 0.8,
       "basis": "pooled",
-      "cohortN": 4,
-      "confidence": 0.4,
+      "cohortN": 5,
+      "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 74,
-        "cohortMedianDaysListed": 74,
+        "listedDays": 85,
+        "cohortMedianDaysListed": 85,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "eDrive40",

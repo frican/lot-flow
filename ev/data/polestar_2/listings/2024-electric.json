@@ -64,24 +64,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25777,
-      "expected": 26035,
+      "marketValue": 25756,
+      "expected": 26014,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 758,
-      "dealPct": 0.0291,
+      "dealDelta": 779,
+      "dealPct": 0.03,
       "rating": "fair",
-      "dealScore": 0.043,
+      "dealScore": 0.042,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 23,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -176,24 +177,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26124,
-      "expected": 26385,
+      "marketValue": 26089,
+      "expected": 26350,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1492,
-      "dealPct": -0.0565,
+      "dealDelta": -1457,
+      "dealPct": -0.0553,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 49,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -300,24 +302,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25584,
-      "expected": 25840,
+      "marketValue": 25570,
+      "expected": 25826,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -247,
-      "dealPct": -0.0095,
+      "dealDelta": -233,
+      "dealPct": -0.009,
       "rating": "fair",
-      "dealScore": 0.522,
+      "dealScore": 0.5,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -435,24 +438,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24692,
-      "expected": 24939,
+      "marketValue": 24713,
+      "expected": 24960,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -946,
-      "dealPct": -0.0379,
+      "dealDelta": -967,
+      "dealPct": -0.0388,
       "rating": "fair",
-      "dealScore": 0.696,
+      "dealScore": 0.75,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -548,24 +552,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26789,
-      "expected": 27057,
+      "marketValue": 26728,
+      "expected": 26996,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -964,
-      "dealPct": -0.0356,
+      "dealDelta": -903,
+      "dealPct": -0.0334,
       "rating": "fair",
-      "dealScore": 0.739,
+      "dealScore": 0.708,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 29,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -683,24 +688,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27098,
-      "expected": 27369,
+      "marketValue": 27025,
+      "expected": 27295,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 174,
-      "dealPct": 0.0064,
+      "dealDelta": 248,
+      "dealPct": 0.0091,
       "rating": "fair",
-      "dealScore": 0.217,
+      "dealScore": 0.208,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -807,22 +813,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25375,
-      "expected": 25375,
+      "marketValue": 25369,
+      "expected": 25369,
       "adjustments": {},
-      "dealDelta": 18,
-      "dealPct": 0.0007,
+      "dealDelta": 24,
+      "dealPct": 0.0009,
       "rating": "fair",
-      "dealScore": 0.304,
+      "dealScore": 0.292,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 0,
         "cohortMedianDaysListed": 47,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -918,24 +925,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25805,
-      "expected": 26063,
+      "marketValue": 25782,
+      "expected": 26040,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -70,
-      "dealPct": -0.0027,
+      "dealDelta": -47,
+      "dealPct": -0.0018,
       "rating": "fair",
-      "dealScore": 0.391,
+      "dealScore": 0.375,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 40,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -1041,24 +1049,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25451,
-      "expected": 25706,
+      "marketValue": 25443,
+      "expected": 25697,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -113,
-      "dealPct": -0.0044,
+      "dealDelta": -104,
+      "dealPct": -0.0041,
       "rating": "fair",
-      "dealScore": 0.435,
+      "dealScore": 0.417,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -1154,24 +1163,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25645,
-      "expected": 25901,
+      "marketValue": 25629,
+      "expected": 25885,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -506,
-      "dealPct": -0.0195,
+      "dealDelta": -490,
+      "dealPct": -0.0189,
       "rating": "fair",
-      "dealScore": 0.652,
+      "dealScore": 0.667,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 54,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "Long Range Dual Motor",
@@ -1265,24 +1275,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27402,
-      "expected": 27676,
+      "marketValue": 27317,
+      "expected": 27590,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -483,
-      "dealPct": -0.0175,
+      "dealDelta": -397,
+      "dealPct": -0.0144,
       "rating": "fair",
-      "dealScore": 0.609,
+      "dealScore": 0.625,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -1401,24 +1412,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25469,
-      "expected": 25724,
+      "marketValue": 25460,
+      "expected": 25715,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -131,
-      "dealPct": -0.0051,
+      "dealDelta": -122,
+      "dealPct": -0.0047,
       "rating": "fair",
-      "dealScore": 0.478,
+      "dealScore": 0.458,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -1525,24 +1537,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27064,
-      "expected": 27334,
+      "marketValue": 26992,
+      "expected": 27262,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 559,
-      "dealPct": 0.0204,
+      "dealDelta": 631,
+      "dealPct": 0.0232,
       "rating": "fair",
-      "dealScore": 0.13,
+      "dealScore": 0.083,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -1639,24 +1652,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27258,
-      "expected": 27530,
+      "marketValue": 27178,
+      "expected": 27450,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1135,
-      "dealPct": -0.0412,
+      "dealDelta": -1055,
+      "dealPct": -0.0384,
       "rating": "fair",
-      "dealScore": 0.87,
+      "dealScore": 0.875,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 42,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -1764,24 +1778,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26052,
-      "expected": 26312,
+      "marketValue": 26020,
+      "expected": 26280,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 81,
-      "dealPct": 0.0031,
+      "dealDelta": 113,
+      "dealPct": 0.0043,
       "rating": "fair",
-      "dealScore": 0.261,
+      "dealScore": 0.25,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -1877,24 +1892,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25462,
-      "expected": 25717,
+      "marketValue": 25453,
+      "expected": 25708,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 576,
-      "dealPct": 0.0224,
+      "dealDelta": 585,
+      "dealPct": 0.0228,
       "rating": "fair",
-      "dealScore": 0.087,
+      "dealScore": 0.125,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -2002,24 +2018,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26118,
-      "expected": 26379,
+      "marketValue": 26083,
+      "expected": 26344,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1004,
-      "dealPct": -0.0381,
+      "dealDelta": -969,
+      "dealPct": -0.0368,
       "rating": "fair",
-      "dealScore": 0.783,
+      "dealScore": 0.792,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 70,
         "cohortMedianDaysListed": 47,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -2103,24 +2120,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26991,
-      "expected": 27261,
+      "marketValue": 26922,
+      "expected": 27191,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1068,
-      "dealPct": -0.0392,
+      "dealDelta": -998,
+      "dealPct": -0.0367,
       "rating": "fair",
-      "dealScore": 0.826,
+      "dealScore": 0.833,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -2217,25 +2235,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24221,
-      "expected": 22768,
+      "marketValue": 24261,
+      "expected": 22806,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 325,
-      "dealPct": 0.0143,
+      "dealDelta": 287,
+      "dealPct": 0.0126,
       "rating": "fair",
-      "dealScore": 0.174,
+      "dealScore": 0.167,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 59,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "Long Range Dual Motor",
@@ -2329,24 +2348,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25093,
-      "expected": 25344,
+      "marketValue": 25099,
+      "expected": 25350,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -251,
-      "dealPct": -0.0099,
+      "dealDelta": -257,
+      "dealPct": -0.0101,
       "rating": "fair",
-      "dealScore": 0.565,
+      "dealScore": 0.583,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -2408,7 +2428,7 @@
     "interiorColor": "Zinc cloth",
     "vin": "YSMFD3KA8RL237373",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.grandinfiniti.com/used-Macon-2024-Polestar-2-Long+Range+Dual+Motor-YSMFD3KA8RL237373",
+    "url": "https://www.grandkennesaw.com/used-polestar/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=YSMFD3KA8RL237373&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/YSMFD3KA8RL237373-1.jpg",
     "photoCount": 1,
@@ -2418,10 +2438,10 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Lease",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
+    "lastSeen": "2026-10-26",
     "listedDays": 47,
     "priceHistory": [
       {
@@ -2430,22 +2450,40 @@
       }
     ],
     "sellerType": "independent",
-    "urlOrigin": "stored",
+    "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
     "powertrainFlagged": false,
     "powertrainConflict": false,
-    "trimConfidence": 0.772,
-    "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 25787,
+      "expected": 26045,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -252,
+      "dealPct": -0.0097,
+      "rating": "fair",
+      "dealScore": 0.542,
+      "basis": "cohort",
+      "cohortN": 24,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 47,
+        "cohortMedianDaysListed": 47,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-22",
+    "searchedAt": "2026-10-26",
     "trimSearch": "Long Range Dual Motor",
     "powertrainSearch": "electric",
     "verifyLog": [
@@ -2459,8 +2497,43 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "site",
+        "host": "grandkennesaw.com",
+        "trim": "Long Range Dual Motor",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "carvilla.com",
+        "trim": "Long Range Dual Motor",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "truecar.com",
+        "trim": "Long Range Dual Motor",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
-    ]
+    ],
+    "trimSite": "Long Range Dual Motor",
+    "stock": "RL237373"
   },
   {
     "id": "api-ysmfd3ka9rl217181",
@@ -2527,24 +2600,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26088,
-      "expected": 26349,
+      "marketValue": 26054,
+      "expected": 26315,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1456,
-      "dealPct": -0.0553,
+      "dealDelta": -1422,
+      "dealPct": -0.054,
       "rating": "good",
-      "dealScore": 0.957,
+      "dealScore": 0.958,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 49,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -2651,24 +2725,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26293,
-      "expected": 26556,
+      "marketValue": 26252,
+      "expected": 26514,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -63,
-      "dealPct": -0.0024,
+      "dealDelta": -21,
+      "dealPct": -0.0008,
       "rating": "fair",
-      "dealScore": 0.348,
+      "dealScore": 0.333,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 47,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Dual Motor",
@@ -2776,24 +2851,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26189,
-      "expected": 26451,
+      "marketValue": 26152,
+      "expected": 26413,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1258,
-      "dealPct": -0.0476,
+      "dealDelta": -1220,
+      "dealPct": -0.0462,
       "rating": "fair",
-      "dealScore": 0.913,
+      "dealScore": 0.917,
       "basis": "cohort",
-      "cohortN": 23,
+      "cohortN": 24,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 42,
         "cohortMedianDaysListed": 47,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "Long Range Dual Motor",
@@ -2888,13 +2964,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21800,
-      "expected": 22018,
+      "marketValue": 22628,
+      "expected": 22855,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 375,
-      "dealPct": 0.0171,
+      "dealDelta": -462,
+      "dealPct": -0.0202,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -2905,7 +2981,8 @@
         "listedDays": 40,
         "cohortMedianDaysListed": 40,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Long Range Single Motor",
@@ -2965,7 +3042,7 @@
     "interiorColor": "Gray",
     "vin": "YSMFG3KA9RL211498",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.grandinfiniti.com/used-Macon-2024-Polestar-2-Long+Range+Dual+Motor+Performance+Plus-YSMFG3KA9RL211498",
+    "url": "https://www.grandkennesaw.com/used-polestar/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=YSMFG3KA9RL211498&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/YSMFG3KA9RL211498-1.jpg",
     "photoCount": 1,
@@ -2975,10 +3052,10 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Lease",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
+    "lastSeen": "2026-10-26",
     "listedDays": 47,
     "priceHistory": [
       {
@@ -2987,22 +3064,40 @@
       }
     ],
     "sellerType": "independent",
-    "urlOrigin": "stored",
+    "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
     "powertrainFlagged": false,
     "powertrainConflict": false,
-    "trimConfidence": 0.772,
-    "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 27128,
+      "expected": 27399,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 794,
+      "dealPct": 0.029,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 47,
+        "cohortMedianDaysListed": 47,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-22",
+    "searchedAt": "2026-10-26",
     "trimSearch": "Long Range Dual Motor Performance",
     "powertrainSearch": "electric",
     "verifyLog": [
@@ -3016,7 +3111,42 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "site",
+        "host": "grandkennesaw.com",
+        "trim": "Long Range Dual Motor Performance",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "carvilla.com",
+        "trim": "Long Range Dual Motor Performance",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "truecar.com",
+        "trim": "Long Range Dual Motor Performance",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
-    ]
+    ],
+    "trimSite": "Long Range Dual Motor Performance",
+    "stock": "RL211498"
   }
 ]

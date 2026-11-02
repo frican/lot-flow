@@ -1,0 +1,72 @@
+[
+  {
+    "id": "api-1g1fy6s04m4106705",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LT",
+    "trimFeed": "LT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "LT 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "0.0L",
+    "year": 2021,
+    "mileage": 57753,
+    "price": 17998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Norcross",
+    "dealerId": null,
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Norcross",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Gray",
+    "vin": "1G1FY6S04M4106705",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/70241201",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1G1FY6S04M4106705&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1G1FY6S04M4106705-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 36500,
+    "squishVin": "1G1FY6S0M4",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": true,
+    "firstSeen": "2026-11-01",
+    "lastSeen": "2026-11-01",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-11-01",
+        "price": 17998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "exitReason": "unseen"
+  }
+]

@@ -10,15 +10,15 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
+    "series": "SE 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
     "engine": "Other",
     "year": 2022,
     "mileage": 28775,
-    "price": 21997,
+    "price": 19756,
     "priceBasis": "listing",
-    "dealer": "rick case hyundai duluth",
+    "dealer": "Rick Case Hyundai-Duluth",
     "dealerId": "d_7bc05942db596f12",
     "distanceMi": 21,
     "state": "GA",
@@ -33,7 +33,7 @@
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4AE2NU051526&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KM4AE2NU051526-1.jpg",
     "photoCount": 26,
-    "baseMsrp": null,
+    "baseMsrp": 44000,
     "squishVin": "KM8KM4AENU",
     "accidentCount": 0,
     "ownerCount": 1,
@@ -42,12 +42,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 63,
+    "lastSeen": "2026-11-02",
+    "listedDays": 75,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 21997
+      },
+      {
+        "date": "2026-11-02",
+        "price": 19756
       }
     ],
     "sellerType": "franchise",
@@ -66,24 +70,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22752,
-      "expected": 22980,
+      "marketValue": 21266,
+      "expected": 21479,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -983,
-      "dealPct": -0.0428,
-      "rating": "fair",
+      "dealDelta": -1723,
+      "dealPct": -0.0802,
+      "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
       "cohortN": 2,
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 63,
-        "cohortMedianDaysListed": 56,
+        "listedDays": 75,
+        "cohortMedianDaysListed": 68,
+        "priceDrop": {
+          "total": 2241,
+          "pct": -0.1019,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSearch": "SE",
@@ -124,15 +134,15 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
-    "transmission": "Automatic",
+    "series": "SE 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
     "drivetrain": "FWD",
     "engine": "ELECTRIC",
     "year": 2022,
     "mileage": 55958,
     "price": 19749,
     "priceBasis": "listing",
-    "dealer": "vc cars gwinnett inc",
+    "dealer": "VC Cars Gwinnett Inc",
     "dealerId": "d_553e6638aa79596a",
     "distanceMi": 20,
     "state": "GA",
@@ -147,7 +157,7 @@
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4AE6NU064778&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KM4AE6NU064778-1.jpg",
     "photoCount": 1,
-    "baseMsrp": null,
+    "baseMsrp": 44000,
     "squishVin": "KM8KM4AENU",
     "accidentCount": 0,
     "ownerCount": 1,
@@ -156,8 +166,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 32,
+    "lastSeen": "2026-11-02",
+    "listedDays": 44,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -182,7 +192,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-11-02",
     "trimSearch": "SE",
     "verifyLog": [
       {
@@ -195,8 +205,20 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "vccarsg.com",
+        "trim": "SE",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 55958,
+        "price": null
       }
-    ]
+    ],
+    "powertrainSearch": "electric"
   },
   {
     "id": "api-km8kmdaf0nu060413",
@@ -215,10 +237,10 @@
     "engine": "Electric",
     "year": 2022,
     "mileage": 49159,
-    "price": 20876,
+    "price": 20576,
     "priceBasis": "listing",
     "dealer": "Carvilla",
-    "dealerId": "d_b02399a282f601a1",
+    "dealerId": "d_d1b1a05ac2cd3504",
     "distanceMi": 21,
     "state": "GA",
     "city": "Kennesaw",
@@ -231,7 +253,7 @@
     "url": "https://www.carvilla.com/details-2022-hyundai-ioniq_5-se_awd-used-km8kmdaf0nu060413.html",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KMDAF0NU060413&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KMDAF0NU060413-1.jpg",
-    "photoCount": 42,
+    "photoCount": 44,
     "baseMsrp": 47500,
     "squishVin": "KM8KMDAFNU",
     "accidentCount": 1,
@@ -241,12 +263,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 49,
+    "lastSeen": "2026-11-02",
+    "listedDays": 61,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 20876
+      },
+      {
+        "date": "2026-11-02",
+        "price": 20576
       }
     ],
     "sellerType": "independent",
@@ -265,14 +291,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20121,
-      "expected": 17908,
+      "marketValue": 19066,
+      "expected": 16969,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.04
       },
-      "dealDelta": 2968,
-      "dealPct": 0.1658,
+      "dealDelta": 3607,
+      "dealPct": 0.2126,
       "rating": "overpriced",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -280,10 +306,16 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 49,
-        "cohortMedianDaysListed": 56,
-        "negotiability": "medium"
-      }
+        "listedDays": 61,
+        "cohortMedianDaysListed": 68,
+        "priceDrop": {
+          "total": 300,
+          "pct": -0.0144,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "SE",
@@ -376,9 +408,9 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
+    "lastSeen": "2026-10-26",
     "listedDays": 13,
     "priceHistory": [
       {
@@ -404,7 +436,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-10-26",
     "trimSearch": "Limited",
     "verifyLog": [
       {
@@ -417,7 +449,20 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Limited",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
-    ]
+    ],
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   }
 ]

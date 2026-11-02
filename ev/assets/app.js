@@ -63,15 +63,21 @@ const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g,
 // How a field's value was confirmed, mapped to a strength. manual/vin/site are independently
 // trustworthy; "search" means aggregators only (one listing's echoes can't run away, but it's
 // weaker); feed/none never clear on their own. See confidence.py for the tiers.
+// GRADUATION(G3): duplicates Python's tier knowledge; to be replaced by a stamped evidence strength.
 const TIER_STRENGTH = { manual: "strong", vin: "strong", site: "strong", search: "mid", vin_pattern: "mid", feed: "weak", none: "weak" };
 const TIER_ABBR     = { manual: "man", vin: "VIN", site: "site", search: "agg", vin_pattern: "VINp", feed: "feed", none: "—" };
 
 // A record is only as trustworthy as its WEAKER field — a rock-solid VIN powertrain doesn't
-// help if the trim that completes the cohort key was a bare feed guess. Drive the badge off
-// whichever of (trim, powertrain) has the lower confidence.
+// help if the trim that completes the cohort key was a bare feed guess. The weaker field is the
+// one whose TIER is weaker; confidence only breaks a tie between equal tiers. (Until 2026-10-26
+// it was picked by confidence alone, so a near-tie went to the VIN powertrain and ~51 deals with
+// only a search-verified trim showed the bright color; the founder chose to mute them.)
+const STRENGTH_RANK = { strong: 2, mid: 1, weak: 0 };
 function trustOf(r) {
   const pc = r.powertrainConfidence, tc = r.trimConfidence;
-  const weakPt = (pc == null ? -1 : pc) <= (tc == null ? -1 : tc);
+  const rank = t => STRENGTH_RANK[TIER_STRENGTH[t || "none"] || "weak"];
+  const pr = rank(r.powertrainVerifiedBy), trr = rank(r.trimVerifiedBy);
+  const weakPt = pr !== trr ? pr < trr : (pc == null ? -1 : pc) <= (tc == null ? -1 : tc);
   const tier = (weakPt ? r.powertrainVerifiedBy : r.trimVerifiedBy) || "none";
   return {
     strength: TIER_STRENGTH[tier] || "weak",
@@ -291,6 +297,7 @@ function renderDeals() {
     // not-ready = not cohort-ready (trim/powertrain unverified): no market value to rank by, so
     // hidden by default; the toggle lists them unpriced (null dealPct sorts them to the bottom).
     if ((b === "not-ready" || b == null) && !showUnverified) return false;
+    if (b === "new-inventory") return false;             // new cars: not part of a used-car view
     if (lens.filter && !lens.filter(r)) return false;   // lens row filter (e.g. profit = over-market only)
     return true;
   });
@@ -301,10 +308,11 @@ function renderDeals() {
     // an underpriced deal only earns the bright "good" color when BOTH the classification
     // behind its cohort is solid AND the valuation basis is dense enough to trust the band;
     // otherwise show it muted so a shaky clear or a thin fit can't masquerade as a steal.
-    // A VIN-matched trim is never "solid" on its own: trustOf follows the weaker field and a
-    // confidence tie goes to the (VIN-decoded, strong) powertrain, which would hide it.
+    // A provisional price (trust.py: a tier still on probation) is never highlighted, whatever
+    // the evidence strength below says. Records valued before trust.py carry no stamp: not provisional.
+    // GRADUATION(G2): flip to `v.trust === "verified"` once every published snapshot is stamped.
     const solid = tr.strength === "strong" && v.ratingConfident !== false
-      && r.trimVerifiedBy !== "vin_pattern";
+      && v.trust !== "provisional";
     const cls = dp == null ? ""
       : dp < -0.03 ? (solid ? "pct-good" : "pct-tentative")
       : dp > 0.03 ? "pct-bad" : "";

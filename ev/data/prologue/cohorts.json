@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-02",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2024|EX|electric": {
+      "year": 2024,
+      "trim": "EX",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        9840,
+        9840
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "EX|electric",
+      "msrp": 50400
+    },
+    "2024|Touring|electric": {
+      "year": 2024,
+      "trim": "Touring",
+      "powertrain": "electric",
+      "n": 6,
+      "mileageRange": [
+        10911,
+        39935
+      ],
+      "theilSen": {
+        "slope": -0.0848,
+        "intercept": 29000.9
+      },
+      "ols": {
+        "slope": -0.0802,
+        "intercept": 28941.53
+      },
+      "parentKey": "Touring|electric",
+      "msrp": 54700
+    }
+  },
+  "parents": {
+    "Touring|electric": {
+      "slope": -0.0848,
+      "intercept": 29000.9
+    }
+  },
+  "depreciation": {
+    "Touring|electric": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 25340,
+        "marketValue": 26853,
+        "msrp": 54700,
+        "retained": 0.491
+      }
+    ]
+  }
+}

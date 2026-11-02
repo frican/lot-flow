@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-11-02",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -19,7 +19,7 @@
       "theilSen": null,
       "ols": null,
       "parentKey": "SE|electric",
-      "msrp": 47500
+      "msrp": 45750
     },
     "2023|SE|electric": {
       "year": 2023,
@@ -27,7 +27,7 @@
       "powertrain": "electric",
       "n": 2,
       "mileageRange": [
-        29708,
+        29710,
         33636
       ],
       "theilSen": null,
@@ -45,12 +45,12 @@
         43632
       ],
       "theilSen": {
-        "slope": -0.0989,
-        "intercept": 27503.78
+        "slope": -0.1372,
+        "intercept": 27977.48
       },
       "ols": {
-        "slope": -0.1113,
-        "intercept": 28826.88
+        "slope": -0.1533,
+        "intercept": 29695.01
       },
       "parentKey": "SEL|electric",
       "msrp": 50950
@@ -59,13 +59,19 @@
       "year": 2023,
       "trim": "Limited",
       "powertrain": "electric",
-      "n": 2,
+      "n": 4,
       "mileageRange": [
         17788,
-        18767
+        19107
       ],
-      "theilSen": null,
-      "ols": null,
+      "theilSen": {
+        "slope": 0.4599,
+        "intercept": 23783.15
+      },
+      "ols": {
+        "slope": 0.4356,
+        "intercept": 24262.77
+      },
       "parentKey": "Limited|electric",
       "msrp": 56500
     },
@@ -87,18 +93,18 @@
       "year": 2024,
       "trim": "SEL",
       "powertrain": "electric",
-      "n": 7,
+      "n": 13,
       "mileageRange": [
         9455,
-        27566
+        44446
       ],
       "theilSen": {
-        "slope": -0.0438,
-        "intercept": 26757.02
+        "slope": -0.0801,
+        "intercept": 26525.71
       },
       "ols": {
-        "slope": -0.0244,
-        "intercept": 25728.91
+        "slope": -0.0838,
+        "intercept": 26658.52
       },
       "parentKey": "SEL|electric",
       "msrp": 47400
@@ -107,13 +113,19 @@
       "year": 2024,
       "trim": "Limited",
       "powertrain": "electric",
-      "n": 2,
+      "n": 4,
       "mileageRange": [
         12624,
-        20854
+        30010
       ],
-      "theilSen": null,
-      "ols": null,
+      "theilSen": {
+        "slope": 0.1134,
+        "intercept": 31129.81
+      },
+      "ols": {
+        "slope": 0.1222,
+        "intercept": 30968.46
+      },
       "parentKey": "Limited|electric",
       "msrp": 53500
     },
@@ -130,20 +142,38 @@
       "ols": null,
       "parentKey": "SE|electric",
       "msrp": 46650
+    },
+    "2025|SE Standard Range|electric": {
+      "year": 2025,
+      "trim": "SE Standard Range",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        12115,
+        12115
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "SE Standard Range|electric",
+      "msrp": 42600
     }
   },
   "parents": {
     "SE|electric": {
-      "slope": -0.1291,
-      "intercept": 26782.42
+      "slope": -0.1079,
+      "intercept": 25881.3
     },
     "SEL|electric": {
-      "slope": -0.025,
-      "intercept": 26030.37
+      "slope": -0.0774,
+      "intercept": 26462.79
     },
     "Limited|electric": {
-      "slope": -0.0514,
-      "intercept": 33916.9
+      "slope": 0.1282,
+      "intercept": 30609.19
+    },
+    "SE Standard Range|electric": {
+      "slope": 0.1827,
+      "intercept": 19818.71
     }
   },
   "depreciation": {
@@ -152,25 +182,25 @@
         "year": 2022,
         "age": 4,
         "medianMileage": 38967,
-        "marketValue": 21436,
-        "msrp": 47500,
-        "retained": 0.451
+        "marketValue": 20166,
+        "msrp": 45750,
+        "retained": 0.441
       },
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 31672,
-        "marketValue": 22167,
+        "medianMileage": 31673,
+        "marketValue": 22037,
         "msrp": 45500,
-        "retained": 0.487
+        "retained": 0.484
       },
       {
         "year": 2025,
         "age": 1,
         "medianMileage": 9256,
-        "marketValue": 27699,
+        "marketValue": 27365,
         "msrp": 46650,
-        "retained": 0.594
+        "retained": 0.587
       }
     ],
     "SEL|electric": [
@@ -178,35 +208,35 @@
         "year": 2023,
         "age": 3,
         "medianMileage": 33375,
-        "marketValue": 24791,
+        "marketValue": 23874,
         "msrp": 50950,
-        "retained": 0.487
+        "retained": 0.469
       },
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 17862,
-        "marketValue": 25975,
+        "medianMileage": 19659,
+        "marketValue": 24951,
         "msrp": 47400,
-        "retained": 0.548
+        "retained": 0.526
       }
     ],
     "Limited|electric": [
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 18277,
-        "marketValue": 33212,
+        "medianMileage": 18351,
+        "marketValue": 32373,
         "msrp": 56500,
-        "retained": 0.588
+        "retained": 0.573
       },
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 16739,
-        "marketValue": 33056,
+        "medianMileage": 18640,
+        "marketValue": 33216,
         "msrp": 53500,
-        "retained": 0.618
+        "retained": 0.621
       }
     ],
     "SE Standard Range|electric": [
@@ -214,9 +244,17 @@
         "year": 2024,
         "age": 2,
         "medianMileage": 16293,
-        "marketValue": 23423,
+        "marketValue": 22796,
         "msrp": 41800,
-        "retained": 0.56
+        "retained": 0.545
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 12115,
+        "marketValue": 24719,
+        "msrp": 42600,
+        "retained": 0.58
       }
     ]
   }

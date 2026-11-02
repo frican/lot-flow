@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-11-02",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2022|Premier|electric": {
+      "year": 2022,
+      "trim": "Premier",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        128068,
+        128068
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Premier|electric",
+      "msrp": 37500
+    },
+    "2023|LT|electric": {
+      "year": 2023,
+      "trim": "LT",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        45840,
+        45840
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "LT|electric",
+      "msrp": 27800
+    }
+  },
+  "parents": {},
+  "depreciation": {}
+}

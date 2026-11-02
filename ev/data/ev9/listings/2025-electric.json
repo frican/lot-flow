@@ -1,5 +1,75 @@
 [
   {
+    "id": "api-5xyaffs57sg003697",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Wind",
+    "trimFeed": "Wind",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Wind 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2025,
+    "mileage": 15079,
+    "price": 35500,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "5XYAFFS57SG003697",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/kia-ev9#vin=5XYAFFS57SG003697",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYAFFS57SG003697&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5XYAFFS57SG003697-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 63900,
+    "squishVin": "5XYAFFS5SG",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 14,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 35500
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02"
+  },
+  {
     "id": "api-kndaefs50s6055663",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -13,13 +83,13 @@
     "series": "GT-Line 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Other",
     "year": 2025,
     "mileage": 20680,
-    "price": 46999,
+    "price": 46792,
     "priceBasis": "listing",
-    "dealer": "Rick Case Kia at Gwinnett Place",
-    "dealerId": "d_e51ee39f370fd44d",
+    "dealer": "Rick Case Kia-Duluth",
+    "dealerId": "d_a851630483d246fd",
     "distanceMi": 21,
     "state": "GA",
     "city": "Duluth",
@@ -38,16 +108,20 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 13,
+    "lastSeen": "2026-11-02",
+    "listedDays": 24,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 46999
+      },
+      {
+        "date": "2026-11-02",
+        "price": 46792
       }
     ],
     "sellerType": "franchise",
@@ -66,13 +140,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 48368,
-      "expected": 48852,
+      "marketValue": 45930,
+      "expected": 46389,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1853,
-      "dealPct": -0.0379,
+      "dealDelta": 403,
+      "dealPct": 0.0087,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -80,10 +154,16 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 13,
-        "cohortMedianDaysListed": 13,
-        "negotiability": "low"
-      }
+        "listedDays": 24,
+        "cohortMedianDaysListed": 24,
+        "priceDrop": {
+          "total": 207,
+          "pct": -0.0044,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "GT-Line",

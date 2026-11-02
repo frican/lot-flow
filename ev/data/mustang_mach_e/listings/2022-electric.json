@@ -40,7 +40,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 42,
@@ -68,7 +68,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "exitReason": "unseen"
   },
   {
     "id": "api-3fmtk1ss2nma18575",
@@ -111,7 +112,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 73,
@@ -139,7 +140,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "exitReason": "unseen"
   },
   {
     "id": "api-3fmtk3r78nma39234",
@@ -155,12 +157,12 @@
     "series": "Premium 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2022,
     "mileage": 39020,
-    "price": 25696,
+    "price": 25496,
     "priceBasis": "listing",
-    "dealer": "EchoPark Automotive Atlanta (Duluth)",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
     "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
@@ -174,7 +176,7 @@
     "url": "https://www.autolist.com/ford-mustang+mach+e#vin=3FMTK3R78NMA39234",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R78NMA39234&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3R78NMA39234-1.jpg",
-    "photoCount": 33,
+    "photoCount": 1,
     "baseMsrp": 49100,
     "squishVin": "3FMTK3R7NM",
     "accidentCount": 0,
@@ -184,12 +186,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 25,
+    "lastSeen": "2026-11-02",
+    "listedDays": 37,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 25696
+      },
+      {
+        "date": "2026-11-02",
+        "price": 25496
       }
     ],
     "sellerType": "independent",
@@ -201,8 +207,8 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -210,7 +216,21 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-3fmtk3ss6nma25136",
@@ -245,7 +265,7 @@
     "url": "https://www.grandmarietta.com/used-ford-mustang_mach~e/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SS6NMA25136&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3SS6NMA25136-1.jpg",
-    "photoCount": 45,
+    "photoCount": 47,
     "baseMsrp": 51800,
     "squishVin": "3FMTK3SSNM",
     "accidentCount": 0,
@@ -255,8 +275,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 49,
+    "lastSeen": "2026-11-02",
+    "listedDays": 61,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -279,13 +299,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23142,
-      "expected": 22447,
+      "marketValue": 23072,
+      "expected": 22380,
       "adjustments": {
         "owners": -0.03
       },
-      "dealDelta": 410,
-      "dealPct": 0.0182,
+      "dealDelta": 477,
+      "dealPct": 0.0213,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -293,10 +313,11 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 49,
-        "cohortMedianDaysListed": 49,
-        "negotiability": "medium"
-      }
+        "listedDays": 61,
+        "cohortMedianDaysListed": 61,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Premium",
@@ -352,14 +373,14 @@
     "series": "Premium 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2022,
     "mileage": 66119,
-    "price": 24699,
+    "price": 24800,
     "priceBasis": "listing",
-    "dealer": "J&M Auto Sales Georgia",
-    "dealerId": "d_1fb08b037cb21de4",
-    "distanceMi": 21,
+    "dealer": "Used Imports Auto",
+    "dealerId": "d_71862fd9684ec8e4",
+    "distanceMi": 18,
     "state": "GA",
     "city": "Roswell ",
     "cpo": "none",
@@ -381,12 +402,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 15,
+    "lastSeen": "2026-11-02",
+    "listedDays": 27,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 24699
+      },
+      {
+        "date": "2026-11-02",
+        "price": 24800
       }
     ],
     "sellerType": "independent",
@@ -407,7 +432,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-11-02",
     "trimSearch": "Premium",
     "verifyLog": [
       {
@@ -416,6 +441,131 @@
         "tier": "search",
         "host": "uiautos.com",
         "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "uiautos.com",
+        "trim": "Premium",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 66119,
+        "price": null
+      }
+    ],
+    "powertrainSearch": "electric"
+  },
+  {
+    "id": "api-3fmtk4se2nma45917",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "GT",
+    "trimFeed": "GT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "GT 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2022,
+    "mileage": 31319,
+    "price": 30991,
+    "priceBasis": "listing",
+    "dealer": "Calavan Chrysler Dodge Jeep RAM",
+    "dealerId": "d_36ef2a496176e521",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Lithia Springs",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Space White Metallic",
+    "interiorColor": "Black Onyx/Copper",
+    "vin": "3FMTK4SE2NMA45917",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://calavancdjrwest.com/electric-used/Ford/2022-Ford-Mustang-Mach-E-6b457fd5ac181f93afca8f155771c5b0.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK4SE2NMA45917&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK4SE2NMA45917-1.jpg",
+    "photoCount": 21,
+    "baseMsrp": 61995,
+    "squishVin": "3FMTK4SENM",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 30991
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 32127,
+      "expected": 31645,
+      "adjustments": {
+        "owners": -0.015
+      },
+      "dealDelta": -654,
+      "dealPct": -0.0207,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 47,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "GT",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "GT",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "cars.com",
+        "trim": "GT",
         "powertrain": null,
         "strength": "snippet",
         "mileage": null,
@@ -466,8 +616,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 73,
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -490,25 +640,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30190,
-      "expected": 27623,
+      "marketValue": 27660,
+      "expected": 25309,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.015
       },
-      "dealDelta": 1173,
-      "dealPct": 0.0424,
-      "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "dealDelta": 3487,
+      "dealPct": 0.1378,
+      "rating": "overpriced",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 73,
-        "cohortMedianDaysListed": 73,
+        "listedDays": 85,
+        "cohortMedianDaysListed": 47,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "GT",

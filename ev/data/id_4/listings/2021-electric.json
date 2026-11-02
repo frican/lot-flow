@@ -16,11 +16,11 @@
     "engine": "electric",
     "year": 2021,
     "mileage": 19142,
-    "price": 22193,
+    "price": 20661,
     "priceBasis": "listing",
     "dealer": "Evolution Cars",
     "dealerId": "d_0223dca411c85f30",
-    "distanceMi": 20,
+    "distanceMi": 22,
     "state": "GA",
     "city": "Conyers",
     "cpo": "none",
@@ -42,12 +42,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 15,
+    "lastSeen": "2026-11-02",
+    "listedDays": 7,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 22193
+      },
+      {
+        "date": "2026-11-02",
+        "price": 20661
       }
     ],
     "sellerType": "independent",
@@ -66,22 +70,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 19474,
-      "expected": 19474,
+      "marketValue": 18976,
+      "expected": 18976,
       "adjustments": {},
-      "dealDelta": 2719,
-      "dealPct": 0.1396,
-      "rating": "overpriced",
+      "dealDelta": 1685,
+      "dealPct": 0.0888,
+      "rating": "high",
       "dealScore": 1.0,
       "basis": "msrp_curve",
       "cohortN": 1,
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 15,
-        "negotiability": "medium"
-      }
+        "listedDays": 7,
+        "cohortMedianDaysListed": 7,
+        "priceDrop": {
+          "total": 1532,
+          "pct": -0.069,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "1st Edition",
@@ -141,7 +151,7 @@
     "engine": "electric",
     "year": 2021,
     "mileage": 87426,
-    "price": 16460,
+    "price": 16385,
     "priceBasis": "listing",
     "dealer": "Olympic Auto Sales",
     "dealerId": "d_4559149db499c287",
@@ -167,12 +177,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 147,
+    "lastSeen": "2026-11-02",
+    "listedDays": 158,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 16460
+      },
+      {
+        "date": "2026-11-02",
+        "price": 16385
       }
     ],
     "sellerType": "independent",
@@ -191,11 +205,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 14855,
-      "expected": 14855,
+      "marketValue": 14609,
+      "expected": 14609,
       "adjustments": {},
-      "dealDelta": 1605,
-      "dealPct": 0.1081,
+      "dealDelta": 1776,
+      "dealPct": 0.1216,
       "rating": "overpriced",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -203,10 +217,16 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 147,
-        "cohortMedianDaysListed": 147,
+        "listedDays": 158,
+        "cohortMedianDaysListed": 158,
+        "priceDrop": {
+          "total": 75,
+          "pct": -0.0046,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "Pro",
@@ -263,7 +283,7 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2021,
     "mileage": 32367,
-    "price": 19607,
+    "price": 19285,
     "priceBasis": "listing",
     "dealer": "Gravity Motor Cars",
     "dealerId": "d_981bf38d3c5be7a2",
@@ -289,12 +309,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 35,
+    "lastSeen": "2026-11-02",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 19607
+      },
+      {
+        "date": "2026-11-02",
+        "price": 19285
       }
     ],
     "sellerType": "independent",
@@ -313,13 +337,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23068,
-      "expected": 22722,
+      "marketValue": 22565,
+      "expected": 22227,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": -3115,
-      "dealPct": -0.1371,
+      "dealDelta": -2942,
+      "dealPct": -0.1323,
       "rating": "great",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -327,10 +351,16 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 35,
-        "cohortMedianDaysListed": 24,
-        "negotiability": "medium"
-      }
+        "listedDays": 46,
+        "cohortMedianDaysListed": 30,
+        "priceDrop": {
+          "total": 322,
+          "pct": -0.0164,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Pro S",
@@ -402,7 +432,7 @@
     "oneOwner": false,
     "usageType": "Multiple Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 1,
@@ -430,7 +460,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-10-26",
+    "exitReason": "unseen"
   },
   {
     "id": "api-wvgtmpe2xmp031205",
@@ -473,7 +504,7 @@
     "oneOwner": false,
     "usageType": "Corporate Fleet",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 13,
@@ -499,13 +530,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 14286,
-      "expected": 14072,
+      "marketValue": 14467,
+      "expected": 14250,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": 3675,
-      "dealPct": 0.2611,
+      "dealDelta": 3497,
+      "dealPct": 0.2454,
       "rating": "overpriced",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -514,9 +545,10 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 13,
-        "cohortMedianDaysListed": 24,
+        "cohortMedianDaysListed": 30,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Pro S",
@@ -556,6 +588,7 @@
         "price": null
       }
     ],
-    "trimSearch": "S"
+    "trimSearch": "S",
+    "exitReason": "unseen"
   }
 ]

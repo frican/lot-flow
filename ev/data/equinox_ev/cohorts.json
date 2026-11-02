@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-11-02",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2024|LT|electric": {
+      "year": 2024,
+      "trim": "LT",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        17309,
+        20058
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "LT|electric",
+      "msrp": null
+    },
+    "2024|2LT|electric": {
+      "year": 2024,
+      "trim": "2LT",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        22330,
+        23309
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "2LT|electric",
+      "msrp": 41900
+    },
+    "2024|RS|electric": {
+      "year": 2024,
+      "trim": "RS",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        19496,
+        22465
+      ],
+      "theilSen": {
+        "slope": 0.9313,
+        "intercept": 5643.57
+      },
+      "ols": {
+        "slope": 0.8709,
+        "intercept": 6550.23
+      },
+      "parentKey": "RS|electric",
+      "msrp": null
+    }
+  },
+  "parents": {
+    "RS|electric": {
+      "slope": 0.9313,
+      "intercept": 5643.57
+    }
+  },
+  "depreciation": {
+    "RS|electric": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 21350,
+        "marketValue": 25527,
+        "msrp": null,
+        "retained": null
+      }
+    ]
+  }
+}
