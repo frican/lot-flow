@@ -16,15 +16,15 @@
     "engine": "Electric",
     "year": 2025,
     "mileage": 7708,
-    "price": 29097,
+    "price": 29087,
     "priceBasis": "listing",
     "dealer": "Ed Voyles Kia",
-    "dealerId": "d_83812e054e495b2d",
+    "dealerId": "d_d08b6269bf2b4f38",
     "distanceMi": 12,
     "state": "GA",
     "city": "Smyrna",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "White",
     "interiorColor": "Black",
     "vin": "5XYC34JA5SG002553",
@@ -32,7 +32,7 @@
     "url": "https://www.edvoyles.com/inventory/used-2025-kia-ev6-light-long-range-rwd-sport-utility-5xyc34ja5sg002553/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYC34JA5SG002553&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5XYC34JA5SG002553-1.jpg",
-    "photoCount": 34,
+    "photoCount": 6,
     "baseMsrp": 50300,
     "squishVin": "5XYC34JASG",
     "accidentCount": 0,
@@ -42,12 +42,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 19,
+    "lastSeen": "2026-11-02",
+    "listedDays": 31,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 29097
+      },
+      {
+        "date": "2026-11-02",
+        "price": 29087
       }
     ],
     "sellerType": "franchise",
@@ -69,10 +73,16 @@
       "basis": "none",
       "cohortN": 1,
       "signals": {
-        "listedDays": 19,
-        "cohortMedianDaysListed": 19,
-        "negotiability": "medium"
-      }
+        "listedDays": 31,
+        "cohortMedianDaysListed": 31,
+        "priceDrop": {
+          "total": 10,
+          "pct": -0.0003,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Light Long Range",
@@ -96,7 +106,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Wind",
+    "trim": "Light",
     "trimFeed": "Wind",
     "powertrain": "electric",
     "powertrainFeed": "electric",
@@ -133,8 +143,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 71,
+    "lastSeen": "2026-11-02",
+    "listedDays": 83,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -150,16 +160,30 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.65,
+    "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": false,
+    "trimConflict": true,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Light",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Light",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-5xyc34jb7sg013370",
@@ -175,10 +199,10 @@
     "series": "Light 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "Electric Motor",
     "year": 2025,
     "mileage": 6251,
-    "price": 29164,
+    "price": 28664,
     "priceBasis": "listing",
     "dealer": "ALM KIA South",
     "dealerId": "d_525e1e1bc608ea3a",
@@ -204,12 +228,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 27,
+    "lastSeen": "2026-11-02",
+    "listedDays": 39,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 29164
+      },
+      {
+        "date": "2026-11-02",
+        "price": 28664
       }
     ],
     "sellerType": "franchise",
@@ -228,13 +256,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28556,
-      "expected": 28841,
+      "marketValue": 28294,
+      "expected": 28577,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 323,
-      "dealPct": 0.0112,
+      "dealDelta": 87,
+      "dealPct": 0.003,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -242,10 +270,16 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 27,
-        "cohortMedianDaysListed": 27,
-        "negotiability": "medium"
-      }
+        "listedDays": 39,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.0171,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSearch": "Light",

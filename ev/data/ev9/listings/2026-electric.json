@@ -13,7 +13,7 @@
     "series": "Light 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2026,
     "mileage": 14100,
     "price": 39184,
@@ -32,18 +32,18 @@
     "url": "https://www.autolist.com/kia-ev9#vin=5XYAA5S22TG016115",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYAA5S22TG016115&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5XYAA5S22TG016115-1.jpg",
-    "photoCount": 36,
+    "photoCount": 6,
     "baseMsrp": 54900,
     "squishVin": "5XYAA5S2TG",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 9,
+    "lastSeen": "2026-11-02",
+    "listedDays": 20,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -68,7 +68,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-11-02"
   },
   {
     "id": "api-5xyaa5s26tg016733",
@@ -84,12 +84,12 @@
     "series": "Light 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "electric",
+    "engine": "76.1kW 215HP Electric",
     "year": 2026,
     "mileage": 9004,
-    "price": 36900,
+    "price": 35800,
     "priceBasis": "listing",
-    "dealer": "Bmvw",
+    "dealer": "BMVW Auto Sales",
     "dealerId": "d_9a1299f922cbf553",
     "distanceMi": 15,
     "state": "GA",
@@ -113,12 +113,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 8,
+    "lastSeen": "2026-11-02",
+    "listedDays": 19,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 36900
+      },
+      {
+        "date": "2026-11-02",
+        "price": 35800
       }
     ],
     "sellerType": "independent",
@@ -139,7 +143,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-11-02"
   },
   {
     "id": "api-5xyaa5s2xtg011552",
@@ -155,18 +159,18 @@
     "series": "Light 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl electric",
+    "engine": "Other",
     "year": 2026,
     "mileage": 10817,
-    "price": 38991,
+    "price": 38491,
     "priceBasis": "listing",
     "dealer": "Calavan Kia West",
-    "dealerId": "d_4bcb2f889754d93f",
+    "dealerId": "d_272d7497fd7a5047",
     "distanceMi": 12,
     "state": "GA",
     "city": "Lithia Springs",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Panthera Metal",
     "interiorColor": "Gray",
     "vin": "5XYAA5S2XTG011552",
@@ -174,7 +178,7 @@
     "url": "https://www.autolist.com/kia-ev9#vin=5XYAA5S2XTG011552",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYAA5S2XTG011552&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5XYAA5S2XTG011552-1.jpg",
-    "photoCount": 1,
+    "photoCount": 53,
     "baseMsrp": 54900,
     "squishVin": "5XYAA5S2TG",
     "accidentCount": 0,
@@ -184,12 +188,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 43,
+    "lastSeen": "2026-11-02",
+    "listedDays": 54,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 38991
+      },
+      {
+        "date": "2026-11-02",
+        "price": 38491
       }
     ],
     "sellerType": "franchise",
@@ -210,7 +218,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-11-02"
   },
   {
     "id": "api-5xyab5s19tg006265",
@@ -242,7 +250,7 @@
     "interiorColor": "Gray",
     "vin": "5XYAB5S19TG006265",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://bmvw.com/vdp/24404503/Used-2026-Kia-EV9-Light-Long-Range-RWD-for-sale-in-Union-City-GA-30291",
+    "url": "https://bmvw.com/vdp/24404503/Used-2026-Kia-EV9-for-sale-in-Union-City-GA",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYAB5S19TG006265&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/5XYAB5S19TG006265-1.jpg",
     "photoCount": 1,
@@ -252,10 +260,10 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
-    "gone": false,
+    "flagged": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
+    "lastSeen": "2026-10-26",
     "listedDays": 1,
     "priceHistory": [
       {
@@ -264,7 +272,7 @@
       }
     ],
     "sellerType": "independent",
-    "urlOrigin": "stored",
+    "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -272,16 +280,62 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 38965,
+      "expected": 39354,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -7354,
+      "dealPct": -0.1869,
+      "rating": "great",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 1,
+        "cohortMedianDaysListed": 1,
+        "negotiability": "low"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-10-26",
+    "trimSite": "Light Long Range",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "site",
+        "host": "bmvw.com",
+        "trim": "Light Long Range",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 5901,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Light",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 2547
+      }
+    ],
+    "trimSearch": "Light",
+    "exitReason": "unseen"
   },
   {
     "id": "api-5xyaefs51tg017342",
@@ -297,13 +351,13 @@
     "series": "GT-Line 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl electric",
+    "engine": "Electric Motor",
     "year": 2026,
     "mileage": 15134,
     "price": 54164,
     "priceBasis": "listing",
     "dealer": "ALM Gwinnett",
-    "dealerId": "d_d7337c15fd76d275",
+    "dealerId": "d_e9ca919346783adb",
     "distanceMi": 21,
     "state": "GA",
     "city": "Duluth",
@@ -326,8 +380,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 6,
+    "lastSeen": "2026-11-02",
+    "listedDays": 17,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -350,24 +404,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 53498,
-      "expected": 54033,
+      "marketValue": 52701,
+      "expected": 53228,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 131,
-      "dealPct": 0.0024,
+      "dealDelta": 936,
+      "dealPct": 0.0176,
       "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 6,
-        "cohortMedianDaysListed": 6,
-        "negotiability": "low"
-      }
+        "listedDays": 17,
+        "cohortMedianDaysListed": 13,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "GT-Line",
@@ -408,58 +463,57 @@
     ]
   },
   {
-    "id": "api-5xyaffs56tg005751",
+    "id": "api-5xyaefs54tg007999",
     "discoveredBy": "auto.dev",
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Wind",
-    "trimFeed": "Wind",
+    "trim": "GT-Line",
+    "trimFeed": "GT-Line",
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": "Wind 4dr SUV AWD (electric DD)",
+    "series": "GT-Line 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2026,
-    "mileage": 14971,
-    "price": 40876,
+    "mileage": 2656,
+    "price": 51000,
     "priceBasis": "listing",
-    "dealer": "Automax Atlanta",
-    "dealerId": "d_78f165d5201f63bc",
-    "distanceMi": 17,
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
     "state": "GA",
-    "city": "Lilburn",
+    "city": "Marietta",
     "cpo": "none",
     "cpoFeed": false,
-    "exteriorColor": "Gray",
-    "interiorColor": "Gray",
-    "vin": "5XYAFFS56TG005751",
+    "exteriorColor": "Black",
+    "interiorColor": "Brown",
+    "vin": "5XYAEFS54TG007999",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.automaxatlanta.com/pre-owned-cars/detail/x/1523517",
-    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYAFFS56TG005751&partner=FRD_2",
-    "primaryImage": "https://retail.photos.vin/5XYAFFS56TG005751-1.jpg",
-    "photoCount": 45,
-    "baseMsrp": 63900,
-    "squishVin": "5XYAFFS5TG",
+    "url": "https://www.autolist.com/kia-ev9#vin=5XYAEFS54TG007999",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYAEFS54TG007999&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5XYAEFS54TG007999-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 71900,
+    "squishVin": "5XYAEFS5TG",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": true,
     "gone": false,
-    "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 139,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 12,
     "priceHistory": [
       {
-        "date": "2026-10-22",
-        "price": 40876
+        "date": "2026-11-02",
+        "price": 51000
       }
     ],
     "sellerType": "independent",
-    "urlOrigin": "stored",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -476,6 +530,253 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-11-02"
+  },
+  {
+    "id": "api-5xyaefs56tg015523",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "GT-Line",
+    "trimFeed": "GT-Line",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "GT-Line 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2026,
+    "mileage": 13546,
+    "price": 52339,
+    "priceBasis": "listing",
+    "dealer": "Ed Voyles Kia",
+    "dealerId": "d_d08b6269bf2b4f38",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Smyrna",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Panthera Metal Matte",
+    "interiorColor": "Brown/Black",
+    "vin": "5XYAEFS56TG015523",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.edvoyles.com/inventory/certified-used-2026-kia-ev9-gt-line-awd-sport-utility-5xyaefs56tg015523/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYAEFS56TG015523&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5XYAEFS56TG015523-1.jpg",
+    "photoCount": 6,
+    "baseMsrp": 71900,
+    "squishVin": "5XYAEFS5TG",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Corporate Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 52339
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 53802,
+      "expected": 54878,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": -2539,
+      "dealPct": -0.0463,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 13,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "GT-Line",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "edvoyles.com",
+        "trim": "GT-Line",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 13,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "carsaver.com",
+        "trim": "GT-Line",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "youtube.com",
+        "trim": "GT-Line",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "GT-Line",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 3681
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "asily",
+    "trimSearch": "GT-Line"
+  },
+  {
+    "id": "api-5xyaffs56tg005751",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Wind",
+    "trimFeed": "Wind",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Wind 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric Motor",
+    "year": 2026,
+    "mileage": 14971,
+    "price": 41824,
+    "priceBasis": "listing",
+    "dealer": "Automax Atlanta",
+    "dealerId": "d_78f165d5201f63bc",
+    "distanceMi": 17,
+    "state": "GA",
+    "city": "Lilburn",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "5XYAFFS56TG005751",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.automaxatlanta.com/pre-owned-cars/detail/2026-Kia-EV9/1523517",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=5XYAFFS56TG005751&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/5XYAFFS56TG005751-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 63900,
+    "squishVin": "5XYAFFS5TG",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-22",
+    "lastSeen": "2026-11-02",
+    "listedDays": 150,
+    "priceHistory": [
+      {
+        "date": "2026-10-22",
+        "price": 40876
+      },
+      {
+        "date": "2026-11-02",
+        "price": 41824
+      }
+    ],
+    "sellerType": "independent",
+    "urlOrigin": "search",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 43057,
+      "expected": 43488,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1664,
+      "dealPct": -0.0383,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 150,
+        "cohortMedianDaysListed": 150,
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Wind",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "automaxatlanta.com",
+        "trim": "Wind",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   }
 ]

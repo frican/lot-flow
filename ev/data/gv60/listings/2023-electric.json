@@ -13,10 +13,10 @@
     "series": "Advanced 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L",
     "year": 2023,
-    "mileage": 10095,
-    "price": 42998,
+    "mileage": 10113,
+    "price": 41998,
     "priceBasis": "listing",
     "dealer": "CarMax Town Center",
     "dealerId": "d_18bd36f40629047a",
@@ -32,7 +32,7 @@
     "url": "https://www.autolist.com/genesis-gv60#vin=KMUKCDTC4PU017798",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KMUKCDTC4PU017798&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KMUKCDTC4PU017798-1.jpg",
-    "photoCount": 29,
+    "photoCount": 1,
     "baseMsrp": 59290,
     "squishVin": "KMUKCDTCPU",
     "accidentCount": 0,
@@ -42,12 +42,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 6,
+    "lastSeen": "2026-11-02",
+    "listedDays": 17,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 42998
+      },
+      {
+        "date": "2026-11-02",
+        "price": 41998
       }
     ],
     "sellerType": "independent",
@@ -68,8 +72,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22",
-    "trimSearch": "Advanced",
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Performance",
     "verifyLog": [
       {
         "date": "2026-10-22",
@@ -77,6 +81,17 @@
         "tier": "search",
         "host": "capitalone.com",
         "trim": "Advanced",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Performance",
         "powertrain": null,
         "strength": "snippet",
         "mileage": null,
@@ -98,10 +113,10 @@
     "series": "Performance 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "Electric (Dual)",
     "year": 2023,
     "mileage": 23579,
-    "price": 37175,
+    "price": 36661,
     "priceBasis": "listing",
     "dealer": "Genesis Of Kennesaw",
     "dealerId": "d_517869e4c5e6b864",
@@ -127,12 +142,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 63,
+    "lastSeen": "2026-11-02",
+    "listedDays": 6,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 37175
+      },
+      {
+        "date": "2026-11-02",
+        "price": 36661
       }
     ],
     "sellerType": "franchise",
@@ -144,8 +163,8 @@
     "powertrainConflict": false,
     "plantCountry": "South Korea",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -153,7 +172,21 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Performance",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "youtube.com",
+        "trim": "Performance",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-kmukedtb2pu011533",
@@ -169,10 +202,10 @@
     "series": "Performance 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "Electric (Dual)",
     "year": 2023,
-    "mileage": 46421,
-    "price": 33074,
+    "mileage": 46436,
+    "price": 32837,
     "priceBasis": "listing",
     "dealer": "Genesis Of Kennesaw",
     "dealerId": "d_517869e4c5e6b864",
@@ -198,12 +231,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 58,
+    "lastSeen": "2026-11-02",
+    "listedDays": 6,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 33074
+      },
+      {
+        "date": "2026-11-02",
+        "price": 32837
       }
     ],
     "sellerType": "franchise",
@@ -223,12 +260,18 @@
     "cohortReady": true,
     "valuation": {
       "basis": "none",
-      "cohortN": 1,
+      "cohortN": 2,
       "signals": {
-        "listedDays": 58,
-        "cohortMedianDaysListed": 58,
-        "negotiability": "medium"
-      }
+        "listedDays": 6,
+        "cohortMedianDaysListed": 8,
+        "priceDrop": {
+          "total": 237,
+          "pct": -0.0072,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Performance",
@@ -258,5 +301,107 @@
     ],
     "trimSearch": "Performance",
     "powertrainSearch": "electric"
+  },
+  {
+    "id": "api-kmukedtb3pu017485",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Performance",
+    "trimFeed": "Performance",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Performance 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 25989,
+    "price": 41998,
+    "priceBasis": "listing",
+    "dealer": "CarMax - Lithia Springs",
+    "dealerId": "d_3b08986731308aca",
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Lithia Springs",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "KMUKEDTB3PU017485",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29101076",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KMUKEDTB3PU017485&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KMUKEDTB3PU017485-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 68290,
+    "squishVin": "KMUKEDTBPU",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 41998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "basis": "none",
+      "cohortN": 2,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 8,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Performance",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Performance",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Performance",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   }
 ]

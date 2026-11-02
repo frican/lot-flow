@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22",
+  "generatedAt": "2026-11-02",
   "models": [
     {
       "id": "ioniq_5",
@@ -168,6 +168,91 @@
       "years": [
         2023,
         2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "prologue",
+      "make": "Honda",
+      "model": "Prologue",
+      "label": "Honda Prologue",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2024,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "equinox_ev",
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "label": "Chevrolet Equinox EV",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2024,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "blazer_ev",
+      "make": "Chevrolet",
+      "model": "Blazer EV",
+      "label": "Chevrolet Blazer EV",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2024,
+        2026
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "bolt_ev",
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "label": "Chevrolet Bolt EV",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2017,
+        2023
+      ],
+      "targetPowertrain": "electric"
+    },
+    {
+      "id": "bolt_euv",
+      "make": "Chevrolet",
+      "model": "Bolt EUV",
+      "label": "Chevrolet Bolt EUV",
+      "powertrains": [
+        {
+          "id": "electric",
+          "label": "Electric"
+        }
+      ],
+      "years": [
+        2022,
+        2023
       ],
       "targetPowertrain": "electric"
     }

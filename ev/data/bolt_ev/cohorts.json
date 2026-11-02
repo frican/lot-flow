@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-11-02",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2023|1LT|electric": {
+      "year": 2023,
+      "trim": "1LT",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        47001,
+        47001
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "1LT|electric",
+      "msrp": 26500
+    }
+  },
+  "parents": {},
+  "depreciation": {}
+}

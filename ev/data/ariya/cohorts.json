@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22",
+  "generatedAt": "2026-11-02",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -11,21 +11,55 @@
       "year": 2023,
       "trim": "Engage",
       "powertrain": "electric",
-      "n": 5,
+      "n": 8,
       "mileageRange": [
         10739,
         68484
       ],
       "theilSen": {
-        "slope": -0.0634,
-        "intercept": 21734.73
+        "slope": -0.0756,
+        "intercept": 21492.61
       },
       "ols": {
-        "slope": -0.0751,
-        "intercept": 22609.64
+        "slope": -0.0815,
+        "intercept": 22271.61
       },
       "parentKey": "Engage|electric",
       "msrp": 43190
+    },
+    "2023|Venture+|electric": {
+      "year": 2023,
+      "trim": "Venture+",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        29696,
+        29696
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Venture+|electric",
+      "msrp": 47190
+    },
+    "2023|Evolve+|electric": {
+      "year": 2023,
+      "trim": "Evolve+",
+      "powertrain": "electric",
+      "n": 6,
+      "mileageRange": [
+        21392,
+        45801
+      ],
+      "theilSen": {
+        "slope": -0.1444,
+        "intercept": 28321.72
+      },
+      "ols": {
+        "slope": -0.1505,
+        "intercept": 28703.47
+      },
+      "parentKey": "Evolve+|electric",
+      "msrp": null
     },
     "2023|Empower+|electric": {
       "year": 2023,
@@ -39,26 +73,6 @@
       "theilSen": null,
       "ols": null,
       "parentKey": "Empower+|electric",
-      "msrp": null
-    },
-    "2023|Evolve+|electric": {
-      "year": 2023,
-      "trim": "Evolve+",
-      "powertrain": "electric",
-      "n": 4,
-      "mileageRange": [
-        21392,
-        45801
-      ],
-      "theilSen": {
-        "slope": -0.1354,
-        "intercept": 28049.07
-      },
-      "ols": {
-        "slope": -0.1388,
-        "intercept": 28248.02
-      },
-      "parentKey": "Evolve+|electric",
       "msrp": null
     },
     "2023|Engage+|electric": {
@@ -75,8 +89,8 @@
         "intercept": 22598.9
       },
       "ols": {
-        "slope": -0.0628,
-        "intercept": 23004.31
+        "slope": -0.0594,
+        "intercept": 22771.84
       },
       "parentKey": "Engage+|electric",
       "msrp": null
@@ -85,18 +99,18 @@
       "year": 2023,
       "trim": "Platinum+",
       "powertrain": "electric",
-      "n": 4,
+      "n": 9,
       "mileageRange": [
         19480,
         46740
       ],
       "theilSen": {
-        "slope": -0.1021,
-        "intercept": 30600.96
+        "slope": -0.1603,
+        "intercept": 31669.9
       },
       "ols": {
-        "slope": -0.1013,
-        "intercept": 30520.59
+        "slope": -0.171,
+        "intercept": 32005.98
       },
       "parentKey": "Platinum+|electric",
       "msrp": 60190
@@ -105,18 +119,18 @@
       "year": 2024,
       "trim": "Evolve+",
       "powertrain": "electric",
-      "n": 8,
+      "n": 9,
       "mileageRange": [
         9030,
-        52938
+        52473
       ],
       "theilSen": {
-        "slope": -0.0661,
-        "intercept": 27942.33
+        "slope": -0.0781,
+        "intercept": 27424.14
       },
       "ols": {
-        "slope": -0.058,
-        "intercept": 27341.16
+        "slope": -0.0849,
+        "intercept": 27499.62
       },
       "parentKey": "Evolve+|electric",
       "msrp": 48190
@@ -125,9 +139,9 @@
       "year": 2024,
       "trim": "Engage",
       "powertrain": "electric",
-      "n": 1,
+      "n": 2,
       "mileageRange": [
-        13572,
+        4140,
         13572
       ],
       "theilSen": null,
@@ -159,12 +173,12 @@
         42419
       ],
       "theilSen": {
-        "slope": -0.0558,
-        "intercept": 31110.34
+        "slope": -0.0319,
+        "intercept": 30086.84
       },
       "ols": {
-        "slope": -0.0574,
-        "intercept": 31699.03
+        "slope": -0.0376,
+        "intercept": 30875.44
       },
       "parentKey": "Platinum+|electric",
       "msrp": 54190
@@ -172,20 +186,20 @@
   },
   "parents": {
     "Engage|electric": {
-      "slope": -0.1089,
-      "intercept": 23808.93
+      "slope": -0.1174,
+      "intercept": 23536.51
     },
     "Evolve+|electric": {
-      "slope": -0.0817,
-      "intercept": 27712.84
+      "slope": -0.1107,
+      "intercept": 27668.2
     },
     "Engage+|electric": {
-      "slope": -0.1107,
-      "intercept": 25359.56
+      "slope": -0.1068,
+      "intercept": 25030.61
     },
     "Platinum+|electric": {
-      "slope": -0.1068,
-      "intercept": 32027.01
+      "slope": -0.1401,
+      "intercept": 31732.45
     }
   },
   "depreciation": {
@@ -193,36 +207,46 @@
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 31935,
-        "marketValue": 19709,
+        "medianMileage": 34116,
+        "marketValue": 18914,
         "msrp": 43190,
-        "retained": 0.456
+        "retained": 0.438
       },
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 13572,
-        "marketValue": 24519,
+        "medianMileage": 8856,
+        "marketValue": 23375,
         "msrp": 43590,
-        "retained": 0.562
+        "retained": 0.536
+      }
+    ],
+    "Venture+|electric": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 29696,
+        "marketValue": 21179,
+        "msrp": 47190,
+        "retained": 0.449
       }
     ],
     "Evolve+|electric": [
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 32048,
-        "marketValue": 23803,
+        "medianMileage": 33044,
+        "marketValue": 23550,
         "msrp": null,
         "retained": null
       },
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 25640,
-        "marketValue": 26248,
+        "medianMileage": 25470,
+        "marketValue": 25436,
         "msrp": 48190,
-        "retained": 0.545
+        "retained": 0.528
       }
     ],
     "Engage+|electric": [
@@ -230,7 +254,7 @@
         "year": 2023,
         "age": 3,
         "medianMileage": 26983,
-        "marketValue": 21588,
+        "marketValue": 21288,
         "msrp": null,
         "retained": null
       }
@@ -239,18 +263,18 @@
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 40862,
-        "marketValue": 26393,
+        "medianMileage": 35549,
+        "marketValue": 25973,
         "msrp": 60190,
-        "retained": 0.438
+        "retained": 0.432
       },
       {
         "year": 2024,
         "age": 2,
         "medianMileage": 25279,
-        "marketValue": 29699,
+        "marketValue": 29281,
         "msrp": 54190,
-        "retained": 0.548
+        "retained": 0.54
       }
     ]
   }

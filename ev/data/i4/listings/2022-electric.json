@@ -15,8 +15,8 @@
     "drivetrain": "RWD",
     "engine": "electric",
     "year": 2022,
-    "mileage": 47678,
-    "price": 29748,
+    "mileage": 47819,
+    "price": 29298,
     "priceBasis": "listing",
     "dealer": "Gwinnett Place Ford",
     "dealerId": "d_2925fad6da725fdb",
@@ -42,12 +42,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 15,
+    "lastSeen": "2026-11-02",
+    "listedDays": 4,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 29748
+      },
+      {
+        "date": "2026-11-02",
+        "price": 29298
       }
     ],
     "sellerType": "independent",
@@ -66,13 +70,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25312,
-      "expected": 25565,
+      "marketValue": 25609,
+      "expected": 25865,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 4183,
-      "dealPct": 0.1636,
+      "dealDelta": 3433,
+      "dealPct": 0.1327,
       "rating": "overpriced",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -80,10 +84,16 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 15,
-        "negotiability": "medium"
-      }
+        "listedDays": 4,
+        "cohortMedianDaysListed": 4,
+        "priceDrop": {
+          "total": 450,
+          "pct": -0.0151,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "eDrive40",

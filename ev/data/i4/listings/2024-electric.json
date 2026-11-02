@@ -1,5 +1,248 @@
 [
   {
+    "id": "api-wby33aw04rfr93822",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "M50",
+    "trimFeed": "M50",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "M50 4dr Sedan AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 15365,
+    "price": 49098,
+    "priceBasis": "listing",
+    "dealer": "Global Imports BMW",
+    "dealerId": "d_1440a0091a28f763",
+    "distanceMi": 0,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Orange",
+    "interiorColor": "Brown",
+    "vin": "WBY33AW04RFR93822",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://sonicautomotive.com/certified/BMW/2024-BMW-i4-6a699b79ac180c8aeaffd19b3f761a48.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY33AW04RFR93822&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY33AW04RFR93822-1.jpg",
+    "photoCount": 12,
+    "baseMsrp": 69700,
+    "squishVin": "WBY33AW0RF",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 49098
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 51189,
+      "expected": 52213,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": -3115,
+      "dealPct": -0.0597,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 4,
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "M50",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "M50",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "M50",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-wby33aw06rfr95992",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "M50",
+    "trimFeed": "M50",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "M50 4dr Sedan AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 13109,
+    "price": 53121,
+    "priceBasis": "listing",
+    "dealer": "BmwOfSouthAtlanta Used",
+    "dealerId": "d_cebc4c28f79eac1a",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "WBY33AW06RFR95992",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.bmwofsouthatlanta.com/inventory/certified-used-2024-bmw-i4-m50-awd-hatchback-wby33aw06rfr95992/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY33AW06RFR95992&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY33AW06RFR95992-1.jpg",
+    "photoCount": 5,
+    "baseMsrp": 69700,
+    "squishVin": "WBY33AW0RF",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 53121
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 53121,
+      "expected": 54183,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": -1062,
+      "dealPct": -0.0196,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 3,
+        "cohortMedianDaysListed": 4,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "M50",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "bmwofsouthatlanta.com",
+        "trim": "M50",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "sonsautogroup.com",
+        "trim": "M50",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "visor.vin",
+        "trim": "M50",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "B17318A",
+    "trimSearch": "M50"
+  },
+  {
     "id": "api-wby33aw08rfs52007",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -40,7 +283,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 4,
@@ -66,24 +309,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 48094,
-      "expected": 48575,
+      "marketValue": 44108,
+      "expected": 44549,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": 415,
-      "dealPct": 0.0085,
-      "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "dealDelta": 4441,
+      "dealPct": 0.0997,
+      "rating": "high",
+      "dealScore": 0.333,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
         "listedDays": 4,
         "cohortMedianDaysListed": 4,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "M50",
@@ -122,7 +366,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   },
   {
     "id": "api-wby43aw01rfr50091",
@@ -138,7 +383,7 @@
     "series": "eDrive35 4dr Sedan (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 25844,
     "price": 32987,
@@ -157,7 +402,7 @@
     "url": "https://versatilecollections.com/make/BMW",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY43AW01RFR50091&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/WBY43AW01RFR50091-1.jpg",
-    "photoCount": 75,
+    "photoCount": 76,
     "baseMsrp": 52200,
     "squishVin": "WBY43AW0RF",
     "accidentCount": 1,
@@ -167,8 +412,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 35,
+    "lastSeen": "2026-11-02",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -191,25 +436,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34102,
-      "expected": 32056,
+      "marketValue": 33954,
+      "expected": 31917,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 931,
-      "dealPct": 0.0291,
+      "dealDelta": 1070,
+      "dealPct": 0.0335,
       "rating": "fair",
-      "dealScore": 0.6,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.75,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 35,
-        "cohortMedianDaysListed": 11,
+        "listedDays": 46,
+        "cohortMedianDaysListed": 7,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "eDrive35",
@@ -280,7 +526,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 8,
@@ -306,25 +552,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 33993,
-      "expected": 31953,
+      "marketValue": 33942,
+      "expected": 31905,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 2040,
-      "dealPct": 0.0638,
+      "dealDelta": 2088,
+      "dealPct": 0.0654,
       "rating": "high",
-      "dealScore": 0.4,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.375,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 8,
-        "cohortMedianDaysListed": 11,
+        "cohortMedianDaysListed": 7,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "eDrive35",
@@ -375,7 +622,387 @@
       }
     ],
     "trimSearch": "eDrive35",
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-wby43aw04rfs67818",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "eDrive35",
+    "trimFeed": "eDrive35",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "eDrive35 4dr Sedan (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 18550,
+    "price": 35995,
+    "priceBasis": "listing",
+    "dealer": "Autoplex Atlanta",
+    "dealerId": "d_5cebf1893c1ecb27",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "WBY43AW04RFS67818",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autoplexatl.com/details-2024-bmw-i4-edrive35_gran-used-wby43aw04rfs67818.html",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY43AW04RFS67818&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY43AW04RFS67818-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 52200,
+    "squishVin": "WBY43AW0RF",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 35995
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 34167,
+      "expected": 34509,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 1486,
+      "dealPct": 0.0431,
+      "rating": "fair",
+      "dealScore": 0.625,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 7,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "eDrive35",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "autoplexatl.com",
+        "trim": "eDrive35",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "grandhyundaicanton.com",
+        "trim": "eDrive35",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "evolutioncars.com",
+        "trim": "eDrive35",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "grandkennesaw.com",
+        "trim": "eDrive35",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "eDrive35"
+  },
+  {
+    "id": "api-wby43aw05rfs39882",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "eDrive35",
+    "trimFeed": "eDrive35",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "eDrive35 4dr Sedan (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 24408,
+    "price": 33945,
+    "priceBasis": "listing",
+    "dealer": "Gravity Autos Duluth",
+    "dealerId": "d_4698755a9f2627a7",
+    "distanceMi": 22,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Red",
+    "vin": "WBY43AW05RFS39882",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.gravityautosduluth.com/inventory/2024-bmw-i4-edrive35-WBY43AW05RFS39882",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY43AW05RFS39882&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY43AW05RFS39882-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 52200,
+    "squishVin": "WBY43AW0RF",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 33945
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 33996,
+      "expected": 31957,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 1988,
+      "dealPct": 0.0622,
+      "rating": "high",
+      "dealScore": 0.5,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 7,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "eDrive35",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "gravityautosduluth.com",
+        "trim": "eDrive35",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "carsaver.com",
+        "trim": "eDrive35",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "eDrive35",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "eDrive35"
+  },
+  {
+    "id": "api-wby43aw07rfs15440",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "eDrive35",
+    "trimFeed": "eDrive35",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "eDrive35 4dr Sedan (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2024,
+    "mileage": 31064,
+    "price": 33293,
+    "priceBasis": "listing",
+    "dealer": "United BMW CPO Sales & Service",
+    "dealerId": "d_f2dc2f6ed9e33186",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Roswell",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black Sapphire Metallic",
+    "interiorColor": "Cognac Perforated SensaTec leatherette",
+    "vin": "WBY43AW07RFS15440",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.unitedbmw.com/inventory/used-2024-bmw-i4-edrive35-edrive35-rwd-4d-hatchback-wby43aw07rfs15440/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY43AW07RFS15440&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY43AW07RFS15440-1.jpg",
+    "photoCount": 21,
+    "baseMsrp": 52200,
+    "squishVin": "WBY43AW0RF",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 33293
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 33802,
+      "expected": 34140,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -847,
+      "dealPct": -0.0248,
+      "rating": "fair",
+      "dealScore": 0.875,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 2,
+        "cohortMedianDaysListed": 7,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "eDrive35",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "unitedbmw.com",
+        "trim": "eDrive35",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "eDrive40"
   },
   {
     "id": "api-wby43aw07rfs60829",
@@ -418,7 +1045,7 @@
     "oneOwner": false,
     "usageType": "Corporate Fleet",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 20,
@@ -444,24 +1071,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 37069,
-      "expected": 36513,
+      "marketValue": 34300,
+      "expected": 33785,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": -5093,
-      "dealPct": -0.1395,
-      "rating": "great",
+      "dealDelta": -2365,
+      "dealPct": -0.07,
+      "rating": "good",
       "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 20,
-        "cohortMedianDaysListed": 11,
+        "cohortMedianDaysListed": 7,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "eDrive35",
@@ -499,7 +1127,8 @@
         "mileage": null,
         "price": 34420
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-wby43aw08rfr53084",
@@ -542,7 +1171,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 5,
@@ -568,25 +1197,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 37600,
-      "expected": 38352,
+      "marketValue": 34361,
+      "expected": 35049,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -708,
-      "dealPct": -0.0185,
-      "rating": "fair",
-      "dealScore": 0.8,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealDelta": 2595,
+      "dealPct": 0.0741,
+      "rating": "high",
+      "dealScore": 0.125,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 5,
-        "cohortMedianDaysListed": 11,
+        "cohortMedianDaysListed": 7,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "eDrive35",
@@ -622,6 +1252,92 @@
         "powertrain": null,
         "strength": "snippet",
         "mileage": 11907,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-wby43aw09rfr47942",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "eDrive35",
+    "trimFeed": "eDrive35",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "eDrive35 4dr Sedan (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 39225,
+    "price": 34098,
+    "priceBasis": "listing",
+    "dealer": "Global Imports BMW",
+    "dealerId": "d_1440a0091a28f763",
+    "distanceMi": 0,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Black",
+    "interiorColor": "White",
+    "vin": "WBY43AW09RFR47942",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://sonicautomotive.com/certified/BMW/2024-BMW-i4-7fde969cac181f93afca8f1589b4d8bc.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY43AW09RFR47942&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY43AW09RFR47942-1.jpg",
+    "photoCount": 12,
+    "baseMsrp": 52200,
+    "squishVin": "WBY43AW0RF",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 34098
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "eDrive35",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "vingurus.com",
+        "trim": "eDrive35",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
         "price": null
       }
     ]
@@ -667,9 +1383,9 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
+    "lastSeen": "2026-10-26",
     "listedDays": 0,
     "priceHistory": [
       {
@@ -695,7 +1411,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22",
+    "searchedAt": "2026-10-26",
     "trimSearch": "eDrive35",
     "powertrainSearch": "electric",
     "verifyLog": [
@@ -710,7 +1426,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-wby43aw0xrfr67939",
@@ -753,7 +1470,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 11,
@@ -779,24 +1496,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 31794,
-      "expected": 32112,
+      "marketValue": 33686,
+      "expected": 34023,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 4007,
-      "dealPct": 0.1248,
-      "rating": "overpriced",
-      "dealScore": 0.2,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealDelta": 2096,
+      "dealPct": 0.0616,
+      "rating": "high",
+      "dealScore": 0.25,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 11,
-        "cohortMedianDaysListed": 11,
-        "negotiability": "low"
-      }
+        "cohortMedianDaysListed": 7,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "eDrive35",
@@ -834,7 +1552,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-wby73aw00rfs36529",
@@ -856,7 +1575,7 @@
     "price": 34083,
     "priceBasis": "listing",
     "dealer": "Gravity Autos Sandy Springs",
-    "dealerId": "d_f6dfdfc088cf7f90",
+    "dealerId": "d_2a0ddd472e8831fc",
     "distanceMi": 14,
     "state": "GA",
     "city": "Sandy Springs",
@@ -879,8 +1598,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 34,
+    "lastSeen": "2026-11-02",
+    "listedDays": 45,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -903,24 +1622,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34083,
-      "expected": 34424,
+      "marketValue": 34270,
+      "expected": 34613,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -341,
-      "dealPct": -0.0099,
+      "dealDelta": -530,
+      "dealPct": -0.0153,
       "rating": "fair",
-      "dealScore": 0.4,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.625,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 34,
-        "cohortMedianDaysListed": 7,
+        "listedDays": 45,
+        "cohortMedianDaysListed": 10,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "eDrive40",
@@ -936,6 +1656,130 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-wby73aw01rfr51108",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "eDrive40",
+    "trimFeed": "eDrive40",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "eDrive40 4dr Sedan (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2024,
+    "mileage": 42434,
+    "price": 32920,
+    "priceBasis": "listing",
+    "dealer": "ALM Kia South",
+    "dealerId": "d_525e1e1bc608ea3a",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black Sapphire Metallic",
+    "interiorColor": "Black Perforated SensaTec leatherette",
+    "vin": "WBY73AW01RFR51108",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://www.almhyundaiwest.com/inventory/used-2024-bmw-i4-edrive40-rwd-4d-hatchback-wby73aw01rfr51108/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY73AW01RFR51108&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY73AW01RFR51108-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 57300,
+    "squishVin": "WBY73AW0RF",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 32920
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 35311,
+      "expected": 35664,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -2744,
+      "dealPct": -0.0769,
+      "rating": "good",
+      "dealScore": 0.875,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 10,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "eDrive40",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "hyundailumberton.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 33920
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "almhyundaiwest.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 32920
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "almcdjrperry.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 32920
       }
     ]
   },
@@ -980,7 +1824,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 5,
@@ -1006,25 +1850,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40284,
-      "expected": 37867,
+      "marketValue": 40481,
+      "expected": 38052,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": -2779,
-      "dealPct": -0.0734,
+      "dealDelta": -2964,
+      "dealPct": -0.0779,
       "rating": "good",
       "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 5,
-        "cohortMedianDaysListed": 7,
+        "cohortMedianDaysListed": 10,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "eDrive40",
@@ -1052,7 +1897,8 @@
         "price": null
       }
     ],
-    "trimSearch": "eDrive40"
+    "trimSearch": "eDrive40",
+    "exitReason": "unseen"
   },
   {
     "id": "api-wby73aw06rfr63660",
@@ -1071,7 +1917,7 @@
     "engine": "electric",
     "year": 2024,
     "mileage": 29981,
-    "price": 38993,
+    "price": 38493,
     "priceBasis": "listing",
     "dealer": "United BMW",
     "dealerId": "d_402e8f7e21b09dbe",
@@ -1097,12 +1943,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 0,
+    "lastSeen": "2026-11-02",
+    "listedDays": 11,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 38993
+      },
+      {
+        "date": "2026-11-02",
+        "price": 38493
       }
     ],
     "sellerType": "franchise",
@@ -1121,24 +1971,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 38993,
-      "expected": 39383,
+      "marketValue": 39187,
+      "expected": 39579,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": -390,
-      "dealPct": -0.0099,
+      "dealDelta": -1086,
+      "dealPct": -0.0274,
       "rating": "fair",
-      "dealScore": 0.6,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.75,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 0,
-        "cohortMedianDaysListed": 7,
-        "negotiability": "low"
-      }
+        "listedDays": 11,
+        "cohortMedianDaysListed": 10,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.0128,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "eDrive40",
@@ -1168,6 +2024,131 @@
     ],
     "trimSearch": "eDrive40",
     "powertrainSearch": "electric"
+  },
+  {
+    "id": "api-wby73aw06rfr77252",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "eDrive40",
+    "trimFeed": "eDrive40",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "eDrive40 4dr Sedan (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 29172,
+    "price": 39626,
+    "priceBasis": "listing",
+    "dealer": "NalleyBmwOfDecatur Used",
+    "dealerId": "d_e1c60727f8759b2c",
+    "distanceMi": 7,
+    "state": "GA",
+    "city": "Decatur",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Red",
+    "vin": "WBY73AW06RFR77252",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.nalleyinfinitimarietta.com/viewdetails/used/wby73aw06rfr77252/2024-bmw-i4-4d-hatchback?type=finance",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY73AW06RFR77252&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/WBY73AW06RFR77252-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 57300,
+    "squishVin": "WBY73AW0RF",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 39626
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Germany",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 39439,
+      "expected": 37073,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 2553,
+      "dealPct": 0.0689,
+      "rating": "high",
+      "dealScore": 0.125,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 10,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "eDrive40",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "nalleyinfinitiatlanta.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 29172,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "nalleyinfinitimarietta.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 29172,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "nalleycars.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-wby73aw06rfr77414",
@@ -1210,7 +2191,7 @@
     "oneOwner": true,
     "usageType": "Corporate Fleet",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 20,
@@ -1236,24 +2217,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 18828,
-      "expected": 19016,
+      "marketValue": 18992,
+      "expected": 19182,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1734,
-      "dealPct": 0.0912,
+      "dealDelta": 1568,
+      "dealPct": 0.0817,
       "rating": "high",
-      "dealScore": 0.2,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.375,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 20,
-        "cohortMedianDaysListed": 7,
+        "cohortMedianDaysListed": 10,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "eDrive40",
@@ -1280,7 +2262,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-wby73aw07rfr62789",
@@ -1296,13 +2279,13 @@
     "series": "eDrive40 4dr Sedan (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl electric",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2024,
     "mileage": 22709,
-    "price": 40097,
+    "price": 42945,
     "priceBasis": "listing",
     "dealer": "Gravity Autos Roswell",
-    "dealerId": "d_5a854d7dfecabdab",
+    "dealerId": "d_9eae2f1387f958f3",
     "distanceMi": 21,
     "state": "GA",
     "city": "Roswell",
@@ -1315,22 +2298,26 @@
     "url": "https://www.gravityautosroswell.com/inventory/2024-bmw-i4-edrive40-WBY73AW07RFR62789",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY73AW07RFR62789&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/WBY73AW07RFR62789-1.jpg",
-    "photoCount": 1,
+    "photoCount": 18,
     "baseMsrp": 57300,
     "squishVin": "WBY73AW0RF",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 7,
+    "lastSeen": "2026-11-02",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 40097
+      },
+      {
+        "date": "2026-11-02",
+        "price": 42945
       }
     ],
     "sellerType": "independent",
@@ -1349,24 +2336,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 41253,
-      "expected": 41666,
+      "marketValue": 41451,
+      "expected": 41865,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1569,
-      "dealPct": -0.0377,
+      "dealDelta": 1080,
+      "dealPct": 0.0258,
       "rating": "fair",
-      "dealScore": 0.8,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.5,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 7,
-        "cohortMedianDaysListed": 7,
-        "negotiability": "low"
-      }
+        "listedDays": 18,
+        "cohortMedianDaysListed": 10,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "eDrive40",
@@ -1448,7 +2436,7 @@
     "interiorColor": "Tan",
     "vin": "WBY73AW08RFS46595",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.autolist.com/bmw-i4#vin=WBY73AW08RFS46595",
+    "url": "https://www.bmwofgwinnettplace.com/inventory/used-2024-bmw-i4-edrive40-edrive40-rwd-gran-coupe-wby73aw08rfs46595/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY73AW08RFS46595&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/WBY73AW08RFS46595-1.jpg",
     "photoCount": 1,
@@ -1458,10 +2446,10 @@
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
-    "gone": false,
+    "flagged": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
+    "lastSeen": "2026-10-26",
     "listedDays": 0,
     "priceHistory": [
       {
@@ -1470,7 +2458,7 @@
       }
     ],
     "sellerType": "franchise",
-    "urlOrigin": "stored",
+    "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -1478,15 +2466,71 @@
     "powertrainConflict": false,
     "plantCountry": "Germany",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 39982,
+      "expected": 39982,
+      "adjustments": {},
+      "dealDelta": 2004,
+      "dealPct": 0.0501,
+      "rating": "high",
+      "dealScore": 0.25,
+      "basis": "cohort",
+      "cohortN": 8,
+      "confidence": 0.833,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 0,
+        "cohortMedianDaysListed": 10,
+        "negotiability": "low"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-10-26",
+    "trimSite": "eDrive40",
+    "verifyLog": [
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "site",
+        "host": "bmwofgwinnettplace.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 39544
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "vingurus.com",
+        "trim": "eDrive40",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "eDrive40",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "stock": "WBY73AW08RFS46595",
+    "trimSearch": "eDrive40",
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   }
 ]

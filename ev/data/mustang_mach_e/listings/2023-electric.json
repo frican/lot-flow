@@ -40,7 +40,7 @@
     "oneOwner": false,
     "usageType": "Multiple Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 73,
@@ -66,24 +66,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25993,
-      "expected": 25603,
+      "marketValue": 26407,
+      "expected": 26011,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": 390,
-      "dealPct": 0.0152,
+      "dealDelta": -18,
+      "dealPct": -0.0007,
       "rating": "fair",
-      "dealScore": 0.4,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.5,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 73,
-        "cohortMedianDaysListed": 10,
+        "cohortMedianDaysListed": 22,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSearch": "Select",
@@ -111,7 +112,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   },
   {
     "id": "api-3fmtk1r42pma63249",
@@ -154,7 +156,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 10,
@@ -180,24 +182,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27169,
-      "expected": 26762,
+      "marketValue": 26663,
+      "expected": 26263,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": 2135,
-      "dealPct": 0.0798,
-      "rating": "high",
-      "dealScore": 0.2,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealDelta": 2634,
+      "dealPct": 0.1003,
+      "rating": "overpriced",
+      "dealScore": 0.167,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
         "listedDays": 10,
-        "cohortMedianDaysListed": 10,
+        "cohortMedianDaysListed": 22,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Select",
@@ -214,7 +217,123 @@
         "mileage": null,
         "price": 26949
       }
-    ]
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-3fmtk1r44pma69215",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Select",
+    "trimFeed": "Select",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Select 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 34446,
+    "price": 26949,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Ford",
+    "dealerId": "d_2925fad6da725fdb",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Star White Metallic Tri-Coat",
+    "interiorColor": "Black Onyx",
+    "vin": "3FMTK1R44PMA69215",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.gwinnettplaceford.com/used/Ford/2023-Ford-Mustang-Mach-E-842f9b4fac18108265a8c842a214d6dc.htm?srsltid=AYCX9vK3ysiRb98mR4kwdfFm_Gil7VU3W4vHXKeHyKI-JyGRc2fnlLJT",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK1R44PMA69215&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK1R44PMA69215-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 42995,
+    "squishVin": "3FMTK1R4PM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 26949
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 26045,
+      "expected": 26306,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 643,
+      "dealPct": 0.0245,
+      "rating": "fair",
+      "dealScore": 0.333,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Select",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "gwinnettplaceford.com",
+        "trim": "Select",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Select",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Select"
   },
   {
     "id": "api-3fmtk1r45pma63004",
@@ -227,15 +346,15 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
-    "transmission": "Automatic",
+    "series": "Select 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
     "drivetrain": "RWD",
     "engine": "Dual Electric Motor",
     "year": 2023,
     "mileage": 21569,
-    "price": 26949,
+    "price": 26299,
     "priceBasis": "listing",
-    "dealer": "gwinnett place ford",
+    "dealer": "Gwinnett Place Ford",
     "dealerId": "d_2925fad6da725fdb",
     "distanceMi": 21,
     "state": "GA",
@@ -249,8 +368,8 @@
     "url": "https://www.gwinnettplaceford.com/used/Ford/2023-Ford-Mustang-Mach-E-283e36a9ac183675d933439a5fdef2d3.htm?srsltid=AU7gw4WNHOqV7WNKzLjO0-wAPMbQUTbC0IOrt__DoqPM4QRNzyvZ4Fz1",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK1R45PMA63004&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK1R45PMA63004-1.jpg",
-    "photoCount": 1,
-    "baseMsrp": null,
+    "photoCount": 35,
+    "baseMsrp": 42995,
     "squishVin": "3FMTK1R4PM",
     "accidentCount": 0,
     "ownerCount": 1,
@@ -259,12 +378,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 10,
+    "lastSeen": "2026-11-02",
+    "listedDays": 22,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 26949
+      },
+      {
+        "date": "2026-11-02",
+        "price": 26299
       }
     ],
     "sellerType": "franchise",
@@ -283,25 +406,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27400,
-      "expected": 27948,
+      "marketValue": 26713,
+      "expected": 27247,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -999,
-      "dealPct": -0.0357,
+      "dealDelta": -948,
+      "dealPct": -0.0348,
       "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.833,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 10,
-        "cohortMedianDaysListed": 10,
-        "negotiability": "low"
-      }
+        "listedDays": 22,
+        "cohortMedianDaysListed": 22,
+        "priceDrop": {
+          "total": 650,
+          "pct": -0.0241,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Select",
@@ -331,15 +460,15 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
-    "transmission": "Automatic",
+    "series": "Select 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
     "drivetrain": "RWD",
     "engine": "Electric",
     "year": 2023,
     "mileage": 24383,
-    "price": 26599,
+    "price": 25949,
     "priceBasis": "listing",
-    "dealer": "gwinnett place ford",
+    "dealer": "Gwinnett Place Ford",
     "dealerId": "d_2925fad6da725fdb",
     "distanceMi": 21,
     "state": "GA",
@@ -354,7 +483,7 @@
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK1R4XPMA82972&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK1R4XPMA82972-1.jpg",
     "photoCount": 35,
-    "baseMsrp": null,
+    "baseMsrp": 42995,
     "squishVin": "3FMTK1R4PM",
     "accidentCount": 0,
     "ownerCount": 1,
@@ -363,12 +492,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 21,
+    "lastSeen": "2026-11-02",
+    "listedDays": 33,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 26599
+      },
+      {
+        "date": "2026-11-02",
+        "price": 25949
       }
     ],
     "sellerType": "franchise",
@@ -387,25 +520,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26729,
-      "expected": 27263,
+      "marketValue": 26567,
+      "expected": 27099,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -664,
-      "dealPct": -0.0244,
+      "dealDelta": -1150,
+      "dealPct": -0.0424,
       "rating": "fair",
-      "dealScore": 0.8,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 21,
-        "cohortMedianDaysListed": 10,
+        "listedDays": 33,
+        "cohortMedianDaysListed": 22,
+        "priceDrop": {
+          "total": 650,
+          "pct": -0.0244,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Select",
@@ -457,15 +596,15 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
-    "transmission": "Automatic",
+    "series": "Select 4dr Hatchback w/Prod. End 07/23 (electric DD)",
+    "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric Motor",
+    "engine": "electric",
     "year": 2023,
     "mileage": 24061,
-    "price": 26949,
+    "price": 26998,
     "priceBasis": "listing",
-    "dealer": "gwinnett place ford",
+    "dealer": "Gwinnett Place Ford",
     "dealerId": "d_2925fad6da725fdb",
     "distanceMi": 21,
     "state": "GA",
@@ -479,22 +618,26 @@
     "url": "https://www.gwinnettplaceford.com/certified/Ford/2023-Ford-Mustang-Mach-E-283e380eac18389b1a4a37bbf6c00375.htm?srsltid=AU7gw4X1PTN1JQbNSvS-COiP0Fc1QYlsSJFSKudg9RU1NuInDjcwLauv",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK1RM7PMA30201&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK1RM7PMA30201-1.jpg",
-    "photoCount": 35,
-    "baseMsrp": null,
+    "photoCount": 1,
+    "baseMsrp": 42995,
     "squishVin": "3FMTK1RMPM",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 10,
+    "lastSeen": "2026-11-02",
+    "listedDays": 22,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 26949
+      },
+      {
+        "date": "2026-11-02",
+        "price": 26998
       }
     ],
     "sellerType": "franchise",
@@ -513,25 +656,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26806,
-      "expected": 27342,
+      "marketValue": 26584,
+      "expected": 27116,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -393,
-      "dealPct": -0.0144,
+      "dealDelta": -118,
+      "dealPct": -0.0043,
       "rating": "fair",
-      "dealScore": 0.6,
-      "basis": "pooled",
-      "cohortN": 5,
-      "confidence": 0.425,
-      "ratingConfident": false,
+      "dealScore": 0.667,
+      "basis": "cohort",
+      "cohortN": 6,
+      "confidence": 0.75,
+      "ratingConfident": true,
       "signals": {
-        "listedDays": 10,
-        "cohortMedianDaysListed": 10,
-        "negotiability": "low"
-      }
+        "listedDays": 22,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Select",
@@ -552,7 +696,7 @@
     "stock": "Number"
   },
   {
-    "id": "api-3fmtk2su5pma03756",
+    "id": "api-3fmtk2su1pma77935",
     "discoveredBy": "auto.dev",
     "seenBy": [
       "auto.dev"
@@ -566,6 +710,249 @@
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
     "engine": "Electric",
+    "year": 2023,
+    "mileage": 36381,
+    "price": 30949,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Ford",
+    "dealerId": "d_2925fad6da725fdb",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Rapid Red Tinted",
+    "interiorColor": "Black Onyx",
+    "vin": "3FMTK2SU1PMA77935",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.gwinnettplaceford.com/used/Ford/2023-Ford-Mustang-Mach-E-842f96d2ac1824dfecdf35bfa274fa2d.htm?srsltid=AYCX9vKNqsxMkpB1o414FYSf0qFn6HCfMnBpJl7nple3oWZEMf8SG-Qe",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK2SU1PMA77935&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK2SU1PMA77935-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 56995,
+    "squishVin": "3FMTK2SUPM",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 30949
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 30949,
+      "expected": 29092,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 1857,
+      "dealPct": 0.0638,
+      "rating": "high",
+      "dealScore": 0.333,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 11,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "California Route 1",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "gwinnettplaceford.com",
+        "trim": "California Route 1",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "California Route 1",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "California Route 1",
+    "powertrainSearch": "electric"
+  },
+  {
+    "id": "api-3fmtk2su4pma62751",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "California Route 1",
+    "trimFeed": "California Route 1",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "California Route 1 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L Dual Electric Motor",
+    "year": 2023,
+    "mileage": 31029,
+    "price": 31881,
+    "priceBasis": "listing",
+    "dealer": "Group 1 Lincoln of Atlanta",
+    "dealerId": "d_69a76b1b7f9dfa69",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Star White Metallic Tri-Coat",
+    "interiorColor": "Black Onyx",
+    "vin": "3FMTK2SU4PMA62751",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.group1fordatlanta.com/used/Ford/2023-Ford-Mustang-Mach-E-5fb4a88fac1848eb3b80d88abf0271c9.htm?srsltid=AYCX9vLbDCVODbBdcpIuu40U_uCJQWwsUs2Qn-EEjOc4Q0TI1QZnXKg7",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK2SU4PMA62751&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK2SU4PMA62751-1.jpg",
+    "photoCount": 26,
+    "baseMsrp": 56995,
+    "squishVin": "3FMTK2SUPM",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Multiple Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 11,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 31881
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 31881,
+      "expected": 31403,
+      "adjustments": {
+        "owners": -0.015
+      },
+      "dealDelta": 478,
+      "dealPct": 0.0152,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 11,
+        "cohortMedianDaysListed": 11,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "California Route 1",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "group1fordatlanta.com",
+        "trim": "California Route 1",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "group1auto.com",
+        "trim": "California Route 1",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 31881
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "California Route 1",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "California Route 1"
+  },
+  {
+    "id": "api-3fmtk2su5pma03756",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "California Route 1",
+    "trimFeed": "California Route 1",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "California Route 1 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Dual Electric Motor",
     "year": 2023,
     "mileage": 90494,
     "price": 25504,
@@ -594,8 +981,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 60,
+    "lastSeen": "2026-11-02",
+    "listedDays": 72,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -611,8 +998,8 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -620,7 +1007,32 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-11-02",
+    "trimSearch": "California Route 1",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "truecar.com",
+        "trim": "California Route 1",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-3fmtk2su8pma30708",
@@ -652,7 +1064,7 @@
     "interiorColor": "Black",
     "vin": "3FMTK2SU8PMA30708",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.grandinfiniti.com/used-Macon-2023-Ford-Mustang+Mach+E-California+Route+1-3FMTK2SU8PMA30708",
+    "url": "https://www.grandkennesaw.com/used-ford-mustang_mach~e/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK2SU8PMA30708&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK2SU8PMA30708-1.jpg",
     "photoCount": 42,
@@ -662,10 +1074,10 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
-    "gone": false,
+    "flagged": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
+    "lastSeen": "2026-10-26",
     "listedDays": 42,
     "priceHistory": [
       {
@@ -674,7 +1086,7 @@
       }
     ],
     "sellerType": "independent",
-    "urlOrigin": "stored",
+    "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -682,16 +1094,34 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
-    "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 31197,
+      "expected": 31509,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1813,
+      "dealPct": -0.0575,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 42,
+        "cohortMedianDaysListed": 11,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-10-26",
     "trimSearch": "California Route 1",
     "verifyLog": [
       {
@@ -704,8 +1134,22 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "site",
+        "host": "grandkennesaw.com",
+        "trim": "California Route 1",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
-    ]
+    ],
+    "trimSite": "California Route 1",
+    "stock": "PMA30708B",
+    "exitReason": "unseen"
   },
   {
     "id": "api-3fmtk3r40pma85729",
@@ -721,10 +1165,10 @@
     "series": "Premium 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "Dual Electric Motor",
     "year": 2023,
     "mileage": 22100,
-    "price": 27804,
+    "price": 27704,
     "priceBasis": "listing",
     "dealer": "ALM Ford Marietta",
     "dealerId": "d_1bd625e0ea7fbcf7",
@@ -750,12 +1194,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 41,
+    "lastSeen": "2026-11-02",
+    "listedDays": 53,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 27804
+      },
+      {
+        "date": "2026-11-02",
+        "price": 27704
       }
     ],
     "sellerType": "franchise",
@@ -774,24 +1222,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29472,
-      "expected": 29030,
+      "marketValue": 30188,
+      "expected": 29735,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": -1226,
-      "dealPct": -0.0422,
-      "rating": "fair",
-      "dealScore": 0.857,
+      "dealDelta": -2031,
+      "dealPct": -0.0683,
+      "rating": "good",
+      "dealScore": 0.938,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 16,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 41,
-        "cohortMedianDaysListed": 41,
-        "negotiability": "medium"
-      }
+        "listedDays": 53,
+        "cohortMedianDaysListed": 18,
+        "priceDrop": {
+          "total": 100,
+          "pct": -0.0036,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Premium",
@@ -858,10 +1312,10 @@
     "series": "Premium 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "Dual Electric Motor",
     "year": 2023,
     "mileage": 19710,
-    "price": 29204,
+    "price": 28804,
     "priceBasis": "listing",
     "dealer": "ALM Ford Marietta",
     "dealerId": "d_1bd625e0ea7fbcf7",
@@ -887,12 +1341,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 49,
+    "lastSeen": "2026-11-02",
+    "listedDays": 61,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 29204
+      },
+      {
+        "date": "2026-11-02",
+        "price": 28804
       }
     ],
     "sellerType": "franchise",
@@ -911,24 +1369,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29549,
-      "expected": 29845,
+      "marketValue": 30380,
+      "expected": 30684,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -641,
-      "dealPct": -0.0215,
-      "rating": "fair",
-      "dealScore": 0.714,
+      "dealDelta": -1880,
+      "dealPct": -0.0613,
+      "rating": "good",
+      "dealScore": 0.875,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 16,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 49,
-        "cohortMedianDaysListed": 41,
-        "negotiability": "medium"
-      }
+        "listedDays": 61,
+        "cohortMedianDaysListed": 18,
+        "priceDrop": {
+          "total": 400,
+          "pct": -0.0137,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSearch": "Premium",
@@ -973,8 +1437,8 @@
     "drivetrain": "RWD",
     "engine": "Electric",
     "year": 2023,
-    "mileage": 35048,
-    "price": 28096,
+    "mileage": 35139,
+    "price": 27596,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -1000,12 +1464,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 73,
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 28096
+      },
+      {
+        "date": "2026-11-02",
+        "price": 27596
       }
     ],
     "sellerType": "independent",
@@ -1024,24 +1492,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29054,
-      "expected": 29344,
+      "marketValue": 29138,
+      "expected": 29430,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1248,
-      "dealPct": -0.0425,
-      "rating": "fair",
-      "dealScore": 1.0,
+      "dealDelta": -1834,
+      "dealPct": -0.0623,
+      "rating": "good",
+      "dealScore": 0.75,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 16,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 73,
-        "cohortMedianDaysListed": 41,
+        "listedDays": 85,
+        "cohortMedianDaysListed": 18,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.0178,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Premium",
@@ -1074,6 +1548,231 @@
     "powertrainSearch": "electric"
   },
   {
+    "id": "api-3fmtk3r49pma80609",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2023,
+    "mileage": 46297,
+    "price": 26949,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Ford",
+    "dealerId": "d_2925fad6da725fdb",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Space White Metallic",
+    "interiorColor": "Black Onyx",
+    "vin": "3FMTK3R49PMA80609",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://gwinnettplaceford.com/used/Ford/2023-Ford-Mustang-Mach-E-6a712ddfac181183f6af7e15572477ba.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R49PMA80609&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3R49PMA80609-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 46995,
+    "squishVin": "3FMTK3R4PM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 26949
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02"
+  },
+  {
+    "id": "api-3fmtk3r70pma61828",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 30963,
+    "price": 30998,
+    "priceBasis": "listing",
+    "dealer": "CarMax - Norcross",
+    "dealerId": "d_66a6210ef180e399",
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Norcross",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "3FMTK3R70PMA61828",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29024582",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R70PMA61828&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3R70PMA61828-1.jpg",
+    "photoCount": 29,
+    "baseMsrp": 46995,
+    "squishVin": "3FMTK3R7PM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 7,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 30998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Premium",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "caredge.com",
+        "trim": "Premium",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-3fmtk3r70pma81271",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 27050,
+    "price": 27997,
+    "priceBasis": "listing",
+    "dealer": "EchoPark Automotive Atlanta",
+    "dealerId": "d_bb9c5094e1906d91",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "3FMTK3R70PMA81271",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://sonicvipservices.com/used/Ford/2023-Ford-Mustang-Mach-E-84c29057ac183fb339c6a919ecb9295c.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R70PMA81271&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3R70PMA81271-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 46995,
+    "squishVin": "3FMTK3R7PM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 27997
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02"
+  },
+  {
     "id": "api-3fmtk3r71pma55679",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1084,21 +1783,21 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
-    "transmission": "Automatic",
+    "series": "Premium 4dr Hatchback w/Prod. End 07/23 (electric DD)",
+    "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric Motor",
+    "engine": "Electric",
     "year": 2023,
     "mileage": 41824,
-    "price": 28949,
+    "price": 28998,
     "priceBasis": "listing",
-    "dealer": "gwinnett place ford",
-    "dealerId": "d_2925fad6da725fdb",
+    "dealer": "Gwinnett Place Ford Lincoln",
+    "dealerId": "d_20cfdd8816c94adc",
     "distanceMi": 21,
     "state": "GA",
     "city": "Duluth",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Vapor Blue",
     "interiorColor": "Black Onyx",
     "vin": "3FMTK3R71PMA55679",
@@ -1106,22 +1805,26 @@
     "url": "https://www.gwinnettplaceford.com/used/Ford/2023-Ford-Mustang-Mach-E-283e3adbac18150404e3bc894d66029a.htm?toolbox=payment&srsltid=AU7gw4XL5yfT9IATdbVUgv2YzUyy7aR1Tb73QZlakiKAn8BLTD-8a1uT",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R71PMA55679&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3R71PMA55679-1.jpg",
-    "photoCount": 1,
-    "baseMsrp": null,
+    "photoCount": 36,
+    "baseMsrp": 46995,
     "squishVin": "3FMTK3R7PM",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 10,
+    "lastSeen": "2026-11-02",
+    "listedDays": 22,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 28949
+      },
+      {
+        "date": "2026-11-02",
+        "price": 28998
       }
     ],
     "sellerType": "franchise",
@@ -1140,24 +1843,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28835,
-      "expected": 29123,
+      "marketValue": 28601,
+      "expected": 29173,
       "adjustments": {
-        "oneOwner": 0.01
+        "oneOwner": 0.01,
+        "cpo": 0.01
       },
-      "dealDelta": -174,
+      "dealDelta": -175,
       "dealPct": -0.006,
       "rating": "fair",
-      "dealScore": 0.429,
+      "dealScore": 0.5,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 16,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 10,
-        "cohortMedianDaysListed": 41,
-        "negotiability": "low"
-      }
+        "listedDays": 22,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Premium",
@@ -1189,6 +1894,238 @@
     "trimSearch": "Premium"
   },
   {
+    "id": "api-3fmtk3r76pma67052",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 35086,
+    "price": 30094,
+    "priceBasis": "listing",
+    "dealer": "Bella Nissan of Union City",
+    "dealerId": "d_0f6a65de8b3a0b75",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "3FMTK3R76PMA67052",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://bellanissanofunioncity.com/for-sale/used-ford-mustang-mach-e-premium-union-city-ga/2023-ford-mustang-mach-e-premium-3fmtk3r76pma67052?stocknum=P2016&atc_ownerid=74752365&utm_source=kbb.com&utm_medium=referral&utm_campaign=kbb_listings",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R76PMA67052&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3R76PMA67052-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 46995,
+    "squishVin": "3FMTK3R7PM",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 30094
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 29143,
+      "expected": 27394,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 2700,
+      "dealPct": 0.0986,
+      "rating": "high",
+      "dealScore": 0.188,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "bellanissanofunioncity.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Premium"
+  },
+  {
+    "id": "api-3fmtk3r77pma68632",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2023,
+    "mileage": 46524,
+    "price": 26949,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Ford",
+    "dealerId": "d_2925fad6da725fdb",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Rapid Red Tinted",
+    "interiorColor": "Black Onyx",
+    "vin": "3FMTK3R77PMA68632",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.gwinnettplaceford.com/used/Ford/2023-Ford-Mustang-Mach-E-6a712c6bac1808fa9e51b2640ddc7557.htm?srsltid=AYCX9vL-VJP7FD-7_5_tSWBQ3LjdzgVgWeAmhtkufNwJoWZZ7HXdm0K1",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R77PMA68632&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3R77PMA68632-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 46995,
+    "squishVin": "3FMTK3R7PM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 26949
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 28222,
+      "expected": 28787,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": -1838,
+      "dealPct": -0.0638,
+      "rating": "good",
+      "dealScore": 0.812,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "gwinnettplaceford.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 877
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Premium"
+  },
+  {
     "id": "api-3fmtk3r77pma81977",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1202,14 +2139,14 @@
     "series": "Premium 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 24398,
-    "price": 30097,
+    "price": 28610,
     "priceBasis": "listing",
     "dealer": "Platinum Cars Marietta",
-    "dealerId": "d_0d1c5fc490356f20",
-    "distanceMi": 15,
+    "dealerId": "d_357a45061ffa3b8b",
+    "distanceMi": 14,
     "state": "GA",
     "city": "Marietta",
     "cpo": "none",
@@ -1224,19 +2161,23 @@
     "photoCount": 39,
     "baseMsrp": 46995,
     "squishVin": "3FMTK3R7PM",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 57,
+    "lastSeen": "2026-11-02",
+    "listedDays": 69,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 30097
+      },
+      {
+        "date": "2026-11-02",
+        "price": 28610
       }
     ],
     "sellerType": "independent",
@@ -1257,7 +2198,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-11-02",
     "trimSearch": "Premium",
     "verifyLog": [
       {
@@ -1314,7 +2255,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 3,
@@ -1342,7 +2283,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-10-26",
     "trimSearch": "Premium",
     "verifyLog": [
       {
@@ -1356,7 +2297,8 @@
         "mileage": 24160,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-3fmtk3r78pma70406",
@@ -1399,7 +2341,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 18,
@@ -1427,7 +2369,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-10-26",
     "trimSearch": "GT",
     "verifyLog": [
       {
@@ -1441,7 +2383,135 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-3fmtk3r7xpma68043",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2023,
+    "mileage": 32554,
+    "price": 28949,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Ford",
+    "dealerId": "d_2925fad6da725fdb",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Shadow Black",
+    "interiorColor": "Black Onyx",
+    "vin": "3FMTK3R7XPMA68043",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.gwinnettplaceford.com/certified/Ford/2023-Ford-Mustang-Mach-E-6a712f65ac18553821a1bbf94f55fcb8.htm?srsltid=AYCX9vKqrJSHskg5L8rFCotNS1KSqyIjOebyI_6fZ3SiZs-3GR1A_nBR",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R7XPMA68043&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3R7XPMA68043-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 46995,
+    "squishVin": "3FMTK3R7PM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 28949
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 29346,
+      "expected": 29933,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": -984,
+      "dealPct": -0.0329,
+      "rating": "fair",
+      "dealScore": 0.562,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "gwinnettplaceford.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "findmyelectric.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Premium"
   },
   {
     "id": "api-3fmtk3rm1pma45725",
@@ -1460,9 +2530,9 @@
     "engine": "Electric",
     "year": 2023,
     "mileage": 32030,
-    "price": 27196,
+    "price": 26297,
     "priceBasis": "listing",
-    "dealer": "EchoPark Automotive Atlanta (Duluth)",
+    "dealer": "EchoPark Automotive Atlanta",
     "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
@@ -1476,78 +2546,7 @@
     "url": "https://www.carfax.com/vehicle/3FMTK3RM1PMA45725",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3RM1PMA45725&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3RM1PMA45725-1.jpg",
-    "photoCount": 33,
-    "baseMsrp": 46995,
-    "squishVin": "3FMTK3RMPM",
-    "accidentCount": 0,
-    "ownerCount": 1,
-    "oneOwner": true,
-    "usageType": "Lease",
-    "flagged": true,
-    "gone": false,
-    "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 35,
-    "priceHistory": [
-      {
-        "date": "2026-10-21",
-        "price": 27196
-      }
-    ],
-    "sellerType": "independent",
-    "urlOrigin": "stored",
-    "powertrainVin": "electric",
-    "powertrainConfidence": 1.0,
-    "powertrainVerifiedBy": "single",
-    "powertrainFlagged": false,
-    "powertrainConflict": false,
-    "plantCountry": "Mexico",
-    "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
-    "trimConflict": false,
-    "comboConflict": false,
-    "cohortReady": false,
-    "valuation": {
-      "basis": "not-ready"
-    },
-    "searchedAt": "2026-10-21"
-  },
-  {
-    "id": "api-3fmtk3rm2pma45992",
-    "discoveredBy": "auto.dev",
-    "seenBy": [
-      "auto.dev"
-    ],
-    "trim": "Premium",
-    "trimFeed": "Premium",
-    "powertrain": "electric",
-    "powertrainFeed": "electric",
-    "fuel": "Electric",
-    "series": "Premium 4dr Hatchback w/Prod. End 07/23 (electric DD)",
-    "transmission": "Direct Drive",
-    "drivetrain": "RWD",
-    "engine": "Electric",
-    "year": 2023,
-    "mileage": 37191,
-    "price": 28004,
-    "priceBasis": "listing",
-    "dealer": "ALM Ford Marietta",
-    "dealerId": "d_1bd625e0ea7fbcf7",
-    "distanceMi": 14,
-    "state": "GA",
-    "city": "Marietta",
-    "cpo": "none",
-    "cpoFeed": false,
-    "exteriorColor": "Black",
-    "interiorColor": "Black",
-    "vin": "3FMTK3RM2PMA45992",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.carfax.com/vehicle/3FMTK3RM2PMA45992",
-    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3RM2PMA45992&partner=FRD_2",
-    "primaryImage": "https://retail.photos.vin/3FMTK3RM2PMA45992-1.jpg",
-    "photoCount": 39,
+    "photoCount": 29,
     "baseMsrp": 46995,
     "squishVin": "3FMTK3RMPM",
     "accidentCount": 0,
@@ -1557,15 +2556,19 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 73,
+    "lastSeen": "2026-11-02",
+    "listedDays": 47,
     "priceHistory": [
       {
         "date": "2026-10-21",
-        "price": 28004
+        "price": 27196
+      },
+      {
+        "date": "2026-11-02",
+        "price": 26297
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "urlOrigin": "stored",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
@@ -1583,7 +2586,119 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 1884
+      }
+    ]
+  },
+  {
+    "id": "api-3fmtk3rm2pma45992",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback w/Prod. End 07/23 (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 37009,
+    "price": 27204,
+    "priceBasis": "listing",
+    "dealer": "ALM Ford Marietta",
+    "dealerId": "d_1bd625e0ea7fbcf7",
+    "distanceMi": 14,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "3FMTK3RM2PMA45992",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.almfordmarietta.com/inventory/used-2023-ford-mustang-mach-e-premium-rwd-4-door-suv-3fmtk3rm2pma45992/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3RM2PMA45992&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3RM2PMA45992-1.jpg",
+    "photoCount": 39,
+    "baseMsrp": 46995,
+    "squishVin": "3FMTK3RMPM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-10-21",
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
+    "priceHistory": [
+      {
+        "date": "2026-10-21",
+        "price": 28004
+      },
+      {
+        "date": "2026-11-02",
+        "price": 27204
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "search",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 28988,
+      "expected": 29278,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -2074,
+      "dealPct": -0.0708,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 85,
+        "cohortMedianDaysListed": 18,
+        "priceDrop": {
+          "total": 800,
+          "pct": -0.0286,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-10-26",
     "trimSearch": "Premium",
     "verifyLog": [
       {
@@ -1596,8 +2711,20 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "site",
+        "host": "almfordmarietta.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
-    ]
+    ],
+    "trimSite": "Premium"
   },
   {
     "id": "api-3fmtk3rm5pma41189",
@@ -1616,10 +2743,10 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 31948,
-    "price": 29154,
+    "price": 29970,
     "priceBasis": "listing",
     "dealer": "Gravity Motor Cars",
-    "dealerId": "d_2d8102a81864629d",
+    "dealerId": "d_981bf38d3c5be7a2",
     "distanceMi": 15,
     "state": "GA",
     "city": "Marietta",
@@ -1642,12 +2769,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 34,
+    "lastSeen": "2026-11-02",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 29154
+      },
+      {
+        "date": "2026-11-02",
+        "price": 29970
       }
     ],
     "sellerType": "independent",
@@ -1666,24 +2797,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29154,
-      "expected": 29446,
+      "marketValue": 29395,
+      "expected": 29689,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -292,
-      "dealPct": -0.0099,
+      "dealDelta": 281,
+      "dealPct": 0.0095,
       "rating": "fair",
-      "dealScore": 0.571,
+      "dealScore": 0.438,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 16,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 34,
-        "cohortMedianDaysListed": 41,
-        "negotiability": "medium"
-      }
+        "listedDays": 46,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSearch": "Premium",
@@ -1729,9 +2861,9 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 40925,
-    "price": 28496,
+    "price": 27677,
     "priceBasis": "listing",
-    "dealer": "EchoPark Automotive Atlanta (Duluth)",
+    "dealer": "EchoPark Automotive Atlanta",
     "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
@@ -1745,22 +2877,26 @@
     "url": "https://www.autolist.com/ford-mustang+mach+e#vin=3FMTK3S56PMB04013",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3S56PMB04013&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3S56PMB04013-1.jpg",
-    "photoCount": 32,
+    "photoCount": 28,
     "baseMsrp": 49995,
     "squishVin": "3FMTK3S5PM",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
-    "flagged": true,
+    "usageType": "Personal Use",
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 3,
+    "lastSeen": "2026-11-02",
+    "listedDays": 15,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 28496
+      },
+      {
+        "date": "2026-11-02",
+        "price": 27677
       }
     ],
     "sellerType": "independent",
@@ -1772,16 +2908,39 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 28673,
+      "expected": 28960,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1283,
+      "dealPct": -0.0443,
+      "rating": "fair",
+      "dealScore": 0.688,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 15,
+        "cohortMedianDaysListed": 18,
+        "priceDrop": {
+          "total": 819,
+          "pct": -0.0287,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-11-02",
     "trimSearch": "Premium",
     "verifyLog": [
       {
@@ -1789,6 +2948,17 @@
         "how": "search",
         "tier": "search",
         "host": "capitalone.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
         "trim": "Premium",
         "powertrain": null,
         "strength": "snippet",
@@ -1814,9 +2984,9 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 40580,
-    "price": 26296,
+    "price": 25397,
     "priceBasis": "listing",
-    "dealer": "EchoPark Automotive Atlanta (Duluth)",
+    "dealer": "EchoPark Automotive Atlanta",
     "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
@@ -1830,22 +3000,26 @@
     "url": "https://www.autolist.com/ford-mustang+mach+e#vin=3FMTK3SS8PMA48744",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SS8PMA48744&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3SS8PMA48744-1.jpg",
-    "photoCount": 33,
+    "photoCount": 29,
     "baseMsrp": 49995,
     "squishVin": "3FMTK3SSPM",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 53,
+    "lastSeen": "2026-11-02",
+    "listedDays": 65,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 26296
+      },
+      {
+        "date": "2026-11-02",
+        "price": 25397
       }
     ],
     "sellerType": "independent",
@@ -1866,7 +3040,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-11-02"
   },
   {
     "id": "api-3fmtk3su2pma02411",
@@ -1882,7 +3056,7 @@
     "series": "Premium 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2023,
     "mileage": 13917,
     "price": 29850,
@@ -1911,8 +3085,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 150,
+    "lastSeen": "2026-11-02",
+    "listedDays": 162,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -1935,22 +3109,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29736,
-      "expected": 29736,
+      "marketValue": 30846,
+      "expected": 30846,
       "adjustments": {},
-      "dealDelta": 114,
-      "dealPct": 0.0038,
+      "dealDelta": -996,
+      "dealPct": -0.0323,
       "rating": "fair",
-      "dealScore": 0.286,
+      "dealScore": 0.625,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 16,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 150,
-        "cohortMedianDaysListed": 41,
+        "listedDays": 162,
+        "cohortMedianDaysListed": 18,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Premium",
@@ -1983,6 +3158,122 @@
     "trimSearch": "Premium"
   },
   {
+    "id": "api-3fmtk3su2pma50765",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 65047,
+    "price": 27825,
+    "priceBasis": "listing",
+    "dealer": "Nalley Toyota Roswell",
+    "dealerId": "d_3136e50c4a760125",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Roswell",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White Metallic",
+    "interiorColor": "Gray",
+    "vin": "3FMTK3SU2PMA50765",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/3fmtk3su2pma50765/2023-ford-mustang-mach-e-sport-utility",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SU2PMA50765&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3SU2PMA50765-1.jpg",
+    "photoCount": 36,
+    "baseMsrp": 49995,
+    "squishVin": "3FMTK3SUPM",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 27825
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 26732,
+      "expected": 26331,
+      "adjustments": {
+        "owners": -0.015
+      },
+      "dealDelta": 1494,
+      "dealPct": 0.0567,
+      "rating": "high",
+      "dealScore": 0.312,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 5,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "nalleyinfinitiatlanta.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 65043,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "vehicles0.autousa.pro",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "PMA50765T",
+    "trimSearch": "Premium"
+  },
+  {
     "id": "api-3fmtk3su5pma59069",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1999,10 +3290,10 @@
     "engine": "Electric",
     "year": 2023,
     "mileage": 30119,
-    "price": 32297,
+    "price": 32097,
     "priceBasis": "listing",
     "dealer": "Gravity Autos Roswell",
-    "dealerId": "d_5a854d7dfecabdab",
+    "dealerId": "d_9eae2f1387f958f3",
     "distanceMi": 21,
     "state": "GA",
     "city": "Roswell",
@@ -2025,12 +3316,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 14,
+    "lastSeen": "2026-11-02",
+    "listedDays": 26,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 32297
+      },
+      {
+        "date": "2026-11-02",
+        "price": 32097
       }
     ],
     "sellerType": "independent",
@@ -2049,24 +3344,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29213,
-      "expected": 28775,
+      "marketValue": 29542,
+      "expected": 29099,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": 3522,
-      "dealPct": 0.1224,
+      "dealDelta": 2998,
+      "dealPct": 0.103,
       "rating": "overpriced",
-      "dealScore": 0.143,
+      "dealScore": 0.062,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 16,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 14,
-        "cohortMedianDaysListed": 41,
-        "negotiability": "low"
-      }
+        "listedDays": 26,
+        "cohortMedianDaysListed": 18,
+        "priceDrop": {
+          "total": 200,
+          "pct": -0.0062,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Premium",
@@ -2106,6 +3407,373 @@
       }
     ],
     "trimSearch": "Premium"
+  },
+  {
+    "id": "api-3fmtk3su5pma62859",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 45271,
+    "price": 29626,
+    "priceBasis": "listing",
+    "dealer": "Group 1 Ford Lincoln of Atlanta",
+    "dealerId": "d_f95471f00ee44946",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "3FMTK3SU5PMA62859",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.group1lincolnatlanta.com/used/Ford/2023-Ford-Mustang-Mach-E-5f71ac0dac1808fa50fdc68eeb3165a7.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SU5PMA62859&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3SU5PMA62859-1.jpg",
+    "photoCount": 26,
+    "baseMsrp": 49995,
+    "squishVin": "3FMTK3SUPM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 11,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 29626
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 28323,
+      "expected": 28606,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 1020,
+      "dealPct": 0.0356,
+      "rating": "fair",
+      "dealScore": 0.375,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 11,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "group1lincolnatlanta.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 29626
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "group1auto.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 29626
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Premium"
+  },
+  {
+    "id": "api-3fmtk3suxpma55809",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L Electric Motor",
+    "year": 2023,
+    "mileage": 18997,
+    "price": 32855,
+    "priceBasis": "listing",
+    "dealer": "Group 1 Lincoln of Atlanta",
+    "dealerId": "d_69a76b1b7f9dfa69",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Space White Metallic",
+    "interiorColor": "Black Onyx",
+    "vin": "3FMTK3SUXPMA55809",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://group1lincolnatlanta.com/used/Ford/2023-Ford-Mustang-Mach-E-3a8d5451ac184bc2245d0cb008a45ceb.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SUXPMA55809&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3SUXPMA55809-1.jpg",
+    "photoCount": 31,
+    "baseMsrp": 49995,
+    "squishVin": "3FMTK3SUPM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 11,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 32855
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 30437,
+      "expected": 30742,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 2113,
+      "dealPct": 0.0687,
+      "rating": "high",
+      "dealScore": 0.25,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 11,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "group1auto.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 32855
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "shop.landrovergwinnett.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-3fmtk3suxpma56894",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 27953,
+    "price": 32094,
+    "priceBasis": "listing",
+    "dealer": "Bella Nissan of Union City",
+    "dealerId": "d_0f6a65de8b3a0b75",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Black",
+    "vin": "3FMTK3SUXPMA56894",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://bellanissanofunioncity.com/for-sale/used-ford-mustang-mach-e-premium-union-city-ga/2023-ford-mustang-mach-e-premium-3fmtk3suxpma56894",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SUXPMA56894&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3SUXPMA56894-1.jpg",
+    "photoCount": 5,
+    "baseMsrp": 49995,
+    "squishVin": "3FMTK3SUPM",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 32094
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 29717,
+      "expected": 29271,
+      "adjustments": {
+        "owners": -0.015
+      },
+      "dealDelta": 2823,
+      "dealPct": 0.0964,
+      "rating": "high",
+      "dealScore": 0.125,
+      "basis": "cohort",
+      "cohortN": 16,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Premium",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "bellanissanofunioncity.com",
+        "trim": "Premium",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Premium",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Premium",
+    "powertrainSearch": "electric"
   },
   {
     "id": "api-3fmtk3suxpmb04880",
@@ -2148,7 +3816,7 @@
     "oneOwner": true,
     "usageType": "Commercial Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 14,
@@ -2176,7 +3844,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-10-26",
     "trimSearch": "Premium",
     "verifyLog": [
       {
@@ -2190,7 +3858,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-3fmtk4se1pma37066",
@@ -2206,14 +3875,14 @@
     "series": "GT 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric Motor",
     "year": 2023,
     "mileage": 32122,
-    "price": 34990,
+    "price": 33491,
     "priceBasis": "listing",
     "dealer": "Calavan Chrysler Dodge Jeep RAM",
     "dealerId": "d_36ef2a496176e521",
-    "distanceMi": 14,
+    "distanceMi": 12,
     "state": "GA",
     "city": "Lithia Springs",
     "cpo": "none",
@@ -2228,19 +3897,23 @@
     "photoCount": 40,
     "baseMsrp": 59995,
     "squishVin": "3FMTK4SEPM",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
-    "flagged": true,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 22,
+    "lastSeen": "2026-11-02",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 34990
+      },
+      {
+        "date": "2026-11-02",
+        "price": 33491
       }
     ],
     "sellerType": "independent",
@@ -2252,16 +3925,39 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 33034,
+      "expected": 33364,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 127,
+      "dealPct": 0.0038,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 34,
+        "cohortMedianDaysListed": 22,
+        "priceDrop": {
+          "total": 1499,
+          "pct": -0.0428,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-10-26",
     "trimSearch": "GT",
     "powertrainSearch": "electric",
     "verifyLog": [
@@ -2275,7 +3971,122 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "GT",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 32113,
+        "price": 33991
       }
     ]
+  },
+  {
+    "id": "api-3fmtk4se6pma55711",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "GT",
+    "trimFeed": "GT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "GT 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 25458,
+    "price": 33949,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Ford",
+    "dealerId": "d_2925fad6da725fdb",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Rapid Red Tinted",
+    "interiorColor": "Black Onyx/Copper",
+    "vin": "3FMTK4SE6PMA55711",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.gwinnettplaceford.com/certified/Ford/2023-Ford-Mustang-Mach-E-652e7137ac1853f68714c455befcdc95.htm?srsltid=AYCX9vIo28lwF19W0BJrZrqwbcLkSEib2LJKjbs5ZAl7_2Ba_G4NqoGX",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK4SE6PMA55711&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK4SE6PMA55711-1.jpg",
+    "photoCount": 37,
+    "baseMsrp": 59995,
+    "squishVin": "3FMTK4SEPM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 33949
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 34406,
+      "expected": 35094,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": -1145,
+      "dealPct": -0.0326,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "GT",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "gwinnettplaceford.com",
+        "trim": "GT",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search"
   }
 ]

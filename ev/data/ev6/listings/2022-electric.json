@@ -40,9 +40,9 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
+    "lastSeen": "2026-10-26",
     "listedDays": 33,
     "priceHistory": [
       {
@@ -68,7 +68,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-10-26",
     "trimSearch": "GT-Line",
     "powertrainSearch": "electric",
     "verifyLog": [
@@ -83,7 +83,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-kndc34la1n5071976",
@@ -126,7 +127,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 11,
@@ -161,16 +162,17 @@
       "dealDelta": 1145,
       "dealPct": 0.0638,
       "rating": "high",
-      "dealScore": 0.333,
+      "dealScore": 0.667,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
         "listedDays": 11,
-        "cohortMedianDaysListed": 54,
+        "cohortMedianDaysListed": 66,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Wind",
@@ -222,7 +224,8 @@
     ],
     "stock": "296951A",
     "trimSearch": "Wind",
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   },
   {
     "id": "api-kndc34la5n5071060",
@@ -267,8 +270,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 73,
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -291,25 +294,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21386,
-      "expected": 20103,
+      "marketValue": 21014,
+      "expected": 19754,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 887,
-      "dealPct": 0.0441,
-      "rating": "fair",
-      "dealScore": 0.667,
+      "dealDelta": 1236,
+      "dealPct": 0.0626,
+      "rating": "high",
+      "dealScore": 0.333,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 73,
-        "cohortMedianDaysListed": 54,
+        "listedDays": 85,
+        "cohortMedianDaysListed": 66,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Wind",
@@ -406,8 +410,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 54,
+    "lastSeen": "2026-11-02",
+    "listedDays": 66,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -430,11 +434,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 18827,
-      "expected": 18827,
+      "marketValue": 18869,
+      "expected": 18869,
       "adjustments": {},
-      "dealDelta": 478,
-      "dealPct": 0.0254,
+      "dealDelta": 436,
+      "dealPct": 0.0231,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -442,10 +446,11 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 54,
-        "cohortMedianDaysListed": 54,
-        "negotiability": "medium"
-      }
+        "listedDays": 66,
+        "cohortMedianDaysListed": 66,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSearch": "Wind",
@@ -491,7 +496,7 @@
     "engine": "Electric",
     "year": 2022,
     "mileage": 33209,
-    "price": 20298,
+    "price": 19798,
     "priceBasis": "listing",
     "dealer": "Malones Automotive",
     "dealerId": "d_6d6750d19d48a302",
@@ -507,22 +512,26 @@
     "url": "https://www.malonesauto.com/used-Marietta-2022-Kia-EV6-Light+NE+19+HK+AC-KNDC34LB6N5042174",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC34LB6N5042174&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC34LB6N5042174-1.jpg",
-    "photoCount": 34,
+    "photoCount": 6,
     "baseMsrp": 47500,
     "squishVin": "KNDC34LBN5",
     "accidentCount": 0,
     "ownerCount": 2,
     "oneOwner": false,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 47,
+    "lastSeen": "2026-11-02",
+    "listedDays": 6,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 20298
+      },
+      {
+        "date": "2026-11-02",
+        "price": 19798
       }
     ],
     "sellerType": "independent",
@@ -534,16 +543,28 @@
     "powertrainConflict": false,
     "plantCountry": "South Korea",
     "plantSource": "vin1",
-    "trimConfidence": 0.65,
+    "trimConfidence": 0.878,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": true,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "basis": "none",
+      "cohortN": 1,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 6,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.0246,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-10-26",
     "trimSearch": "Light",
     "verifyLog": [
       {
@@ -551,6 +572,17 @@
         "how": "search",
         "tier": "search",
         "host": "cargurus.com",
+        "trim": "Light",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "youtube.com",
         "trim": "Light",
         "powertrain": null,
         "strength": "snippet",

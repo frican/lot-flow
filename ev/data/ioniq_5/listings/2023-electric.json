@@ -40,7 +40,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 11,
@@ -66,13 +66,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21914,
-      "expected": 22133,
+      "marketValue": 21825,
+      "expected": 22043,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -747,
-      "dealPct": -0.0337,
+      "dealDelta": -657,
+      "dealPct": -0.0298,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -81,9 +81,10 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 11,
-        "cohortMedianDaysListed": 42,
+        "cohortMedianDaysListed": 48,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSearch": "SE",
@@ -111,7 +112,8 @@
         "mileage": 33636,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8km4ae7pu153424",
@@ -129,8 +131,8 @@
     "drivetrain": "RWD",
     "engine": "Electric",
     "year": 2023,
-    "mileage": 29708,
-    "price": 22948,
+    "mileage": 29710,
+    "price": 22688,
     "priceBasis": "listing",
     "dealer": "Autoplex Atlanta",
     "dealerId": "d_5cebf1893c1ecb27",
@@ -156,12 +158,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 73,
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 22948
+      },
+      {
+        "date": "2026-11-02",
+        "price": 22688
       }
     ],
     "sellerType": "independent",
@@ -180,13 +186,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22420,
-      "expected": 22645,
+      "marketValue": 22249,
+      "expected": 22471,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 303,
-      "dealPct": 0.0134,
+      "dealDelta": 217,
+      "dealPct": 0.0096,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -194,10 +200,16 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 73,
-        "cohortMedianDaysListed": 42,
+        "listedDays": 85,
+        "cohortMedianDaysListed": 48,
+        "priceDrop": {
+          "total": 260,
+          "pct": -0.0113,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "SE",
@@ -264,14 +276,14 @@
     "series": "SEL 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2023,
     "mileage": 43632,
-    "price": 23188,
+    "price": 21990,
     "priceBasis": "listing",
-    "dealer": "Carzone",
+    "dealer": "CarZone",
     "dealerId": "d_4ea9a1fc50c91684",
-    "distanceMi": 21,
+    "distanceMi": 20,
     "state": "GA",
     "city": "Conyers",
     "cpo": "none",
@@ -283,7 +295,7 @@
     "url": "https://www.carzoneconyers.com/used-hyundai/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4AE3PU172324&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KN4AE3PU172324-1.jpg",
-    "photoCount": 38,
+    "photoCount": 1,
     "baseMsrp": 47450,
     "squishVin": "KM8KN4AEPU",
     "accidentCount": null,
@@ -293,12 +305,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 91,
+    "lastSeen": "2026-11-02",
+    "listedDays": 103,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 23188
+      },
+      {
+        "date": "2026-11-02",
+        "price": 21990
       }
     ],
     "sellerType": "independent",
@@ -317,22 +333,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24534,
-      "expected": 24534,
+      "marketValue": 23079,
+      "expected": 23079,
       "adjustments": {},
-      "dealDelta": -1346,
-      "dealPct": -0.0549,
-      "rating": "good",
+      "dealDelta": -1089,
+      "dealPct": -0.0472,
+      "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 91,
-        "cohortMedianDaysListed": 49,
+        "listedDays": 103,
+        "cohortMedianDaysListed": 61,
+        "priceDrop": {
+          "total": 1198,
+          "pct": -0.0517,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "SEL",
@@ -404,7 +426,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 10,
@@ -432,7 +454,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kn4ae8pu179401",
@@ -475,7 +498,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 27,
@@ -503,7 +526,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kn4ae9pu149341",
@@ -519,14 +543,14 @@
     "series": "SEL 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2023,
     "mileage": 17888,
     "price": 21500,
     "priceBasis": "listing",
     "dealer": "Gas Charged Motors",
     "dealerId": "d_c6dc7bf3edb8e59c",
-    "distanceMi": 18,
+    "distanceMi": 16,
     "state": "GA",
     "city": "Marietta",
     "cpo": "none",
@@ -538,7 +562,7 @@
     "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KN4AE9PU149341",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4AE9PU149341&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KN4AE9PU149341-1.jpg",
-    "photoCount": 53,
+    "photoCount": 1,
     "baseMsrp": 47450,
     "squishVin": "KM8KN4AEPU",
     "accidentCount": null,
@@ -548,8 +572,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 23,
+    "lastSeen": "2026-11-02",
+    "listedDays": 35,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -574,7 +598,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-11-02"
   },
   {
     "id": "api-km8kndaf1pu171925",
@@ -617,7 +641,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 15,
@@ -643,14 +667,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24791,
-      "expected": 25039,
+      "marketValue": 23874,
+      "expected": 24112,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": 1864,
-      "dealPct": 0.0745,
-      "rating": "high",
+      "dealDelta": 2791,
+      "dealPct": 0.1157,
+      "rating": "overpriced",
       "dealScore": 0.333,
       "basis": "pooled",
       "cohortN": 3,
@@ -658,9 +682,10 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 15,
-        "cohortMedianDaysListed": 49,
+        "cohortMedianDaysListed": 61,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "SEL",
@@ -690,7 +715,8 @@
     ],
     "stock": "NHYPPU171925",
     "trimSearch": "SEL",
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kndaf4pu163026",
@@ -709,7 +735,7 @@
     "engine": "Electric",
     "year": 2023,
     "mileage": 25414,
-    "price": 24990,
+    "price": 24490,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars",
     "dealerId": "d_bb8b4d76abfac3d7",
@@ -725,7 +751,7 @@
     "url": "https://www.grandkennesaw.com/used-hyundai/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDAF4PU163026&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KNDAF4PU163026-1.jpg",
-    "photoCount": 43,
+    "photoCount": 45,
     "baseMsrp": 50950,
     "squishVin": "KM8KNDAFPU",
     "accidentCount": 1,
@@ -735,12 +761,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 49,
+    "lastSeen": "2026-11-02",
+    "listedDays": 61,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 24990
+      },
+      {
+        "date": "2026-11-02",
+        "price": 24490
       }
     ],
     "sellerType": "independent",
@@ -759,13 +789,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24990,
-      "expected": 23491,
+      "marketValue": 24490,
+      "expected": 23021,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 1499,
+      "dealDelta": 1469,
       "dealPct": 0.0638,
       "rating": "high",
       "dealScore": 0.667,
@@ -774,10 +804,16 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 49,
-        "cohortMedianDaysListed": 49,
-        "negotiability": "medium"
-      }
+        "listedDays": 61,
+        "cohortMedianDaysListed": 61,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.02,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "SEL",
@@ -820,7 +856,7 @@
     "trimSearch": "SEL"
   },
   {
-    "id": "api-km8kndaf6pu198151",
+    "id": "api-km8kndaf5pu179817",
     "discoveredBy": "auto.dev",
     "seenBy": [
       "auto.dev"
@@ -833,45 +869,44 @@
     "series": "SEL 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "Electric Motor",
     "year": 2023,
-    "mileage": 69755,
-    "price": 23465,
+    "mileage": 19222,
+    "price": 26993,
     "priceBasis": "listing",
-    "dealer": "Ed Voyles Hyundai",
-    "dealerId": "d_c2dde5981227010c",
-    "distanceMi": 12,
+    "dealer": "Rick Case Hyundai-Roswell",
+    "dealerId": "d_3506a7b858d63182",
+    "distanceMi": 21,
     "state": "GA",
-    "city": "Smyrna",
-    "cpo": "unknown",
-    "cpoFeed": true,
-    "exteriorColor": "Shooting Star (Matte Gray)",
-    "interiorColor": "Black leatherette",
-    "vin": "KM8KNDAF6PU198151",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
-    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KNDAF6PU198151",
-    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDAF6PU198151&partner=FRD_2",
-    "primaryImage": "https://retail.photos.vin/KM8KNDAF6PU198151-1.jpg",
-    "photoCount": 35,
+    "city": "Roswell",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gravity Gold (Matte Gold)",
+    "interiorColor": "Black",
+    "vin": "KM8KNDAF5PU179817",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://rickcasemazda.com/used/Hyundai/2023-Hyundai-IONIQ-5-6fb6d55eac18224eefc6e7de6164c358.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDAF5PU179817&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KNDAF5PU179817-1.jpg",
+    "photoCount": 32,
     "baseMsrp": 50950,
     "squishVin": "KM8KNDAFPU",
-    "accidentCount": 1,
+    "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
-    "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 92,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 8,
     "priceHistory": [
       {
-        "date": "2026-10-21",
-        "price": 23465
+        "date": "2026-11-02",
+        "price": 26993
       }
     ],
     "sellerType": "franchise",
-    "urlOrigin": "stored",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -888,7 +923,92 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-11-02"
+  },
+  {
+    "id": "api-km8kndaf6pu198151",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2023,
+    "mileage": 69755,
+    "price": 23465,
+    "priceBasis": "listing",
+    "dealer": "Ed Voyles Hyundai",
+    "dealerId": "d_0b9300a8e28d5587",
+    "distanceMi": 14,
+    "state": "GA",
+    "city": "Smyrna",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Shooting Star (Matte Gray)",
+    "interiorColor": "Black leatherette",
+    "vin": "KM8KNDAF6PU198151",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KNDAF6PU198151",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDAF6PU198151&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KNDAF6PU198151-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 50950,
+    "squishVin": "KM8KNDAFPU",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-10-21",
+    "lastSeen": "2026-11-02",
+    "listedDays": 104,
+    "priceHistory": [
+      {
+        "date": "2026-10-21",
+        "price": 23465
+      }
+    ],
+    "sellerType": "franchise",
+    "urlOrigin": "stored",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "SEL",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "SEL",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-km8kndaf7pu172304",
@@ -931,7 +1051,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 5,
@@ -959,7 +1079,78 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-km8kndaf7pu173260",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2023,
+    "mileage": 27165,
+    "price": 25635,
+    "priceBasis": "listing",
+    "dealer": "Nalley Hyundai",
+    "dealerId": "d_83a2544bc104bd73",
+    "distanceMi": 17,
+    "state": "GA",
+    "city": "Lithonia",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Lucid Blue",
+    "interiorColor": "Black",
+    "vin": "KM8KNDAF7PU173260",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://nalleyhyundai.com/certified/Hyundai/2023-Hyundai-IONIQ-5-in-Atlanta-28af6febac181bdb9ee3abf56bdd9f4b.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDAF7PU173260&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KNDAF7PU173260-1.jpg",
+    "photoCount": 31,
+    "baseMsrp": 50950,
+    "squishVin": "KM8KNDAFPU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 25635
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02"
   },
   {
     "id": "api-km8kndaf9pu204296",
@@ -1002,7 +1193,7 @@
     "oneOwner": true,
     "usageType": "Lease",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 13,
@@ -1030,7 +1221,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kndaf9pu204668",
@@ -1043,16 +1235,16 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
+    "series": "SEL 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
     "engine": "Other",
     "year": 2023,
     "mileage": 37093,
-    "price": 25588,
+    "price": 24993,
     "priceBasis": "listing",
-    "dealer": "rick case hyundai roswell",
-    "dealerId": "d_041c1aa1403e0cc1",
+    "dealer": "Rick Case Hyundai-Roswell",
+    "dealerId": "d_3506a7b858d63182",
     "distanceMi": 21,
     "state": "GA",
     "city": "Roswell",
@@ -1066,7 +1258,7 @@
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDAF9PU204668&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KNDAF9PU204668-1.jpg",
     "photoCount": 29,
-    "baseMsrp": null,
+    "baseMsrp": 50950,
     "squishVin": "KM8KNDAFPU",
     "accidentCount": 0,
     "ownerCount": 1,
@@ -1075,12 +1267,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 6,
+    "lastSeen": "2026-11-02",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 25588
+      },
+      {
+        "date": "2026-11-02",
+        "price": 24993
       }
     ],
     "sellerType": "franchise",
@@ -1101,7 +1297,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-11-02"
   },
   {
     "id": "api-km8krdaf0pu182497",
@@ -1120,10 +1316,10 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 17788,
-    "price": 34439,
+    "price": 32742,
     "priceBasis": "listing",
     "dealer": "Jim Ellis Hyundai of Atlanta",
-    "dealerId": "d_859185972d9889a2",
+    "dealerId": "d_58da6eb4f6cb7730",
     "distanceMi": 12,
     "state": "GA",
     "city": "Atlanta",
@@ -1146,12 +1342,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 21,
+    "lastSeen": "2026-11-02",
+    "listedDays": 33,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 34439
+      },
+      {
+        "date": "2026-11-02",
+        "price": 32742
       }
     ],
     "sellerType": "franchise",
@@ -1170,24 +1370,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 33237,
-      "expected": 33570,
+      "marketValue": 32301,
+      "expected": 32624,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 869,
-      "dealPct": 0.0259,
+      "dealDelta": 118,
+      "dealPct": 0.0036,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 4,
+      "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 21,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "medium"
-      }
+        "listedDays": 33,
+        "cohortMedianDaysListed": 28,
+        "priceDrop": {
+          "total": 1697,
+          "pct": -0.0493,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Limited",
@@ -1205,6 +1411,119 @@
       }
     ],
     "stock": "H11459"
+  },
+  {
+    "id": "api-km8krdaf3pu207439",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Limited 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2023,
+    "mileage": 17936,
+    "price": 31382,
+    "priceBasis": "listing",
+    "dealer": "ALM Kennesaw",
+    "dealerId": "d_c8f6287574ba3505",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Abyss Black",
+    "interiorColor": "Gray leatherette",
+    "vin": "KM8KRDAF3PU207439",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.krauseautogroup.com/used-Kennesaw+-2023-Hyundai-IONIQ+5-Limited-KM8KRDAF3PU207439",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KRDAF3PU207439&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KRDAF3PU207439-1.jpg",
+    "photoCount": 37,
+    "baseMsrp": 56500,
+    "squishVin": "KM8KRDAFPU",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 23,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 31382
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 32320,
+      "expected": 32643,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1261,
+      "dealPct": -0.0386,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 4,
+      "confidence": 0.4,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 23,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "autabuy.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 17925,
+        "price": 33426
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-km8krdaf5pu182463",
@@ -1247,7 +1566,7 @@
     "oneOwner": true,
     "usageType": "Lease",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-10-21",
     "listedDays": 32,
@@ -1273,25 +1592,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 33187,
-      "expected": 33851,
+      "marketValue": 32426,
+      "expected": 33075,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -1866,
-      "dealPct": -0.0551,
-      "rating": "good",
-      "dealScore": 1.0,
+      "dealDelta": -1090,
+      "dealPct": -0.0329,
+      "rating": "fair",
+      "dealScore": 0.75,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 4,
+      "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
         "listedDays": 32,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 28,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "Limited",
@@ -1307,7 +1627,8 @@
         "mileage": null,
         "price": 31985
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8krdaf9pu183079",
@@ -1349,10 +1670,10 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Corporate Fleet",
-    "flagged": true,
-    "gone": false,
+    "flagged": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
+    "lastSeen": "2026-10-26",
     "listedDays": 13,
     "priceHistory": [
       {
@@ -1369,15 +1690,59 @@
     "powertrainConflict": false,
     "plantCountry": "South Korea",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 32470,
+      "expected": 32795,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 203,
+      "dealPct": 0.0062,
+      "rating": "fair",
+      "dealScore": 0.25,
+      "basis": "pooled",
+      "cohortN": 4,
+      "confidence": 0.4,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 13,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "low"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-10-26",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "truecar.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "exitReason": "unseen"
   }
 ]

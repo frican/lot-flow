@@ -10,15 +10,15 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
-    "transmission": "Automatic",
+    "series": "Wind 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
     "drivetrain": "RWD",
     "engine": "ELECTRIC",
     "year": 2023,
     "mileage": 23248,
     "price": 24119,
     "priceBasis": "listing",
-    "dealer": "vc cars gwinnett inc",
+    "dealer": "VC Cars Gwinnett Inc",
     "dealerId": "d_553e6638aa79596a",
     "distanceMi": 20,
     "state": "GA",
@@ -33,7 +33,7 @@
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC34LA0P5126534&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC34LA0P5126534-1.jpg",
     "photoCount": 1,
-    "baseMsrp": null,
+    "baseMsrp": 48700,
     "squishVin": "KNDC34LAP5",
     "accidentCount": 1,
     "ownerCount": 1,
@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 34,
+    "lastSeen": "2026-11-02",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -68,7 +68,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21",
+    "searchedAt": "2026-11-02",
     "trimSearch": "Wind",
     "verifyLog": [
       {
@@ -95,15 +95,15 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": null,
-    "transmission": "Automatic",
+    "series": "GT-Line 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
     "drivetrain": "RWD",
     "engine": "No data",
     "year": 2023,
     "mileage": 49837,
     "price": 22034,
     "priceBasis": "listing",
-    "dealer": "vc cars gwinnett inc",
+    "dealer": "VC Cars Gwinnett Inc",
     "dealerId": "d_553e6638aa79596a",
     "distanceMi": 20,
     "state": "GA",
@@ -118,7 +118,7 @@
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC44LA9P5124505&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC44LA9P5124505-1.jpg",
     "photoCount": 1,
-    "baseMsrp": null,
+    "baseMsrp": 52900,
     "squishVin": "KNDC44LAP5",
     "accidentCount": 1,
     "ownerCount": 1,
@@ -127,8 +127,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 41,
+    "lastSeen": "2026-11-02",
+    "listedDays": 53,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -144,8 +144,8 @@
     "powertrainConflict": false,
     "plantCountry": "South Korea",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -153,7 +153,21 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-21"
+    "searchedAt": "2026-11-02",
+    "trimSearch": "GT-Line",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "GT-Line",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-kndc4dlc2p5124377",
@@ -169,13 +183,13 @@
     "series": "GT-Line 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "Electric",
     "year": 2023,
-    "mileage": 17172,
-    "price": 30491,
+    "mileage": 17314,
+    "price": 31488,
     "priceBasis": "listing",
-    "dealer": "Ed Voyles Kia of Chamblee",
-    "dealerId": "d_f327cde73de71e6c",
+    "dealer": "Ed Voyles Acura",
+    "dealerId": "d_b737b4dad49c4cc7",
     "distanceMi": 12,
     "state": "GA",
     "city": "Chamblee",
@@ -194,19 +208,23 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 39,
+    "lastSeen": "2026-11-02",
+    "listedDays": 51,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 30491
+      },
+      {
+        "date": "2026-11-02",
+        "price": 31488
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
@@ -222,14 +240,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29342,
-      "expected": 29929,
+      "marketValue": 29838,
+      "expected": 30435,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": 562,
-      "dealPct": 0.0188,
+      "dealDelta": 1053,
+      "dealPct": 0.0346,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -237,10 +255,11 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 39,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 51,
+        "cohortMedianDaysListed": 38,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "GT-Line",
@@ -287,7 +306,7 @@
     "engine": "Electric",
     "year": 2023,
     "mileage": 28109,
-    "price": 27996,
+    "price": 27296,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -313,12 +332,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 13,
+    "lastSeen": "2026-11-02",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 27996
+      },
+      {
+        "date": "2026-11-02",
+        "price": 27296
       }
     ],
     "sellerType": "independent",
@@ -337,24 +360,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29145,
-      "expected": 29436,
+      "marketValue": 28946,
+      "expected": 29235,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1440,
-      "dealPct": -0.0489,
-      "rating": "fair",
+      "dealDelta": -1939,
+      "dealPct": -0.0663,
+      "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
       "cohortN": 2,
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 13,
-        "cohortMedianDaysListed": 26,
-        "negotiability": "low"
-      }
+        "listedDays": 25,
+        "cohortMedianDaysListed": 38,
+        "priceDrop": {
+          "total": 700,
+          "pct": -0.025,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "GT-Line",
@@ -404,10 +433,10 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 59189,
-    "price": 27083,
+    "price": 26993,
     "priceBasis": "listing",
     "dealer": "Gravity Autos Sandy Springs",
-    "dealerId": "d_f6dfdfc088cf7f90",
+    "dealerId": "d_2a0ddd472e8831fc",
     "distanceMi": 14,
     "state": "GA",
     "city": "Atlanta",
@@ -430,12 +459,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-10-21",
-    "listedDays": 7,
+    "lastSeen": "2026-11-02",
+    "listedDays": 19,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 27083
+      },
+      {
+        "date": "2026-11-02",
+        "price": 26993
       }
     ],
     "sellerType": "independent",
@@ -454,25 +487,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27618,
-      "expected": 25271,
+      "marketValue": 24900,
+      "expected": 22784,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.015
       },
-      "dealDelta": 1812,
-      "dealPct": 0.0717,
-      "rating": "high",
-      "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "dealDelta": 4209,
+      "dealPct": 0.1848,
+      "rating": "overpriced",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 7,
-        "cohortMedianDaysListed": 7,
-        "negotiability": "low"
-      }
+        "listedDays": 19,
+        "cohortMedianDaysListed": 10,
+        "priceDrop": {
+          "total": 90,
+          "pct": -0.0033,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-21",
     "trimSite": "GT",
@@ -490,5 +529,192 @@
         "price": null
       }
     ]
+  },
+  {
+    "id": "api-kndc5dle7p5092993",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "GT",
+    "trimFeed": "GT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "GT 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 23577,
+    "price": 27800,
+    "priceBasis": "listing",
+    "dealer": "BMVW Auto Sales",
+    "dealerId": "d_9a1299f922cbf553",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Runway Red",
+    "interiorColor": "Black w/Neon Accented Seat Trim leatherette/suede",
+    "vin": "KNDC5DLE7P5092993",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://bmvw.com/vdp/24427119/Used-2023-Kia-EV6-for-sale-in-Union-City-GA?stocknum=092993&atc_ownerid=57796744&utm_source=autotrader.com&utm_medium=referral&utm_campaign=autotrader_listings",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC5DLE7P5092993&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KNDC5DLE7P5092993-1.jpg",
+    "photoCount": 24,
+    "baseMsrp": 61600,
+    "squishVin": "KNDC5DLEP5",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 27800
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 29893,
+      "expected": 30192,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -2392,
+      "dealPct": -0.0792,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 2,
+        "cohortMedianDaysListed": 10,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "GT",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "bmvw.com",
+        "trim": "GT",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 23577,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "GT",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "092993",
+    "trimSearch": "GT"
+  },
+  {
+    "id": "api-kndc5dle9p5123757",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "GT",
+    "trimFeed": "GT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "GT 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2023,
+    "mileage": 34915,
+    "price": 29097,
+    "priceBasis": "listing",
+    "dealer": "Atlanta Autos",
+    "dealerId": "d_06c9491caee8cca5",
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Snow White Pearl",
+    "interiorColor": "Black w/Neon Accented Seat Trim leatherette/suede",
+    "vin": "KNDC5DLE9P5123757",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#1412151080519290168",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC5DLE9P5123757&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KNDC5DLE9P5123757-1.jpg",
+    "photoCount": 72,
+    "baseMsrp": 61600,
+    "squishVin": "KNDC5DLEP5",
+    "accidentCount": 0,
+    "ownerCount": 3,
+    "oneOwner": false,
+    "usageType": "Corporate Fleet",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 8,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 29097
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02"
   }
 ]

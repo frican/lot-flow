@@ -1,5 +1,131 @@
 [
   {
+    "id": "api-1v25mpe83rc005429",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "S",
+    "trimFeed": "S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "S 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 14914,
+    "price": 23787,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "1V25MPE83RC005429",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://versatilecollections.com/vdp/23847851/Used-2024-Volkswagen-ID4-S-Sports-Tech-Panoramic-Leather-Massage-Seats-HID-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE83RC005429&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V25MPE83RC005429-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 44855,
+    "squishVin": "1V25MPE8RC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 23787
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24380,
+      "expected": 24624,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -837,
+      "dealPct": -0.034,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 85,
+        "cohortMedianDaysListed": 62,
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "S",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "versatilecollections.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "S"
+  },
+  {
     "id": "api-1v25mpe87rc017342",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -16,9 +142,9 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2024,
     "mileage": 14823,
-    "price": 25998,
+    "price": 24998,
     "priceBasis": "listing",
-    "dealer": "CarMax Lithia Springs",
+    "dealer": "CarMax - Lithia Springs",
     "dealerId": "d_3b08986731308aca",
     "distanceMi": 13,
     "state": "GA",
@@ -38,16 +164,20 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
-    "flagged": true,
+    "usageType": "Personal Use",
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 29,
+    "lastSeen": "2026-11-02",
+    "listedDays": 40,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 25998
+      },
+      {
+        "date": "2026-11-02",
+        "price": 24998
       }
     ],
     "sellerType": "independent",
@@ -59,17 +189,40 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 24405,
+      "expected": 24649,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 349,
+      "dealPct": 0.0142,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 40,
+        "cohortMedianDaysListed": 62,
+        "priceDrop": {
+          "total": 1000,
+          "pct": -0.0385,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-22",
-    "trimSearch": "S",
+    "searchedAt": "2026-10-26",
+    "trimSearch": "Pro S Plus",
     "powertrainSearch": "electric",
     "verifyLog": [
       {
@@ -79,6 +232,39 @@
         "host": "edmunds.com",
         "trim": "S",
         "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "carmax.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 14823,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Pro S Plus",
+        "powertrain": null,
         "strength": "snippet",
         "mileage": null,
         "price": null
@@ -99,13 +285,13 @@
     "series": "S 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Other",
+    "engine": "Electric Motor",
     "year": 2024,
     "mileage": 15002,
-    "price": 24072,
+    "price": 26195,
     "priceBasis": "listing",
-    "dealer": "hoover volkswagen of lithia springs",
-    "dealerId": "d_5b31d7a50dcbab6b",
+    "dealer": "Hoover Volkswagen of Lithia Springs",
+    "dealerId": "d_dc7c89d9f36bc8bb",
     "distanceMi": 13,
     "state": "GA",
     "city": "Lithia Springs",
@@ -128,12 +314,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 7,
+    "lastSeen": "2026-11-02",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 24072
+      },
+      {
+        "date": "2026-11-02",
+        "price": 26195
       }
     ],
     "sellerType": "franchise",
@@ -154,7 +344,110 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-11-02"
+  },
+  {
+    "id": "api-1v2bmpe80rc011496",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Standard",
+    "trimFeed": "Standard",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Standard 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 19534,
+    "price": 20300,
+    "priceBasis": "listing",
+    "dealer": "Nalley Volkswagen of Alpharetta",
+    "dealerId": "d_1f16ed20138a9923",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver Mist Metallic",
+    "interiorColor": "Gray",
+    "vin": "1V2BMPE80RC011496",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/1v2bmpe80rc011496/2024-volkswagen-id-d-4-sport-utility",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2BMPE80RC011496&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2BMPE80RC011496-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 39735,
+    "squishVin": "1V2BMPE8RC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 20300
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 21205,
+      "expected": 21417,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1117,
+      "dealPct": -0.0521,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 3,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Standard",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "nalleyinfinitiatlanta.com",
+        "trim": "Standard",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 19534,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search"
   },
   {
     "id": "api-1v2bmpe86rc017447",
@@ -197,7 +490,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 40,
@@ -223,24 +516,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21808,
-      "expected": 22026,
+      "marketValue": 21093,
+      "expected": 21304,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -28,
-      "dealPct": -0.0013,
+      "dealDelta": 694,
+      "dealPct": 0.0326,
       "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
         "listedDays": 40,
-        "cohortMedianDaysListed": 40,
-        "negotiability": "medium"
-      }
+        "cohortMedianDaysListed": 22,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSearch": "Standard",
@@ -279,6 +573,7 @@
         "price": null
       }
     ],
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   }
 ]

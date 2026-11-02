@@ -1,5 +1,90 @@
 [
   {
+    "id": "api-jn1bf0ba1rm432019",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Evolve+",
+    "trimFeed": "Empower+",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Empower+ 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "Electric",
+    "year": 2024,
+    "mileage": 22432,
+    "price": 24488,
+    "priceBasis": "listing",
+    "dealer": "MIKE REZI NISSAN ATLANTA",
+    "dealerId": null,
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "ATLANTA",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Black",
+    "interiorColor": "Gray",
+    "vin": "JN1BF0BA1RM432019",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.nissanusa.com/shopping-tools/search-inventory/certified-pre-owned/vehicle-details/JN1BF0BA1RM432019",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1BF0BA1RM432019&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JN1BF0BA1RM432019-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47690,
+    "squishVin": "JN1BF0BARM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 24488
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.65,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Evolve+",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "usedelectricvehicles.com",
+        "trim": "Evolve+",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-jn1bf0ba1rm434594",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -13,12 +98,12 @@
     "series": "Empower+ 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 19239,
-    "price": 26338,
+    "price": 25415,
     "priceBasis": "listing",
-    "dealer": "Nissan South Morrow",
+    "dealer": "NISSAN SOUTH MORROW",
     "dealerId": "d_7f9ef2fc2753527a",
     "distanceMi": 13,
     "state": "GA",
@@ -32,7 +117,7 @@
     "url": "https://www.mynissanmarietta.com/inventory/used-2024-nissan-ariya-evolve-jn1bf0ba1rm434594-in-marietta-ga",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1BF0BA1RM434594&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN1BF0BA1RM434594-1.jpg",
-    "photoCount": 36,
+    "photoCount": 1,
     "baseMsrp": 47690,
     "squishVin": "JN1BF0BARM",
     "accidentCount": 0,
@@ -42,12 +127,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 28,
+    "lastSeen": "2026-11-02",
+    "listedDays": 39,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 26338
+      },
+      {
+        "date": "2026-11-02",
+        "price": 25415
       }
     ],
     "sellerType": "franchise",
@@ -66,25 +155,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26671,
-      "expected": 27738,
+      "marketValue": 25922,
+      "expected": 26959,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.03
       },
-      "dealDelta": -1400,
-      "dealPct": -0.0505,
+      "dealDelta": -1544,
+      "dealPct": -0.0573,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 28,
-        "cohortMedianDaysListed": 50,
-        "negotiability": "medium"
-      }
+        "listedDays": 39,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 923,
+          "pct": -0.035,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "trimSite": "Evolve+",
     "powertrainSite": "electric",
@@ -115,6 +210,124 @@
     ]
   },
   {
+    "id": "api-jn1bf0ba7rm431702",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Evolve+",
+    "trimFeed": "Empower+",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Empower+ 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "Electric",
+    "year": 2024,
+    "mileage": 24666,
+    "price": 24937,
+    "priceBasis": "listing",
+    "dealer": "MIKE REZI NISSAN ATLANTA",
+    "dealerId": null,
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "ATLANTA",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "JN1BF0BA7RM431702",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.mikerezinissan.com/vehicle/JN1BF0BA7RM431702/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1BF0BA7RM431702&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JN1BF0BA7RM431702-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47690,
+    "squishVin": "JN1BF0BARM",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 8,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 24937
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 25498,
+      "expected": 24223,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": 714,
+      "dealPct": 0.0295,
+      "rating": "fair",
+      "dealScore": 0.111,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 8,
+        "cohortMedianDaysListed": 39,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Evolve+",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "mikerezinissan.com",
+        "trim": "Evolve+",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Engage+",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Engage+"
+  },
+  {
     "id": "api-jn1bf0ba7rm432882",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -128,12 +341,12 @@
     "series": "Empower+ 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 25810,
     "price": 25409,
     "priceBasis": "listing",
-    "dealer": "Nissan South Morrow",
+    "dealer": "NISSAN SOUTH MORROW",
     "dealerId": "d_7f9ef2fc2753527a",
     "distanceMi": 13,
     "state": "GA",
@@ -147,7 +360,7 @@
     "url": "https://www.nissanoflithiasprings.com/inventory/used-2024-nissan-ariya-evolve-jn1bf0ba7rm432882-in-lithia-springs-ga",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1BF0BA7RM432882&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN1BF0BA7RM432882-1.jpg",
-    "photoCount": 32,
+    "photoCount": 1,
     "baseMsrp": 47690,
     "squishVin": "JN1BF0BARM",
     "accidentCount": 0,
@@ -157,8 +370,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 71,
+    "lastSeen": "2026-11-02",
+    "listedDays": 82,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -181,25 +394,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26237,
-      "expected": 26762,
+      "marketValue": 25409,
+      "expected": 25917,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -1353,
-      "dealPct": -0.0506,
-      "rating": "good",
-      "dealScore": 0.875,
+      "dealDelta": -508,
+      "dealPct": -0.0196,
+      "rating": "fair",
+      "dealScore": 0.667,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 71,
-        "cohortMedianDaysListed": 50,
+        "listedDays": 82,
+        "cohortMedianDaysListed": 39,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "trimSite": "Evolve+",
     "powertrainSite": "electric",
@@ -243,12 +457,12 @@
     "series": "Engage e-4ORCE 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 13572,
-    "price": 22954,
+    "price": 21997,
     "priceBasis": "listing",
-    "dealer": "Nissan of Lithia Springs",
+    "dealer": "NISSAN OF LITHIA SPRINGS",
     "dealerId": "d_5ae3ab1bb53afebd",
     "distanceMi": 13,
     "state": "GA",
@@ -262,22 +476,26 @@
     "url": "https://www.mynissanmarietta.com/inventory/used-2024-nissan-ariya-engage-e-4orce-jn1cf0bb2rm743164-in-marietta-ga",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1CF0BB2RM743164&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN1CF0BB2RM743164-1.jpg",
-    "photoCount": 30,
+    "photoCount": 1,
     "baseMsrp": 43590,
     "squishVin": "JN1CF0BBRM",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 1,
+    "lastSeen": "2026-11-02",
+    "listedDays": 12,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 22954
+      },
+      {
+        "date": "2026-11-02",
+        "price": 21997
       }
     ],
     "sellerType": "franchise",
@@ -296,24 +514,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24519,
-      "expected": 25254,
+      "marketValue": 22822,
+      "expected": 23734,
       "adjustments": {
+        "oneOwner": 0.01,
         "cpo": 0.03
       },
-      "dealDelta": -2300,
-      "dealPct": -0.0911,
+      "dealDelta": -1737,
+      "dealPct": -0.0732,
       "rating": "good",
       "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 1,
-        "cohortMedianDaysListed": 1,
-        "negotiability": "low"
-      }
+        "listedDays": 12,
+        "cohortMedianDaysListed": 11,
+        "priceDrop": {
+          "total": 957,
+          "pct": -0.0417,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "trimSite": "Engage",
     "powertrainSite": "electric",
@@ -341,6 +566,179 @@
     ]
   },
   {
+    "id": "api-jn1cf0bb5rm730201",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Engage",
+    "trimFeed": "Engage",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Engage e-4ORCE 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric Motor",
+    "year": 2024,
+    "mileage": 4140,
+    "price": 24753,
+    "priceBasis": "listing",
+    "dealer": "Jim Ellis Hyundai",
+    "dealerId": "d_58da6eb4f6cb7730",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Boulder Gray Pearl/Black Diamond Pearl",
+    "interiorColor": "Charcoal",
+    "vin": "JN1CF0BB5RM730201",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.jimellishyundai.com/inventory/used-2024-nissan-ariya-engage-all-wheel-drive-e-4orce-awd-jn1cf0bb5rm730201/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1CF0BB5RM730201&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JN1CF0BB5RM730201-1.jpg",
+    "photoCount": 35,
+    "baseMsrp": 43590,
+    "squishVin": "JN1CF0BBRM",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 24753
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 23928,
+      "expected": 23928,
+      "adjustments": {},
+      "dealDelta": 825,
+      "dealPct": 0.0345,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 11,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Engage",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "jimellishyundai.com",
+        "trim": "Engage",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 4138,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "HK26106A"
+  },
+  {
+    "id": "api-jn1df0bb0rm735598",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Evolve+",
+    "trimFeed": "Evolve+",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Evolve+ e-4ORCE 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2024,
+    "mileage": 35506,
+    "price": 24876,
+    "priceBasis": "listing",
+    "dealer": "MIKE REZI NISSAN ATLANTA",
+    "dealerId": null,
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "ATLANTA",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "JN1DF0BB0RM735598",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.nissanusa.com/shopping-tools/search-inventory/certified-pre-owned/vehicle-details/JN1DF0BB0RM735598",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1DF0BB0RM735598&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JN1DF0BB0RM735598-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 48190,
+    "squishVin": "JN1DF0BBRM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 24876
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02"
+  },
+  {
     "id": "api-jn1df0bb2rm731763",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -354,12 +752,12 @@
     "series": "Evolve+ e-4ORCE 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 49485,
     "price": 24768,
     "priceBasis": "listing",
-    "dealer": "Nissan of Marietta",
+    "dealer": "NISSAN OF MARIETTA",
     "dealerId": "d_e49515de8347c042",
     "distanceMi": 14,
     "state": "GA",
@@ -373,7 +771,7 @@
     "url": "https://www.mynissanmarietta.com/inventory/used-2024-nissan-ariya-evolve-e-4orce-jn1df0bb2rm731763-in-marietta-ga",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1DF0BB2RM731763&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN1DF0BB2RM731763-1.jpg",
-    "photoCount": 34,
+    "photoCount": 1,
     "baseMsrp": 48190,
     "squishVin": "JN1DF0BBRM",
     "accidentCount": 0,
@@ -383,8 +781,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 19,
+    "lastSeen": "2026-11-02",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -407,25 +805,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24673,
-      "expected": 25660,
+      "marketValue": 23561,
+      "expected": 24503,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.03
       },
-      "dealDelta": -892,
-      "dealPct": -0.0348,
+      "dealDelta": 265,
+      "dealPct": 0.0108,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.333,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 19,
-        "cohortMedianDaysListed": 50,
+        "listedDays": 30,
+        "cohortMedianDaysListed": 39,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "trimSite": "Evolve+",
     "powertrainSite": "electric",
@@ -496,7 +895,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 74,
@@ -522,25 +921,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27346,
-      "expected": 27893,
+      "marketValue": 26719,
+      "expected": 27253,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -218,
-      "dealPct": -0.0078,
+      "dealDelta": 422,
+      "dealPct": 0.0155,
       "rating": "fair",
-      "dealScore": 0.25,
+      "dealScore": 0.222,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
         "listedDays": 74,
-        "cohortMedianDaysListed": 50,
+        "cohortMedianDaysListed": 39,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "trimSite": "Evolve+",
     "powertrainSite": "electric",
@@ -568,7 +968,8 @@
       "Surround View",
       "Ventilated Seats",
       "Wireless Charging"
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-jn1df0bb4rm743333",
@@ -611,7 +1012,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 74,
@@ -637,25 +1038,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25638,
-      "expected": 26664,
+      "marketValue": 24701,
+      "expected": 25689,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.03
       },
-      "dealDelta": -1078,
-      "dealPct": -0.0404,
+      "dealDelta": -103,
+      "dealPct": -0.004,
       "rating": "fair",
-      "dealScore": 0.625,
+      "dealScore": 0.556,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
         "listedDays": 74,
-        "cohortMedianDaysListed": 50,
+        "cohortMedianDaysListed": 39,
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "trimSite": "Evolve+",
     "powertrainSite": "electric",
@@ -682,7 +1084,8 @@
       "Power Liftgate",
       "Surround View",
       "Ventilated Seats"
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-jn1df0bb7rm732701",
@@ -725,7 +1128,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 6,
@@ -753,7 +1156,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22"
+    "searchedAt": "2026-10-26",
+    "exitReason": "unseen"
   },
   {
     "id": "api-jn1df0bb8rm735073",
@@ -762,17 +1166,17 @@
       "auto.dev"
     ],
     "trim": "Evolve+",
-    "trimFeed": "Evolve+",
+    "trimFeed": "Engage+",
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": "Evolve+ e-4ORCE 4dr SUV AWD (electric DD)",
+    "series": "Engage+ e-4ORCE 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
     "engine": "electric",
     "year": 2024,
-    "mileage": 52938,
-    "price": 24497,
+    "mileage": 52473,
+    "price": 21858,
     "priceBasis": "listing",
     "dealer": "Gwinnett Place Nissan",
     "dealerId": "d_4ebfd93ae041b6ed",
@@ -788,8 +1192,8 @@
     "url": "https://www.gwinnettplacenissan.com/used/Nissan/2024-Nissan-ARIYA-5a06c647ac1849c0ab003785ff65f9fc.htm?srsltid=AYCX9vJaz_Kn55Zee9Cdewlwmuw1AfzgfYTOiP0KTP-i-55RjrODEJcg",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1DF0BB8RM735073&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN1DF0BB8RM735073-1.jpg",
-    "photoCount": 1,
-    "baseMsrp": 48190,
+    "photoCount": 34,
+    "baseMsrp": 45190,
     "squishVin": "JN1DF0BBRM",
     "accidentCount": 0,
     "ownerCount": 2,
@@ -798,12 +1202,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 1,
+    "lastSeen": "2026-11-02",
+    "listedDays": 12,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 24497
+      },
+      {
+        "date": "2026-11-02",
+        "price": 21858
       }
     ],
     "sellerType": "franchise",
@@ -815,31 +1223,37 @@
     "powertrainConflict": false,
     "plantCountry": "Japan",
     "plantSource": "vin1",
-    "trimConfidence": 0.935,
+    "trimConfidence": 0.9,
     "trimVerifiedBy": "site",
     "trimFlagged": false,
-    "trimConflict": false,
+    "trimConflict": true,
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24445,
-      "expected": 24078,
+      "marketValue": 23327,
+      "expected": 22977,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": 419,
-      "dealPct": 0.0174,
+      "dealDelta": -1119,
+      "dealPct": -0.0487,
       "rating": "fair",
-      "dealScore": 0.125,
+      "dealScore": 0.889,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 1,
-        "cohortMedianDaysListed": 50,
-        "negotiability": "low"
-      }
+        "listedDays": 12,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 2639,
+          "pct": -0.1077,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Evolve+",
@@ -871,12 +1285,12 @@
     "series": "Evolve+ e-4ORCE 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "290kW AC Synchronous AM67",
     "year": 2024,
     "mileage": 25470,
-    "price": 23500,
+    "price": 22800,
     "priceBasis": "listing",
-    "dealer": "Bmvw",
+    "dealer": "BMVW Auto Sales",
     "dealerId": "d_9a1299f922cbf553",
     "distanceMi": 15,
     "state": "GA",
@@ -900,12 +1314,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 20,
+    "lastSeen": "2026-11-02",
+    "listedDays": 31,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 23500
+      },
+      {
+        "date": "2026-11-02",
+        "price": 22800
       }
     ],
     "sellerType": "independent",
@@ -924,25 +1342,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26260,
-      "expected": 24684,
+      "marketValue": 25436,
+      "expected": 23909,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": -1184,
-      "dealPct": -0.048,
+      "dealDelta": -1109,
+      "dealPct": -0.0464,
       "rating": "fair",
-      "dealScore": 0.75,
+      "dealScore": 0.778,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 20,
-        "cohortMedianDaysListed": 50,
-        "negotiability": "medium"
-      }
+        "listedDays": 31,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 700,
+          "pct": -0.0298,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Evolve+",
@@ -974,12 +1398,12 @@
     "series": "Evolve+ e-4ORCE 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 18602,
     "price": 25997,
     "priceBasis": "listing",
-    "dealer": "Conyers Nissan",
+    "dealer": "CONYERS NISSAN",
     "dealerId": "d_52b15ceec057c901",
     "distanceMi": 21,
     "state": "GA",
@@ -999,12 +1423,12 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 8,
+    "lastSeen": "2026-11-02",
+    "listedDays": 19,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -1030,10 +1454,11 @@
       "basis": "none",
       "cohortN": 1,
       "signals": {
-        "listedDays": 8,
-        "cohortMedianDaysListed": 8,
-        "negotiability": "low"
-      }
+        "listedDays": 19,
+        "cohortMedianDaysListed": 19,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Engage+",
@@ -1101,10 +1526,10 @@
     "series": "Evolve+ e-4ORCE 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
-    "mileage": 24661,
-    "price": 26955,
+    "mileage": 24790,
+    "price": 26488,
     "priceBasis": "listing",
     "dealer": "Nissan of Lithia Springs",
     "dealerId": "d_5ae3ab1bb53afebd",
@@ -1112,7 +1537,7 @@
     "state": "GA",
     "city": "Lithia Springs",
     "cpo": "manufacturer",
-    "cpoFeed": true,
+    "cpoFeed": false,
     "exteriorColor": "Green",
     "interiorColor": "Black",
     "vin": "JN1DF0BBXRM741327",
@@ -1130,12 +1555,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 74,
+    "lastSeen": "2026-11-02",
+    "listedDays": 85,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 26955
+      },
+      {
+        "date": "2026-11-02",
+        "price": 26488
       }
     ],
     "sellerType": "franchise",
@@ -1154,25 +1583,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26313,
-      "expected": 27366,
+      "marketValue": 25489,
+      "expected": 26508,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.03
       },
-      "dealDelta": -411,
-      "dealPct": -0.015,
+      "dealDelta": -20,
+      "dealPct": -0.0008,
       "rating": "fair",
-      "dealScore": 0.375,
+      "dealScore": 0.444,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 74,
-        "cohortMedianDaysListed": 50,
+        "listedDays": 85,
+        "cohortMedianDaysListed": 39,
+        "priceDrop": {
+          "total": 467,
+          "pct": -0.0173,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "trimSite": "Evolve+",
     "powertrainSite": "electric",
@@ -1216,14 +1651,14 @@
     "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 34844,
-    "price": 27048,
+    "price": 26751,
     "priceBasis": "listing",
-    "dealer": "Mike Rezi Nissan Atlanta",
+    "dealer": "MIKE REZI NISSAN ATLANTA",
     "dealerId": "d_242b22a08bdeafd4",
-    "distanceMi": 14,
+    "distanceMi": 13,
     "state": "GA",
     "city": "Atlanta",
     "cpo": "unknown",
@@ -1241,16 +1676,20 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Lease",
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 103,
+    "lastSeen": "2026-11-02",
+    "listedDays": 114,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 27048
+      },
+      {
+        "date": "2026-11-02",
+        "price": 26751
       }
     ],
     "sellerType": "franchise",
@@ -1271,7 +1710,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22",
+    "searchedAt": "2026-11-02",
     "trimSearch": "Evolve+",
     "verifyLog": [
       {
@@ -1301,12 +1740,12 @@
     "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 24503,
     "price": 29743,
     "priceBasis": "listing",
-    "dealer": "Nissan South Morrow",
+    "dealer": "NISSAN SOUTH MORROW",
     "dealerId": "d_7f9ef2fc2753527a",
     "distanceMi": 13,
     "state": "GA",
@@ -1320,7 +1759,7 @@
     "url": "https://www.nissanoflithiasprings.com/inventory/used-2024-nissan-ariya-platinum-e-4orce-jn1df0cd1rm732158-in-lithia-springs-ga",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1DF0CD1RM732158&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN1DF0CD1RM732158-1.jpg",
-    "photoCount": 35,
+    "photoCount": 1,
     "baseMsrp": 54190,
     "squishVin": "JN1DF0CDRM",
     "accidentCount": 0,
@@ -1330,8 +1769,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 12,
+    "lastSeen": "2026-11-02",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -1354,25 +1793,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29742,
-      "expected": 30337,
+      "marketValue": 29306,
+      "expected": 29892,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -594,
-      "dealPct": -0.0196,
+      "dealDelta": -149,
+      "dealPct": -0.005,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.375,
       "basis": "cohort",
       "cohortN": 8,
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 12,
-        "cohortMedianDaysListed": 30,
-        "negotiability": "low"
-      }
+        "listedDays": 23,
+        "cohortMedianDaysListed": 41,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
     },
     "trimSite": "Platinum+",
     "powertrainSite": "electric",
@@ -1437,15 +1877,15 @@
     "photoCount": 1,
     "baseMsrp": 54190,
     "squishVin": "JN1DF0CDRM",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 0,
+    "lastSeen": "2026-11-02",
+    "listedDays": 11,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -1468,11 +1908,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29656,
-      "expected": 29656,
-      "adjustments": {},
-      "dealDelta": 4334,
-      "dealPct": 0.1462,
+      "marketValue": 29256,
+      "expected": 29549,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 4441,
+      "dealPct": 0.1503,
       "rating": "overpriced",
       "dealScore": 0.125,
       "basis": "cohort",
@@ -1480,10 +1922,11 @@
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 0,
-        "cohortMedianDaysListed": 30,
+        "listedDays": 11,
+        "cohortMedianDaysListed": 41,
         "negotiability": "low"
-      }
+      },
+      "trust": "verified"
     },
     "searchedAt": "2026-10-22",
     "trimSite": "Platinum+",
@@ -1504,6 +1947,102 @@
     "stock": "P8437VIN"
   },
   {
+    "id": "api-jn1df0cd4rm743056",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Platinum+",
+    "trimFeed": "Platinum+",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "Electric",
+    "year": 2024,
+    "mileage": 28726,
+    "price": 28092,
+    "priceBasis": "listing",
+    "dealer": "MIKE REZI NISSAN ATLANTA",
+    "dealerId": null,
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "ATLANTA",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "JN1DF0CD4RM743056",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.nissanusa.com/shopping-tools/search-inventory/certified-pre-owned/vehicle-details/JN1DF0CD4RM743056",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1DF0CD4RM743056&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/JN1DF0CD4RM743056-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 54190,
+    "squishVin": "JN1DF0CDRM",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-02",
+    "lastSeen": "2026-11-02",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-11-02",
+        "price": 28092
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Japan",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSearch": "Evolve+",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "usedelectricvehicles.com",
+        "trim": "Platinum+",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Evolve+",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-jn1df0cd5rm733832",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1517,12 +2056,12 @@
     "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 29649,
-    "price": 29695,
+    "price": 29228,
     "priceBasis": "listing",
-    "dealer": "Nissan of Lithia Springs",
+    "dealer": "NISSAN OF LITHIA SPRINGS",
     "dealerId": "d_5ae3ab1bb53afebd",
     "distanceMi": 13,
     "state": "GA",
@@ -1536,7 +2075,7 @@
     "url": "https://www.mynissanmarietta.com/inventory/used-2024-nissan-ariya-platinum-e-4orce-jn1df0cd5rm733832-in-marietta-ga",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1DF0CD5RM733832&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN1DF0CD5RM733832-1.jpg",
-    "photoCount": 34,
+    "photoCount": 1,
     "baseMsrp": 54190,
     "squishVin": "JN1DF0CDRM",
     "accidentCount": 0,
@@ -1546,12 +2085,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 30,
+    "lastSeen": "2026-11-02",
+    "listedDays": 41,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 29695
+      },
+      {
+        "date": "2026-11-02",
+        "price": 29228
       }
     ],
     "sellerType": "franchise",
@@ -1570,25 +2113,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29455,
-      "expected": 30633,
+      "marketValue": 29142,
+      "expected": 30307,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.03
       },
-      "dealDelta": -938,
-      "dealPct": -0.0306,
+      "dealDelta": -1079,
+      "dealPct": -0.0356,
       "rating": "fair",
-      "dealScore": 0.75,
+      "dealScore": 0.875,
       "basis": "cohort",
       "cohortN": 8,
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 30,
-        "cohortMedianDaysListed": 30,
-        "negotiability": "medium"
-      }
+        "listedDays": 41,
+        "cohortMedianDaysListed": 41,
+        "priceDrop": {
+          "total": 467,
+          "pct": -0.0157,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "trimSite": "Platinum+",
     "powertrainSite": "electric",
@@ -1632,14 +2181,14 @@
     "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 18313,
-    "price": 29738,
+    "price": 29997,
     "priceBasis": "listing",
-    "dealer": "Nissan of Marietta",
-    "dealerId": "d_e49515de8347c042",
-    "distanceMi": 14,
+    "dealer": "Nissan of Lithia Springs",
+    "dealerId": "d_5ae3ab1bb53afebd",
+    "distanceMi": 13,
     "state": "GA",
     "city": "Marietta",
     "cpo": "dealer",
@@ -1661,12 +2210,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 30,
+    "lastSeen": "2026-11-02",
+    "listedDays": 41,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 29738
+      },
+      {
+        "date": "2026-11-02",
+        "price": 29997
       }
     ],
     "sellerType": "franchise",
@@ -1685,25 +2238,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30088,
-      "expected": 30690,
+      "marketValue": 29503,
+      "expected": 30093,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -952,
-      "dealPct": -0.031,
+      "dealDelta": -96,
+      "dealPct": -0.0032,
       "rating": "fair",
-      "dealScore": 0.875,
+      "dealScore": 0.25,
       "basis": "cohort",
       "cohortN": 8,
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 30,
-        "cohortMedianDaysListed": 30,
+        "listedDays": 41,
+        "cohortMedianDaysListed": 41,
         "negotiability": "medium"
-      }
+      },
+      "trust": "verified"
     },
     "trimSite": "Platinum+",
     "powertrainSite": "electric",
@@ -1747,13 +2301,13 @@
     "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 9859,
-    "price": 29734,
+    "price": 29701,
     "priceBasis": "listing",
-    "dealer": "NalleyBmwOfDecatur Used",
-    "dealerId": "d_e1c60727f8759b2c",
+    "dealer": "Nalley BMW",
+    "dealerId": "d_4d299c5d90325a2c",
     "distanceMi": 7,
     "state": "GA",
     "city": "Decatur",
@@ -1776,12 +2330,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 43,
+    "lastSeen": "2026-11-02",
+    "listedDays": 54,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 29734
+      },
+      {
+        "date": "2026-11-02",
+        "price": 29701
       }
     ],
     "sellerType": "independent",
@@ -1802,8 +2360,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-10-22",
-    "trimSearch": "Engage+",
+    "searchedAt": "2026-10-26",
+    "trimSearch": "Platinum+",
     "verifyLog": [
       {
         "date": "2026-10-22",
@@ -1826,8 +2384,20 @@
         "strength": "snippet",
         "mileage": 9859,
         "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "nalleyinfinitiatlanta.com",
+        "trim": "Platinum+",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 9859,
+        "price": null
       }
-    ]
+    ],
+    "powertrainSearch": "electric"
   },
   {
     "id": "api-jn1df0cd7rm741897",
@@ -1843,10 +2413,10 @@
     "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 12896,
-    "price": 30241,
+    "price": 29449,
     "priceBasis": "listing",
     "dealer": "Nissan of Lithia Springs",
     "dealerId": "d_5ae3ab1bb53afebd",
@@ -1854,7 +2424,7 @@
     "state": "GA",
     "city": "Lithia Springs",
     "cpo": "manufacturer",
-    "cpoFeed": true,
+    "cpoFeed": false,
     "exteriorColor": "Gray",
     "interiorColor": "Blue",
     "vin": "JN1DF0CD7RM741897",
@@ -1872,12 +2442,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 55,
+    "lastSeen": "2026-11-02",
+    "listedDays": 66,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 30241
+      },
+      {
+        "date": "2026-11-02",
+        "price": 29449
       }
     ],
     "sellerType": "franchise",
@@ -1896,14 +2470,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30390,
-      "expected": 31606,
+      "marketValue": 29676,
+      "expected": 30863,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.03
       },
-      "dealDelta": -1365,
-      "dealPct": -0.0432,
+      "dealDelta": -1414,
+      "dealPct": -0.0458,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "cohort",
@@ -1911,10 +2485,16 @@
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 55,
-        "cohortMedianDaysListed": 30,
+        "listedDays": 66,
+        "cohortMedianDaysListed": 41,
+        "priceDrop": {
+          "total": 792,
+          "pct": -0.0262,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "trimSite": "Platinum+",
     "powertrainSite": "electric",
@@ -1954,10 +2534,10 @@
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
+    "series": "Platinum+ e-4ORCE 4dr SUV AWD w/20\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 42419,
     "price": 28596,
@@ -1986,8 +2566,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 9,
+    "lastSeen": "2026-11-02",
+    "listedDays": 20,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -2010,25 +2590,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28742,
-      "expected": 29317,
+      "marketValue": 28734,
+      "expected": 29309,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -721,
-      "dealPct": -0.0246,
+      "dealDelta": -713,
+      "dealPct": -0.0243,
       "rating": "fair",
-      "dealScore": 0.625,
+      "dealScore": 0.75,
       "basis": "cohort",
       "cohortN": 8,
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 9,
-        "cohortMedianDaysListed": 30,
-        "negotiability": "low"
-      }
+        "listedDays": 20,
+        "cohortMedianDaysListed": 41,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
     },
     "trimSite": "Platinum+",
     "powertrainSite": "electric",
@@ -2072,12 +2653,12 @@
     "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 37997,
-    "price": 28988,
+    "price": 28698,
     "priceBasis": "listing",
-    "dealer": "Nissan South Morrow",
+    "dealer": "NISSAN SOUTH MORROW",
     "dealerId": "d_7f9ef2fc2753527a",
     "distanceMi": 13,
     "state": "GA",
@@ -2091,7 +2672,7 @@
     "url": "https://www.mynissanmarietta.com/inventory/used-2024-nissan-ariya-platinum-e-4orce-jn1df0cd9rm743490-in-marietta-ga",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN1DF0CD9RM743490&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN1DF0CD9RM743490-1.jpg",
-    "photoCount": 35,
+    "photoCount": 1,
     "baseMsrp": 54190,
     "squishVin": "JN1DF0CDRM",
     "accidentCount": 0,
@@ -2101,12 +2682,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 56,
+    "lastSeen": "2026-11-02",
+    "listedDays": 67,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 28988
+      },
+      {
+        "date": "2026-11-02",
+        "price": 28698
       }
     ],
     "sellerType": "franchise",
@@ -2125,25 +2710,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28989,
-      "expected": 29424,
+      "marketValue": 28875,
+      "expected": 29308,
       "adjustments": {
         "owners": -0.015,
         "cpo": 0.03
       },
-      "dealDelta": -436,
-      "dealPct": -0.0148,
+      "dealDelta": -610,
+      "dealPct": -0.0208,
       "rating": "fair",
-      "dealScore": 0.375,
+      "dealScore": 0.5,
       "basis": "cohort",
       "cohortN": 8,
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 56,
-        "cohortMedianDaysListed": 30,
+        "listedDays": 67,
+        "cohortMedianDaysListed": 41,
+        "priceDrop": {
+          "total": 290,
+          "pct": -0.01,
+          "drops": 1
+        },
         "negotiability": "high"
-      }
+      },
+      "trust": "verified"
     },
     "trimSite": "Platinum+",
     "powertrainSite": "electric",
@@ -2186,10 +2777,10 @@
     "series": "Platinum+ e-4ORCE 4dr SUV AWD w/19\" Wheels (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 16007,
-    "price": 30678,
+    "price": 29490,
     "priceBasis": "listing",
     "dealer": "Nissan of Marietta",
     "dealerId": "d_e49515de8347c042",
@@ -2215,12 +2806,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 41,
+    "lastSeen": "2026-11-02",
+    "listedDays": 52,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 30678
+      },
+      {
+        "date": "2026-11-02",
+        "price": 29490
       }
     ],
     "sellerType": "franchise",
@@ -2239,25 +2834,31 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30217,
-      "expected": 30821,
+      "marketValue": 29576,
+      "expected": 30168,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -143,
-      "dealPct": -0.0046,
+      "dealDelta": -678,
+      "dealPct": -0.0225,
       "rating": "fair",
-      "dealScore": 0.25,
+      "dealScore": 0.625,
       "basis": "cohort",
       "cohortN": 8,
       "confidence": 0.833,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 41,
-        "cohortMedianDaysListed": 30,
-        "negotiability": "medium"
-      }
+        "listedDays": 52,
+        "cohortMedianDaysListed": 41,
+        "priceDrop": {
+          "total": 1188,
+          "pct": -0.0387,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
     "trimSite": "Platinum+",
     "powertrainSite": "electric",

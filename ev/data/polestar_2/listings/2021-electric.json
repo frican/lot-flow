@@ -39,10 +39,10 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Lease",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
+    "lastSeen": "2026-10-26",
     "listedDays": 90,
     "priceHistory": [
       {
@@ -57,16 +57,34 @@
     "powertrainVerifiedBy": "single",
     "powertrainFlagged": false,
     "powertrainConflict": false,
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 24984,
+      "expected": 25234,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -6734,
+      "dealPct": -0.2669,
+      "rating": "great",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 90,
+        "cohortMedianDaysListed": 90,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-10-22",
+    "searchedAt": "2026-10-26",
     "trimSearch": "Launch Edition",
     "verifyLog": [
       {
@@ -74,6 +92,17 @@
         "how": "search",
         "tier": "search",
         "host": "cargurus.com",
+        "trim": "Launch Edition",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-10-26",
+        "how": "search",
+        "tier": "search",
+        "host": "cars.com",
         "trim": "Launch Edition",
         "powertrain": null,
         "strength": "snippet",

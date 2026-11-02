@@ -1,0 +1,107 @@
+[
+  {
+    "id": "api-1g1fz6s01n4130006",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premier",
+    "trimFeed": "Premier",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premier 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "electric",
+    "year": 2022,
+    "mileage": 128068,
+    "price": 13999,
+    "priceBasis": "listing",
+    "dealer": "1st Choice Autos",
+    "dealerId": "d_a2b79b05d878c80c",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Smyrna",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "1G1FZ6S01N4130006",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.1stchoiceautosga.com/vdp/24342242/Used-2022-Chevrolet-Bolt-EUV-FWD-4dr-Premier-for-sale-in-Smyrna-GA-30080",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1G1FZ6S01N4130006&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1G1FZ6S01N4130006-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 37500,
+    "squishVin": "1G1FZ6S0N4",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-01",
+    "lastSeen": "2026-11-02",
+    "listedDays": 36,
+    "priceHistory": [
+      {
+        "date": "2026-11-01",
+        "price": 13999
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "basis": "none",
+      "cohortN": 1,
+      "signals": {
+        "listedDays": 36,
+        "cohortMedianDaysListed": 36,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-02",
+    "trimSite": "Premier",
+    "verifyLog": [
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "site",
+        "host": "1stchoiceautosga.com",
+        "trim": "Premier",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 128068,
+        "price": null
+      },
+      {
+        "date": "2026-11-02",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Premier",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "130006",
+    "trimSearch": "Premier"
+  }
+]
