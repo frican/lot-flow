@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-11-10",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2025|Luxury 2|electric": {
+      "year": 2025,
+      "trim": "Luxury 2",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        1537,
+        1537
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Luxury 2|electric",
+      "msrp": 147700
+    },
+    "2025|Sport 1|electric": {
+      "year": 2025,
+      "trim": "Sport 1",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        5668,
+        19812
+      ],
+      "theilSen": {
+        "slope": 0.1698,
+        "intercept": 97430.83
+      },
+      "ols": {
+        "slope": 0.1973,
+        "intercept": 98165.13
+      },
+      "parentKey": "Sport 1|electric",
+      "msrp": 128200
+    },
+    "2026|Luxury|electric": {
+      "year": 2026,
+      "trim": "Luxury",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        14955,
+        14955
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Luxury|electric",
+      "msrp": 127405
+    },
+    "2026|Premium Luxury|electric": {
+      "year": 2026,
+      "trim": "Premium Luxury",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        5566,
+        8601
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Premium Luxury|electric",
+      "msrp": 147705
+    }
+  },
+  "parents": {
+    "Sport 1|electric": {
+      "slope": 0.1698,
+      "intercept": 97430.83
+    }
+  },
+  "depreciation": {
+    "Luxury 2|electric": [
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 1537,
+        "marketValue": 110916,
+        "msrp": 147700,
+        "retained": 0.751
+      }
+    ],
+    "Sport 1|electric": [
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 14009,
+        "marketValue": 99809,
+        "msrp": 128200,
+        "retained": 0.779
+      }
+    ],
+    "Luxury|electric": [
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 14955,
+        "marketValue": 103908,
+        "msrp": 127405,
+        "retained": 0.816
+      }
+    ],
+    "Premium Luxury|electric": [
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 7083,
+        "marketValue": 116989,
+        "msrp": 147705,
+        "retained": 0.792
+      }
+    ]
+  }
+}

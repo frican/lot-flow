@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-09",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -20,8 +20,38 @@
       "ols": null,
       "parentKey": "Performance|electric",
       "msrp": 68290
+    },
+    "2024|Performance|electric": {
+      "year": 2024,
+      "trim": "Performance",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        11965,
+        11965
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Performance|electric",
+      "msrp": 69550
     }
   },
-  "parents": {},
-  "depreciation": {}
+  "parents": {
+    "Performance|electric": {
+      "slope": -0.335,
+      "intercept": 47786.0
+    }
+  },
+  "depreciation": {
+    "Performance|electric": [
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 36212,
+        "marketValue": 36614,
+        "msrp": 68290,
+        "retained": 0.536
+      }
+    ]
+  }
 }

@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 40,
+    "lastSeen": "2026-11-09",
+    "listedDays": 58,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -64,22 +64,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 14221,
-      "expected": 14363,
+      "marketValue": 13812,
+      "expected": 13950,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1235,
-      "dealPct": 0.086,
-      "rating": "high",
-      "dealScore": 0.5,
+      "dealDelta": 1648,
+      "dealPct": 0.1182,
+      "rating": "overpriced",
+      "dealScore": 0.25,
       "basis": "pooled",
       "cohortN": 4,
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 40,
-        "cohortMedianDaysListed": 66,
+        "listedDays": 58,
+        "cohortMedianDaysListed": 76,
         "negotiability": "medium"
       },
       "trust": "verified"
@@ -101,6 +101,74 @@
       }
     ],
     "stock": "No"
+  },
+  {
+    "id": "api-lpsed3ka0nl054866",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Long Range Dual Motor",
+    "trimFeed": "Long Range Dual Motor",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Long Range Dual Motor 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2022,
+    "mileage": 15037,
+    "price": 21500,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Zinc cloth",
+    "vin": "LPSED3KA0NL054866",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/polestar-2#vin=LPSED3KA0NL054866",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=LPSED3KA0NL054866&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/LPSED3KA0NL054866-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 49900,
+    "squishVin": "LPSED3KANL",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21500
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-lpsed3ka1nl052527",
@@ -143,7 +211,7 @@
     "oneOwner": false,
     "usageType": "Corporate Fleet",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 29,
@@ -169,7 +237,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-02",
+    "exitReason": "unseen"
   },
   {
     "id": "api-lpsed3ka3nl075856",
@@ -212,7 +281,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 74,
@@ -236,13 +305,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22156,
-      "expected": 22377,
+      "marketValue": 21161,
+      "expected": 21373,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -902,
-      "dealPct": -0.0403,
+      "dealDelta": 102,
+      "dealPct": 0.0048,
       "rating": "fair",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -251,7 +320,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 74,
-        "cohortMedianDaysListed": 66,
+        "cohortMedianDaysListed": 76,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -293,7 +362,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Long Range Dual Motor"
+    "trimSearch": "Long Range Dual Motor",
+    "exitReason": "unseen"
   },
   {
     "id": "api-lpsed3ka4nl053851",
@@ -312,7 +382,7 @@
     "engine": "electric",
     "year": 2022,
     "mileage": 5119,
-    "price": 24288,
+    "price": 20288,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars",
     "dealerId": "d_bb8b4d76abfac3d7",
@@ -338,12 +408,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 74,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 24288
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20288
       }
     ],
     "sellerType": "independent",
@@ -360,22 +434,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26134,
-      "expected": 26395,
+      "marketValue": 24846,
+      "expected": 25094,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -2107,
-      "dealPct": -0.0798,
-      "rating": "good",
+      "dealDelta": -4806,
+      "dealPct": -0.1915,
+      "rating": "great",
       "dealScore": 1.0,
       "basis": "pooled",
       "cohortN": 4,
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 74,
-        "cohortMedianDaysListed": 66,
+        "listedDays": 92,
+        "cohortMedianDaysListed": 76,
+        "priceDrop": {
+          "total": 4000,
+          "pct": -0.1647,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"
@@ -472,7 +551,7 @@
     "oneOwner": false,
     "usageType": "Corporate Fleet",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 13,
@@ -498,7 +577,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-02",
+    "exitReason": "unseen"
   },
   {
     "id": "api-lpsed3ka6nl060669",
@@ -517,10 +597,10 @@
     "engine": "electric",
     "year": 2022,
     "mileage": 51600,
-    "price": 19500,
+    "price": 18500,
     "priceBasis": "listing",
     "dealer": "100hp Auto Sales",
-    "dealerId": "d_5a7b889e93e72684",
+    "dealerId": "d_c43595371350e1eb",
     "distanceMi": 18,
     "state": "GA",
     "city": "Peachtree Corners",
@@ -543,12 +623,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 40,
+    "lastSeen": "2026-11-09",
+    "listedDays": 58,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 19500
+      },
+      {
+        "date": "2026-11-09",
+        "price": 18500
       }
     ],
     "sellerType": "independent",
@@ -571,7 +655,7 @@
       "rating": "branded",
       "ratingConfident": true
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "Long Range Dual Motor Performance",
     "verifyLog": [
       {
@@ -629,7 +713,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2022,
     "mileage": 21532,
-    "price": 20500,
+    "price": 20000,
     "priceBasis": "listing",
     "dealer": "Gas Charged Motors",
     "dealerId": "d_c6dc7bf3edb8e59c",
@@ -655,12 +739,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 36,
+    "lastSeen": "2026-11-09",
+    "listedDays": 54,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 20500
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20000
       }
     ],
     "sellerType": "independent",
@@ -679,7 +767,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-lpsed3ka7nl073074",
@@ -698,10 +786,10 @@
     "engine": "electric",
     "year": 2022,
     "mileage": 66250,
-    "price": 20275,
+    "price": 18475,
     "priceBasis": "listing",
     "dealer": "Carvilla",
-    "dealerId": "d_b02399a282f601a1",
+    "dealerId": "d_d1b1a05ac2cd3504",
     "distanceMi": 21,
     "state": "GA",
     "city": "Kennesaw",
@@ -714,7 +802,7 @@
     "url": "https://www.carvilla.com/details-2022-polestar-2-long_range_dual_motor-used-lpsed3ka7nl073074.html",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=LPSED3KA7NL073074&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/LPSED3KA7NL073074-1.jpg",
-    "photoCount": 44,
+    "photoCount": 43,
     "baseMsrp": 49900,
     "squishVin": "LPSED3KANL",
     "accidentCount": 0,
@@ -724,12 +812,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 59,
+    "lastSeen": "2026-11-09",
+    "listedDays": 77,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 20275
+      },
+      {
+        "date": "2026-11-09",
+        "price": 18475
       }
     ],
     "sellerType": "independent",
@@ -746,23 +838,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 19594,
-      "expected": 19006,
+      "marketValue": 18789,
+      "expected": 18225,
       "adjustments": {
         "owners": -0.03
       },
-      "dealDelta": 1269,
-      "dealPct": 0.0668,
-      "rating": "high",
-      "dealScore": 0.25,
+      "dealDelta": 250,
+      "dealPct": 0.0137,
+      "rating": "fair",
+      "dealScore": 0.5,
       "basis": "pooled",
       "cohortN": 4,
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 59,
-        "cohortMedianDaysListed": 66,
-        "negotiability": "medium"
+        "listedDays": 77,
+        "cohortMedianDaysListed": 76,
+        "priceDrop": {
+          "total": 1800,
+          "pct": -0.0888,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -823,7 +920,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 6,
@@ -863,7 +960,8 @@
         "mileage": 41944,
         "price": 17250
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-lpsed3ka8nl069406",
@@ -882,7 +980,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2022,
     "mileage": 13065,
-    "price": 21000,
+    "price": 20500,
     "priceBasis": "listing",
     "dealer": "Gas Charged Motors",
     "dealerId": "d_c6dc7bf3edb8e59c",
@@ -908,12 +1006,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 20,
+    "lastSeen": "2026-11-09",
+    "listedDays": 38,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 21000
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20500
       }
     ],
     "sellerType": "independent",
@@ -932,7 +1034,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-lpsed3ka9nl081175",
@@ -975,7 +1077,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 34,
@@ -1001,6 +1103,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-02",
+    "exitReason": "unseen"
   }
 ]

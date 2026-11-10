@@ -116,7 +116,7 @@
     "price": 57500,
     "priceBasis": "listing",
     "dealer": "NalleyBmwOfDecatur Used",
-    "dealerId": "d_e1c60727f8759b2c",
+    "dealerId": "d_6033ac664aca579f",
     "distanceMi": 7,
     "state": "GA",
     "city": "Decatur",
@@ -133,14 +133,14 @@
     "baseMsrp": 57900,
     "squishVin": "WBY63HD0TF",
     "accidentCount": 0,
-    "ownerCount": 0,
-    "oneOwner": false,
-    "usageType": "Vehicle Use",
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -167,20 +167,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 57412,
-      "expected": 57412,
-      "adjustments": {},
-      "dealDelta": 88,
-      "dealPct": 0.0015,
+      "marketValue": 57376,
+      "expected": 57950,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -450,
+      "dealPct": -0.0078,
       "rating": "fair",
-      "dealScore": 0.4,
+      "dealScore": 0.6,
       "basis": "pooled",
       "cohortN": 5,
       "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 85,
-        "cohortMedianDaysListed": 85,
+        "listedDays": 92,
+        "cohortMedianDaysListed": 92,
         "priceDrop": {
           "total": 2400,
           "pct": -0.0401,
@@ -295,10 +297,10 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56741,
-      "expected": 56741,
+      "marketValue": 56739,
+      "expected": 56739,
       "adjustments": {},
-      "dealDelta": 1158,
+      "dealDelta": 1160,
       "dealPct": 0.0204,
       "rating": "fair",
       "dealScore": 0.2,
@@ -308,7 +310,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 74,
-        "cohortMedianDaysListed": 85,
+        "cohortMedianDaysListed": 92,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -358,7 +360,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2026,
     "mileage": 6514,
-    "price": 52986,
+    "price": 52586,
     "priceBasis": "listing",
     "dealer": "BMW of Gwinnett Place",
     "dealerId": "d_0cd621b36668c03c",
@@ -384,8 +386,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 35,
+    "lastSeen": "2026-11-09",
+    "listedDays": 42,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -394,6 +396,10 @@
       {
         "date": "2026-11-02",
         "price": 52986
+      },
+      {
+        "date": "2026-11-09",
+        "price": 52586
       }
     ],
     "sellerType": "franchise",
@@ -412,13 +418,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 55853,
-      "expected": 56412,
+      "marketValue": 55895,
+      "expected": 56454,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": -3426,
-      "dealPct": -0.0607,
+      "dealDelta": -3868,
+      "dealPct": -0.0685,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -426,12 +432,12 @@
       "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 35,
-        "cohortMedianDaysListed": 85,
+        "listedDays": 42,
+        "cohortMedianDaysListed": 92,
         "priceDrop": {
-          "total": 1000,
-          "pct": -0.0185,
-          "drops": 1
+          "total": 1400,
+          "pct": -0.0259,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -473,7 +479,7 @@
     "price": 56695,
     "priceBasis": "listing",
     "dealer": "NalleyBmwOfDecatur Used",
-    "dealerId": "d_e1c60727f8759b2c",
+    "dealerId": "d_6033ac664aca579f",
     "distanceMi": 7,
     "state": "GA",
     "city": "Decatur",
@@ -496,8 +502,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 265,
+    "lastSeen": "2026-11-09",
+    "listedDays": 272,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -526,14 +532,14 @@
       "dealDelta": 0,
       "dealPct": 0.0,
       "rating": "fair",
-      "dealScore": 0.6,
+      "dealScore": 0.4,
       "basis": "pooled",
       "cohortN": 5,
       "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 265,
-        "cohortMedianDaysListed": 85,
+        "listedDays": 272,
+        "cohortMedianDaysListed": 92,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -593,10 +599,10 @@
     "engine": "electric",
     "year": 2026,
     "mileage": 5135,
-    "price": 52995,
+    "price": 53995,
     "priceBasis": "listing",
     "dealer": "NalleyBmwOfDecatur Used",
-    "dealerId": "d_e1c60727f8759b2c",
+    "dealerId": "d_6033ac664aca579f",
     "distanceMi": 7,
     "state": "GA",
     "city": "Decatur",
@@ -619,12 +625,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 52995
+      },
+      {
+        "date": "2026-11-09",
+        "price": 53995
       }
     ],
     "sellerType": "independent",
@@ -643,20 +653,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 56405,
-      "expected": 56405,
+      "marketValue": 56419,
+      "expected": 56419,
       "adjustments": {},
-      "dealDelta": -3410,
-      "dealPct": -0.0604,
-      "rating": "good",
+      "dealDelta": -2424,
+      "dealPct": -0.043,
+      "rating": "fair",
       "dealScore": 0.8,
       "basis": "pooled",
       "cohortN": 5,
       "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 85,
-        "cohortMedianDaysListed": 85,
+        "listedDays": 92,
+        "cohortMedianDaysListed": 92,
         "negotiability": "high"
       },
       "trust": "verified"

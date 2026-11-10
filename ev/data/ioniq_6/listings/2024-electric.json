@@ -66,11 +66,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24325,
-      "expected": 24325,
+      "marketValue": 24342,
+      "expected": 24342,
       "adjustments": {},
-      "dealDelta": 673,
-      "dealPct": 0.0277,
+      "dealDelta": 656,
+      "dealPct": 0.0269,
       "rating": "fair",
       "dealScore": 0.333,
       "basis": "pooled",
@@ -79,7 +79,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 10,
+        "cohortMedianDaysListed": 17,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -137,12 +137,12 @@
     "series": "SE 4dr Sedan (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 29881,
-    "price": 22987,
+    "price": 22986,
     "priceBasis": "listing",
-    "dealer": "EchoPark Automotive Atlanta",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
     "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
@@ -156,7 +156,7 @@
     "url": "https://www.autolist.com/hyundai-ioniq+6#vin=KMHM24AA3RA070752",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KMHM24AA3RA070752&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KMHM24AA3RA070752-1.jpg",
-    "photoCount": 29,
+    "photoCount": 1,
     "baseMsrp": 42450,
     "squishVin": "KMHM24AARA",
     "accidentCount": 0,
@@ -166,8 +166,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 11,
+    "lastSeen": "2026-11-09",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -176,6 +176,10 @@
       {
         "date": "2026-11-02",
         "price": 22987
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22986
       }
     ],
     "sellerType": "independent",
@@ -194,8 +198,8 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22987,
-      "expected": 23217,
+      "marketValue": 22986,
+      "expected": 23216,
       "adjustments": {
         "oneOwner": 0.01
       },
@@ -208,12 +212,12 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 11,
-        "cohortMedianDaysListed": 10,
+        "listedDays": 18,
+        "cohortMedianDaysListed": 17,
         "priceDrop": {
-          "total": 10,
-          "pct": -0.0004,
-          "drops": 1
+          "total": 11,
+          "pct": -0.0005,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -263,9 +267,9 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 30188,
-    "price": 23833,
+    "price": 23878,
     "priceBasis": "listing",
-    "dealer": "Nalley Hyundai",
+    "dealer": "NalleyHyundai Used",
     "dealerId": "d_83a2544bc104bd73",
     "distanceMi": 17,
     "state": "GA",
@@ -279,7 +283,7 @@
     "url": "https://www.nalleycars.com/car/KMHM24AA4RA070792",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KMHM24AA4RA070792&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KMHM24AA4RA070792-1.jpg",
-    "photoCount": 31,
+    "photoCount": 30,
     "baseMsrp": 42450,
     "squishVin": "KMHM24AARA",
     "accidentCount": null,
@@ -289,15 +293,19 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 10,
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 23833
+      },
+      {
+        "date": "2026-11-09",
+        "price": 23878
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -312,13 +320,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24691,
-      "expected": 24938,
+      "marketValue": 24714,
+      "expected": 24961,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": -1105,
-      "dealPct": -0.0443,
+      "dealDelta": -1083,
+      "dealPct": -0.0434,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -326,9 +334,9 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 10,
-        "cohortMedianDaysListed": 10,
-        "negotiability": "low"
+        "listedDays": 17,
+        "cohortMedianDaysListed": 17,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },
@@ -382,6 +390,76 @@
     ],
     "urlOrigin": "search",
     "trimSearch": "SE"
+  },
+  {
+    "id": "api-kmhm24aa7ra071001",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SE 4dr Sedan (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2024,
+    "mileage": 34388,
+    "price": 23998,
+    "priceBasis": "listing",
+    "dealer": "CarMax - Southlake",
+    "dealerId": "d_8a5eb62381ed2263",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Stockbridge",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "KMHM24AA7RA071001",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29258397",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KMHM24AA7RA071001&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KMHM24AA7RA071001-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 42450,
+    "squishVin": "KMHM24AARA",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 7,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 23998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-kmhm24ac4ra063360",
@@ -483,14 +561,14 @@
     "series": "SEL 4dr Sedan (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Other",
+    "engine": "electric",
     "year": 2024,
     "mileage": 22176,
-    "price": 24500,
+    "price": 24303,
     "priceBasis": "listing",
-    "dealer": "Rick Case Hyundai-Roswell",
+    "dealer": "Rick Case Hyundai Roswell",
     "dealerId": "d_3506a7b858d63182",
-    "distanceMi": 21,
+    "distanceMi": 22,
     "state": "GA",
     "city": "Roswell",
     "cpo": "none",
@@ -512,8 +590,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 16,
+    "lastSeen": "2026-11-09",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -522,6 +600,10 @@
       {
         "date": "2026-11-02",
         "price": 24500
+      },
+      {
+        "date": "2026-11-09",
+        "price": 24303
       }
     ],
     "sellerType": "franchise",
@@ -540,13 +622,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24903,
-      "expected": 25152,
+      "marketValue": 24911,
+      "expected": 25160,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -652,
-      "dealPct": -0.0259,
+      "dealDelta": -857,
+      "dealPct": -0.0341,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -554,12 +636,12 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 16,
+        "listedDays": 23,
         "cohortMedianDaysListed": 23,
         "priceDrop": {
-          "total": 484,
-          "pct": -0.0194,
-          "drops": 1
+          "total": 681,
+          "pct": -0.0273,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -618,14 +700,14 @@
     "series": "SEL 4dr Sedan AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Other",
+    "engine": "electric",
     "year": 2024,
     "mileage": 23669,
     "price": 26403,
     "priceBasis": "listing",
-    "dealer": "Rick Case Hyundai-Roswell",
+    "dealer": "Rick Case Hyundai Roswell",
     "dealerId": "d_3506a7b858d63182",
-    "distanceMi": 21,
+    "distanceMi": 22,
     "state": "GA",
     "city": "Roswell",
     "cpo": "none",
@@ -647,8 +729,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 32,
+    "lastSeen": "2026-11-09",
+    "listedDays": 39,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -675,14 +757,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24677,
-      "expected": 23196,
+      "marketValue": 24689,
+      "expected": 23207,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 3207,
-      "dealPct": 0.1382,
+      "dealDelta": 3196,
+      "dealPct": 0.1377,
       "rating": "overpriced",
       "dealScore": 0.333,
       "basis": "pooled",
@@ -690,7 +772,7 @@
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 32,
+        "listedDays": 39,
         "cohortMedianDaysListed": 23,
         "priceDrop": {
           "total": 97,

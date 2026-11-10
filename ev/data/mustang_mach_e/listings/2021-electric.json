@@ -13,10 +13,10 @@
     "series": "Premium 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2021,
     "mileage": 37305,
-    "price": 24597,
+    "price": 23797,
     "priceBasis": "listing",
     "dealer": "Platinum Cars Marietta",
     "dealerId": "d_357a45061ffa3b8b",
@@ -32,7 +32,7 @@
     "url": "https://www.platinumcarsmarietta.com/used-vehicle-2021-ford-mustang-mach-e-premium-c-2966/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3RM4MMA09782&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3RM4MMA09782-1.jpg",
-    "photoCount": 36,
+    "photoCount": 1,
     "baseMsrp": 47600,
     "squishVin": "3FMTK3RMMM",
     "accidentCount": 0,
@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 75,
+    "lastSeen": "2026-11-09",
+    "listedDays": 82,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -52,6 +52,10 @@
       {
         "date": "2026-11-02",
         "price": 24597
+      },
+      {
+        "date": "2026-11-09",
+        "price": 23797
       }
     ],
     "sellerType": "independent",
@@ -70,26 +74,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20766,
-      "expected": 20974,
+      "marketValue": 22232,
+      "expected": 22454,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 3623,
-      "dealPct": 0.1727,
-      "rating": "overpriced",
+      "dealDelta": 1343,
+      "dealPct": 0.0598,
+      "rating": "high",
       "dealScore": 1.0,
       "basis": "msrp_curve",
       "cohortN": 1,
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 75,
-        "cohortMedianDaysListed": 75,
+        "listedDays": 82,
+        "cohortMedianDaysListed": 82,
         "priceDrop": {
-          "total": 300,
-          "pct": -0.012,
-          "drops": 1
+          "total": 1100,
+          "pct": -0.0442,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -127,10 +131,10 @@
     "series": "Premium 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2021,
     "mileage": 45731,
-    "price": 25578,
+    "price": 34097,
     "priceBasis": "listing",
     "dealer": "Platinum Cars Marietta",
     "dealerId": "d_357a45061ffa3b8b",
@@ -146,7 +150,7 @@
     "url": "https://www.platinumcarsmarietta.com/vehicles-under-30k/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SS7MMA62095&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3SS7MMA62095-1.jpg",
-    "photoCount": 36,
+    "photoCount": 1,
     "baseMsrp": 50300,
     "squishVin": "3FMTK3SSMM",
     "accidentCount": 0,
@@ -156,8 +160,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 65,
+    "lastSeen": "2026-11-09",
+    "listedDays": 72,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -166,6 +170,10 @@
       {
         "date": "2026-11-02",
         "price": 25578
+      },
+      {
+        "date": "2026-11-09",
+        "price": 34097
       }
     ],
     "sellerType": "independent",
@@ -184,16 +192,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "basis": "none",
-      "cohortN": 1,
+      "marketValue": 31070,
+      "expected": 30138,
+      "adjustments": {
+        "owners": -0.03
+      },
+      "dealDelta": 3959,
+      "dealPct": 0.1314,
+      "rating": "overpriced",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
       "signals": {
-        "listedDays": 65,
-        "cohortMedianDaysListed": 65,
-        "priceDrop": {
-          "total": 300,
-          "pct": -0.0116,
-          "drops": 1
-        },
+        "listedDays": 72,
+        "cohortMedianDaysListed": 36,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -213,5 +227,107 @@
         "price": 25999
       }
     ]
+  },
+  {
+    "id": "api-3fmtk4sx2mme04764",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "GT",
+    "trimFeed": "GT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "GT 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2021,
+    "mileage": 40021,
+    "price": 29078,
+    "priceBasis": "listing",
+    "dealer": "Group 1 Ford of Kennesaw",
+    "dealerId": "d_aa3c808ad5776409",
+    "distanceMi": 22,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Gray",
+    "vin": "3FMTK4SX2MME04764",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.group1fordofkennesaw.com/inventory/used-2021-ford-mustang-mach-e-gt-awd-sport-utility-3fmtk4sx2mme04764/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK4SX2MME04764&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK4SX2MME04764-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 59900,
+    "squishVin": "3FMTK4SXMM",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 1,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 29078
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 32105,
+      "expected": 32105,
+      "adjustments": {},
+      "dealDelta": -3027,
+      "dealPct": -0.0943,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 1,
+        "cohortMedianDaysListed": 36,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "GT",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "group1fordofkennesaw.com",
+        "trim": "GT",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 40021,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "HWY"
   }
 ]

@@ -1,5 +1,143 @@
 [
   {
+    "id": "api-3fmtk1r46sma09526",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Select",
+    "trimFeed": "Select",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Select 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2025,
+    "mileage": 15721,
+    "price": 31285,
+    "priceBasis": "listing",
+    "dealer": "Audi South Atlanta",
+    "dealerId": "d_33f077bfb97522e5",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "3FMTK1R46SMA09526",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://butlerlexussouthatlanta.com/inventory/Used-2025-Ford-Mustang_Mach-E-Select-3FMTK1R46SMA09526",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK1R46SMA09526&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK1R46SMA09526-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 37995,
+    "squishVin": "3FMTK1R4SM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 23,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 31285
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 30158,
+      "expected": 30460,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 825,
+      "dealPct": 0.0271,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 23,
+        "cohortMedianDaysListed": 23,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Select",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "butlerlexussouthatlanta.com",
+        "trim": "Select",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "bmwofcolumbus.com",
+        "trim": "Select",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "butlercars.com",
+        "trim": "Select",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "butlertoyota.com",
+        "trim": "Select",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 28995
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Select"
+  },
+  {
     "id": "api-3fmtk3r43sma12511",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -85,12 +223,12 @@
     "series": "Premium 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L Dual Electric Motor",
+    "engine": "electric",
     "year": 2025,
-    "mileage": 9,
-    "price": 42995,
+    "mileage": 10,
+    "price": 43523,
     "priceBasis": "listing",
-    "dealer": "Group 1 Lincoln of Atlanta",
+    "dealer": "Group 1 Ford of Atlanta",
     "dealerId": "d_69a76b1b7f9dfa69",
     "distanceMi": 12,
     "state": "GA",
@@ -104,7 +242,7 @@
     "url": "https://www.group1fordatlanta.com/used/Ford/2025-Ford-Mustang-Mach-E-3a7e7d01ac18448d1ceb141eb643efc0.htm?srsltid=AYCX9vK40kqMpEs3RLh_B7JLI7x2CWr09VE_u6y-OeoB4Js9JrbATBv0",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SU7SMA49913&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3SU7SMA49913-1.jpg",
-    "photoCount": 35,
+    "photoCount": 1,
     "baseMsrp": 44995,
     "squishVin": "3FMTK3SUSM",
     "accidentCount": 0,
@@ -114,15 +252,19 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 8,
+    "lastSeen": "2026-11-09",
+    "listedDays": 15,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 42995
+      },
+      {
+        "date": "2026-11-09",
+        "price": 43523
       }
     ],
-    "sellerType": "independent",
+    "sellerType": "franchise",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -222,7 +364,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 5,
@@ -249,6 +391,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-02",
+    "exitReason": "unseen"
   }
 ]

@@ -13,7 +13,7 @@
     "series": "Select 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Other",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 60629,
     "price": 26991,
@@ -32,7 +32,7 @@
     "url": "https://calavankiawest.com/used/Ford/2024-Ford-Mustang-Mach-E-5bd33e99ac184375b2795445f13bc543.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK1R48RMA14351&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK1R48RMA14351-1.jpg",
-    "photoCount": 43,
+    "photoCount": 1,
     "baseMsrp": 39995,
     "squishVin": "3FMTK1R4RM",
     "accidentCount": null,
@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 12,
+    "lastSeen": "2026-11-09",
+    "listedDays": 19,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -67,7 +67,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "Select",
     "verifyLog": [
       {
@@ -150,23 +150,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30930,
-      "expected": 29074,
+      "marketValue": 30046,
+      "expected": 28243,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": -78,
-      "dealPct": -0.0027,
+      "dealDelta": 753,
+      "dealPct": 0.0267,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.571,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
         "listedDays": 49,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 17,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -244,8 +244,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 95,
+    "lastSeen": "2026-11-09",
+    "listedDays": 102,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -272,20 +272,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 31883,
-      "expected": 31883,
+      "marketValue": 30858,
+      "expected": 30858,
       "adjustments": {},
-      "dealDelta": -1934,
-      "dealPct": -0.0607,
-      "rating": "good",
-      "dealScore": 1.0,
+      "dealDelta": -909,
+      "dealPct": -0.0295,
+      "rating": "fair",
+      "dealScore": 0.857,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 95,
-        "cohortMedianDaysListed": 8,
+        "listedDays": 102,
+        "cohortMedianDaysListed": 17,
         "priceDrop": {
           "total": 1620,
           "pct": -0.0513,
@@ -325,14 +325,14 @@
     "series": "Premium 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric Motor",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 21776,
-    "price": 31104,
+    "price": 30464,
     "priceBasis": "listing",
     "dealer": "ALM Ford Marietta",
     "dealerId": "d_1bd625e0ea7fbcf7",
-    "distanceMi": 14,
+    "distanceMi": 20,
     "state": "GA",
     "city": "Marietta",
     "cpo": "none",
@@ -344,7 +344,7 @@
     "url": "https://www.autolist.com/ford-mustang+mach+e#vin=3FMTK3R43RMA02233",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R43RMA02233&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3R43RMA02233-1.jpg",
-    "photoCount": 27,
+    "photoCount": 1,
     "baseMsrp": 43995,
     "squishVin": "3FMTK3R4RM",
     "accidentCount": 1,
@@ -354,8 +354,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 62,
+    "lastSeen": "2026-11-09",
+    "listedDays": 69,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -364,6 +364,10 @@
       {
         "date": "2026-11-02",
         "price": 31104
+      },
+      {
+        "date": "2026-11-09",
+        "price": 30464
       }
     ],
     "sellerType": "franchise",
@@ -384,7 +388,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-3fmtk3r43rma32476",
@@ -403,9 +407,9 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2024,
     "mileage": 21515,
-    "price": 29987,
+    "price": 29896,
     "priceBasis": "listing",
-    "dealer": "EchoPark Automotive Atlanta",
+    "dealer": "EchoPark Automotive Atlanta (Duluth)",
     "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
@@ -419,22 +423,26 @@
     "url": "https://sonicvipservices.com/used/Ford/2024-Ford-Mustang-Mach-E-6551442fac1848eb3b80d88a9d25c55e.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R43RMA32476&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3R43RMA32476-1.jpg",
-    "photoCount": 28,
+    "photoCount": 32,
     "baseMsrp": 43995,
     "squishVin": "3FMTK3R4RM",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
-    "flagged": true,
+    "usageType": "Lease",
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 10,
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 29987
+      },
+      {
+        "date": "2026-11-09",
+        "price": 29896
       }
     ],
     "sellerType": "independent",
@@ -445,16 +453,64 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 30805,
+      "expected": 31113,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1217,
+      "dealPct": -0.0391,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 17,
+        "cohortMedianDaysListed": 17,
+        "priceDrop": {
+          "total": 91,
+          "pct": -0.003,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-3fmtk3r75rma19030",
@@ -523,23 +579,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 31251,
-      "expected": 31876,
+      "marketValue": 30320,
+      "expected": 30926,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -1556,
-      "dealPct": -0.0488,
+      "dealDelta": -606,
+      "dealPct": -0.0196,
       "rating": "fair",
-      "dealScore": 0.833,
+      "dealScore": 0.714,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
         "listedDays": 6,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 17,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -662,22 +718,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30405,
-      "expected": 30710,
+      "marketValue": 29599,
+      "expected": 29895,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 866,
-      "dealPct": 0.0282,
-      "rating": "fair",
-      "dealScore": 0.333,
+      "dealDelta": 1681,
+      "dealPct": 0.0562,
+      "rating": "high",
+      "dealScore": 0.286,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
         "listedDays": 5,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 17,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -728,7 +784,7 @@
     "drivetrain": "AWD",
     "engine": "Electric",
     "year": 2024,
-    "mileage": 40465,
+    "mileage": 40468,
     "price": 31216,
     "priceBasis": "listing",
     "dealer": "AutoNation USA Kennesaw",
@@ -751,12 +807,12 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 3,
+    "lastSeen": "2026-11-09",
+    "listedDays": 10,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -778,22 +834,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30285,
-      "expected": 30587,
+      "marketValue": 29496,
+      "expected": 29791,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 629,
-      "dealPct": 0.0205,
+      "dealDelta": 1425,
+      "dealPct": 0.0478,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.429,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 3,
-        "cohortMedianDaysListed": 8,
+        "listedDays": 10,
+        "cohortMedianDaysListed": 17,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -839,13 +895,13 @@
     "series": "Premium 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L Electric Motor",
+    "engine": "electric",
     "year": 2024,
     "mileage": 10580,
-    "price": 36846,
+    "price": 37874,
     "priceBasis": "listing",
-    "dealer": "Group 1 Lincoln of Atlanta",
-    "dealerId": "d_69a76b1b7f9dfa69",
+    "dealer": "Hennessy Ford Lincoln of Atlanta",
+    "dealerId": "d_6a1d6e67b079012b",
     "distanceMi": 12,
     "state": "GA",
     "city": "Atlanta",
@@ -858,7 +914,7 @@
     "url": "https://shop.landrovernorthatlanta.com/express/used/3FMTK3SU9RMA41547?locale=es-us",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SU9RMA41547&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3SU9RMA41547-1.jpg",
-    "photoCount": 27,
+    "photoCount": 26,
     "baseMsrp": 46995,
     "squishVin": "3FMTK3SURM",
     "accidentCount": 0,
@@ -868,15 +924,19 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 11,
+    "lastSeen": "2026-11-09",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 36846
+      },
+      {
+        "date": "2026-11-09",
+        "price": 37874
       }
     ],
-    "sellerType": "independent",
+    "sellerType": "franchise",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -891,23 +951,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 32707,
-      "expected": 33034,
+      "marketValue": 31561,
+      "expected": 31877,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 3812,
-      "dealPct": 0.1154,
+      "dealDelta": 5997,
+      "dealPct": 0.1881,
       "rating": "overpriced",
-      "dealScore": 0.167,
+      "dealScore": 0.143,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 11,
-        "cohortMedianDaysListed": 8,
-        "negotiability": "low"
+        "listedDays": 18,
+        "cohortMedianDaysListed": 17,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },
@@ -939,5 +999,89 @@
     ],
     "urlOrigin": "search",
     "trimSearch": "Premium"
+  },
+  {
+    "id": "api-3fmtk4sx9rma19144",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "GT",
+    "trimFeed": "GT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "GT 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L",
+    "year": 2024,
+    "mileage": 17263,
+    "price": 39998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Norcross",
+    "dealerId": null,
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Norcross",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "3FMTK4SX9RMA19144",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29311813",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK4SX9RMA19144&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK4SX9RMA19144-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 54995,
+    "squishVin": "3FMTK4SXRM",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 39998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "GT",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "GT",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   }
 ]

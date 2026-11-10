@@ -13,14 +13,14 @@
     "series": "Engage e-4ORCE 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2025,
     "mileage": 24357,
-    "price": 24878,
+    "price": 25926,
     "priceBasis": "listing",
-    "dealer": "MIKE REZI NISSAN ATLANTA",
-    "dealerId": null,
-    "distanceMi": 13,
+    "dealer": "Mike Rezi Nissan Atlanta",
+    "dealerId": "d_7ace36a98b8b7702",
+    "distanceMi": 14,
     "state": "GA",
     "city": "ATLANTA",
     "cpo": "unknown",
@@ -29,7 +29,7 @@
     "interiorColor": "Gray",
     "vin": "JN8CF0BF8SM764336",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
-    "url": "https://www.nissanusa.com/shopping-tools/search-inventory/certified-pre-owned/vehicle-details/JN8CF0BF8SM764336",
+    "url": "https://www.mikerezinissan.com/vehicle/JN8CF0BF8SM764336/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=JN8CF0BF8SM764336&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/JN8CF0BF8SM764336-1.jpg",
     "photoCount": 1,
@@ -39,15 +39,19 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 2,
+    "lastSeen": "2026-11-09",
+    "listedDays": 9,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 24878
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25926
       }
     ],
     "sellerType": "franchise",
@@ -58,17 +62,36 @@
     "powertrainConflict": false,
     "plantCountry": "Japan",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
-    "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 26282,
+      "expected": 26808,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": -882,
+      "dealPct": -0.0329,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 9,
+        "negotiability": "low"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-11-02",
-    "trimSearch": "Engage",
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Platinum+",
     "verifyLog": [
       {
         "date": "2026-11-02",
@@ -80,7 +103,32 @@
         "strength": "snippet",
         "mileage": null,
         "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "mikerezinissan.com",
+        "trim": "Engage",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Platinum+",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
-    ]
+    ],
+    "trimSite": "Engage",
+    "urlOrigin": "search",
+    "stock": "P764336M"
   }
 ]

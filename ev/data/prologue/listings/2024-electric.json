@@ -13,10 +13,10 @@
     "series": "EX 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 9840,
-    "price": 26744,
+    "price": 26244,
     "priceBasis": "listing",
     "dealer": "Rick Hendrick Buick GMC",
     "dealerId": "d_c1c79cdb6e98b69e",
@@ -32,7 +32,7 @@
     "url": "https://www.rickhendrickbuickgmcatlanta.com/inventory/used-2024-honda-prologue-ex-all-wheel-drive-sport-utility-3gpkhvrj2rs508758/?srsltid=AYCX9vL2z_9tYs8fXT7gWVNXrQ7ydplOH08eSRi1H3FqzHhYqcP2r-4B",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHVRJ2RS508758&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHVRJ2RS508758-1.jpg",
-    "photoCount": 35,
+    "photoCount": 1,
     "baseMsrp": 50400,
     "squishVin": "3GPKHVRJRS",
     "accidentCount": 0,
@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 14,
+    "lastSeen": "2026-11-09",
+    "listedDays": 21,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -52,6 +52,10 @@
       {
         "date": "2026-11-02",
         "price": 26744
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26244
       }
     ],
     "sellerType": "independent",
@@ -69,12 +73,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "basis": "none",
+      "marketValue": 27761,
+      "expected": 28038,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1794,
+      "dealPct": -0.064,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
       "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
       "signals": {
-        "listedDays": 14,
-        "cohortMedianDaysListed": 14,
-        "negotiability": "low"
+        "listedDays": 21,
+        "cohortMedianDaysListed": 21,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },
@@ -124,7 +139,7 @@
     "drivetrain": "AWD",
     "engine": "electric",
     "year": 2024,
-    "mileage": 18670,
+    "mileage": 18762,
     "price": 25241,
     "priceBasis": "listing",
     "dealer": "Krause Toyota South Atlanta",
@@ -151,8 +166,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 20,
+    "lastSeen": "2026-11-09",
+    "listedDays": 27,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -192,18 +207,18 @@
     "series": "Touring 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 26978,
-    "price": 25454,
+    "price": 25948,
     "priceBasis": "listing",
     "dealer": "Nalley Honda",
     "dealerId": "d_653d519837f52532",
     "distanceMi": 15,
     "state": "GA",
     "city": "Union City",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Snowfall Pearl",
     "interiorColor": "Black",
     "vin": "3GPKHWRM1RS502997",
@@ -211,7 +226,7 @@
     "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/3gpkhwrm1rs502997/2024-honda-prologue-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHWRM1RS502997&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHWRM1RS502997-1.jpg",
-    "photoCount": 20,
+    "photoCount": 1,
     "baseMsrp": 51700,
     "squishVin": "3GPKHWRMRS",
     "accidentCount": 0,
@@ -221,12 +236,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 15,
+    "lastSeen": "2026-11-09",
+    "listedDays": 22,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 25454
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25948
       }
     ],
     "sellerType": "franchise",
@@ -244,22 +263,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26714,
-      "expected": 26981,
+      "marketValue": 27016,
+      "expected": 27556,
       "adjustments": {
-        "oneOwner": 0.01
+        "oneOwner": 0.01,
+        "cpo": 0.01
       },
-      "dealDelta": -1527,
-      "dealPct": -0.0566,
+      "dealDelta": -1608,
+      "dealPct": -0.0584,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 15,
+        "listedDays": 22,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       },
       "trust": "verified"
@@ -324,7 +344,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Touring",
+    "trim": "Elite",
     "trimFeed": "Touring",
     "powertrain": "electric",
     "powertrainFeed": "electric",
@@ -332,10 +352,10 @@
     "series": "Touring 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 36362,
-    "price": 26798,
+    "price": 26698,
     "priceBasis": "listing",
     "dealer": "Curry Honda",
     "dealerId": "d_c39e2b82ac07cf86",
@@ -351,7 +371,7 @@
     "url": "https://curryhondaga.com/certified/Honda/2024-Honda-Prologue--5f473461ac181c35d475de4cfb6f241b.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHWRM2RS503947&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHWRM2RS503947-1.jpg",
-    "photoCount": 35,
+    "photoCount": 1,
     "baseMsrp": 51700,
     "squishVin": "3GPKHWRMRS",
     "accidentCount": 0,
@@ -361,8 +381,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 61,
+    "lastSeen": "2026-11-09",
+    "listedDays": 68,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -371,6 +391,10 @@
       {
         "date": "2026-11-02",
         "price": 26798
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26698
       }
     ],
     "sellerType": "franchise",
@@ -381,17 +405,17 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.65,
     "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": false,
+    "trimConflict": true,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
-    "trimSearch": "Touring",
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Elite",
     "verifyLog": [
       {
         "date": "2026-11-02",
@@ -399,6 +423,17 @@
         "tier": "search",
         "host": "edmunds.com",
         "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Elite",
         "powertrain": null,
         "strength": "snippet",
         "mileage": null,
@@ -423,15 +458,15 @@
     "engine": "Electric",
     "year": 2024,
     "mileage": 19664,
-    "price": 28150,
+    "price": 26519,
     "priceBasis": "listing",
     "dealer": "Curry Honda",
     "dealerId": "d_c39e2b82ac07cf86",
     "distanceMi": 11,
     "state": "GA",
     "city": "Atlanta",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Blue",
     "interiorColor": "Gray",
     "vin": "3GPKHWRM8RS538511",
@@ -449,8 +484,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 8,
+    "lastSeen": "2026-11-09",
+    "listedDays": 15,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -459,6 +494,10 @@
       {
         "date": "2026-11-02",
         "price": 28150
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26519
       }
     ],
     "sellerType": "franchise",
@@ -521,7 +560,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-01",
     "lastSeen": "2026-11-02",
     "listedDays": 15,
@@ -550,22 +589,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26992,
-      "expected": 27262,
+      "marketValue": 27450,
+      "expected": 27724,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 209,
-      "dealPct": 0.0077,
+      "dealDelta": -253,
+      "dealPct": -0.0091,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.714,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
         "listedDays": 15,
-        "cohortMedianDaysListed": 15,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       },
       "trust": "verified"
@@ -598,7 +637,8 @@
     ],
     "urlOrigin": "search",
     "stock": "NHOPRS501337",
-    "trimSearch": "Touring"
+    "trimSearch": "Touring",
+    "exitReason": "unseen"
   },
   {
     "id": "api-3gpkhxrj0rs509631",
@@ -614,10 +654,10 @@
     "series": "Touring 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 20089,
-    "price": 27298,
+    "price": 27928,
     "priceBasis": "listing",
     "dealer": "Nalley Honda",
     "dealerId": "d_653d519837f52532",
@@ -633,7 +673,7 @@
     "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/3gpkhxrj0rs509631/2024-honda-prologue-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ0RS509631&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHXRJ0RS509631-1.jpg",
-    "photoCount": 32,
+    "photoCount": 1,
     "baseMsrp": 54700,
     "squishVin": "3GPKHXRJRS",
     "accidentCount": 0,
@@ -643,12 +683,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 18,
+    "lastSeen": "2026-11-09",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 27298
+      },
+      {
+        "date": "2026-11-09",
+        "price": 27928
       }
     ],
     "sellerType": "franchise",
@@ -666,22 +710,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27298,
-      "expected": 27571,
+      "marketValue": 27928,
+      "expected": 28207,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -273,
+      "dealDelta": -279,
       "dealPct": -0.0099,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.857,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 15,
+        "listedDays": 25,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       },
       "trust": "verified"
@@ -722,7 +766,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Elite",
+    "trim": "Touring",
     "trimFeed": "Touring",
     "powertrain": "electric",
     "powertrainFeed": "electric",
@@ -730,18 +774,18 @@
     "series": "Touring 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 21435,
-    "price": 27998,
+    "price": 27698,
     "priceBasis": "listing",
     "dealer": "Curry Honda",
     "dealerId": "d_c39e2b82ac07cf86",
     "distanceMi": 11,
     "state": "GA",
     "city": "Atlanta",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Blue",
     "interiorColor": "Black",
     "vin": "3GPKHXRJ0RS524274",
@@ -749,7 +793,7 @@
     "url": "https://curryhondaga.com/certified/Honda/2024-Honda-Prologue--5f4731fcac184ab54e39a495f4bcdf26.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ0RS524274&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHXRJ0RS524274-1.jpg",
-    "photoCount": 35,
+    "photoCount": 1,
     "baseMsrp": 54700,
     "squishVin": "3GPKHXRJRS",
     "accidentCount": 0,
@@ -759,8 +803,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 56,
+    "lastSeen": "2026-11-09",
+    "listedDays": 63,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -769,6 +813,10 @@
       {
         "date": "2026-11-02",
         "price": 27998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 27698
       }
     ],
     "sellerType": "franchise",
@@ -779,16 +827,16 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.65,
+    "trimConfidence": 0.772,
     "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "Elite",
     "verifyLog": [
       {
@@ -797,6 +845,139 @@
         "tier": "search",
         "host": "edmunds.com",
         "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "driveway.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-3gpkhxrj1rs511999",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Touring",
+    "trimFeed": "Touring",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Touring 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 10053,
+    "price": 31308,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Honda",
+    "dealerId": "d_67dd54f93f030d18",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Black",
+    "vin": "3GPKHXRJ1RS511999",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hendrickdodge.com/inventory/used-2024-honda-prologue-touring-awd-awd-suv-3gpkhxrj1rs511999/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ1RS511999&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GPKHXRJ1RS511999-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 54700,
+    "squishVin": "3GPKHXRJRS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 31308
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 29257,
+      "expected": 29257,
+      "adjustments": {},
+      "dealDelta": 2051,
+      "dealPct": 0.0701,
+      "rating": "high",
+      "dealScore": 0.143,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 5,
+        "cohortMedianDaysListed": 22,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Touring",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "rickhendrickdodge.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 10053,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "gphonda.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "hendrickbuickgmcrichmond.com",
+        "trim": "Touring",
         "powertrain": null,
         "strength": "snippet",
         "mileage": null,
@@ -818,10 +999,10 @@
     "series": "Touring 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 39935,
-    "price": 25285,
+    "price": 26597,
     "priceBasis": "listing",
     "dealer": "Nalley Honda",
     "dealerId": "d_653d519837f52532",
@@ -837,7 +1018,7 @@
     "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/3gpkhxrj1rs514109/2024-honda-prologue-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ1RS514109&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHXRJ1RS514109-1.jpg",
-    "photoCount": 26,
+    "photoCount": 1,
     "baseMsrp": 54700,
     "squishVin": "3GPKHXRJRS",
     "accidentCount": 0,
@@ -847,12 +1028,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 15,
+    "lastSeen": "2026-11-09",
+    "listedDays": 22,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 25285
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26597
       }
     ],
     "sellerType": "franchise",
@@ -870,22 +1055,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25616,
-      "expected": 25872,
+      "marketValue": 25301,
+      "expected": 25554,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -587,
-      "dealPct": -0.0227,
+      "dealDelta": 1043,
+      "dealPct": 0.0408,
       "rating": "fair",
-      "dealScore": 0.833,
+      "dealScore": 0.286,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 15,
+        "listedDays": 22,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       },
       "trust": "verified"
@@ -936,10 +1121,10 @@
     "series": "Touring 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 10911,
-    "price": 28076,
+    "price": 28075,
     "priceBasis": "listing",
     "dealer": "Carvilla",
     "dealerId": "d_d1b1a05ac2cd3504",
@@ -955,7 +1140,7 @@
     "url": "https://www.carvilla.com/used-honda-prologue/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ4RS506408&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHXRJ4RS506408-1.jpg",
-    "photoCount": 40,
+    "photoCount": 39,
     "baseMsrp": 54700,
     "squishVin": "3GPKHXRJRS",
     "accidentCount": 1,
@@ -965,8 +1150,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 61,
+    "lastSeen": "2026-11-09",
+    "listedDays": 68,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -975,6 +1160,10 @@
       {
         "date": "2026-11-02",
         "price": 28076
+      },
+      {
+        "date": "2026-11-09",
+        "price": 28075
       }
     ],
     "sellerType": "independent",
@@ -992,27 +1181,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28076,
-      "expected": 26391,
+      "marketValue": 29143,
+      "expected": 27394,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 1685,
-      "dealPct": 0.0638,
-      "rating": "high",
-      "dealScore": 0.333,
+      "dealDelta": 681,
+      "dealPct": 0.0248,
+      "rating": "fair",
+      "dealScore": 0.571,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 61,
-        "cohortMedianDaysListed": 15,
+        "listedDays": 68,
+        "cohortMedianDaysListed": 22,
         "priceDrop": {
-          "total": 299,
-          "pct": -0.0105,
-          "drops": 1
+          "total": 300,
+          "pct": -0.0106,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -1073,7 +1262,7 @@
     "series": "Touring 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 17285,
     "price": 28098,
@@ -1092,7 +1281,7 @@
     "url": "https://curryhondaga.com/certified/Honda/2024-Honda-Prologue--3baa5da4ac184612114faee6c9d69179.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ5RS516218&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHXRJ5RS516218-1.jpg",
-    "photoCount": 36,
+    "photoCount": 1,
     "baseMsrp": 54700,
     "squishVin": "3GPKHXRJRS",
     "accidentCount": 1,
@@ -1102,8 +1291,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 60,
+    "lastSeen": "2026-11-09",
+    "listedDays": 67,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -1139,7 +1328,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Touring",
+    "trim": "Elite",
     "trimFeed": "Touring",
     "powertrain": "electric",
     "powertrainFeed": "electric",
@@ -1147,10 +1336,10 @@
     "series": "Touring 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 17570,
-    "price": 28098,
+    "price": 27698,
     "priceBasis": "listing",
     "dealer": "Curry Honda",
     "dealerId": "d_c39e2b82ac07cf86",
@@ -1166,7 +1355,7 @@
     "url": "https://curryhondaga.com/certified/Honda/2024-Honda-Prologue--bda8056eac1824f8dd7643ee0e18e6d2.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ7RS527172&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHXRJ7RS527172-1.jpg",
-    "photoCount": 36,
+    "photoCount": 1,
     "baseMsrp": 54700,
     "squishVin": "3GPKHXRJRS",
     "accidentCount": 0,
@@ -1176,12 +1365,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 75,
+    "lastSeen": "2026-11-09",
+    "listedDays": 82,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 28098
+      },
+      {
+        "date": "2026-11-09",
+        "price": 27698
       }
     ],
     "sellerType": "franchise",
@@ -1192,17 +1385,17 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.65,
     "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": false,
+    "trimConflict": true,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
-    "trimSearch": "Touring",
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Elite",
     "verifyLog": [
       {
         "date": "2026-11-02",
@@ -1210,6 +1403,17 @@
         "tier": "search",
         "host": "edmunds.com",
         "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Elite",
         "powertrain": null,
         "strength": "snippet",
         "mileage": null,
@@ -1234,15 +1438,15 @@
     "engine": "Electric",
     "year": 2024,
     "mileage": 32256,
-    "price": 27721,
+    "price": 25738,
     "priceBasis": "listing",
     "dealer": "Curry Honda",
     "dealerId": "d_c39e2b82ac07cf86",
     "distanceMi": 11,
     "state": "GA",
     "city": "Atlanta",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Gray",
     "interiorColor": "Gray",
     "vin": "3GPKHXRJ8RS518481",
@@ -1260,8 +1464,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 13,
+    "lastSeen": "2026-11-09",
+    "listedDays": 20,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -1270,6 +1474,10 @@
       {
         "date": "2026-11-02",
         "price": 27721
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25738
       }
     ],
     "sellerType": "franchise",
@@ -1287,24 +1495,30 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26267,
-      "expected": 24691,
+      "marketValue": 26317,
+      "expected": 25001,
       "adjustments": {
         "accidents": -0.07,
-        "oneOwner": 0.01
+        "oneOwner": 0.01,
+        "cpo": 0.01
       },
-      "dealDelta": 3030,
-      "dealPct": 0.1227,
-      "rating": "overpriced",
-      "dealScore": 0.167,
+      "dealDelta": 737,
+      "dealPct": 0.0295,
+      "rating": "fair",
+      "dealScore": 0.429,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 13,
-        "cohortMedianDaysListed": 15,
-        "negotiability": "low"
+        "listedDays": 20,
+        "cohortMedianDaysListed": 22,
+        "priceDrop": {
+          "total": 268,
+          "pct": -0.0103,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -1361,18 +1575,18 @@
     "series": "Touring 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 22216,
-    "price": 28098,
+    "price": 28698,
     "priceBasis": "listing",
     "dealer": "Curry Honda",
     "dealerId": "d_c39e2b82ac07cf86",
     "distanceMi": 11,
     "state": "GA",
     "city": "Atlanta",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Gray",
     "interiorColor": "Black",
     "vin": "3GPKHXRJ9RS521079",
@@ -1380,7 +1594,7 @@
     "url": "https://curryhondaga.com/certified/Honda/2024-Honda-Prologue--5f472e9dac183155ec8122526a8b9a28.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ9RS521079&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHXRJ9RS521079-1.jpg",
-    "photoCount": 36,
+    "photoCount": 1,
     "baseMsrp": 54700,
     "squishVin": "3GPKHXRJRS",
     "accidentCount": 0,
@@ -1390,8 +1604,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 56,
+    "lastSeen": "2026-11-09",
+    "listedDays": 63,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -1400,6 +1614,10 @@
       {
         "date": "2026-11-02",
         "price": 28098
+      },
+      {
+        "date": "2026-11-09",
+        "price": 28698
       }
     ],
     "sellerType": "franchise",
@@ -1422,6 +1640,128 @@
     "searchedAt": "2026-11-02"
   },
   {
+    "id": "api-3gpkhzrj3rs500093",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Elite",
+    "trimFeed": "Elite",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Elite 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 4725,
+    "price": 34944,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Honda",
+    "dealerId": "d_67dd54f93f030d18",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "3GPKHZRJ3RS500093",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.rickhendrickchevy.com/inventory/used-2024-honda-prologue-elite-awd-awd-suv-3gpkhzrj3rs500093/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHZRJ3RS500093&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GPKHZRJ3RS500093-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 57900,
+    "squishVin": "3GPKHZRJRS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 34944
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 32989,
+      "expected": 32989,
+      "adjustments": {},
+      "dealDelta": 1955,
+      "dealPct": 0.0593,
+      "rating": "high",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 2,
+      "confidence": 0.204,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 3,
+        "cohortMedianDaysListed": 3,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Elite",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "reggiejacksonairporthonda.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "chevyusa.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "mallofgamini.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-3gpkhzrj9rs526911",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -1435,13 +1775,13 @@
     "series": "Elite 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 29917,
-    "price": 26998,
+    "price": 28197,
     "priceBasis": "listing",
-    "dealer": "Dyer & Dyer Volvo, Inc.",
-    "dealerId": "d_00afc7e6c969ee5b",
+    "dealer": "Dyer & Dyer Volvo Cars",
+    "dealerId": "d_ca9aba984b97739a",
     "distanceMi": 11,
     "state": "GA",
     "city": "Atlanta",
@@ -1454,7 +1794,7 @@
     "url": "https://atlantabmw.com/used/Honda/2024-Honda-Prologue-atlanta-ga-32d6f475ac182a5dbaffdce64262ec5c.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHZRJ9RS526911&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHZRJ9RS526911-1.jpg",
-    "photoCount": 31,
+    "photoCount": 1,
     "baseMsrp": 57900,
     "squishVin": "3GPKHZRJRS",
     "accidentCount": 0,
@@ -1464,12 +1804,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 20,
+    "lastSeen": "2026-11-09",
+    "listedDays": 27,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 26998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 28197
       }
     ],
     "sellerType": "independent",
@@ -1489,7 +1833,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "Elite",
     "powertrainSearch": "electric",
     "verifyLog": [
@@ -1500,6 +1844,128 @@
         "host": "drivershub.com",
         "trim": "Elite",
         "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-3gpkhzrjxrs500009",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Elite",
+    "trimFeed": "Elite",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Elite 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 5236,
+    "price": 34944,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Honda",
+    "dealerId": "d_67dd54f93f030d18",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "3GPKHZRJXRS500009",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hendrickdodge.com/inventory/used-2024-honda-prologue-elite-awd-awd-suv-3gpkhzrjxrs500009/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHZRJXRS500009&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GPKHZRJXRS500009-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 57900,
+    "squishVin": "3GPKHZRJRS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 34944
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 32879,
+      "expected": 32879,
+      "adjustments": {},
+      "dealDelta": 2065,
+      "dealPct": 0.0628,
+      "rating": "high",
+      "dealScore": 0.5,
+      "basis": "msrp_curve",
+      "cohortN": 2,
+      "confidence": 0.204,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 3,
+        "cohortMedianDaysListed": 3,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Elite",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "reggiejacksonairporthonda.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "hendrickchevroletcolumbia.com",
+        "trim": "Elite",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "hendricksubaruhoover.com",
+        "trim": "Elite",
+        "powertrain": null,
         "strength": "snippet",
         "mileage": null,
         "price": null

@@ -32,18 +32,18 @@
     "url": "https://vc-car.com/vdp/23760821/Used-2023-Volkswagen-ID4-S-RWD-wSK-On-Battery-Panoramic-Roof-Massage-Seats-for-sale-in-Alpharetta-GA-30075",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE80PC030303&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V25MPE80PC030303-1.jpg",
-    "photoCount": 1,
+    "photoCount": 65,
     "baseMsrp": 43995,
     "squishVin": "1V25MPE8PC",
     "accidentCount": 1,
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -58,16 +58,35 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 22800,
+      "expected": 21432,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 1052,
+      "dealPct": 0.0491,
+      "rating": "fair",
+      "dealScore": 0.6,
+      "basis": "pooled",
+      "cohortN": 5,
+      "confidence": 0.425,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 92,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "high"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "S",
     "verifyLog": [
       {
@@ -79,6 +98,17 @@
         "powertrain": null,
         "strength": "snippet",
         "mileage": 13093,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "vehisales.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
         "price": null
       }
     ]
@@ -116,7 +146,7 @@
     "url": "https://vc-car.com/vdp/23760801/Used-2023-Volkswagen-ID4-S-RWD-wSK-On-Battery-Panoramic-Massage-Seats-HID-for-sale-in-Alpharetta-GA-30075",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE82PC018167&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V25MPE82PC018167-1.jpg",
-    "photoCount": 1,
+    "photoCount": 66,
     "baseMsrp": 43995,
     "squishVin": "1V25MPE8PC",
     "accidentCount": 0,
@@ -126,8 +156,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -177,6 +207,134 @@
         "price": null
       }
     ]
+  },
+  {
+    "id": "api-1v25mpe83pc017643",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "S",
+    "trimFeed": "S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "S 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 25980,
+    "price": 20987,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "1V25MPE83PC017643",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.versatilecollections.com/vdp/24380373/Used-2023-Volkswagen-ID4-for-sale-in-Alpharetta-GA",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE83PC017643&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V25MPE83PC017643-1.jpg",
+    "photoCount": 67,
+    "baseMsrp": 43995,
+    "squishVin": "1V25MPE8PC",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 32,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 20987
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 20987,
+      "expected": 19728,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 1259,
+      "dealPct": 0.0638,
+      "rating": "high",
+      "dealScore": 0.2,
+      "basis": "pooled",
+      "cohortN": 5,
+      "confidence": 0.425,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 32,
+        "cohortMedianDaysListed": 28,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "S",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "versatilecollections.com",
+        "trim": "S",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Pro S"
   },
   {
     "id": "api-1v25mpe83pc018050",
@@ -297,7 +455,7 @@
     "url": "https://vc-car.com/vdp/23714324/Used-2023-Volkswagen-ID4-S-wSK-On-Battery-Sports-Tech-Panoramic-LED-HID-XM-for-sale-in-Alpharetta-GA-30075",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE83PC019795&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V25MPE83PC019795-1.jpg",
-    "photoCount": 1,
+    "photoCount": 61,
     "baseMsrp": 43995,
     "squishVin": "1V25MPE8PC",
     "accidentCount": 0,
@@ -307,8 +465,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -389,7 +547,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 25,
@@ -419,22 +577,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21998,
-      "expected": 22218,
+      "marketValue": 21699,
+      "expected": 21916,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -220,
-      "dealPct": -0.0099,
+      "dealDelta": 82,
+      "dealPct": 0.0037,
       "rating": "fair",
-      "dealScore": 1.0,
+      "dealScore": 0.8,
       "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
+      "cohortN": 5,
+      "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
         "listedDays": 25,
-        "cohortMedianDaysListed": 25,
+        "cohortMedianDaysListed": 28,
         "priceDrop": {
           "total": 1000,
           "pct": -0.0435,
@@ -469,7 +627,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v25mpe84pc033270",
@@ -504,7 +663,7 @@
     "url": "https://vc-car.com/vdp/24137076/Used-2023-Volkswagen-ID4-S-RWD-wSK-On-Battery-Panoramic-Loaded-LED-HID-XM-for-sale-in-Alpharetta-GA-30075",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE84PC033270&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V25MPE84PC033270-1.jpg",
-    "photoCount": 1,
+    "photoCount": 67,
     "baseMsrp": 43995,
     "squishVin": "1V25MPE8PC",
     "accidentCount": 1,
@@ -514,8 +673,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -540,6 +699,146 @@
       "basis": "not-ready"
     },
     "searchedAt": "2026-11-02"
+  },
+  {
+    "id": "api-1v25mpe85pc016297",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "S",
+    "trimFeed": "S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "S 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 29759,
+    "price": 21387,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "1V25MPE85PC016297",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/24161704/Used-2023-Volkswagen-ID4-S-RWD-wSK-On-Battery-Panoramic-Massage-Seats-HID-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE85PC016297&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V25MPE85PC016297-1.jpg",
+    "photoCount": 66,
+    "baseMsrp": 43995,
+    "squishVin": "1V25MPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21387
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-1v25mpe86pc016339",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "S",
+    "trimFeed": "S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "S 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 25996,
+    "price": 21587,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Black",
+    "vin": "1V25MPE86PC016339",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/24184858/Used-2023-Volkswagen-ID4-S-RWD-wSK-On-Battery-Tech-Panoramic-Massage-Seats-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE86PC016339&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V25MPE86PC016339-1.jpg",
+    "photoCount": 67,
+    "baseMsrp": 43995,
+    "squishVin": "1V25MPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 89,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21587
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-1v25mpe86pc018351",
@@ -608,20 +907,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20392,
-      "expected": 20392,
+      "marketValue": 20851,
+      "expected": 20851,
       "adjustments": {},
-      "dealDelta": 1606,
-      "dealPct": 0.0788,
+      "dealDelta": 1147,
+      "dealPct": 0.055,
       "rating": "high",
-      "dealScore": 0.333,
+      "dealScore": 0.4,
       "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
+      "cohortN": 5,
+      "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
         "listedDays": 0,
-        "cohortMedianDaysListed": 25,
+        "cohortMedianDaysListed": 28,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -687,7 +986,7 @@
     "url": "https://vc-car.com/vdp/23742148/Used-2023-Volkswagen-ID4-S-RWD-wSK-On-Battery-Panoramic-Massage-Seats-HID-for-sale-in-Alpharetta-GA-30075",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE87PC031609&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V25MPE87PC031609-1.jpg",
-    "photoCount": 1,
+    "photoCount": 63,
     "baseMsrp": 43995,
     "squishVin": "1V25MPE8PC",
     "accidentCount": 0,
@@ -697,8 +996,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -763,10 +1062,10 @@
     "series": "S 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2023,
     "mileage": 29323,
-    "price": 20098,
+    "price": 18794,
     "priceBasis": "listing",
     "dealer": "Audi Atlanta",
     "dealerId": "d_c5f51f166f348b84",
@@ -782,7 +1081,7 @@
     "url": "https://www.carfax.com/vehicle/1V25MPE89PC027495",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE89PC027495&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V25MPE89PC027495-1.jpg",
-    "photoCount": 41,
+    "photoCount": 1,
     "baseMsrp": 43995,
     "squishVin": "1V25MPE8PC",
     "accidentCount": 0,
@@ -792,8 +1091,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 52,
+    "lastSeen": "2026-11-09",
+    "listedDays": 59,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -802,6 +1101,10 @@
       {
         "date": "2026-11-02",
         "price": 20098
+      },
+      {
+        "date": "2026-11-09",
+        "price": 18794
       }
     ],
     "sellerType": "independent",
@@ -905,22 +1208,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20900,
-      "expected": 21109,
+      "marketValue": 21119,
+      "expected": 21331,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -209,
-      "dealPct": -0.0099,
+      "dealDelta": -431,
+      "dealPct": -0.0202,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 1.0,
       "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
+      "cohortN": 5,
+      "confidence": 0.425,
       "ratingConfident": false,
       "signals": {
         "listedDays": 28,
-        "cohortMedianDaysListed": 25,
+        "cohortMedianDaysListed": 28,
         "negotiability": "medium"
       },
       "trust": "verified"
@@ -1006,7 +1309,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 11,
@@ -1031,13 +1334,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 19981,
-      "expected": 20181,
+      "marketValue": 19535,
+      "expected": 19730,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -183,
-      "dealPct": -0.0091,
+      "dealDelta": 268,
+      "dealPct": 0.0136,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -1046,7 +1349,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 11,
-        "cohortMedianDaysListed": 9,
+        "cohortMedianDaysListed": 12,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -1077,7 +1380,8 @@
         "price": null
       }
     ],
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v2bmpe85pc054809",
@@ -1093,10 +1397,10 @@
     "series": "Standard 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2023,
     "mileage": 29766,
-    "price": 19895,
+    "price": 18893,
     "priceBasis": "listing",
     "dealer": "Volkswagen of Marietta",
     "dealerId": "d_49f4a5bd8b9d67f8",
@@ -1112,7 +1416,7 @@
     "url": "https://www.volkswagenofmarietta.com/inventory/certified-used-2023-volkswagen-id-4-standard-rwd-4d-sport-utility-1v2bmpe85pc054809/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2BMPE85PC054809&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2BMPE85PC054809-1.jpg",
-    "photoCount": 32,
+    "photoCount": 1,
     "baseMsrp": 38995,
     "squishVin": "1V2BMPE8PC",
     "accidentCount": 1,
@@ -1122,8 +1426,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 7,
+    "lastSeen": "2026-11-09",
+    "listedDays": 14,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -1132,6 +1436,10 @@
       {
         "date": "2026-11-02",
         "price": 19895
+      },
+      {
+        "date": "2026-11-09",
+        "price": 18893
       }
     ],
     "sellerType": "franchise",
@@ -1150,27 +1458,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 19912,
-      "expected": 18717,
+      "marketValue": 19356,
+      "expected": 18195,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 1178,
-      "dealPct": 0.0629,
-      "rating": "high",
+      "dealDelta": 698,
+      "dealPct": 0.0384,
+      "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
       "cohortN": 2,
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 7,
-        "cohortMedianDaysListed": 9,
+        "listedDays": 14,
+        "cohortMedianDaysListed": 12,
         "priceDrop": {
-          "total": 994,
-          "pct": -0.0476,
-          "drops": 1
+          "total": 1996,
+          "pct": -0.0956,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -1247,7 +1555,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 19,
@@ -1293,7 +1601,8 @@
         "mileage": 23948,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v2cmpe82pc023439",
@@ -1312,10 +1621,10 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 26025,
-    "price": 20998,
+    "price": 19998,
     "priceBasis": "listing",
     "dealer": "CarMax Roswell",
-    "dealerId": "d_06bafbfa1cda4d3d",
+    "dealerId": "d_a56b21a46c6ecd18",
     "distanceMi": 22,
     "state": "GA",
     "city": "Roswell",
@@ -1324,7 +1633,7 @@
     "exteriorColor": "Pure White",
     "interiorColor": "Stone leatherette/cloth",
     "vin": "1V2CMPE82PC023439",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed.",
     "url": "https://www.autolist.com/volkswagen-id4#vin=1V2CMPE82PC023439",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CMPE82PC023439&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2CMPE82PC023439-1.jpg",
@@ -1336,14 +1645,18 @@
     "oneOwner": true,
     "usageType": "Lease",
     "flagged": true,
-    "gone": true,
+    "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 42,
+    "lastSeen": "2026-11-09",
+    "listedDays": 60,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 20998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 19998
       }
     ],
     "sellerType": "independent",
@@ -1378,8 +1691,7 @@
         "mileage": 26025,
         "price": null
       }
-    ],
-    "exitReason": "unseen"
+    ]
   },
   {
     "id": "api-1v2cmpe84pc029565",
@@ -1422,7 +1734,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 4,
@@ -1447,22 +1759,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20761,
-      "expected": 20969,
+      "marketValue": 20988,
+      "expected": 21198,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 29,
-      "dealPct": 0.0014,
+      "dealDelta": -200,
+      "dealPct": -0.0094,
       "rating": "fair",
-      "dealScore": 0.286,
+      "dealScore": 0.444,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
         "listedDays": 4,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 15,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -1503,7 +1815,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v2cmpe84pc033499",
@@ -1519,10 +1832,10 @@
     "series": "Pro 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric Motor",
+    "engine": "Electric",
     "year": 2023,
     "mileage": 19504,
-    "price": 23774,
+    "price": 22518,
     "priceBasis": "listing",
     "dealer": "Hoover Volkswagen of Lithia Springs",
     "dealerId": "d_dc7c89d9f36bc8bb",
@@ -1548,12 +1861,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 8,
+    "lastSeen": "2026-11-09",
+    "listedDays": 15,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 23774
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22518
       }
     ],
     "sellerType": "franchise",
@@ -1571,24 +1888,29 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20899,
-      "expected": 19645,
+      "marketValue": 21052,
+      "expected": 19789,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 4129,
-      "dealPct": 0.2102,
+      "dealDelta": 2729,
+      "dealPct": 0.1379,
       "rating": "overpriced",
-      "dealScore": 0.143,
+      "dealScore": 0.111,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 8,
-        "cohortMedianDaysListed": 8,
-        "negotiability": "low"
+        "listedDays": 15,
+        "cohortMedianDaysListed": 15,
+        "priceDrop": {
+          "total": 1256,
+          "pct": -0.0528,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -1721,11 +2043,11 @@
     "engine": "electric",
     "year": 2023,
     "mileage": 24706,
-    "price": 19206,
+    "price": 19728,
     "priceBasis": "listing",
-    "dealer": "Nalley Volkswagen of Alpharetta",
+    "dealer": "Nalley Volkswagen",
     "dealerId": "d_1f16ed20138a9923",
-    "distanceMi": 21,
+    "distanceMi": 20,
     "state": "GA",
     "city": "Alpharetta",
     "cpo": "none",
@@ -1737,18 +2059,18 @@
     "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/1v2cmpe85pc027078/2023-volkswagen-id-4-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CMPE85PC027078&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2CMPE85PC027078-1.jpg",
-    "photoCount": 40,
+    "photoCount": 1,
     "baseMsrp": 43995,
     "squishVin": "1V2CMPE8PC",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 44,
+    "lastSeen": "2026-11-09",
+    "listedDays": 51,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -1757,6 +2079,10 @@
       {
         "date": "2026-11-02",
         "price": 19206
+      },
+      {
+        "date": "2026-11-09",
+        "price": 19728
       }
     ],
     "sellerType": "franchise",
@@ -1775,25 +2101,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20847,
-      "expected": 21055,
+      "marketValue": 21028,
+      "expected": 21238,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1849,
-      "dealPct": -0.0878,
+      "dealDelta": -1510,
+      "dealPct": -0.0711,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 44,
-        "cohortMedianDaysListed": 8,
+        "listedDays": 51,
+        "cohortMedianDaysListed": 15,
         "priceDrop": {
-          "total": 1133,
-          "pct": -0.0557,
+          "total": 611,
+          "pct": -0.03,
           "drops": 1
         },
         "negotiability": "high"
@@ -1855,10 +2181,10 @@
     "series": "Pro 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2023,
-    "mileage": 26938,
-    "price": 20797,
+    "mileage": 26940,
+    "price": 19890,
     "priceBasis": "listing",
     "dealer": "Volkswagen of Marietta",
     "dealerId": "d_49f4a5bd8b9d67f8",
@@ -1874,7 +2200,7 @@
     "url": "https://www.volkswagenofmarietta.com/inventory/certified-used-2023-volkswagen-id-4-pro-rwd-4d-sport-utility-1v2cmpe85pc037738/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CMPE85PC037738&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2CMPE85PC037738-1.jpg",
-    "photoCount": 31,
+    "photoCount": 1,
     "baseMsrp": 43995,
     "squishVin": "1V2CMPE8PC",
     "accidentCount": 0,
@@ -1884,8 +2210,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 53,
+    "lastSeen": "2026-11-09",
+    "listedDays": 60,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -1894,6 +2220,10 @@
       {
         "date": "2026-11-02",
         "price": 20797
+      },
+      {
+        "date": "2026-11-09",
+        "price": 19890
       }
     ],
     "sellerType": "franchise",
@@ -1912,26 +2242,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20824,
-      "expected": 21032,
+      "marketValue": 21017,
+      "expected": 21227,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -235,
-      "dealPct": -0.0112,
-      "rating": "fair",
-      "dealScore": 0.714,
+      "dealDelta": -1337,
+      "dealPct": -0.063,
+      "rating": "good",
+      "dealScore": 0.889,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 53,
-        "cohortMedianDaysListed": 8,
+        "listedDays": 60,
+        "cohortMedianDaysListed": 15,
         "priceDrop": {
-          "total": 95,
-          "pct": -0.0045,
-          "drops": 1
+          "total": 1002,
+          "pct": -0.048,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -1994,7 +2324,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 7,
@@ -2024,22 +2354,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20895,
-      "expected": 21104,
+      "marketValue": 21050,
+      "expected": 21260,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -209,
-      "dealPct": -0.0099,
+      "dealDelta": -365,
+      "dealPct": -0.0172,
       "rating": "fair",
-      "dealScore": 0.571,
+      "dealScore": 0.667,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
         "listedDays": 7,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 15,
         "priceDrop": {
           "total": 1002,
           "pct": -0.0458,
@@ -2077,7 +2407,8 @@
       }
     ],
     "stock": "M2085",
-    "trimSearch": "Pro"
+    "trimSearch": "Pro",
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v2cmpe87pc029432",
@@ -2096,9 +2427,9 @@
     "engine": "Electric",
     "year": 2023,
     "mileage": 20005,
-    "price": 21998,
+    "price": 20998,
     "priceBasis": "listing",
-    "dealer": "CarMax - Town Center",
+    "dealer": "CarMax Town Center",
     "dealerId": "d_18bd36f40629047a",
     "distanceMi": 21,
     "state": "GA",
@@ -2108,7 +2439,7 @@
     "exteriorColor": "White",
     "interiorColor": "Gray",
     "vin": "1V2CMPE87PC029432",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed.",
     "url": "https://www.carfax.com/vehicle/1V2CMPE87PC029432",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CMPE87PC029432&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2CMPE87PC029432-1.jpg",
@@ -2116,18 +2447,22 @@
     "baseMsrp": 43995,
     "squishVin": "1V2CMPE8PC",
     "accidentCount": 0,
-    "ownerCount": 1,
-    "oneOwner": true,
-    "usageType": "Personal Use",
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Lease",
     "flagged": true,
-    "gone": true,
+    "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-26",
-    "listedDays": 1,
+    "lastSeen": "2026-11-09",
+    "listedDays": 19,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 21998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20998
       }
     ],
     "sellerType": "independent",
@@ -2173,8 +2508,181 @@
         "mileage": null,
         "price": null
       }
+    ]
+  },
+  {
+    "id": "api-1v2cmpe87pc038289",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
     ],
-    "exitReason": "unseen"
+    "trim": "Pro",
+    "trimFeed": "Pro",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric Motor",
+    "year": 2023,
+    "mileage": 39223,
+    "price": 20199,
+    "priceBasis": "listing",
+    "dealer": "Jim Ellis Volkswagen of Atlanta",
+    "dealerId": "d_ce5bcfcae1045a24",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Pure White",
+    "interiorColor": "Gray w/Black Bolsters",
+    "vin": "1V2CMPE87PC038289",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.jimellisvwatlanta.com/inventory/certified-used-2023-volkswagen-id-4-pro-rear-wheel-drive-sport-utility-1v2cmpe87pc038289/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CMPE87PC038289&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2CMPE87PC038289-1.jpg",
+    "photoCount": 37,
+    "baseMsrp": 43995,
+    "squishVin": "1V2CMPE8PC",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 20199
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-1v2cmpe88pc032971",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro",
+    "trimFeed": "Pro",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 13689,
+    "price": 21900,
+    "priceBasis": "listing",
+    "dealer": "Stone Mountain Volkswagen",
+    "dealerId": "d_b6808c61f14482d4",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Snellville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "1V2CMPE88PC032971",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.stonemountainvw.com/inventory/certified-used-2023-volkswagen-id-4-pro-rwd-4d-sport-utility-1v2cmpe88pc032971/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CMPE88PC032971&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2CMPE88PC032971-1.jpg",
+    "photoCount": 27,
+    "baseMsrp": 43995,
+    "squishVin": "1V2CMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21900
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 21079,
+      "expected": 21290,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 610,
+      "dealPct": 0.0287,
+      "rating": "fair",
+      "dealScore": 0.222,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 15,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Pro",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "stonemountainvw.com",
+        "trim": "Pro",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "P6410"
   },
   {
     "id": "api-1v2cmpe89pc012082",
@@ -2190,14 +2698,14 @@
     "series": "Pro 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2023,
     "mileage": 28714,
-    "price": 19789,
+    "price": 21009,
     "priceBasis": "listing",
-    "dealer": "Nalley Volkswagen of Alpharetta",
+    "dealer": "Nalley Volkswagen",
     "dealerId": "d_1f16ed20138a9923",
-    "distanceMi": 21,
+    "distanceMi": 20,
     "state": "GA",
     "city": "Alpharetta",
     "cpo": "none",
@@ -2209,18 +2717,18 @@
     "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/1v2cmpe89pc012082/2023-volkswagen-id-4-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CMPE89PC012082&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2CMPE89PC012082-1.jpg",
-    "photoCount": 40,
+    "photoCount": 1,
     "baseMsrp": 43995,
     "squishVin": "1V2CMPE8PC",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 17,
+    "lastSeen": "2026-11-09",
+    "listedDays": 24,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -2229,6 +2737,10 @@
       {
         "date": "2026-11-02",
         "price": 19789
+      },
+      {
+        "date": "2026-11-09",
+        "price": 21009
       }
     ],
     "sellerType": "franchise",
@@ -2247,25 +2759,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20806,
-      "expected": 21014,
+      "marketValue": 21009,
+      "expected": 21219,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1225,
-      "dealPct": -0.0583,
-      "rating": "good",
-      "dealScore": 0.857,
+      "dealDelta": -210,
+      "dealPct": -0.0099,
+      "rating": "fair",
+      "dealScore": 0.556,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 17,
-        "cohortMedianDaysListed": 8,
+        "listedDays": 24,
+        "cohortMedianDaysListed": 15,
         "priceDrop": {
-          "total": 1711,
-          "pct": -0.0796,
+          "total": 491,
+          "pct": -0.0228,
           "drops": 1
         },
         "negotiability": "high"
@@ -2300,6 +2812,76 @@
     ],
     "stock": "Mileage",
     "trimSearch": "Pro"
+  },
+  {
+    "id": "api-1v2cmpe8xpc021051",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro",
+    "trimFeed": "Pro",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric Motor",
+    "year": 2023,
+    "mileage": 41459,
+    "price": 20689,
+    "priceBasis": "listing",
+    "dealer": "Jim Ellis Volkswagen of Atlanta",
+    "dealerId": "d_ce5bcfcae1045a24",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Deep Black Pearl",
+    "interiorColor": "Unspecified",
+    "vin": "1V2CMPE8XPC021051",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.jimellisvwatlanta.com/inventory/certified-used-2023-volkswagen-id-4-pro-rear-wheel-drive-sport-utility-1v2cmpe8xpc021051/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CMPE8XPC021051&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2CMPE8XPC021051-1.jpg",
+    "photoCount": 36,
+    "baseMsrp": 43995,
+    "squishVin": "1V2CMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 20689
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-1v2dnpe80pc018032",
@@ -2428,7 +3010,7 @@
     "oneOwner": true,
     "usageType": "Commercial Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 47,
@@ -2493,7 +3075,92 @@
         "price": null
       }
     ],
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-1v2dnpe88pc031773",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "AWD Pro 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2023,
+    "mileage": 6635,
+    "price": 23998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Norcross",
+    "dealerId": "d_66a6210ef180e399",
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Norcross",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver Mist Metallic",
+    "interiorColor": "Gray",
+    "vin": "1V2DNPE88PC031773",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29222222",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2DNPE88PC031773&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2DNPE88PC031773-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 47795,
+    "squishVin": "1V2DNPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 23998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.65,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Pro S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-1v2fmpe81pc011022",
@@ -2536,7 +3203,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 16,
@@ -2566,22 +3233,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21889,
-      "expected": 22108,
+      "marketValue": 22040,
+      "expected": 22261,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1448,
-      "dealPct": -0.0655,
+      "dealDelta": -1601,
+      "dealPct": -0.0719,
       "rating": "good",
-      "dealScore": 0.875,
+      "dealScore": 0.917,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 16,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 14,
         "priceDrop": {
           "total": 1758,
           "pct": -0.0784,
@@ -2640,7 +3307,8 @@
       }
     ],
     "stock": "NVASPC011022",
-    "trimSearch": "Pro S"
+    "trimSearch": "Pro S",
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v2fmpe82pc012471",
@@ -2753,10 +3421,10 @@
     "series": "Pro S Plus 4dr SUV w/VW Sound, SK On Battery, 170kW DC Fast Charging Capability (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2023,
     "mileage": 33456,
-    "price": 22497,
+    "price": 21697,
     "priceBasis": "listing",
     "dealer": "Platinum Cars Marietta",
     "dealerId": "d_357a45061ffa3b8b",
@@ -2772,7 +3440,7 @@
     "url": "https://www.platinumcarsmarietta.com/vehicles-under-30k/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2FMPE83PC012222&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2FMPE83PC012222-1.jpg",
-    "photoCount": 33,
+    "photoCount": 1,
     "baseMsrp": 51695,
     "squishVin": "1V2FMPE8PC",
     "accidentCount": 0,
@@ -2782,8 +3450,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 7,
+    "lastSeen": "2026-11-09",
+    "listedDays": 14,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -2792,6 +3460,10 @@
       {
         "date": "2026-11-02",
         "price": 22497
+      },
+      {
+        "date": "2026-11-09",
+        "price": 21697
       }
     ],
     "sellerType": "independent",
@@ -2810,26 +3482,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22131,
-      "expected": 22352,
+      "marketValue": 22341,
+      "expected": 22564,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 145,
-      "dealPct": 0.0065,
+      "dealDelta": -867,
+      "dealPct": -0.0384,
       "rating": "fair",
-      "dealScore": 0.375,
+      "dealScore": 0.75,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 7,
-        "cohortMedianDaysListed": 12,
+        "listedDays": 14,
+        "cohortMedianDaysListed": 14,
         "priceDrop": {
-          "total": 300,
-          "pct": -0.0132,
-          "drops": 1
+          "total": 1100,
+          "pct": -0.0483,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -2877,10 +3549,10 @@
     "series": "Pro S Plus 4dr SUV w/VW Sound, SK On Battery, 170kW DC Fast Charging Capability (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2023,
     "mileage": 35910,
-    "price": 22497,
+    "price": 21697,
     "priceBasis": "listing",
     "dealer": "Platinum Cars Marietta",
     "dealerId": "d_357a45061ffa3b8b",
@@ -2896,7 +3568,7 @@
     "url": "https://www.autolist.com/volkswagen-id4#vin=1V2FMPE86PC010240",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2FMPE86PC010240&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2FMPE86PC010240-1.jpg",
-    "photoCount": 34,
+    "photoCount": 1,
     "baseMsrp": 51695,
     "squishVin": "1V2FMPE8PC",
     "accidentCount": 0,
@@ -2906,8 +3578,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 7,
+    "lastSeen": "2026-11-09",
+    "listedDays": 14,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -2916,6 +3588,10 @@
       {
         "date": "2026-11-02",
         "price": 22497
+      },
+      {
+        "date": "2026-11-09",
+        "price": 21697
       }
     ],
     "sellerType": "independent",
@@ -2970,19 +3646,19 @@
       "auto.dev"
     ],
     "trim": "Pro S",
-    "trimFeed": "Pro S Plus",
+    "trimFeed": "Pro S",
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": "Pro S Plus 4dr SUV w/VW Sound, SK On Battery, 170kW DC Fast Charging Capability (electric DD)",
+    "series": "Pro S 4dr SUV w/SK On Battery, 170kW DC Fast Charging Capability (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 21405,
-    "price": 22998,
+    "price": 21998,
     "priceBasis": "listing",
-    "dealer": "CarMax - Roswell",
+    "dealer": "CarMax Roswell",
     "dealerId": "d_a56b21a46c6ecd18",
     "distanceMi": 22,
     "state": "GA",
@@ -2997,17 +3673,17 @@
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2FMPE86PC010514&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2FMPE86PC010514-1.jpg",
     "photoCount": 29,
-    "baseMsrp": 51695,
+    "baseMsrp": 48995,
     "squishVin": "1V2FMPE8PC",
-    "accidentCount": 1,
+    "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 39,
+    "lastSeen": "2026-11-09",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -3016,6 +3692,10 @@
       {
         "date": "2026-11-02",
         "price": 22998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 21998
       }
     ],
     "sellerType": "independent",
@@ -3027,10 +3707,10 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.65,
+    "trimConfidence": 0.772,
     "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
@@ -3059,11 +3739,11 @@
       "auto.dev"
     ],
     "trim": "Pro S Plus",
-    "trimFeed": "Pro S",
+    "trimFeed": "Pro S Plus",
     "powertrain": "electric",
     "powertrainFeed": "electric",
     "fuel": "Electric",
-    "series": "AWD Pro S 4dr SUV AWD (electric DD)",
+    "series": "AWD Pro S Plus 4dr SUV AWD w/VW Sound (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
     "engine": "electric",
@@ -3085,8 +3765,8 @@
     "url": "https://vc-car.com/vdp/24218208/Used-2023-Volkswagen-ID4-Pro-S-AWD-wSK-On-Battery-Loaded-Panoramic-Tech-XM-for-sale-in-Alpharetta-GA-30075",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2GNPE87PC007235&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2GNPE87PC007235-1.jpg",
-    "photoCount": 1,
-    "baseMsrp": 52795,
+    "photoCount": 63,
+    "baseMsrp": 55495,
     "squishVin": "1V2GNPE8PC",
     "accidentCount": 0,
     "ownerCount": 1,
@@ -3095,8 +3775,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 73,
+    "lastSeen": "2026-11-09",
+    "listedDays": 80,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -3111,10 +3791,10 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.65,
+    "trimConfidence": 0.772,
     "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": true,
+    "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
@@ -3146,6 +3826,179 @@
         "price": null
       }
     ]
+  },
+  {
+    "id": "api-1v2vmpe80pc015641",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 31707,
+    "price": 21987,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "1V2VMPE80PC015641",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/24218145/Used-2023-Volkswagen-ID4-Pro-S-RWD-wLG-Battery-Loaded-Tech-Panoramic-HID-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE80PC015641&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE80PC015641-1.jpg",
+    "photoCount": 66,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 80,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21987
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-1v2vmpe81pc014594",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 40778,
+    "price": 20987,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "1V2VMPE81PC014594",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.versatilecollections.com/brochure?dealer=3424&id=24394743&pricetype=Retail",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE81PC014594&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE81PC014594-1.jpg",
+    "photoCount": 66,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 27,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 20987
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.9,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 20953,
+      "expected": 21162,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -175,
+      "dealPct": -0.0083,
+      "rating": "fair",
+      "dealScore": 0.333,
+      "basis": "cohort",
+      "cohortN": 9,
+      "confidence": 0.875,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 27,
+        "cohortMedianDaysListed": 15,
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Pro",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "versatilecollections.com",
+        "trim": "Pro",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 40607,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search"
   },
   {
     "id": "api-1v2vmpe81pc047823",
@@ -3188,7 +4041,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 9,
@@ -3213,22 +4066,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22742,
-      "expected": 22969,
+      "marketValue": 23099,
+      "expected": 23330,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1456,
-      "dealPct": -0.0634,
+      "dealDelta": -1817,
+      "dealPct": -0.0779,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 9,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -3272,7 +4125,8 @@
       }
     ],
     "urlOrigin": "search",
-    "trimSearch": "Pro S"
+    "trimSearch": "Pro S",
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v2vmpe83pc017237",
@@ -3463,9 +4317,9 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 17655,
-    "price": 24998,
+    "price": 22998,
     "priceBasis": "listing",
-    "dealer": "CarMax - Town Center",
+    "dealer": "CarMax Town Center",
     "dealerId": "d_18bd36f40629047a",
     "distanceMi": 21,
     "state": "GA",
@@ -3475,26 +4329,30 @@
     "exteriorColor": "Gray",
     "interiorColor": "Black",
     "vin": "1V2VMPE83PC036838",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed.",
     "url": "https://www.autolist.com/volkswagen-id4#vin=1V2VMPE83PC036838",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE83PC036838&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2VMPE83PC036838-1.jpg",
     "photoCount": 28,
     "baseMsrp": 48995,
     "squishVin": "1V2VMPE8PC",
-    "accidentCount": 1,
+    "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": true,
-    "gone": true,
+    "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-26",
-    "listedDays": 29,
+    "lastSeen": "2026-11-09",
+    "listedDays": 47,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 24998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22998
       }
     ],
     "sellerType": "independent",
@@ -3530,8 +4388,214 @@
         "mileage": 17,
         "price": null
       }
+    ]
+  },
+  {
+    "id": "api-1v2vmpe84pc016050",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
     ],
-    "exitReason": "unseen"
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 41511,
+    "price": 20987,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "1V2VMPE84PC016050",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/24336816/Used-2023-Volkswagen-ID4-Pro-S-RWD-wLG-Battery-Loaded-Tech-Panoramic-HID-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE84PC016050&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE84PC016050-1.jpg",
+    "photoCount": 65,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 45,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 20987
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-1v2vmpe84pc025282",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 29667,
+    "price": 22987,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "1V2VMPE84PC025282",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.versatilecollections.com/vdp/24123403/Used-2023-Volkswagen-ID4-for-sale-in-Alpharetta-GA",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE84PC025282&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE84PC025282-1.jpg",
+    "photoCount": 67,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22987
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 22764,
+      "expected": 22992,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -5,
+      "dealPct": -0.0002,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "cohort",
+      "cohortN": 12,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 92,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Pro S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "versatilecollections.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 29667,
+        "price": 22987
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 29667,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Pro S"
   },
   {
     "id": "api-1v2vmpe84pc028716",
@@ -3550,10 +4614,10 @@
     "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 23466,
-    "price": 22998,
+    "price": 21998,
     "priceBasis": "listing",
     "dealer": "CarMax Roswell",
-    "dealerId": "d_06bafbfa1cda4d3d",
+    "dealerId": "d_a56b21a46c6ecd18",
     "distanceMi": 22,
     "state": "GA",
     "city": "Roswell",
@@ -3562,7 +4626,7 @@
     "exteriorColor": "Deep Black Pearl",
     "interiorColor": "Galaxy leatherette",
     "vin": "1V2VMPE84PC028716",
-    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. Relisted; back in feed.",
     "url": "https://www.autolist.com/volkswagen-id4#vin=1V2VMPE84PC028716",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE84PC028716&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2VMPE84PC028716-1.jpg",
@@ -3574,14 +4638,18 @@
     "oneOwner": true,
     "usageType": "Lease",
     "flagged": true,
-    "gone": true,
+    "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 27,
+    "lastSeen": "2026-11-09",
+    "listedDays": 45,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 22998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 21998
       }
     ],
     "sellerType": "independent",
@@ -3616,8 +4684,7 @@
         "mileage": null,
         "price": null
       }
-    ],
-    "exitReason": "unseen"
+    ]
   },
   {
     "id": "api-1v2vmpe84pc035763",
@@ -3633,14 +4700,14 @@
     "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2023,
     "mileage": 37699,
-    "price": 21754,
+    "price": 22494,
     "priceBasis": "listing",
-    "dealer": "Nalley Volkswagen of Alpharetta",
+    "dealer": "Nalley Volkswagen",
     "dealerId": "d_1f16ed20138a9923",
-    "distanceMi": 21,
+    "distanceMi": 20,
     "state": "GA",
     "city": "Alpharetta",
     "cpo": "none",
@@ -3652,22 +4719,26 @@
     "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/1v2vmpe84pc035763/2023-volkswagen-id-4-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE84PC035763&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2VMPE84PC035763-1.jpg",
-    "photoCount": 21,
+    "photoCount": 1,
     "baseMsrp": 48995,
     "squishVin": "1V2VMPE8PC",
-    "accidentCount": 1,
+    "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 6,
+    "lastSeen": "2026-11-09",
+    "listedDays": 13,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 21754
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22494
       }
     ],
     "sellerType": "franchise",
@@ -3685,23 +4756,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21749,
-      "expected": 20444,
+      "marketValue": 21867,
+      "expected": 22085,
       "adjustments": {
-        "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 1310,
-      "dealPct": 0.0641,
-      "rating": "high",
-      "dealScore": 0.25,
+      "dealDelta": 409,
+      "dealPct": 0.0185,
+      "rating": "fair",
+      "dealScore": 0.333,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 6,
-        "cohortMedianDaysListed": 12,
+        "listedDays": 13,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -3734,6 +4804,203 @@
     ],
     "urlOrigin": "search",
     "stock": "PC035763P",
+    "trimSearch": "Pro S"
+  },
+  {
+    "id": "api-1v2vmpe85pc032421",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 32477,
+    "price": 22287,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "1V2VMPE85PC032421",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/24276339/Used-2023-Volkswagen-ID4-Pro-RWD-wLG-Battery-Tech-Loaded-Panoramic-LED-HID-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE85PC032421&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE85PC032421-1.jpg",
+    "photoCount": 65,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 62,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22287
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-1v2vmpe86pc034579",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2023,
+    "mileage": 8355,
+    "price": 25900,
+    "priceBasis": "listing",
+    "dealer": "Stone Mountain Volkswagen",
+    "dealerId": "d_b6808c61f14482d4",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Snellville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "1V2VMPE86PC034579",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.stonemountainvw.com/inventory/used-2023-volkswagen-id-4-pro-s-rwd-4d-sport-utility-1v2vmpe86pc034579/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE86PC034579&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE86PC034579-1.jpg",
+    "photoCount": 37,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 25900
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 25144,
+      "expected": 25396,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 504,
+      "dealPct": 0.0199,
+      "rating": "fair",
+      "dealScore": 0.25,
+      "basis": "cohort",
+      "cohortN": 12,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Pro S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "stonemountainvw.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "vinanalytics.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "All",
     "trimSearch": "Pro S"
   },
   {
@@ -3803,22 +5070,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22519,
-      "expected": 22744,
+      "marketValue": 22823,
+      "expected": 23051,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -144,
-      "dealPct": -0.0063,
+      "dealDelta": -451,
+      "dealPct": -0.0196,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.583,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 28,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 14,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -3863,6 +5130,278 @@
     "stock": "P6041",
     "trimSearch": "S",
     "exitReason": "unseen"
+  },
+  {
+    "id": "api-1v2vmpe86pc048109",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 22349,
+    "price": 23900,
+    "priceBasis": "listing",
+    "dealer": "Jim Ellis Volkswagen of Kennesaw",
+    "dealerId": "d_16ea90711e9e2b44",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "1V2VMPE86PC048109",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.jimellisvolkswagenkennesaw.com/inventory/used-2023-volkswagen-id-4-pro-s-rear-wheel-drive-sport-utility-1v2vmpe86pc048109/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE86PC048109&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE86PC048109-1.jpg",
+    "photoCount": 32,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 8,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 23900
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 23581,
+      "expected": 23817,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 83,
+      "dealPct": 0.0035,
+      "rating": "fair",
+      "dealScore": 0.417,
+      "basis": "cohort",
+      "cohortN": 12,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 8,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Pro S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "jimellisvolkswagenkennesaw.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "and"
+  },
+  {
+    "id": "api-1v2vmpe87pc019556",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 38231,
+    "price": 21987,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "White",
+    "vin": "1V2VMPE87PC019556",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/24123467/Used-2023-Volkswagen-ID4-Pro-S-RWD-wLG-Battery-Tech-Panoramic-LED-HID-XM-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE87PC019556&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE87PC019556-1.jpg",
+    "photoCount": 63,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21987
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.65,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-1v2vmpe87pc026524",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 35839,
+    "price": 22387,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "1V2VMPE87PC026524",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/24178350/Used-2023-Volkswagen-ID4-Pro-S-RWD-wLG-Battery-Loaded-Panoramic-LED-HID-XM-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE87PC026524&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE87PC026524-1.jpg",
+    "photoCount": 66,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 89,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22387
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.65,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 107,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-1v2vmpe87pc037927",
@@ -3931,23 +5470,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 20701,
-      "expected": 21115,
+      "marketValue": 20961,
+      "expected": 21380,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -177,
-      "dealPct": -0.0084,
+      "dealDelta": -442,
+      "dealPct": -0.0207,
       "rating": "fair",
-      "dealScore": 0.429,
+      "dealScore": 0.778,
       "basis": "cohort",
-      "cohortN": 7,
-      "confidence": 0.792,
+      "cohortN": 9,
+      "confidence": 0.875,
       "ratingConfident": true,
       "signals": {
         "listedDays": 8,
-        "cohortMedianDaysListed": 8,
+        "cohortMedianDaysListed": 15,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -4049,22 +5588,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23905,
-      "expected": 24144,
+      "marketValue": 24544,
+      "expected": 24789,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -244,
-      "dealPct": -0.0101,
+      "dealDelta": -889,
+      "dealPct": -0.0359,
       "rating": "fair",
-      "dealScore": 0.625,
+      "dealScore": 0.833,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 29,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 14,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -4099,6 +5638,161 @@
     "trimSearch": "Pro S",
     "powertrainSearch": "electric",
     "exitReason": "unseen"
+  },
+  {
+    "id": "api-1v2vmpe89pc035662",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric Motor",
+    "year": 2023,
+    "mileage": 32993,
+    "price": 22399,
+    "priceBasis": "listing",
+    "dealer": "Jim Ellis Volkswagen of Atlanta",
+    "dealerId": "d_ce5bcfcae1045a24",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Atlanta",
+    "cpo": "unknown",
+    "cpoFeed": true,
+    "exteriorColor": "Pure White",
+    "interiorColor": "Gray w/Black Bolsters",
+    "vin": "1V2VMPE89PC035662",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN. CPO per source.",
+    "url": "https://www.jimellisvwatlanta.com/inventory/certified-used-2023-volkswagen-id-4-pro-rear-wheel-drive-sport-utility-1v2vmpe89pc035662/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE89PC035662&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE89PC035662-1.jpg",
+    "photoCount": 40,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22399
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Pro S",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "usedelectricvehicles.com",
+        "trim": "Pro S",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-1v2vmpe89pc044488",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV w/LG Energy Solution Battery, 135kW DC Fast Charging Capability (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 27703,
+    "price": 23900,
+    "priceBasis": "listing",
+    "dealer": "Jim Ellis Volkswagen of Kennesaw",
+    "dealerId": "d_16ea90711e9e2b44",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Silver",
+    "interiorColor": "Unspecified",
+    "vin": "1V2VMPE89PC044488",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.jimellisvolkswagenkennesaw.com/inventory/certified-used-2023-volkswagen-id-4-pro-s-rear-wheel-drive-sport-utility-1v2vmpe89pc044488/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VMPE89PC044488&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VMPE89PC044488-1.jpg",
+    "photoCount": 34,
+    "baseMsrp": 48995,
+    "squishVin": "1V2VMPE8PC",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 8,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 23900
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-1v2vmpe8xpc025691",
@@ -4167,22 +5861,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23466,
-      "expected": 23700,
+      "marketValue": 23998,
+      "expected": 24238,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -317,
-      "dealPct": -0.0134,
+      "dealDelta": -855,
+      "dealPct": -0.0353,
       "rating": "fair",
-      "dealScore": 0.75,
+      "dealScore": 0.667,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 5,
-        "cohortMedianDaysListed": 12,
+        "cohortMedianDaysListed": 14,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -4228,6 +5922,194 @@
     "exitReason": "unseen"
   },
   {
+    "id": "api-1v2wnpe86pc050413",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "AWD Pro S 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 33949,
+    "price": 23200,
+    "priceBasis": "listing",
+    "dealer": "Stone Mountain Volkswagen",
+    "dealerId": "d_b6808c61f14482d4",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Snellville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "1V2WNPE86PC050413",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.stonemountainvw.com/inventory/certified-used-2023-volkswagen-id-4-pro-s-awd-4d-sport-utility-1v2wnpe86pc050413/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2WNPE86PC050413&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2WNPE86PC050413-1.jpg",
+    "photoCount": 35,
+    "baseMsrp": 52795,
+    "squishVin": "1V2WNPE8PC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 23200
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 22286,
+      "expected": 22508,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 692,
+      "dealPct": 0.0307,
+      "rating": "fair",
+      "dealScore": 0.167,
+      "basis": "cohort",
+      "cohortN": 12,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 10,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Pro S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "stonemountainvw.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "P6391"
+  },
+  {
+    "id": "api-1v2wnpe89pc047666",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "AWD Pro S 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2023,
+    "mileage": 37495,
+    "price": 22987,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Black",
+    "vin": "1V2WNPE89PC047666",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/24234042/Used-2023-Volkswagen-ID4-Pro-S-AWD-wSK-On-Battery-Loaded-Panoramic-HID-XM-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2WNPE89PC047666&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2WNPE89PC047666-1.jpg",
+    "photoCount": 63,
+    "baseMsrp": 52795,
+    "squishVin": "1V2WNPE8PC",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 75,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22987
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.65,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 37495,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-1v2wnpe8xpc023845",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -4241,10 +6123,10 @@
     "series": "AWD Pro S 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0 Cyl",
+    "engine": "0.0L 0Cyl electric",
     "year": 2023,
     "mileage": 26605,
-    "price": 25159,
+    "price": 24495,
     "priceBasis": "listing",
     "dealer": "Capital Buick GMC",
     "dealerId": "d_82137960ef1cdeec",
@@ -4260,7 +6142,7 @@
     "url": "https://www.capitalbpg.com/used-Smyrna-2023-Volkswagen-ID4-Pro+S-1V2WNPE8XPC023845?stocknum=PC023845P&atc_ownerid=100002790&utm_source=kbb.com&utm_medium=referral&utm_campaign=kbb_listings",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2WNPE8XPC023845&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V2WNPE8XPC023845-1.jpg",
-    "photoCount": 6,
+    "photoCount": 1,
     "baseMsrp": 52795,
     "squishVin": "1V2WNPE8PC",
     "accidentCount": 0,
@@ -4270,12 +6152,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 32,
+    "lastSeen": "2026-11-09",
+    "listedDays": 39,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 25159
+      },
+      {
+        "date": "2026-11-09",
+        "price": 24495
       }
     ],
     "sellerType": "independent",
@@ -4294,22 +6180,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22747,
-      "expected": 22974,
+      "marketValue": 23106,
+      "expected": 23337,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 2185,
-      "dealPct": 0.0951,
-      "rating": "high",
-      "dealScore": 0.125,
+      "dealDelta": 1158,
+      "dealPct": 0.0496,
+      "rating": "fair",
+      "dealScore": 0.083,
       "basis": "cohort",
-      "cohortN": 8,
-      "confidence": 0.833,
+      "cohortN": 12,
+      "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 32,
-        "cohortMedianDaysListed": 12,
+        "listedDays": 39,
+        "cohortMedianDaysListed": 14,
+        "priceDrop": {
+          "total": 664,
+          "pct": -0.0264,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"

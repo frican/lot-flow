@@ -13,13 +13,13 @@
     "series": "Premier 4dr Hatchback (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "electric",
+    "engine": "Electric",
     "year": 2022,
     "mileage": 128068,
-    "price": 13999,
+    "price": 24000,
     "priceBasis": "listing",
-    "dealer": "1st Choice Autos",
-    "dealerId": "d_a2b79b05d878c80c",
+    "dealer": "1st Choice Automotive Corp.",
+    "dealerId": "d_d4863cdd75186cf4",
     "distanceMi": 12,
     "state": "GA",
     "city": "Smyrna",
@@ -32,7 +32,7 @@
     "url": "https://www.1stchoiceautosga.com/vdp/24342242/Used-2022-Chevrolet-Bolt-EUV-FWD-4dr-Premier-for-sale-in-Smyrna-GA-30080",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1G1FZ6S01N4130006&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1G1FZ6S01N4130006-1.jpg",
-    "photoCount": 1,
+    "photoCount": 24,
     "baseMsrp": 37500,
     "squishVin": "1G1FZ6S0N4",
     "accidentCount": 0,
@@ -42,12 +42,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 36,
+    "lastSeen": "2026-11-09",
+    "listedDays": 43,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 13999
+      },
+      {
+        "date": "2026-11-09",
+        "price": 24000
       }
     ],
     "sellerType": "independent",
@@ -68,8 +72,8 @@
       "basis": "none",
       "cohortN": 1,
       "signals": {
-        "listedDays": 36,
-        "cohortMedianDaysListed": 36,
+        "listedDays": 43,
+        "cohortMedianDaysListed": 43,
         "negotiability": "medium"
       },
       "trust": "verified"

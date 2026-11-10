@@ -40,7 +40,7 @@
     "oneOwner": true,
     "usageType": "Corporate Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 4,
@@ -70,13 +70,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25609,
-      "expected": 25865,
+      "marketValue": 25677,
+      "expected": 25934,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 3433,
-      "dealPct": 0.1327,
+      "dealDelta": 3364,
+      "dealPct": 0.1297,
       "rating": "overpriced",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -122,6 +122,7 @@
         "price": null
       }
     ],
-    "trimSearch": "eDrive40"
+    "trimSearch": "eDrive40",
+    "exitReason": "unseen"
   }
 ]

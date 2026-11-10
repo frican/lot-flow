@@ -13,12 +13,12 @@
     "series": "SE 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Other",
+    "engine": "electric",
     "year": 2022,
     "mileage": 28775,
-    "price": 19756,
+    "price": 20935,
     "priceBasis": "listing",
-    "dealer": "Rick Case Hyundai-Duluth",
+    "dealer": "Rick Case Hyundai of Duluth",
     "dealerId": "d_7bc05942db596f12",
     "distanceMi": 21,
     "state": "GA",
@@ -32,7 +32,7 @@
     "url": "https://gwinnettplacekia.com/used/Hyundai/2022-Hyundai-IONIQ-5-1cb057eeac181fb201976db0006920ab.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4AE2NU051526&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KM4AE2NU051526-1.jpg",
-    "photoCount": 26,
+    "photoCount": 1,
     "baseMsrp": 44000,
     "squishVin": "KM8KM4AENU",
     "accidentCount": 0,
@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 75,
+    "lastSeen": "2026-11-09",
+    "listedDays": 82,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -52,6 +52,10 @@
       {
         "date": "2026-11-02",
         "price": 19756
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20935
       }
     ],
     "sellerType": "franchise",
@@ -70,25 +74,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21266,
-      "expected": 21479,
+      "marketValue": 21560,
+      "expected": 21775,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1723,
-      "dealPct": -0.0802,
-      "rating": "good",
+      "dealDelta": -840,
+      "dealPct": -0.0386,
+      "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
       "cohortN": 2,
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 75,
-        "cohortMedianDaysListed": 68,
+        "listedDays": 82,
+        "cohortMedianDaysListed": 75,
         "priceDrop": {
-          "total": 2241,
-          "pct": -0.1019,
+          "total": 1062,
+          "pct": -0.0483,
           "drops": 1
         },
         "negotiability": "high"
@@ -124,6 +128,90 @@
     "powertrainSearch": "electric"
   },
   {
+    "id": "api-km8km4ae2nu080315",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SE 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2022,
+    "mileage": 68307,
+    "price": 17000,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "KM8KM4AE2NU080315",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KM4AE2NU080315",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4AE2NU080315&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KM4AE2NU080315-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 44000,
+    "squishVin": "KM8KM4AENU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 14,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 17000
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "SE",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "vehisales.com",
+        "trim": "SE",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-km8km4ae6nu064778",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -136,13 +224,13 @@
     "fuel": "Electric",
     "series": "SE 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
-    "drivetrain": "FWD",
-    "engine": "ELECTRIC",
+    "drivetrain": "RWD",
+    "engine": "electric",
     "year": 2022,
     "mileage": 55958,
-    "price": 19749,
+    "price": 18700,
     "priceBasis": "listing",
-    "dealer": "VC Cars Gwinnett Inc",
+    "dealer": "VC Cars Gwinnett",
     "dealerId": "d_553e6638aa79596a",
     "distanceMi": 20,
     "state": "GA",
@@ -156,7 +244,7 @@
     "url": "https://vccarsg.com/vdp/24309703/Used-2022-Hyundai-Ioniq-5-SE-for-sale-in-Duluth-GA-30096",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4AE6NU064778&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KM4AE6NU064778-1.jpg",
-    "photoCount": 1,
+    "photoCount": 40,
     "baseMsrp": 44000,
     "squishVin": "KM8KM4AENU",
     "accidentCount": 0,
@@ -166,12 +254,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 44,
+    "lastSeen": "2026-11-09",
+    "listedDays": 51,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 19749
+      },
+      {
+        "date": "2026-11-09",
+        "price": 18700
       }
     ],
     "sellerType": "independent",
@@ -192,8 +284,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
-    "trimSearch": "SE",
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Limited",
     "verifyLog": [
       {
         "date": "2026-10-21",
@@ -216,9 +308,90 @@
         "strength": "snippet",
         "mileage": 55958,
         "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
       }
     ],
     "powertrainSearch": "electric"
+  },
+  {
+    "id": "api-km8km4ae8nu055659",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SE 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2022,
+    "mileage": 56666,
+    "price": 17000,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Turquoise",
+    "interiorColor": "Black",
+    "vin": "KM8KM4AE8NU055659",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KM4AE8NU055659",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4AE8NU055659&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KM4AE8NU055659-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 44000,
+    "squishVin": "KM8KM4AENU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 17000
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8kmdaf0nu060413",
@@ -234,10 +407,10 @@
     "series": "SE 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2022,
     "mileage": 49159,
-    "price": 20576,
+    "price": 20575,
     "priceBasis": "listing",
     "dealer": "Carvilla",
     "dealerId": "d_d1b1a05ac2cd3504",
@@ -263,8 +436,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 61,
+    "lastSeen": "2026-11-09",
+    "listedDays": 68,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -273,6 +446,10 @@
       {
         "date": "2026-11-02",
         "price": 20576
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20575
       }
     ],
     "sellerType": "independent",
@@ -291,14 +468,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 19066,
-      "expected": 16969,
+      "marketValue": 19950,
+      "expected": 17756,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.04
       },
-      "dealDelta": 3607,
-      "dealPct": 0.2126,
+      "dealDelta": 2819,
+      "dealPct": 0.1588,
       "rating": "overpriced",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -306,12 +483,12 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 61,
-        "cohortMedianDaysListed": 68,
+        "listedDays": 68,
+        "cohortMedianDaysListed": 75,
         "priceDrop": {
-          "total": 300,
+          "total": 301,
           "pct": -0.0144,
-          "drops": 1
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -366,6 +543,76 @@
       }
     ],
     "trimSearch": "SE"
+  },
+  {
+    "id": "api-km8kmdaf9nu101072",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SE 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2022,
+    "mileage": 62242,
+    "price": 18000,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "KM8KMDAF9NU101072",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KMDAF9NU101072",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KMDAF9NU101072&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KMDAF9NU101072-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47500,
+    "squishVin": "KM8KMDAFNU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 10,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 18000
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8krdaf0nu117937",
@@ -464,5 +711,116 @@
     ],
     "powertrainSearch": "electric",
     "exitReason": "unseen"
+  },
+  {
+    "id": "api-km8krdaf6nu064497",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Limited 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2022,
+    "mileage": 54675,
+    "price": 21500,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Turquoise",
+    "interiorColor": "Green",
+    "vin": "KM8KRDAF6NU064497",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KRDAF6NU064497",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KRDAF6NU064497&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KRDAF6NU064497-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 55000,
+    "squishVin": "KM8KRDAFNU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 14,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21500
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24607,
+      "expected": 24607,
+      "adjustments": {},
+      "dealDelta": -3107,
+      "dealPct": -0.1263,
+      "rating": "great",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 14,
+        "cohortMedianDaysListed": 14,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Limited",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "vehisales.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Limited",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-09",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -25,27 +25,33 @@
       "year": 2021,
       "trim": "GT",
       "powertrain": "electric",
-      "n": 1,
+      "n": 2,
       "mileageRange": [
-        45731,
+        40021,
         45731
       ],
       "theilSen": null,
       "ols": null,
       "parentKey": "GT|electric",
-      "msrp": null
+      "msrp": 59900
     },
     "2022|Premium|electric": {
       "year": 2022,
       "trim": "Premium",
       "powertrain": "electric",
-      "n": 1,
+      "n": 3,
       "mileageRange": [
-        75950,
-        75950
+        66228,
+        114084
       ],
-      "theilSen": null,
-      "ols": null,
+      "theilSen": {
+        "slope": -0.0416,
+        "intercept": 25746.73
+      },
+      "ols": {
+        "slope": -0.0468,
+        "intercept": 26425.19
+      },
       "parentKey": "Premium|electric",
       "msrp": 51800
     },
@@ -73,12 +79,12 @@
         34446
       ],
       "theilSen": {
-        "slope": -0.0519,
-        "intercept": 27831.79
+        "slope": -0.1133,
+        "intercept": 29616.53
       },
       "ols": {
-        "slope": -0.0352,
-        "intercept": 27752.54
+        "slope": -0.0243,
+        "intercept": 27822.43
       },
       "parentKey": "Select|electric",
       "msrp": 42995
@@ -87,18 +93,18 @@
       "year": 2023,
       "trim": "California Route 1",
       "powertrain": "electric",
-      "n": 3,
+      "n": 4,
       "mileageRange": [
         31029,
-        36381
+        90494
       ],
       "theilSen": {
-        "slope": -0.1741,
-        "intercept": 37284.41
+        "slope": -0.0974,
+        "intercept": 34514.28
       },
       "ols": {
-        "slope": -0.2558,
-        "intercept": 39569.32
+        "slope": -0.1069,
+        "intercept": 34875.5
       },
       "parentKey": "California Route 1|electric",
       "msrp": 56995
@@ -107,18 +113,18 @@
       "year": 2023,
       "trim": "Premium",
       "powertrain": "electric",
-      "n": 16,
+      "n": 17,
       "mileageRange": [
         13917,
         65047
       ],
       "theilSen": {
-        "slope": -0.0805,
-        "intercept": 31965.64
+        "slope": -0.0983,
+        "intercept": 32773.44
       },
       "ols": {
-        "slope": -0.0664,
-        "intercept": 31527.24
+        "slope": -0.0884,
+        "intercept": 32221.8
       },
       "parentKey": "Premium|electric",
       "msrp": 46995
@@ -127,13 +133,19 @@
       "year": 2023,
       "trim": "GT",
       "powertrain": "electric",
-      "n": 2,
+      "n": 3,
       "mileageRange": [
-        25458,
+        12660,
         32122
       ],
-      "theilSen": null,
-      "ols": null,
+      "theilSen": {
+        "slope": -0.1802,
+        "intercept": 39279.3
+      },
+      "ols": {
+        "slope": -0.188,
+        "intercept": 39213.44
+      },
       "parentKey": "GT|electric",
       "msrp": 59995
     },
@@ -141,21 +153,35 @@
       "year": 2024,
       "trim": "Premium",
       "powertrain": "electric",
-      "n": 6,
+      "n": 7,
       "mileageRange": [
         10580,
-        40465
+        40468
       ],
       "theilSen": {
-        "slope": -0.0811,
-        "intercept": 33564.39
+        "slope": -0.0691,
+        "intercept": 32291.99
       },
       "ols": {
-        "slope": -0.1484,
-        "intercept": 35732.32
+        "slope": -0.1503,
+        "intercept": 35555.91
       },
       "parentKey": "Premium|electric",
       "msrp": 43995
+    },
+    "2025|Select|electric": {
+      "year": 2025,
+      "trim": "Select",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        15721,
+        15721
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Select|electric",
+      "msrp": 37995
     },
     "2026|Select|electric": {
       "year": 2026,
@@ -174,20 +200,20 @@
   },
   "parents": {
     "Premium|electric": {
-      "slope": -0.1148,
-      "intercept": 33163.01
+      "slope": -0.116,
+      "intercept": 33358.11
     },
     "GT|electric": {
-      "slope": -0.2059,
-      "intercept": 39189.89
+      "slope": -0.1812,
+      "intercept": 38560.93
     },
     "Select|electric": {
-      "slope": -0.2449,
-      "intercept": 32891.73
+      "slope": -0.2923,
+      "intercept": 34728.0
     },
     "California Route 1|electric": {
-      "slope": -0.1741,
-      "intercept": 37284.41
+      "slope": -0.0974,
+      "intercept": 34514.28
     }
   },
   "depreciation": {
@@ -196,51 +222,59 @@
         "year": 2021,
         "age": 5,
         "medianMileage": 37305,
-        "marketValue": 20766,
+        "marketValue": 22232,
         "msrp": 47600,
-        "retained": 0.436
+        "retained": 0.467
       },
       {
         "year": 2022,
         "age": 4,
         "medianMileage": 75950,
-        "marketValue": 23072,
+        "marketValue": 23288,
         "msrp": 51800,
-        "retained": 0.445
+        "retained": 0.45
       },
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 33820,
-        "marketValue": 29244,
+        "medianMileage": 35087,
+        "marketValue": 29326,
         "msrp": 46995,
-        "retained": 0.622
+        "retained": 0.624
       },
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 30522,
-        "marketValue": 31090,
+        "medianMileage": 28538,
+        "marketValue": 30320,
         "msrp": 43995,
-        "retained": 0.707
+        "retained": 0.689
       }
     ],
     "GT|electric": [
       {
+        "year": 2021,
+        "age": 5,
+        "medianMileage": 42876,
+        "marketValue": 31588,
+        "msrp": 59900,
+        "retained": 0.527
+      },
+      {
         "year": 2022,
         "age": 4,
         "medianMileage": 42166,
-        "marketValue": 29894,
+        "marketValue": 29974,
         "msrp": 61995,
-        "retained": 0.482
+        "retained": 0.483
       },
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 28790,
-        "marketValue": 33720,
+        "medianMileage": 25458,
+        "marketValue": 34680,
         "msrp": 59995,
-        "retained": 0.562
+        "retained": 0.578
       }
     ],
     "Select|electric": [
@@ -248,27 +282,35 @@
         "year": 2023,
         "age": 3,
         "medianMileage": 24222,
-        "marketValue": 26576,
+        "marketValue": 26873,
         "msrp": 42995,
-        "retained": 0.618
+        "retained": 0.625
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 15721,
+        "marketValue": 30158,
+        "msrp": 37995,
+        "retained": 0.794
       },
       {
         "year": 2026,
         "age": 0,
         "medianMileage": 835,
-        "marketValue": 34879,
+        "marketValue": 33873,
         "msrp": 37795,
-        "retained": 0.923
+        "retained": 0.896
       }
     ],
     "California Route 1|electric": [
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 34959,
-        "marketValue": 31197,
+        "medianMileage": 35670,
+        "marketValue": 31038,
         "msrp": 56995,
-        "retained": 0.547
+        "retained": 0.545
       }
     ]
   }

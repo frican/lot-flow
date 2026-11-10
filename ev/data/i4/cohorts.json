@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-09",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -25,10 +25,10 @@
       "year": 2023,
       "trim": "M50",
       "powertrain": "electric",
-      "n": 1,
+      "n": 2,
       "mileageRange": [
         21878,
-        21878
+        28291
       ],
       "theilSen": null,
       "ols": null,
@@ -39,18 +39,18 @@
       "year": 2023,
       "trim": "eDrive35",
       "powertrain": "electric",
-      "n": 15,
+      "n": 17,
       "mileageRange": [
         12728,
         56792
       ],
       "theilSen": {
-        "slope": -0.2423,
-        "intercept": 37542.42
+        "slope": -0.2483,
+        "intercept": 37688.69
       },
       "ols": {
-        "slope": -0.1957,
-        "intercept": 36921.03
+        "slope": -0.2037,
+        "intercept": 37036.33
       },
       "parentKey": "eDrive35|electric",
       "msrp": 51400
@@ -65,12 +65,12 @@
         46915
       ],
       "theilSen": {
-        "slope": -0.1203,
-        "intercept": 38301.62
+        "slope": -0.1641,
+        "intercept": 39086.13
       },
       "ols": {
-        "slope": -0.0843,
-        "intercept": 37090.54
+        "slope": -0.1261,
+        "intercept": 38109.77
       },
       "parentKey": "eDrive40|electric",
       "msrp": 55900
@@ -81,16 +81,16 @@
       "powertrain": "electric",
       "n": 3,
       "mileageRange": [
-        13109,
+        13115,
         23635
       ],
       "theilSen": {
-        "slope": -0.3925,
-        "intercept": 58265.72
+        "slope": -0.3907,
+        "intercept": 58223.83
       },
       "ols": {
-        "slope": -0.2901,
-        "intercept": 55441.24
+        "slope": -0.2886,
+        "intercept": 55409.1
       },
       "parentKey": "M50|electric",
       "msrp": 69700
@@ -99,18 +99,18 @@
       "year": 2024,
       "trim": "eDrive35",
       "powertrain": "electric",
-      "n": 8,
+      "n": 9,
       "mileageRange": [
         11907,
-        35036
+        39225
       ],
       "theilSen": {
-        "slope": -0.0292,
-        "intercept": 34709.17
+        "slope": 0.0078,
+        "intercept": 33787.63
       },
       "ols": {
-        "slope": -0.0235,
-        "intercept": 34974.19
+        "slope": -0.0225,
+        "intercept": 34948.4
       },
       "parentKey": "eDrive35|electric",
       "msrp": 52200
@@ -119,18 +119,18 @@
       "year": 2024,
       "trim": "eDrive40",
       "powertrain": "electric",
-      "n": 8,
+      "n": 9,
       "mileageRange": [
         22709,
         94858
       ],
       "theilSen": {
-        "slope": -0.3113,
-        "intercept": 48519.65
+        "slope": -0.2678,
+        "intercept": 46252.45
       },
       "ols": {
-        "slope": -0.2809,
-        "intercept": 46909.43
+        "slope": -0.266,
+        "intercept": 46203.52
       },
       "parentKey": "eDrive40|electric",
       "msrp": 57300
@@ -139,18 +139,18 @@
       "year": 2025,
       "trim": "eDrive40",
       "powertrain": "electric",
-      "n": 6,
+      "n": 7,
       "mileageRange": [
         7261,
         43384
       ],
       "theilSen": {
-        "slope": -0.2444,
-        "intercept": 45384.87
+        "slope": -0.2243,
+        "intercept": 45626.3
       },
       "ols": {
-        "slope": -0.2556,
-        "intercept": 45540.41
+        "slope": -0.2462,
+        "intercept": 45519.66
       },
       "parentKey": "eDrive40|electric",
       "msrp": 57900
@@ -179,12 +179,12 @@
         6514
       ],
       "theilSen": {
-        "slope": -1.7756,
-        "intercept": 64523.43
+        "slope": -1.672,
+        "intercept": 63477.4
       },
       "ols": {
-        "slope": -1.3825,
-        "intercept": 61966.15
+        "slope": -1.4109,
+        "intercept": 62216.24
       },
       "parentKey": "eDrive40|electric",
       "msrp": 57900
@@ -192,16 +192,16 @@
   },
   "parents": {
     "eDrive40|electric": {
-      "slope": -0.4,
-      "intercept": 50189.65
+      "slope": -0.3801,
+      "intercept": 49379.89
     },
     "M50|electric": {
-      "slope": -0.8563,
-      "intercept": 63300.54
+      "slope": -0.4295,
+      "intercept": 58143.84
     },
     "eDrive35|electric": {
-      "slope": -0.2482,
-      "intercept": 39438.86
+      "slope": -0.2437,
+      "intercept": 39286.4
     }
   },
   "depreciation": {
@@ -210,33 +210,33 @@
         "year": 2022,
         "age": 4,
         "medianMileage": 47819,
-        "marketValue": 25609,
+        "marketValue": 25677,
         "msrp": 55400,
-        "retained": 0.462
+        "retained": 0.463
       },
       {
         "year": 2023,
         "age": 3,
         "medianMileage": 28498,
-        "marketValue": 34872,
+        "marketValue": 34409,
         "msrp": 55900,
-        "retained": 0.624
+        "retained": 0.616
       },
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 29576,
-        "marketValue": 39313,
+        "medianMileage": 29172,
+        "marketValue": 38440,
         "msrp": 57300,
-        "retained": 0.686
+        "retained": 0.671
       },
       {
         "year": 2025,
         "age": 1,
-        "medianMileage": 29563,
-        "marketValue": 38160,
+        "medianMileage": 25098,
+        "marketValue": 39998,
         "msrp": 57900,
-        "retained": 0.659
+        "retained": 0.691
       },
       {
         "year": 2026,
@@ -251,34 +251,34 @@
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 21878,
-        "marketValue": 42988,
+        "medianMileage": 25084,
+        "marketValue": 43246,
         "msrp": 67300,
-        "retained": 0.639
+        "retained": 0.643
       },
       {
         "year": 2024,
         "age": 2,
         "medianMileage": 15365,
-        "marketValue": 51189,
+        "marketValue": 52134,
         "msrp": 69700,
-        "retained": 0.734
+        "retained": 0.748
       }
     ],
     "eDrive35|electric": [
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 29918,
-        "marketValue": 30293,
+        "medianMileage": 30372,
+        "marketValue": 30148,
         "msrp": 51400,
-        "retained": 0.589
+        "retained": 0.587
       },
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 25126,
-        "marketValue": 33975,
+        "medianMileage": 25844,
+        "marketValue": 33990,
         "msrp": 52200,
         "retained": 0.651
       }
@@ -288,7 +288,7 @@
         "year": 2025,
         "age": 1,
         "medianMileage": 30422,
-        "marketValue": 44448,
+        "marketValue": 44449,
         "msrp": 62300,
         "retained": 0.713
       }

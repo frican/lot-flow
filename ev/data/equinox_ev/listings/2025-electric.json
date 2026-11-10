@@ -19,7 +19,7 @@
     "price": 26998,
     "priceBasis": "listing",
     "dealer": "CarMax Southlake",
-    "dealerId": "d_bb55ff73c2c16ac8",
+    "dealerId": "d_8a5eb62381ed2263",
     "distanceMi": 15,
     "state": "GA",
     "city": "Stockbridge",
@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 30,
+    "lastSeen": "2026-11-09",
+    "listedDays": 37,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -101,7 +101,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 39390,
-    "price": 22173,
+    "price": 22164,
     "priceBasis": "listing",
     "dealer": "Buddy Chevrolet",
     "dealerId": "d_7b6d7d976effa9bc",
@@ -127,12 +127,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 39,
+    "lastSeen": "2026-11-09",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 22173
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22164
       }
     ],
     "sellerType": "franchise",
@@ -151,7 +155,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-3gn7dlrp9ss142371",
@@ -170,10 +175,10 @@
     "engine": "electric",
     "year": 2025,
     "mileage": 19999,
-    "price": 22997,
+    "price": 20998,
     "priceBasis": "listing",
     "dealer": "Malcolm Cunningham Chevrolet North Point Used",
-    "dealerId": "d_e97296d9d2fd7fa7",
+    "dealerId": "d_987480c7e77c1948",
     "distanceMi": 21,
     "state": "GA",
     "city": "Alpharetta",
@@ -183,7 +188,7 @@
     "interiorColor": "Black",
     "vin": "3GN7DLRP9SS142371",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.malcolmcunninghamchevroletatlanta.com/used-Alpharetta-2025-Chevrolet-Equinox+EV-LT-3GN7DLRP9SS142371",
+    "url": "https://www.malcolmcunninghamchevroletatlanta.com/sitemap.aspx?srsltid=AYCX9vKVUvxKmaqO36-xM31R3rbCMUDdKzK_FIlTgUwPRqmO61MGVnz7",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DLRP9SS142371&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GN7DLRP9SS142371-1.jpg",
     "photoCount": 29,
@@ -193,15 +198,19 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 18,
+    "lastSeen": "2026-11-09",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 22997
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20998
       }
     ],
     "sellerType": "franchise",
@@ -212,18 +221,93 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
-    }
+      "marketValue": 21908,
+      "expected": 22128,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1130,
+      "dealPct": -0.051,
+      "rating": "good",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 25,
+        "cohortMedianDaysListed": 25,
+        "priceDrop": {
+          "total": 1999,
+          "pct": -0.0869,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "LT",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "malcolmcunninghamchevroletatlanta.com",
+        "trim": "LT",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "caredge.com",
+        "trim": "LT",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "LT",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "LT",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "LT",
+    "powertrainSearch": "electric"
   },
   {
-    "id": "api-3gn7dmrp3ss254251",
+    "id": "api-3gn7dmrp2ss206207",
     "discoveredBy": "auto.dev",
     "seenBy": [
       "auto.dev"
@@ -236,41 +320,41 @@
     "series": "LT 1 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "Electric",
+    "engine": "0.0L",
     "year": 2025,
-    "mileage": 6554,
-    "price": 30998,
+    "mileage": 14316,
+    "price": 26998,
     "priceBasis": "listing",
     "dealer": "CarMax Southlake",
-    "dealerId": "d_bb55ff73c2c16ac8",
+    "dealerId": null,
     "distanceMi": 15,
     "state": "GA",
     "city": "Stockbridge",
     "cpo": "none",
     "cpoFeed": false,
-    "exteriorColor": "Radiant Red Tintcoat",
-    "interiorColor": "Black cloth",
-    "vin": "3GN7DMRP3SS254251",
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "3GN7DMRP2SS206207",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://www.carmax.com/car/29152759",
-    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DMRP3SS254251&partner=FRD_2",
-    "primaryImage": "https://retail.photos.vin/3GN7DMRP3SS254251-1.jpg",
-    "photoCount": 27,
+    "url": "https://www.carmax.com/car/29257491",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DMRP2SS206207&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DMRP2SS206207-1.jpg",
+    "photoCount": 1,
     "baseMsrp": 33600,
     "squishVin": "3GN7DMRPSS",
-    "accidentCount": 1,
-    "ownerCount": 1,
-    "oneOwner": true,
-    "usageType": "Personal Use",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
     "flagged": true,
     "gone": false,
-    "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 16,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 1,
     "priceHistory": [
       {
-        "date": "2026-11-01",
-        "price": 30998
+        "date": "2026-11-09",
+        "price": 26998
       }
     ],
     "sellerType": "independent",
@@ -289,10 +373,11 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "searchedAt": "2026-11-09"
   },
   {
-    "id": "api-3gn7dmrp4ss216740",
+    "id": "api-3gn7dmrp3ss254251",
     "discoveredBy": "auto.dev",
     "seenBy": [
       "auto.dev"
@@ -305,44 +390,48 @@
     "series": "LT 1 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "0.0L 0Cyl electric",
+    "engine": "0.0L",
     "year": 2025,
-    "mileage": 14593,
-    "price": 22584,
+    "mileage": 6554,
+    "price": 29998,
     "priceBasis": "listing",
-    "dealer": "Buddy Chevrolet",
-    "dealerId": "d_7b6d7d976effa9bc",
-    "distanceMi": 10,
+    "dealer": "CarMax Southlake",
+    "dealerId": "d_bb55ff73c2c16ac8",
+    "distanceMi": 15,
     "state": "GA",
-    "city": "Decatur",
+    "city": "Stockbridge",
     "cpo": "none",
     "cpoFeed": false,
-    "exteriorColor": "Black",
-    "interiorColor": "Black",
-    "vin": "3GN7DMRP4SS216740",
+    "exteriorColor": "Radiant Red Tintcoat",
+    "interiorColor": "Black cloth",
+    "vin": "3GN7DMRP3SS254251",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://buddychevy.com/used/Chevrolet/2025-Chevrolet-Equinox-EV-b4558732ac184da0e298c919074388dd.htm",
-    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DMRP4SS216740&partner=FRD_2",
-    "primaryImage": "https://retail.photos.vin/3GN7DMRP4SS216740-1.jpg",
+    "url": "https://www.carmax.com/car/29152759",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DMRP3SS254251&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DMRP3SS254251-1.jpg",
     "photoCount": 1,
     "baseMsrp": 33600,
     "squishVin": "3GN7DMRPSS",
-    "accidentCount": 0,
-    "ownerCount": 2,
-    "oneOwner": false,
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 46,
+    "lastSeen": "2026-11-09",
+    "listedDays": 23,
     "priceHistory": [
       {
         "date": "2026-11-01",
-        "price": 22584
+        "price": 30998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 29998
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -358,7 +447,307 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-3gn7dmrp4ss216740",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LT",
+    "trimFeed": "LT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "LT 1 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "Other",
+    "year": 2025,
+    "mileage": 14593,
+    "price": 25575,
+    "priceBasis": "listing",
+    "dealer": "Buddy Chevrolet",
+    "dealerId": "d_7b6d7d976effa9bc",
+    "distanceMi": 10,
+    "state": "GA",
+    "city": "Decatur",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "3GN7DMRP4SS216740",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://buddychevy.com/used/Chevrolet/2025-Chevrolet-Equinox-EV-b4558732ac184da0e298c919074388dd.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DMRP4SS216740&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DMRP4SS216740-1.jpg",
+    "photoCount": 37,
+    "baseMsrp": 33600,
+    "squishVin": "3GN7DMRPSS",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-01",
+    "lastSeen": "2026-11-09",
+    "listedDays": 53,
+    "priceHistory": [
+      {
+        "date": "2026-11-01",
+        "price": 22584
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25575
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "LT",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "LT",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-3gn7dmrp8ss211573",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LT",
+    "trimFeed": "LT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "LT 1 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "0.0L",
+    "year": 2025,
+    "mileage": 7887,
+    "price": 26998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Lithia Springs",
+    "dealerId": null,
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Lithia Springs",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "3GN7DMRP8SS211573",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29142345",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DMRP8SS211573&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DMRP8SS211573-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 33600,
+    "squishVin": "3GN7DMRPSS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 26998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-3gn7dnrp1ss210254",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LT",
+    "trimFeed": "LT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "LT 2 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2025,
+    "mileage": 19447,
+    "price": 27998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Roswell",
+    "dealerId": "d_a56b21a46c6ecd18",
+    "distanceMi": 22,
+    "state": "GA",
+    "city": "Roswell",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Galaxy Gray Metallic",
+    "interiorColor": "Black w/Blue Accents leatherette",
+    "vin": "3GN7DNRP1SS210254",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29257512",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DNRP1SS210254&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DNRP1SS210254-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 41900,
+    "squishVin": "3GN7DNRPSS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Corporate Fleet",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 27998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-3gn7dnrp9ss213306",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LT",
+    "trimFeed": "LT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "LT 2 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "electric",
+    "year": 2025,
+    "mileage": 20078,
+    "price": 23800,
+    "priceBasis": "listing",
+    "dealer": "Bmvw",
+    "dealerId": "d_9a1299f922cbf553",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "3GN7DNRP9SS213306",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://bmvw.com/vdp/24467707/Used-2025-Chevrolet-Equinox-EV-4dr-LT2-wPDE-for-sale-in-Union-City-GA-30291",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DNRP9SS213306&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DNRP9SS213306-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 41900,
+    "squishVin": "3GN7DNRPSS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 23800
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-3gn7dsrp1ss121220",
@@ -400,11 +789,11 @@
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 36,
+    "lastSeen": "2026-11-09",
+    "listedDays": 43,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -419,15 +808,72 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
-    }
+      "marketValue": 28774,
+      "expected": 27047,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 941,
+      "dealPct": 0.0348,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 43,
+        "cohortMedianDaysListed": 30,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "RS",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "txcardirect.com",
+        "trim": "RS",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "stonecrestautomall.com",
+        "trim": "RS",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "w8shipping-pl.com",
+        "trim": "RS",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-3gn7dsrp1ss254480",
@@ -470,7 +916,7 @@
     "oneOwner": true,
     "usageType": "Corporate Fleet",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-01",
     "lastSeen": "2026-11-02",
     "listedDays": 4,
@@ -496,7 +942,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-3gn7dsrp7ss212556",
@@ -515,10 +962,10 @@
     "engine": "Integral drive unit with electric motor",
     "year": 2025,
     "mileage": 13442,
-    "price": 30799,
+    "price": 29399,
     "priceBasis": "listing",
-    "dealer": "Rick Hendrick Chevrolet Duluth",
-    "dealerId": "d_15af8e7856ce2d29",
+    "dealer": "Rick Hendrick Chrysler Dodge Jeep RAM Duluth",
+    "dealerId": "d_07a1fca5e73da0d4",
     "distanceMi": 21,
     "state": "GA",
     "city": "Duluth",
@@ -528,21 +975,21 @@
     "interiorColor": "Black With Red Accents",
     "vin": "3GN7DSRP7SS212556",
     "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
-    "url": "https://landrovercharlotte.com/used/Chevrolet/2025-Chevrolet-Equinox-EV-63b98e45ac183997d148802892f22545.htm",
+    "url": "https://www.hendrickcadillacmonroe.com/inventory/used-2025-chevrolet-equinox-ev-rs-front-wheel-drive-suv-3gn7dsrp7ss212556/?srsltid=AYCX9vK8A3gwocfXOBPSNQkvnmy5nwqLMXUPA7kiGbK1WLcoNYV0k6GG",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DSRP7SS212556&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GN7DSRP7SS212556-1.jpg",
-    "photoCount": 11,
+    "photoCount": 33,
     "baseMsrp": 43400,
     "squishVin": "3GN7DSRPSS",
     "accidentCount": null,
     "ownerCount": null,
     "oneOwner": null,
     "usageType": null,
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 11,
+    "lastSeen": "2026-11-09",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -551,9 +998,13 @@
       {
         "date": "2026-11-02",
         "price": 30799
+      },
+      {
+        "date": "2026-11-09",
+        "price": 29399
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -561,15 +1012,89 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
-    }
+      "marketValue": 28613,
+      "expected": 28613,
+      "adjustments": {},
+      "dealDelta": 786,
+      "dealPct": 0.0275,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 18,
+        "cohortMedianDaysListed": 30,
+        "priceDrop": {
+          "total": 501,
+          "pct": -0.0168,
+          "drops": 1
+        },
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "RS",
+    "powertrainSite": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "hendrickcadillacmonroe.com",
+        "trim": "RS",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 13442,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "charlestonhonda.com",
+        "trim": "RS",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": 13442,
+        "price": 29900
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "darrellwaltripsubaru.com",
+        "trim": "RS",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "mallofgamini.com",
+        "trim": "RS",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "P9715",
+    "trimSearch": "RS",
+    "powertrainSearch": "electric"
   },
   {
     "id": "api-3gn7dsrp8ss169037",
@@ -585,10 +1110,10 @@
     "series": "RS 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "0.0L",
+    "engine": "Electric",
     "year": 2025,
     "mileage": 10275,
-    "price": 30998,
+    "price": 29998,
     "priceBasis": "listing",
     "dealer": "CarMax Lithia Springs",
     "dealerId": "d_3b08986731308aca",
@@ -604,7 +1129,7 @@
     "url": "https://www.carmax.com/car/29081754",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DSRP8SS169037&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GN7DSRP8SS169037-1.jpg",
-    "photoCount": 1,
+    "photoCount": 30,
     "baseMsrp": 43400,
     "squishVin": "3GN7DSRPSS",
     "accidentCount": 0,
@@ -614,12 +1139,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 21,
+    "lastSeen": "2026-11-09",
+    "listedDays": 28,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 30998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 29998
       }
     ],
     "sellerType": "independent",
@@ -683,8 +1212,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 18,
+    "lastSeen": "2026-11-09",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -723,13 +1252,13 @@
     "series": "RS 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L",
+    "engine": "Electric",
     "year": 2025,
     "mileage": 841,
-    "price": 33998,
+    "price": 32998,
     "priceBasis": "listing",
-    "dealer": "CarMax Town Center",
-    "dealerId": null,
+    "dealer": "CarMax - Town Center",
+    "dealerId": "d_18bd36f40629047a",
     "distanceMi": 21,
     "state": "GA",
     "city": "Kennesaw",
@@ -742,7 +1271,7 @@
     "url": "https://www.carmax.com/car/29143489",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DSRR4SS259254&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GN7DSRR4SS259254-1.jpg",
-    "photoCount": 1,
+    "photoCount": 29,
     "baseMsrp": 43400,
     "squishVin": "3GN7DSRRSS",
     "accidentCount": 0,
@@ -752,12 +1281,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 21,
+    "lastSeen": "2026-11-09",
+    "listedDays": 28,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 33998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 32998
       }
     ],
     "sellerType": "independent",

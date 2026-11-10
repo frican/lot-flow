@@ -5,7 +5,7 @@
     "seenBy": [
       "auto.dev"
     ],
-    "trim": "Wind",
+    "trim": "Light Long Range",
     "trimFeed": "Wind",
     "powertrain": "electric",
     "powertrainFeed": "electric",
@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 14,
+    "lastSeen": "2026-11-09",
+    "listedDays": 21,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -58,16 +58,30 @@
     "powertrainConflict": false,
     "plantCountry": "United States",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.65,
+    "trimVerifiedBy": "search",
     "trimFlagged": true,
-    "trimConflict": false,
+    "trimConflict": true,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Light Long Range",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Light Long Range",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-kndaefs50s6055663",
@@ -110,7 +124,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 24,
@@ -140,13 +154,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 45930,
-      "expected": 46389,
+      "marketValue": 45187,
+      "expected": 45639,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 403,
-      "dealPct": 0.0087,
+      "dealDelta": 1153,
+      "dealPct": 0.0253,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -193,6 +207,7 @@
     ],
     "stock": "K055663",
     "trimSearch": "GT-Line",
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   }
 ]

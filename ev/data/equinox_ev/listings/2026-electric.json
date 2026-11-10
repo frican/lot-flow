@@ -16,7 +16,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2026,
     "mileage": 200,
-    "price": 32864,
+    "price": 31664,
     "priceBasis": "listing",
     "dealer": "ALM Chevrolet South",
     "dealerId": "d_75cd2e41245edbb2",
@@ -42,12 +42,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 263,
+    "lastSeen": "2026-11-09",
+    "listedDays": 270,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 32864
+      },
+      {
+        "date": "2026-11-09",
+        "price": 31664
       }
     ],
     "sellerType": "franchise",
@@ -85,7 +89,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2026,
     "mileage": 2267,
-    "price": 26809,
+    "price": 26799,
     "priceBasis": "listing",
     "dealer": "Buddy Chevrolet",
     "dealerId": "d_7b6d7d976effa9bc",
@@ -111,15 +115,88 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 124,
+    "lastSeen": "2026-11-09",
+    "listedDays": 131,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 26809
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26799
       }
     ],
     "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
+  },
+  {
+    "id": "api-3gn7dmrp9ts101990",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LT",
+    "trimFeed": "LT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "LT 1 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "electric",
+    "year": 2026,
+    "mileage": 10403,
+    "price": 28088,
+    "priceBasis": "listing",
+    "dealer": "Nalley Lexus Galleria",
+    "dealerId": "d_425461736143ae91",
+    "distanceMi": 11,
+    "state": "GA",
+    "city": "Smyrna",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Red",
+    "interiorColor": "Black",
+    "vin": "3GN7DMRP9TS101990",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://nalleylexusroswell.com/used/Chevrolet/2026-Chevrolet-Equinox-EV-9e4e488bac185c3a4b66caaa65f57556.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DMRP9TS101990&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DMRP9TS101990-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 34995,
+    "squishVin": "3GN7DMRPTS",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 7,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 28088
+      }
+    ],
+    "sellerType": "independent",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -178,7 +255,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-01",
     "lastSeen": "2026-11-02",
     "listedDays": 11,
@@ -208,7 +285,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "unseen"
   },
   {
     "id": "api-3gn7dnrp2ts152026",
@@ -224,13 +302,13 @@
     "series": "LT 2 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "Electric",
+    "engine": "Integral drive unit with electric motor",
     "year": 2026,
     "mileage": 9032,
-    "price": 31849,
+    "price": 31099,
     "priceBasis": "listing",
-    "dealer": "Rick Hendrick Chevrolet Duluth",
-    "dealerId": "d_15af8e7856ce2d29",
+    "dealer": "Rick Hendrick Chrysler Dodge Jeep RAM Duluth",
+    "dealerId": "d_07a1fca5e73da0d4",
     "distanceMi": 21,
     "state": "GA",
     "city": "Duluth",
@@ -243,7 +321,7 @@
     "url": "https://landrovercharlotte.com/used/Chevrolet/2026-Chevrolet-Equinox-EV-63b98359ac183997d148802862a43ce4.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DNRP2TS152026&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GN7DNRP2TS152026-1.jpg",
-    "photoCount": 22,
+    "photoCount": 33,
     "baseMsrp": 41795,
     "squishVin": "3GN7DNRPTS",
     "accidentCount": null,
@@ -253,8 +331,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 11,
+    "lastSeen": "2026-11-09",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -263,9 +341,13 @@
       {
         "date": "2026-11-02",
         "price": 31849
+      },
+      {
+        "date": "2026-11-09",
+        "price": 31099
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -300,7 +382,7 @@
     "engine": "electric",
     "year": 2026,
     "mileage": 8552,
-    "price": 30293,
+    "price": 29793,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -326,12 +408,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 31,
+    "lastSeen": "2026-11-09",
+    "listedDays": 38,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 30293
+      },
+      {
+        "date": "2026-11-09",
+        "price": 29793
       }
     ],
     "sellerType": "independent",
@@ -369,10 +455,10 @@
     "engine": "Integral drive unit with electric motor",
     "year": 2026,
     "mileage": 11220,
-    "price": 31799,
+    "price": 31099,
     "priceBasis": "listing",
-    "dealer": "Rick Hendrick Chevrolet Duluth",
-    "dealerId": "d_15af8e7856ce2d29",
+    "dealer": "Rick Hendrick Chrysler Dodge Jeep RAM Duluth",
+    "dealerId": "d_07a1fca5e73da0d4",
     "distanceMi": 21,
     "state": "GA",
     "city": "Duluth",
@@ -395,8 +481,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 11,
+    "lastSeen": "2026-11-09",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -405,9 +491,151 @@
       {
         "date": "2026-11-02",
         "price": 31799
+      },
+      {
+        "date": "2026-11-09",
+        "price": 31099
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
+  },
+  {
+    "id": "api-3gn7dnrpxts103849",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LT",
+    "trimFeed": "LT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "LT 2 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "Electric Motor",
+    "year": 2026,
+    "mileage": 9952,
+    "price": 26800,
+    "priceBasis": "listing",
+    "dealer": "BMVW Auto Sales",
+    "dealerId": "d_9a1299f922cbf553",
+    "distanceMi": 15,
+    "state": "GA",
+    "city": "Union City",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": null,
+    "vin": "3GN7DNRPXTS103849",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://bmvw.com/vdp/24467719/Used-2026-Chevrolet-Equinox-EV-4dr-LT2-wPDE-for-sale-in-Union-City-GA-30291",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DNRPXTS103849&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DNRPXTS103849-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 41795,
+    "squishVin": "3GN7DNRPTS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 26800
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    }
+  },
+  {
+    "id": "api-3gn7dnrpxts149892",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "LT",
+    "trimFeed": "LT",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "LT 2 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "electric",
+    "year": 2026,
+    "mileage": 33409,
+    "price": 26481,
+    "priceBasis": "listing",
+    "dealer": "Heritage Mitsubishi Morrow",
+    "dealerId": "d_3a9a68f198a5f420",
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Morrow",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "3GN7DNRPXTS149892",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "http://details.vast.com/details/cars/ob-48ae10cec45c5264c0c05239af7ac2c3eda678223f9171ac63be6a3107cd3db63b027b96ef83ac88fd6ccb42933d4f3c6bf26f82a637df6dbf6160746a741de28216acf5e612d6810f837ac0440898e2f5b9184a7bac2b62161845af2def75528f459280b97678f754d4ebdd5755bf78e43cf64702f1d8312e6aea61aad8fe07de5f4389b1cc2c773ae6b28b499c8f0c7b6ad524e9eb26f1797633f545ec82dae17dfe46c2bf13d50b6d06975724cf63/?pl=63&context=1e0d811633d20dd94c351375e543927eda3d8b1a",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GN7DNRPXTS149892&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GN7DNRPXTS149892-1.jpg",
+    "photoCount": 47,
+    "baseMsrp": 41795,
+    "squishVin": "3GN7DNRPTS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Rental Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 26481
+      }
+    ],
+    "sellerType": "independent",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -468,8 +696,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 383,
+    "lastSeen": "2026-11-09",
+    "listedDays": 390,
     "priceHistory": [
       {
         "date": "2026-11-01",

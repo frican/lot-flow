@@ -162,14 +162,14 @@
       "dealDelta": 1145,
       "dealPct": 0.0638,
       "rating": "high",
-      "dealScore": 0.667,
+      "dealScore": 0.333,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
         "listedDays": 11,
-        "cohortMedianDaysListed": 66,
+        "cohortMedianDaysListed": 74,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -268,7 +268,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-11-02",
     "listedDays": 85,
@@ -294,23 +294,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21014,
-      "expected": 19754,
+      "marketValue": 22066,
+      "expected": 20742,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 1236,
-      "dealPct": 0.0626,
-      "rating": "high",
-      "dealScore": 0.333,
+      "dealDelta": 248,
+      "dealPct": 0.012,
+      "rating": "fair",
+      "dealScore": 1.0,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
         "listedDays": 85,
-        "cohortMedianDaysListed": 66,
+        "cohortMedianDaysListed": 74,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -365,7 +365,8 @@
       }
     ],
     "trimSearch": "Wind",
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   },
   {
     "id": "api-kndc34la9n5059638",
@@ -410,8 +411,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 66,
+    "lastSeen": "2026-11-09",
+    "listedDays": 74,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -434,20 +435,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 18869,
-      "expected": 18869,
+      "marketValue": 18750,
+      "expected": 18750,
       "adjustments": {},
-      "dealDelta": 436,
-      "dealPct": 0.0231,
+      "dealDelta": 555,
+      "dealPct": 0.0296,
       "rating": "fair",
-      "dealScore": 1.0,
+      "dealScore": 0.667,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 66,
-        "cohortMedianDaysListed": 66,
+        "listedDays": 74,
+        "cohortMedianDaysListed": 74,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -496,7 +497,7 @@
     "engine": "Electric",
     "year": 2022,
     "mileage": 33209,
-    "price": 19798,
+    "price": 19799,
     "priceBasis": "listing",
     "dealer": "Malones Automotive",
     "dealerId": "d_6d6750d19d48a302",
@@ -512,7 +513,7 @@
     "url": "https://www.malonesauto.com/used-Marietta-2022-Kia-EV6-Light+NE+19+HK+AC-KNDC34LB6N5042174",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC34LB6N5042174&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC34LB6N5042174-1.jpg",
-    "photoCount": 6,
+    "photoCount": 34,
     "baseMsrp": 47500,
     "squishVin": "KNDC34LBN5",
     "accidentCount": 0,
@@ -522,8 +523,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 6,
+    "lastSeen": "2026-11-09",
+    "listedDays": 13,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -532,6 +533,10 @@
       {
         "date": "2026-11-02",
         "price": 19798
+      },
+      {
+        "date": "2026-11-09",
+        "price": 19799
       }
     ],
     "sellerType": "independent",
@@ -553,10 +558,10 @@
       "basis": "none",
       "cohortN": 1,
       "signals": {
-        "listedDays": 6,
-        "cohortMedianDaysListed": 6,
+        "listedDays": 13,
+        "cohortMedianDaysListed": 13,
         "priceDrop": {
-          "total": 500,
+          "total": 499,
           "pct": -0.0246,
           "drops": 1
         },

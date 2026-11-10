@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02",
-  "total": 67,
-  "cohortReady": 49,
-  "flagged": 18,
+  "generatedAt": "2026-11-09",
+  "total": 78,
+  "cohortReady": 58,
+  "flagged": 20,
   "shards": [
     {
       "shard": "2023-electric",
       "file": "listings/2023-electric.json",
-      "count": 40,
-      "cohortReady": 29,
-      "gone": 10
+      "count": 47,
+      "cohortReady": 34,
+      "gone": 14
     },
     {
       "shard": "2024-electric",
       "file": "listings/2024-electric.json",
-      "count": 26,
-      "cohortReady": 20,
-      "gone": 3
+      "count": 30,
+      "cohortReady": 23,
+      "gone": 12
     },
     {
       "shard": "2025-electric",
       "file": "listings/2025-electric.json",
       "count": 1,
-      "cohortReady": 0,
+      "cohortReady": 1,
       "gone": 0
     }
   ]

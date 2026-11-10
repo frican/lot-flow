@@ -19,7 +19,7 @@
     "price": 16999,
     "priceBasis": "listing",
     "dealer": "1st Choice Autos",
-    "dealerId": "d_a2b79b05d878c80c",
+    "dealerId": "d_d4863cdd75186cf4",
     "distanceMi": 12,
     "state": "GA",
     "city": "Smyrna",
@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 9,
+    "lastSeen": "2026-11-09",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -68,9 +68,9 @@
       "basis": "none",
       "cohortN": 1,
       "signals": {
-        "listedDays": 9,
-        "cohortMedianDaysListed": 9,
-        "negotiability": "low"
+        "listedDays": 16,
+        "cohortMedianDaysListed": 16,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },

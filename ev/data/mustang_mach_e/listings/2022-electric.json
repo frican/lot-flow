@@ -144,6 +144,122 @@
     "exitReason": "unseen"
   },
   {
+    "id": "api-3fmtk3r78nma30825",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2022,
+    "mileage": 114084,
+    "price": 20998,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Ford",
+    "dealerId": "d_7def7625dc21fc03",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "3FMTK3R78NMA30825",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.gwinnettplaceford.com/used/Ford/2022-Ford-Mustang-Mach-E-9d4aa471ac181939c770ce82872e82ca.htm?srsltid=AYCX9vLQMD7kV8U3CW2NIyCgqFeLDCWYFS_B8Z6f8nHlvkNH1XOZbnR9",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3R78NMA30825&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3R78NMA30825-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 49100,
+    "squishVin": "3FMTK3R7NM",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 20998
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.977,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 18863,
+      "expected": 17731,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 3267,
+      "dealPct": 0.1842,
+      "rating": "overpriced",
+      "dealScore": 0.333,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 6,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "gwinnettplaceford.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "trimSearch": "Premium"
+  },
+  {
     "id": "api-3fmtk3r78nma39234",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -184,7 +300,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-11-02",
     "listedDays": 37,
@@ -230,7 +346,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-3fmtk3ss6nma25136",
@@ -246,10 +363,10 @@
     "series": "Premium 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2022,
     "mileage": 75950,
-    "price": 22857,
+    "price": 23288,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars",
     "dealerId": "d_bb8b4d76abfac3d7",
@@ -265,7 +382,7 @@
     "url": "https://www.grandmarietta.com/used-ford-mustang_mach~e/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SS6NMA25136&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK3SS6NMA25136-1.jpg",
-    "photoCount": 47,
+    "photoCount": 1,
     "baseMsrp": 51800,
     "squishVin": "3FMTK3SSNM",
     "accidentCount": 0,
@@ -275,12 +392,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 61,
+    "lastSeen": "2026-11-09",
+    "listedDays": 68,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 22857
+      },
+      {
+        "date": "2026-11-09",
+        "price": 23288
       }
     ],
     "sellerType": "independent",
@@ -299,22 +420,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23072,
-      "expected": 22380,
+      "marketValue": 23288,
+      "expected": 22589,
       "adjustments": {
         "owners": -0.03
       },
-      "dealDelta": 477,
-      "dealPct": 0.0213,
+      "dealDelta": 699,
+      "dealPct": 0.0309,
       "rating": "fair",
-      "dealScore": 1.0,
-      "basis": "msrp_curve",
-      "cohortN": 1,
-      "confidence": 0.19,
+      "dealScore": 0.667,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 61,
-        "cohortMedianDaysListed": 61,
+        "listedDays": 68,
+        "cohortMedianDaysListed": 6,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -402,8 +523,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 27,
+    "lastSeen": "2026-11-09",
+    "listedDays": 34,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -432,7 +553,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "Premium",
     "verifyLog": [
       {
@@ -459,6 +580,110 @@
       }
     ],
     "powertrainSearch": "electric"
+  },
+  {
+    "id": "api-3fmtk3su9nma23625",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Premium",
+    "trimFeed": "Premium",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Premium 4dr Hatchback AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2022,
+    "mileage": 66228,
+    "price": 22990,
+    "priceBasis": "listing",
+    "dealer": "Potamkin Hyundai",
+    "dealerId": "d_a231e6b45e6ae710",
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Lilburn",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Orange",
+    "interiorColor": "Black",
+    "vin": "3FMTK3SU9NMA23625",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.potamkinatlanta.com/inventory/used-2022-ford-mustang-mach-e-premium-awd-sport-utility-3fmtk3su9nma23625/?srsltid=AYCX9vJcdb9bypnxjv3Eyxn_u6YlczOgCkFOCr9HoSjsZtVoXJWx4Im9",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK3SU9NMA23625&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3FMTK3SU9NMA23625-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 51800,
+    "squishVin": "3FMTK3SUNM",
+    "accidentCount": 1,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22990
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.935,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24416,
+      "expected": 22341,
+      "adjustments": {
+        "accidents": -0.07,
+        "owners": -0.015
+      },
+      "dealDelta": 649,
+      "dealPct": 0.0291,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 6,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Premium",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "potamkinatlanta.com",
+        "trim": "Premium",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search"
   },
   {
     "id": "api-3fmtk4se2nma45917",
@@ -501,7 +726,7 @@
     "oneOwner": false,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 9,
@@ -526,13 +751,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 32127,
-      "expected": 31645,
+      "marketValue": 31939,
+      "expected": 31460,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": -654,
-      "dealPct": -0.0207,
+      "dealDelta": -469,
+      "dealPct": -0.0149,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -541,7 +766,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 9,
-        "cohortMedianDaysListed": 47,
+        "cohortMedianDaysListed": 50,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -571,7 +796,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-3fmtk4se7nma20303",
@@ -587,12 +813,12 @@
     "series": "GT 4dr Hatchback AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2022,
     "mileage": 53014,
-    "price": 28796,
+    "price": 28957,
     "priceBasis": "listing",
-    "dealer": "Magnetism Motors LLC",
+    "dealer": "Magnetism Motors",
     "dealerId": "d_417190c5d06cba6a",
     "distanceMi": 23,
     "state": "GA",
@@ -606,7 +832,7 @@
     "url": "https://www.magnetismmotors.com/details-2022-ford-mustang_mach~e-gt-used-3fmtk4se7nma20303.html",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3FMTK4SE7NMA20303&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3FMTK4SE7NMA20303-1.jpg",
-    "photoCount": 54,
+    "photoCount": 1,
     "baseMsrp": 61995,
     "squishVin": "3FMTK4SENM",
     "accidentCount": 1,
@@ -616,12 +842,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 28796
+      },
+      {
+        "date": "2026-11-09",
+        "price": 28957
       }
     ],
     "sellerType": "independent",
@@ -640,14 +870,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27660,
-      "expected": 25309,
+      "marketValue": 28009,
+      "expected": 25628,
       "adjustments": {
         "accidents": -0.07,
         "owners": -0.015
       },
-      "dealDelta": 3487,
-      "dealPct": 0.1378,
+      "dealDelta": 3329,
+      "dealPct": 0.1299,
       "rating": "overpriced",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -655,8 +885,8 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 85,
-        "cohortMedianDaysListed": 47,
+        "listedDays": 92,
+        "cohortMedianDaysListed": 50,
         "negotiability": "high"
       },
       "trust": "verified"
