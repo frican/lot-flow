@@ -16,10 +16,10 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2023,
     "mileage": 47001,
-    "price": 18277,
+    "price": 19000,
     "priceBasis": "listing",
     "dealer": "Malcolm Cunningham Chevrolet North Point Used",
-    "dealerId": "d_e97296d9d2fd7fa7",
+    "dealerId": "d_987480c7e77c1948",
     "distanceMi": 21,
     "state": "GA",
     "city": "Alpharetta",
@@ -32,22 +32,26 @@
     "url": "https://www.malcolmcunninghamchevroletatlanta.com/used-Alpharetta-2023-Chevrolet-Bolt+EV-1LT-1G1FW6S0XP4149679?stocknum=103711A&atc_ownerid=72344879&srsltid=AYCX9vJkP6yupkJSTNO-Y2YHFGiL5RP7tVIf_eWGUT4HHQ3jcnbru2pm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1G1FW6S0XP4149679&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1G1FW6S0XP4149679-1.jpg",
-    "photoCount": 1,
+    "photoCount": 31,
     "baseMsrp": 26500,
     "squishVin": "1G1FW6S0P4",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Multiple Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 1,
+    "lastSeen": "2026-11-09",
+    "listedDays": 8,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 18277
+      },
+      {
+        "date": "2026-11-09",
+        "price": 19000
       }
     ],
     "sellerType": "franchise",
@@ -68,8 +72,8 @@
       "basis": "none",
       "cohortN": 1,
       "signals": {
-        "listedDays": 1,
-        "cohortMedianDaysListed": 1,
+        "listedDays": 8,
+        "cohortMedianDaysListed": 8,
         "negotiability": "low"
       },
       "trust": "verified"

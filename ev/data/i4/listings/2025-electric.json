@@ -19,7 +19,7 @@
     "price": 43998,
     "priceBasis": "listing",
     "dealer": "CarMax Southlake",
-    "dealerId": "d_bb55ff73c2c16ac8",
+    "dealerId": "d_8a5eb62381ed2263",
     "distanceMi": 15,
     "state": "GA",
     "city": "Stockbridge",
@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 10,
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -65,23 +65,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 43610,
-      "expected": 44047,
+      "marketValue": 43998,
+      "expected": 44438,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -49,
-      "dealPct": -0.0011,
+      "dealDelta": -440,
+      "dealPct": -0.0099,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.571,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 10,
-        "cohortMedianDaysListed": 10,
-        "negotiability": "low"
+        "listedDays": 17,
+        "cohortMedianDaysListed": 17,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },
@@ -155,8 +155,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 3,
+    "lastSeen": "2026-11-09",
+    "listedDays": 10,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -178,22 +178,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 36029,
-      "expected": 36389,
+      "marketValue": 37041,
+      "expected": 37411,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -748,
-      "dealPct": -0.0206,
+      "dealDelta": -1770,
+      "dealPct": -0.0473,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.857,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 3,
-        "cohortMedianDaysListed": 10,
+        "listedDays": 10,
+        "cohortMedianDaysListed": 17,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -241,10 +241,10 @@
     "series": "eDrive40 4dr Sedan (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 42909,
-    "price": 33786,
+    "price": 34644,
     "priceBasis": "listing",
     "dealer": "Motorpoint Roswell",
     "dealerId": "d_4a6c296ec7cf3467",
@@ -260,7 +260,7 @@
     "url": "https://www.motorpointroswell.com/used-bmw/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY23HD02SFU05039&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/WBY23HD02SFU05039-1.jpg",
-    "photoCount": 4,
+    "photoCount": 1,
     "baseMsrp": 57900,
     "squishVin": "WBY23HD0SF",
     "accidentCount": 0,
@@ -270,8 +270,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 39,
+    "lastSeen": "2026-11-09",
+    "listedDays": 46,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -280,6 +280,10 @@
       {
         "date": "2026-11-02",
         "price": 33786
+      },
+      {
+        "date": "2026-11-09",
+        "price": 34644
       }
     ],
     "sellerType": "independent",
@@ -298,27 +302,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34899,
-      "expected": 35248,
+      "marketValue": 36004,
+      "expected": 36364,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1462,
-      "dealPct": -0.0415,
+      "dealDelta": -1720,
+      "dealPct": -0.0473,
       "rating": "fair",
-      "dealScore": 0.833,
+      "dealScore": 0.714,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 39,
-        "cohortMedianDaysListed": 10,
-        "priceDrop": {
-          "total": 758,
-          "pct": -0.0219,
-          "drops": 1
-        },
+        "listedDays": 46,
+        "cohortMedianDaysListed": 17,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -370,10 +369,10 @@
     "engine": "electric",
     "year": 2025,
     "mileage": 20841,
-    "price": 38083,
+    "price": 37993,
     "priceBasis": "listing",
     "dealer": "Gravity Autos Sandy Springs",
-    "dealerId": "d_2a0ddd472e8831fc",
+    "dealerId": "d_f6dfdfc088cf7f90",
     "distanceMi": 14,
     "state": "GA",
     "city": "Sandy Springs",
@@ -396,12 +395,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 41,
+    "lastSeen": "2026-11-09",
+    "listedDays": 48,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 38083
+      },
+      {
+        "date": "2026-11-09",
+        "price": 37993
       }
     ],
     "sellerType": "independent",
@@ -420,22 +423,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 40292,
-      "expected": 39687,
+      "marketValue": 40953,
+      "expected": 40338,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": -1604,
-      "dealPct": -0.0404,
-      "rating": "fair",
+      "dealDelta": -2345,
+      "dealPct": -0.0581,
+      "rating": "good",
       "dealScore": 1.0,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 41,
-        "cohortMedianDaysListed": 10,
+        "listedDays": 48,
+        "cohortMedianDaysListed": 17,
+        "priceDrop": {
+          "total": 90,
+          "pct": -0.0024,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"
@@ -482,14 +490,14 @@
     "series": "eDrive40 4dr Sedan (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2025,
     "mileage": 25098,
     "price": 39998,
     "priceBasis": "listing",
-    "dealer": "CarMax Lithia Springs",
-    "dealerId": null,
-    "distanceMi": 13,
+    "dealer": "CarMax Town Center",
+    "dealerId": "d_18bd36f40629047a",
+    "distanceMi": 21,
     "state": "GA",
     "city": "Lithia Springs",
     "cpo": "none",
@@ -501,18 +509,18 @@
     "url": "https://www.carmax.com/car/28822028",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WBY23HD04SFU04295&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/WBY23HD04SFU04295-1.jpg",
-    "photoCount": 1,
+    "photoCount": 30,
     "baseMsrp": 57900,
     "squishVin": "WBY23HD0SF",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
-    "flagged": true,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Corporate Fleet",
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 2,
+    "lastSeen": "2026-11-09",
+    "listedDays": 9,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -527,16 +535,34 @@
     "powertrainConflict": false,
     "plantCountry": "Germany",
     "plantSource": "vin1",
-    "trimConfidence": 0.772,
+    "trimConfidence": 0.92,
     "trimVerifiedBy": "search",
-    "trimFlagged": true,
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
+      "marketValue": 39998,
+      "expected": 40398,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -400,
+      "dealPct": -0.0099,
+      "rating": "fair",
+      "dealScore": 0.429,
+      "basis": "cohort",
+      "cohortN": 7,
+      "confidence": 0.792,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 17,
+        "negotiability": "low"
+      },
+      "trust": "verified"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "eDrive40",
     "verifyLog": [
       {
@@ -557,6 +583,17 @@
         "host": "truecar.com",
         "trim": "eDrive40",
         "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "eDrive40",
+        "powertrain": null,
         "strength": "snippet",
         "mileage": null,
         "price": null
@@ -584,7 +621,7 @@
     "price": 43801,
     "priceBasis": "listing",
     "dealer": "NalleyBmwOfDecatur Used",
-    "dealerId": "d_e1c60727f8759b2c",
+    "dealerId": "d_6033ac664aca579f",
     "distanceMi": 7,
     "state": "GA",
     "city": "Decatur",
@@ -607,8 +644,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 11,
+    "lastSeen": "2026-11-09",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -630,21 +667,21 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42598,
-      "expected": 42598,
+      "marketValue": 43069,
+      "expected": 43069,
       "adjustments": {},
-      "dealDelta": 1203,
-      "dealPct": 0.0282,
+      "dealDelta": 732,
+      "dealPct": 0.017,
       "rating": "fair",
-      "dealScore": 0.333,
+      "dealScore": 0.143,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 11,
-        "cohortMedianDaysListed": 10,
-        "negotiability": "low"
+        "listedDays": 18,
+        "cohortMedianDaysListed": 17,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },
@@ -753,20 +790,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34783,
-      "expected": 34783,
+      "marketValue": 35897,
+      "expected": 35897,
       "adjustments": {},
-      "dealDelta": 1203,
-      "dealPct": 0.0346,
+      "dealDelta": 89,
+      "dealPct": 0.0025,
       "rating": "fair",
-      "dealScore": 0.333,
+      "dealScore": 0.286,
       "basis": "cohort",
-      "cohortN": 6,
-      "confidence": 0.75,
+      "cohortN": 7,
+      "confidence": 0.792,
       "ratingConfident": true,
       "signals": {
         "listedDays": 2,
-        "cohortMedianDaysListed": 10,
+        "cohortMedianDaysListed": 17,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -843,7 +880,7 @@
     "oneOwner": false,
     "usageType": "Vehicle Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 9,
@@ -870,7 +907,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-02",
+    "exitReason": "unseen"
   },
   {
     "id": "api-wby43hd03sft96098",
@@ -889,7 +927,7 @@
     "engine": "electric",
     "year": 2025,
     "mileage": 37029,
-    "price": 42493,
+    "price": 42293,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -915,8 +953,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 51,
+    "lastSeen": "2026-11-09",
+    "listedDays": 58,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -925,6 +963,10 @@
       {
         "date": "2026-11-02",
         "price": 42493
+      },
+      {
+        "date": "2026-11-09",
+        "price": 42293
       }
     ],
     "sellerType": "independent",
@@ -943,13 +985,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 42553,
-      "expected": 42978,
+      "marketValue": 42567,
+      "expected": 42992,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -485,
-      "dealPct": -0.0113,
+      "dealDelta": -699,
+      "dealPct": -0.0163,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "msrp_curve",
@@ -957,12 +999,12 @@
       "confidence": 0.204,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 51,
-        "cohortMedianDaysListed": 26,
+        "listedDays": 58,
+        "cohortMedianDaysListed": 29,
         "priceDrop": {
-          "total": 800,
-          "pct": -0.0185,
-          "drops": 1
+          "total": 1000,
+          "pct": -0.0231,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -1076,13 +1118,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 46344,
-      "expected": 46807,
+      "marketValue": 46331,
+      "expected": 46794,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": -4314,
-      "dealPct": -0.0922,
+      "dealDelta": -4301,
+      "dealPct": -0.0919,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -1091,7 +1133,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 0,
-        "cohortMedianDaysListed": 26,
+        "cohortMedianDaysListed": 29,
         "negotiability": "low"
       },
       "trust": "verified"

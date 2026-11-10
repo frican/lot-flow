@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-09",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -41,17 +41,37 @@
       "parentKey": "Light|electric",
       "msrp": null
     },
+    "2023|Wind|electric": {
+      "year": 2023,
+      "trim": "Wind",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        19515,
+        19515
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Wind|electric",
+      "msrp": 48700
+    },
     "2023|GT-Line|electric": {
       "year": 2023,
       "trim": "GT-Line",
       "powertrain": "electric",
-      "n": 2,
+      "n": 3,
       "mileageRange": [
-        17314,
+        13363,
         28109
       ],
-      "theilSen": null,
-      "ols": null,
+      "theilSen": {
+        "slope": -0.0743,
+        "intercept": 29184.21
+      },
+      "ols": {
+        "slope": -0.1446,
+        "intercept": 31758.56
+      },
       "parentKey": "GT-Line|electric",
       "msrp": 57600
     },
@@ -59,15 +79,41 @@
       "year": 2023,
       "trim": "GT",
       "powertrain": "electric",
-      "n": 2,
+      "n": 3,
       "mileageRange": [
         23577,
         59189
       ],
-      "theilSen": null,
-      "ols": null,
+      "theilSen": {
+        "slope": -0.0482,
+        "intercept": 28936.74
+      },
+      "ols": {
+        "slope": -0.0995,
+        "intercept": 33559.28
+      },
       "parentKey": "GT|electric",
       "msrp": 61600
+    },
+    "2024|Wind|electric": {
+      "year": 2024,
+      "trim": "Wind",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        10623,
+        34956
+      ],
+      "theilSen": {
+        "slope": -0.2732,
+        "intercept": 31988.86
+      },
+      "ols": {
+        "slope": -0.2771,
+        "intercept": 31401.38
+      },
+      "parentKey": "Wind|electric",
+      "msrp": null
     },
     "2024|Light Long Range|electric": {
       "year": 2024,
@@ -81,20 +127,6 @@
       "theilSen": null,
       "ols": null,
       "parentKey": "Light Long Range|electric",
-      "msrp": null
-    },
-    "2024|Wind|electric": {
-      "year": 2024,
-      "trim": "Wind",
-      "powertrain": "electric",
-      "n": 1,
-      "mileageRange": [
-        34956,
-        34956
-      ],
-      "theilSen": null,
-      "ols": null,
-      "parentKey": "Wind|electric",
       "msrp": null
     },
     "2024|Light|electric": {
@@ -118,15 +150,15 @@
       "n": 3,
       "mileageRange": [
         21431,
-        30420
+        32420
       ],
       "theilSen": {
-        "slope": 0.3216,
-        "intercept": 21303.46
+        "slope": 0.1633,
+        "intercept": 24697.3
       },
       "ols": {
-        "slope": 0.2678,
-        "intercept": 22989.78
+        "slope": 0.1132,
+        "intercept": 26362.86
       },
       "parentKey": "GT-Line|electric",
       "msrp": 52900
@@ -176,20 +208,20 @@
   },
   "parents": {
     "Wind|electric": {
-      "slope": -0.0874,
-      "intercept": 25247.76
+      "slope": -0.1351,
+      "intercept": 28271.76
     },
     "Light|electric": {
       "slope": -0.2621,
-      "intercept": 28148.45
+      "intercept": 28148.65
     },
     "GT-Line|electric": {
-      "slope": -0.0827,
-      "intercept": 31346.34
+      "slope": 0.0006,
+      "intercept": 28840.48
     },
     "GT|electric": {
-      "slope": -0.1402,
-      "intercept": 35291.41
+      "slope": -0.0926,
+      "intercept": 32844.11
     }
   },
   "depreciation": {
@@ -201,16 +233,32 @@
         "marketValue": 19087,
         "msrp": null,
         "retained": null
+      },
+      {
+        "year": 2023,
+        "age": 3,
+        "medianMileage": 19515,
+        "marketValue": 24497,
+        "msrp": 48700,
+        "retained": 0.503
+      },
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 23646,
+        "marketValue": 23968,
+        "msrp": null,
+        "retained": null
       }
     ],
     "GT-Line|electric": [
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 22711,
-        "marketValue": 29392,
+        "medianMileage": 17314,
+        "marketValue": 28193,
         "msrp": 57600,
-        "retained": 0.51
+        "retained": 0.489
       },
       {
         "year": 2024,
@@ -225,18 +273,18 @@
       {
         "year": 2023,
         "age": 3,
-        "medianMileage": 41383,
-        "marketValue": 27396,
+        "medianMileage": 34874,
+        "marketValue": 28334,
         "msrp": 61600,
-        "retained": 0.445
+        "retained": 0.46
       },
       {
         "year": 2024,
         "age": 2,
         "medianMileage": 1458,
-        "marketValue": 36684,
+        "marketValue": 37197,
         "msrp": 61600,
-        "retained": 0.596
+        "retained": 0.604
       }
     ],
     "Light|electric": [
@@ -252,9 +300,9 @@
         "year": 2025,
         "age": 1,
         "medianMileage": 6251,
-        "marketValue": 28294,
+        "marketValue": 28773,
         "msrp": 42900,
-        "retained": 0.66
+        "retained": 0.671
       }
     ]
   }

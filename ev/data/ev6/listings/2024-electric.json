@@ -1,5 +1,316 @@
 [
   {
+    "id": "api-kndc34la0r5210095",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Light Long Range",
+    "trimFeed": "Light Long Range",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Light Long Range 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L",
+    "year": 2024,
+    "mileage": 20664,
+    "price": 27998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Lithia Springs",
+    "dealerId": null,
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Lithia Springs",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "KNDC34LA0R5210095",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29101330",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC34LA0R5210095&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KNDC34LA0R5210095-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 45950,
+    "squishVin": "KNDC34LAR5",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 27998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-kndc34la4r5161967",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Wind",
+    "trimFeed": "Light Long Range",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Light Long Range 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 10623,
+    "price": 29087,
+    "priceBasis": "listing",
+    "dealer": "Ed Voyles Kia of Chamblee",
+    "dealerId": "d_f327cde73de71e6c",
+    "distanceMi": 12,
+    "state": "GA",
+    "city": "Chamblee",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "KNDC34LA4R5161967",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.edvoylesacura.com/inventory/certified-used-2024-kia-ev6-wind-rwd-sport-utility-kndc34la4r5161967/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC34LA4R5161967&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KNDC34LA4R5161967-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 45950,
+    "squishVin": "KNDC34LAR5",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 9,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 29087
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.988,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 25727,
+      "expected": 25984,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 3103,
+      "dealPct": 0.1194,
+      "rating": "overpriced",
+      "dealScore": 0.333,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 9,
+        "cohortMedianDaysListed": 9,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Wind",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "edvoylesacura.com",
+        "trim": "Wind",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 10623,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "carsaver.com",
+        "trim": "Wind",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Wind",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "P63058",
+    "trimSearch": "Wind",
+    "powertrainSearch": "electric"
+  },
+  {
+    "id": "api-kndc34la4r5620110",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Wind",
+    "trimFeed": "Light Long Range",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Light Long Range 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 23646,
+    "price": 23496,
+    "priceBasis": "listing",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
+    "dealerId": "d_bb9c5094e1906d91",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "KNDC34LA4R5620110",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://sonicvipservices.com/used/Kia/2024-Kia-EV6-9f08e635ac185aa9f4b085a3e8499237.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC34LA4R5620110&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KNDC34LA4R5620110-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 45950,
+    "squishVin": "KNDC34LAR5",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 23496
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.878,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": true,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 23968,
+      "expected": 24207,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -711,
+      "dealPct": -0.0294,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 6,
+        "cohortMedianDaysListed": 9,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Wind",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Wind",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "Wind",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-kndc34la5r5618785",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -13,13 +324,13 @@
     "series": "Wind 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 21716,
-    "price": 24628,
+    "price": 23610,
     "priceBasis": "listing",
-    "dealer": "Nalley KIA",
-    "dealerId": "d_9bbdd0489fe70682",
+    "dealer": "Nalley Kia",
+    "dealerId": "d_e8a80e56605a2226",
     "distanceMi": 17,
     "state": "GA",
     "city": "Lithonia",
@@ -32,7 +343,7 @@
     "url": "https://www.nalleyinfinitiatlanta.com/viewdetails/used/kndc34la5r5618785/2024-kia-ev6-sport-utility",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC34LA5R5618785&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC34LA5R5618785-1.jpg",
-    "photoCount": 30,
+    "photoCount": 1,
     "baseMsrp": 48700,
     "squishVin": "KNDC34LAR5",
     "accidentCount": 0,
@@ -42,12 +353,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 4,
+    "lastSeen": "2026-11-09",
+    "listedDays": 11,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 24628
+      },
+      {
+        "date": "2026-11-09",
+        "price": 23610
       }
     ],
     "sellerType": "franchise",
@@ -68,9 +383,14 @@
       "basis": "none",
       "cohortN": 1,
       "signals": {
-        "listedDays": 4,
-        "cohortMedianDaysListed": 4,
-        "negotiability": "low"
+        "listedDays": 11,
+        "cohortMedianDaysListed": 11,
+        "priceDrop": {
+          "total": 1018,
+          "pct": -0.0413,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -106,10 +426,10 @@
     "series": "Light Long Range 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 29798,
-    "price": 25997,
+    "price": 24897,
     "priceBasis": "listing",
     "dealer": "Platinum Cars Marietta",
     "dealerId": "d_357a45061ffa3b8b",
@@ -125,7 +445,7 @@
     "url": "https://www.autolist.com/kia-ev6#vin=KNDC34LA6R5200770",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC34LA6R5200770&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC34LA6R5200770-1.jpg",
-    "photoCount": 41,
+    "photoCount": 1,
     "baseMsrp": 45950,
     "squishVin": "KNDC34LAR5",
     "accidentCount": 0,
@@ -135,8 +455,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 78,
+    "lastSeen": "2026-11-09",
+    "listedDays": 85,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -145,6 +465,10 @@
       {
         "date": "2026-11-02",
         "price": 25997
+      },
+      {
+        "date": "2026-11-09",
+        "price": 24897
       }
     ],
     "sellerType": "independent",
@@ -165,7 +489,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-kndc34laxr5214218",
@@ -184,7 +508,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 34956,
-    "price": 22450,
+    "price": 22440,
     "priceBasis": "listing",
     "dealer": "Evolution Cars",
     "dealerId": "d_0223dca411c85f30",
@@ -210,8 +534,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 88,
+    "lastSeen": "2026-11-09",
+    "listedDays": 95,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -220,6 +544,10 @@
       {
         "date": "2026-11-02",
         "price": 22450
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22440
       }
     ],
     "sellerType": "independent",
@@ -238,15 +566,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "basis": "none",
-      "cohortN": 1,
+      "marketValue": 22440,
+      "expected": 22440,
+      "adjustments": {},
+      "dealDelta": 0,
+      "dealPct": 0.0,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
       "signals": {
-        "listedDays": 88,
-        "cohortMedianDaysListed": 88,
+        "listedDays": 95,
+        "cohortMedianDaysListed": 9,
         "priceDrop": {
-          "total": 1198,
-          "pct": -0.0507,
-          "drops": 1
+          "total": 1208,
+          "pct": -0.0511,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -344,7 +681,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-11-02",
     "listedDays": 24,
@@ -389,7 +726,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 24,
-        "cohortMedianDaysListed": 34,
+        "cohortMedianDaysListed": 38,
         "priceDrop": {
           "total": 2999,
           "pct": -0.1,
@@ -425,7 +762,8 @@
         "mileage": 3071,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-kndc34lb9r5217927",
@@ -441,12 +779,12 @@
     "series": "Light 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "125KW 167HP Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 17752,
     "price": 22800,
     "priceBasis": "listing",
-    "dealer": "BMVW Auto Sales",
+    "dealer": "Bmvw",
     "dealerId": "d_9a1299f922cbf553",
     "distanceMi": 15,
     "state": "GA",
@@ -470,8 +808,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 44,
+    "lastSeen": "2026-11-09",
+    "listedDays": 51,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -499,11 +837,11 @@
     "cohortReady": true,
     "valuation": {
       "marketValue": 22972,
-      "expected": 23201,
+      "expected": 23202,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -401,
+      "dealDelta": -402,
       "dealPct": -0.0173,
       "rating": "fair",
       "dealScore": 1.0,
@@ -512,8 +850,8 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 44,
-        "cohortMedianDaysListed": 34,
+        "listedDays": 51,
+        "cohortMedianDaysListed": 38,
         "priceDrop": {
           "total": 1000,
           "pct": -0.042,
@@ -638,6 +976,90 @@
       }
     ],
     "exitReason": "unseen"
+  },
+  {
+    "id": "api-kndc3dlc3r5201540",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Wind",
+    "trimFeed": "Wind",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Wind 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 20765,
+    "price": 24496,
+    "priceBasis": "listing",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
+    "dealerId": "d_bb9c5094e1906d91",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "KNDC3DLC3R5201540",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://sonicvipservices.com/used/Kia/2024-Kia-EV6-a9d09c6eac1804f1bc7bba620b5a8308.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC3DLC3R5201540&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KNDC3DLC3R5201540-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 52600,
+    "squishVin": "KNDC3DLCR5",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Multiple Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 24496
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Wind",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Wind",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-kndc3dlc5r5163812",
@@ -777,7 +1199,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 3,
@@ -804,7 +1226,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-02",
+    "exitReason": "unseen"
   },
   {
     "id": "api-kndc44la3r5225140",
@@ -873,13 +1296,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 29574,
-      "expected": 29870,
+      "marketValue": 29512,
+      "expected": 29807,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1674,
-      "dealPct": -0.056,
+      "dealDelta": -1611,
+      "dealPct": -0.054,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -888,7 +1311,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 19,
-        "cohortMedianDaysListed": 19,
+        "cohortMedianDaysListed": 22,
         "negotiability": "medium"
       },
       "trust": "verified"
@@ -1090,8 +1513,8 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 30,
-        "cohortMedianDaysListed": 19,
-        "negotiability": "high"
+        "cohortMedianDaysListed": 22,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },
@@ -1140,12 +1563,12 @@
     "series": "GT-Line 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
-    "mileage": 30420,
-    "price": 31087,
+    "mileage": 32420,
+    "price": 29990,
     "priceBasis": "listing",
-    "dealer": "Ed Voyles Kia",
+    "dealer": "Ed Voyles KIA Used",
     "dealerId": "d_d08b6269bf2b4f38",
     "distanceMi": 12,
     "state": "GA",
@@ -1159,7 +1582,7 @@
     "url": "https://www.edvoyles.com/inventory/certified-used-2024-kia-ev6-gt-line-awd-sport-utility-kndc4dlc2r5188728/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC4DLC2R5188728&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC4DLC2R5188728-1.jpg",
-    "photoCount": 6,
+    "photoCount": 35,
     "baseMsrp": 57600,
     "squishVin": "KNDC4DLCR5",
     "accidentCount": 1,
@@ -1169,8 +1592,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 15,
+    "lastSeen": "2026-11-09",
+    "listedDays": 22,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -1179,6 +1602,10 @@
       {
         "date": "2026-11-02",
         "price": 31087
+      },
+      {
+        "date": "2026-11-09",
+        "price": 29990
       }
     ],
     "sellerType": "franchise",
@@ -1197,28 +1624,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28831,
-      "expected": 27390,
+      "marketValue": 29518,
+      "expected": 28042,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": 3697,
-      "dealPct": 0.135,
-      "rating": "overpriced",
+      "dealDelta": 1948,
+      "dealPct": 0.0695,
+      "rating": "high",
       "dealScore": 0.333,
       "basis": "pooled",
       "cohortN": 3,
       "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 15,
-        "cohortMedianDaysListed": 19,
+        "listedDays": 22,
+        "cohortMedianDaysListed": 22,
         "priceDrop": {
-          "total": 1510,
-          "pct": -0.0463,
-          "drops": 1
+          "total": 2607,
+          "pct": -0.08,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -1268,13 +1695,13 @@
     "series": "GT-Line 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2024,
     "mileage": 22090,
-    "price": 31998,
+    "price": 30998,
     "priceBasis": "listing",
     "dealer": "CarMax Town Center",
-    "dealerId": null,
+    "dealerId": "d_18bd36f40629047a",
     "distanceMi": 21,
     "state": "GA",
     "city": "Kennesaw",
@@ -1287,22 +1714,26 @@
     "url": "https://www.carmax.com/car/29221238",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC4DLCXR5220051&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC4DLCXR5220051-1.jpg",
-    "photoCount": 1,
+    "photoCount": 29,
     "baseMsrp": 57600,
     "squishVin": "KNDC4DLCR5",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 11,
+    "lastSeen": "2026-11-09",
+    "listedDays": 18,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 31998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 30998
       }
     ],
     "sellerType": "independent",
@@ -1313,8 +1744,8 @@
     "powertrainConflict": false,
     "plantCountry": "South Korea",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
@@ -1322,7 +1753,21 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09",
+    "trimSearch": "GT-Line",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "GT-Line",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-kndc5dle0r5219862",
@@ -1338,12 +1783,12 @@
     "series": "GT 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 1458,
-    "price": 35087,
+    "price": 33990,
     "priceBasis": "listing",
-    "dealer": "Ed Voyles Kia",
+    "dealer": "Ed Voyles KIA Used",
     "dealerId": "d_d08b6269bf2b4f38",
     "distanceMi": 12,
     "state": "GA",
@@ -1357,18 +1802,18 @@
     "url": "https://www.edvoyles.com/inventory/used-2024-kia-ev6-gt-awd-sport-utility-kndc5dle0r5219862/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KNDC5DLE0R5219862&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KNDC5DLE0R5219862-1.jpg",
-    "photoCount": 6,
+    "photoCount": 35,
     "baseMsrp": 61600,
     "squishVin": "KNDC5DLER5",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Corporate Use",
+    "usageType": "Personal Use",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 50,
+    "lastSeen": "2026-11-09",
+    "listedDays": 57,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -1377,6 +1822,10 @@
       {
         "date": "2026-11-02",
         "price": 35087
+      },
+      {
+        "date": "2026-11-09",
+        "price": 33990
       }
     ],
     "sellerType": "franchise",
@@ -1395,13 +1844,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 36684,
-      "expected": 37051,
+      "marketValue": 37197,
+      "expected": 37569,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1964,
-      "dealPct": -0.053,
+      "dealDelta": -3579,
+      "dealPct": -0.0953,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -1409,12 +1858,12 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 50,
-        "cohortMedianDaysListed": 50,
+        "listedDays": 57,
+        "cohortMedianDaysListed": 57,
         "priceDrop": {
-          "total": 413,
-          "pct": -0.0116,
-          "drops": 1
+          "total": 1510,
+          "pct": -0.0425,
+          "drops": 2
         },
         "negotiability": "high"
       },

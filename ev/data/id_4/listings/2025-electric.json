@@ -40,7 +40,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 5,
@@ -92,7 +92,202 @@
         "mileage": null,
         "price": null
       }
+    ],
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-1v2vrpe81sc012239",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2025,
+    "mileage": 9861,
+    "price": 33998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Norcross",
+    "dealerId": "d_66a6210ef180e399",
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Norcross",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Opal White Pearl",
+    "interiorColor": "Cosmic Black leatherette",
+    "vin": "1V2VRPE81SC012239",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29281309",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VRPE81SC012239&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VRPE81SC012239-1.jpg",
+    "photoCount": 29,
+    "baseMsrp": 50195,
+    "squishVin": "1V2VRPE8SC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 33998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 33415,
+      "expected": 33749,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 249,
+      "dealPct": 0.0074,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "pooled",
+      "cohortN": 4,
+      "confidence": 0.4,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 17,
+        "cohortMedianDaysListed": 42,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Pro",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "vinanalytics.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "stonemountainvw.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Pro",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
     ]
+  },
+  {
+    "id": "api-1v2vrpe83sc014512",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro S",
+    "trimFeed": "Pro S",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro S 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "Electric",
+    "year": 2025,
+    "mileage": 9663,
+    "price": 33998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Norcross",
+    "dealerId": "d_66a6210ef180e399",
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Norcross",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Pure Gray",
+    "interiorColor": "Cosmic Black leatherette",
+    "vin": "1V2VRPE83SC014512",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29281308",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2VRPE83SC014512&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2VRPE83SC014512-1.jpg",
+    "photoCount": 28,
+    "baseMsrp": 50195,
+    "squishVin": "1V2VRPE8SC",
+    "accidentCount": 0,
+    "ownerCount": 0,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 33998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-1v2vrpe89sc016510",
@@ -111,7 +306,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 7224,
-    "price": 32600,
+    "price": 32500,
     "priceBasis": "listing",
     "dealer": "Stone Mountain Volkswagen",
     "dealerId": "d_b6808c61f14482d4",
@@ -137,8 +332,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 37,
+    "lastSeen": "2026-11-09",
+    "listedDays": 44,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -147,6 +342,10 @@
       {
         "date": "2026-11-02",
         "price": 32600
+      },
+      {
+        "date": "2026-11-09",
+        "price": 32500
       }
     ],
     "sellerType": "franchise",
@@ -165,26 +364,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 33839,
-      "expected": 34178,
+      "marketValue": 34136,
+      "expected": 34477,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1578,
-      "dealPct": -0.0462,
-      "rating": "fair",
+      "dealDelta": -1977,
+      "dealPct": -0.0573,
+      "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
+      "cohortN": 4,
+      "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 37,
-        "cohortMedianDaysListed": 37,
+        "listedDays": 44,
+        "cohortMedianDaysListed": 42,
         "priceDrop": {
-          "total": 2300,
-          "pct": -0.0659,
-          "drops": 1
+          "total": 2400,
+          "pct": -0.0688,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -273,22 +472,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 33900,
-      "expected": 34239,
+      "marketValue": 34188,
+      "expected": 34530,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -339,
-      "dealPct": -0.0099,
+      "dealDelta": -630,
+      "dealPct": -0.0182,
       "rating": "fair",
-      "dealScore": 0.667,
+      "dealScore": 0.75,
       "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
+      "cohortN": 4,
+      "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
         "listedDays": 70,
-        "cohortMedianDaysListed": 37,
+        "cohortMedianDaysListed": 42,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -349,7 +548,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 5480,
-    "price": 35300,
+    "price": 34900,
     "priceBasis": "listing",
     "dealer": "Stone Mountain Volkswagen",
     "dealerId": "d_b6808c61f14482d4",
@@ -375,8 +574,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 33,
+    "lastSeen": "2026-11-09",
+    "listedDays": 40,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -385,6 +584,10 @@
       {
         "date": "2026-11-02",
         "price": 35300
+      },
+      {
+        "date": "2026-11-09",
+        "price": 34900
       }
     ],
     "sellerType": "franchise",
@@ -403,24 +606,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34394,
-      "expected": 34394,
+      "marketValue": 34612,
+      "expected": 34612,
       "adjustments": {},
-      "dealDelta": 906,
-      "dealPct": 0.0263,
+      "dealDelta": 288,
+      "dealPct": 0.0083,
       "rating": "fair",
-      "dealScore": 0.333,
+      "dealScore": 0.25,
       "basis": "pooled",
-      "cohortN": 3,
-      "confidence": 0.375,
+      "cohortN": 4,
+      "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 33,
-        "cohortMedianDaysListed": 37,
+        "listedDays": 40,
+        "cohortMedianDaysListed": 42,
         "priceDrop": {
-          "total": 1300,
-          "pct": -0.0355,
-          "drops": 1
+          "total": 1700,
+          "pct": -0.0464,
+          "drops": 2
         },
         "negotiability": "high"
       },

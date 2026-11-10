@@ -13,18 +13,18 @@
     "series": "Touring 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2026,
     "mileage": 10009,
-    "price": 32098,
+    "price": 31898,
     "priceBasis": "listing",
     "dealer": "Curry Honda",
     "dealerId": "d_c39e2b82ac07cf86",
     "distanceMi": 11,
     "state": "GA",
     "city": "Atlanta",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "White",
     "interiorColor": "Gray",
     "vin": "3GPKHWRM0TS501024",
@@ -32,18 +32,18 @@
     "url": "https://curryhondaga.com/certified/Honda/2026-Honda-Prologue--3b3b8a11ac180dd880c597ead66e83ff.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHWRM0TS501024&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHWRM0TS501024-1.jpg",
-    "photoCount": 36,
+    "photoCount": 1,
     "baseMsrp": 44200,
     "squishVin": "3GPKHWRMTS",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 62,
+    "lastSeen": "2026-11-09",
+    "listedDays": 69,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -52,6 +52,10 @@
       {
         "date": "2026-11-02",
         "price": 32098
+      },
+      {
+        "date": "2026-11-09",
+        "price": 31898
       }
     ],
     "sellerType": "franchise",
@@ -62,15 +66,60 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
-    }
+      "marketValue": 29011,
+      "expected": 29591,
+      "adjustments": {
+        "oneOwner": 0.01,
+        "cpo": 0.01
+      },
+      "dealDelta": 2307,
+      "dealPct": 0.0779,
+      "rating": "high",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 69,
+        "cohortMedianDaysListed": 69,
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Touring",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "truecar.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-3gpkhwrm6ts510634",
@@ -86,10 +135,10 @@
     "series": "Touring 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2026,
     "mileage": 16,
-    "price": 40698,
+    "price": 40102,
     "priceBasis": "listing",
     "dealer": "Group 1 Honda Stone Mountain",
     "dealerId": "d_acf550b298851e2f",
@@ -105,22 +154,26 @@
     "url": "http://www.group1auto.com/inventory/used-2026-honda-prologue-touring-fwd-sport-utility-3gpkhwrm6ts510634/",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHWRM6TS510634&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHWRM6TS510634-1.jpg",
-    "photoCount": 33,
+    "photoCount": 1,
     "baseMsrp": 44200,
     "squishVin": "3GPKHWRMTS",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Corporate Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 181,
+    "lastSeen": "2026-11-09",
+    "listedDays": 188,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 40698
+      },
+      {
+        "date": "2026-11-09",
+        "price": 40102
       }
     ],
     "sellerType": "franchise",
@@ -131,15 +184,52 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
-    }
+      "basis": "new-inventory"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Touring",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "hondaoffortmyers.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "morganautogroup.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-3gpkhwrm8ts515012",
@@ -182,7 +272,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-01",
     "lastSeen": "2026-11-02",
     "listedDays": 11,
@@ -208,7 +298,8 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "exitReason": "new-inventory"
   },
   {
     "id": "api-3gpkhzrj9ts501188",
@@ -253,8 +344,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 47,
+    "lastSeen": "2026-11-09",
+    "listedDays": 54,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -277,6 +368,7 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "searchedAt": "2026-11-09"
   }
 ]

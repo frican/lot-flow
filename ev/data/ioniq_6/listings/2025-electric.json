@@ -13,12 +13,12 @@
     "series": "SE 4dr Sedan (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2025,
     "mileage": 13600,
     "price": 28998,
     "priceBasis": "listing",
-    "dealer": "CarMax Town Center",
+    "dealer": "CarMax - Town Center",
     "dealerId": "d_18bd36f40629047a",
     "distanceMi": 21,
     "state": "GA",
@@ -32,7 +32,7 @@
     "url": "https://www.autolist.com/hyundai-ioniq+6#vin=KMHM24AA0SA104345",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KMHM24AA0SA104345&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KMHM24AA0SA104345-1.jpg",
-    "photoCount": 1,
+    "photoCount": 28,
     "baseMsrp": 42800,
     "squishVin": "KMHM24AASA",
     "accidentCount": 1,
@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 19,
+    "lastSeen": "2026-11-09",
+    "listedDays": 26,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -72,7 +72,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "SE",
     "verifyLog": [
       {
@@ -127,7 +127,7 @@
     "engine": "0.0L",
     "year": 2025,
     "mileage": 13954,
-    "price": 31998,
+    "price": 30998,
     "priceBasis": "listing",
     "dealer": "CarMax Norcross",
     "dealerId": "d_66a6210ef180e399",
@@ -153,12 +153,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 18,
+    "lastSeen": "2026-11-09",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 31998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 30998
       }
     ],
     "sellerType": "independent",
@@ -177,23 +181,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30027,
-      "expected": 30327,
+      "marketValue": 29809,
+      "expected": 30107,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1671,
-      "dealPct": 0.0551,
-      "rating": "high",
-      "dealScore": 0.25,
+      "dealDelta": 891,
+      "dealPct": 0.0296,
+      "rating": "fair",
+      "dealScore": 0.5,
       "basis": "pooled",
       "cohortN": 4,
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 18,
-        "cohortMedianDaysListed": 20,
-        "negotiability": "medium"
+        "listedDays": 25,
+        "cohortMedianDaysListed": 24,
+        "priceDrop": {
+          "total": 1000,
+          "pct": -0.0313,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -276,7 +285,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 38,
@@ -302,14 +311,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28369,
-      "expected": 26667,
+      "marketValue": 28182,
+      "expected": 26491,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 326,
-      "dealPct": 0.0122,
+      "dealDelta": 502,
+      "dealPct": 0.0189,
       "rating": "fair",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -318,7 +327,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 38,
-        "cohortMedianDaysListed": 20,
+        "cohortMedianDaysListed": 24,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -338,7 +347,8 @@
         "price": null
       }
     ],
-    "stock": "R085201"
+    "stock": "R085201",
+    "exitReason": "unseen"
   },
   {
     "id": "api-kmhm34aa4sa090463",
@@ -357,9 +367,9 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 24064,
-    "price": 26958,
+    "price": 26880,
     "priceBasis": "listing",
-    "dealer": "Nalley Hyundai",
+    "dealer": "NalleyHyundai Used",
     "dealerId": "d_83a2544bc104bd73",
     "distanceMi": 17,
     "state": "GA",
@@ -373,7 +383,7 @@
     "url": "https://www.nalleycars.com/car/KMHM34AA4SA090463",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KMHM34AA4SA090463&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KMHM34AA4SA090463-1.jpg",
-    "photoCount": 31,
+    "photoCount": 30,
     "baseMsrp": 45600,
     "squishVin": "KMHM34AASA",
     "accidentCount": null,
@@ -383,15 +393,19 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 9,
+    "lastSeen": "2026-11-09",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 26958
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26880
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
     "powertrainVerifiedBy": "single",
@@ -406,13 +420,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 28493,
-      "expected": 28778,
+      "marketValue": 28303,
+      "expected": 28587,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": -1820,
-      "dealPct": -0.0632,
+      "dealDelta": -1707,
+      "dealPct": -0.0597,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -420,9 +434,14 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 9,
-        "cohortMedianDaysListed": 20,
-        "negotiability": "low"
+        "listedDays": 16,
+        "cohortMedianDaysListed": 24,
+        "priceDrop": {
+          "total": 78,
+          "pct": -0.0029,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -524,22 +543,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 30717,
-      "expected": 31024,
+      "marketValue": 30486,
+      "expected": 30791,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1069,
-      "dealPct": 0.0345,
+      "dealDelta": 1302,
+      "dealPct": 0.0423,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.25,
       "basis": "pooled",
       "cohortN": 4,
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 20,
+        "cohortMedianDaysListed": 24,
         "negotiability": "medium"
       },
       "trust": "verified"

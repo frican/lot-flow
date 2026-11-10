@@ -13,10 +13,10 @@
     "series": "SE Standard Range 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Other",
+    "engine": "Electric",
     "year": 2024,
     "mileage": 10602,
-    "price": 21756,
+    "price": 22935,
     "priceBasis": "listing",
     "dealer": "Rick Case Hyundai-Duluth",
     "dealerId": "d_7bc05942db596f12",
@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 76,
+    "lastSeen": "2026-11-09",
+    "listedDays": 83,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -52,6 +52,10 @@
       {
         "date": "2026-11-02",
         "price": 21756
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22935
       }
     ],
     "sellerType": "franchise",
@@ -70,25 +74,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21756,
-      "expected": 21974,
+      "marketValue": 22935,
+      "expected": 23164,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -218,
+      "dealDelta": -229,
       "dealPct": -0.0099,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.667,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 76,
-        "cohortMedianDaysListed": 54,
+        "listedDays": 83,
+        "cohortMedianDaysListed": 38,
         "priceDrop": {
-          "total": 1835,
-          "pct": -0.0778,
+          "total": 656,
+          "pct": -0.0278,
           "drops": 1
         },
         "negotiability": "high"
@@ -141,7 +145,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 21985,
-    "price": 23836,
+    "price": 22273,
     "priceBasis": "listing",
     "dealer": "Hyundai of Kennesaw",
     "dealerId": "d_5f6ca56e352c6171",
@@ -157,7 +161,7 @@
     "url": "https://www.hyundaiofkennesaw.com/used-Kennesaw-2024-Hyundai-IONIQ+5-SE+Standard+Range-KM8KM4DB6RU318769",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4DB6RU318769&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KM4DB6RU318769-1.jpg",
-    "photoCount": 6,
+    "photoCount": 34,
     "baseMsrp": 41800,
     "squishVin": "KM8KM4DBRU",
     "accidentCount": null,
@@ -167,8 +171,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 31,
+    "lastSeen": "2026-11-09",
+    "listedDays": 38,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -177,6 +181,10 @@
       {
         "date": "2026-11-02",
         "price": 23836
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22273
       }
     ],
     "sellerType": "franchise",
@@ -195,26 +203,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23836,
-      "expected": 24074,
+      "marketValue": 22363,
+      "expected": 22587,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": -238,
-      "dealPct": -0.0099,
+      "dealDelta": -314,
+      "dealPct": -0.0139,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 31,
-        "cohortMedianDaysListed": 54,
+        "listedDays": 38,
+        "cohortMedianDaysListed": 38,
         "priceDrop": {
-          "total": 2219,
-          "pct": -0.0852,
-          "drops": 1
+          "total": 3782,
+          "pct": -0.1452,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -248,6 +256,190 @@
       }
     ],
     "trimSearch": "SE Standard Range"
+  },
+  {
+    "id": "api-km8km4dbxru233109",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE Standard Range",
+    "trimFeed": "SE Standard Range",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SE Standard Range 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 44655,
+    "price": 21496,
+    "priceBasis": "listing",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
+    "dealerId": "d_bb9c5094e1906d91",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Turquoise",
+    "interiorColor": "Gray",
+    "vin": "KM8KM4DBXRU233109",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://sonicvipservices.com/used/Hyundai/2024-Hyundai-IONIQ-5-aeb373c0ac18460c8d87a88bccf2fb39.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4DBXRU233109&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KM4DBXRU233109-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 41800,
+    "squishVin": "KM8KM4DBRU",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21496
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 21225,
+      "expected": 21438,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 58,
+      "dealPct": 0.0027,
+      "rating": "fair",
+      "dealScore": 0.333,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 3,
+        "cohortMedianDaysListed": 38,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "SE Standard Range",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "SE Standard Range",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "SE Standard Range",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-km8km4de3ru305469",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SE",
+    "trimFeed": "SE",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SE 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L",
+    "year": 2024,
+    "mileage": 14434,
+    "price": 24998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Lithia Springs",
+    "dealerId": null,
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Lithia Springs",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Black",
+    "vin": "KM8KM4DE3RU305469",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29101282",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KM4DE3RU305469&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KM4DE3RU305469-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 45850,
+    "squishVin": "KM8KM4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 24998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8km4de5ru303111",
@@ -338,10 +530,10 @@
     "engine": "electric",
     "year": 2024,
     "mileage": 38470,
-    "price": 21997,
+    "price": 22486,
     "priceBasis": "listing",
-    "dealer": "Echoparkatlanta",
-    "dealerId": "d_f9d8e22a5eac95e7",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
+    "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
     "city": "Duluth",
@@ -354,22 +546,26 @@
     "url": "https://sonicvipservices.com/used/Hyundai/2024-Hyundai-IONIQ-5-937e39b5ac182aa76ad6c60042c68f08.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KMDDF4RU241256&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KMDDF4RU241256-1.jpg",
-    "photoCount": 28,
+    "photoCount": 1,
     "baseMsrp": 49350,
     "squishVin": "KM8KMDDFRU",
-    "accidentCount": null,
-    "ownerCount": null,
-    "oneOwner": null,
-    "usageType": null,
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 1,
+    "lastSeen": "2026-11-09",
+    "listedDays": 8,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 21997
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22486
       }
     ],
     "sellerType": "independent",
@@ -389,7 +585,203 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-km8kn4de0ru246264",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 24641,
+    "price": 22500,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Gray",
+    "vin": "KM8KN4DE0RU246264",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KN4DE0RU246264",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DE0RU246264&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DE0RU246264-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 14,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22500
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "SEL",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "vehisales.com",
+        "trim": "SEL",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-km8kn4de0ru268376",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 11148,
+    "price": 22500,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "KM8KN4DE0RU268376",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "#-8263507951129223339",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DE0RU268376&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DE0RU268376-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22500
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 25256,
+      "expected": 25256,
+      "adjustments": {},
+      "dealDelta": -2756,
+      "dealPct": -0.1091,
+      "rating": "great",
+      "dealScore": 1.0,
+      "basis": "cohort",
+      "cohortN": 15,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 4,
+        "cohortMedianDaysListed": 16,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "SEL",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cars.com",
+        "trim": "SEL",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "SEL",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-km8kn4de0ru318693",
@@ -464,6 +856,76 @@
     "exitReason": "unseen"
   },
   {
+    "id": "api-km8kn4de1ru251344",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 24281,
+    "price": 21000,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Black",
+    "vin": "KM8KN4DE1RU251344",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KN4DE1RU251344",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DE1RU251344&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DE1RU251344-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21000
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
     "id": "api-km8kn4de1ru298986",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -530,23 +992,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24951,
-      "expected": 23454,
+      "marketValue": 25043,
+      "expected": 23540,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": -454,
-      "dealPct": -0.0193,
+      "dealDelta": -540,
+      "dealPct": -0.023,
       "rating": "fair",
-      "dealScore": 0.769,
+      "dealScore": 0.8,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 10,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 16,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -637,22 +1099,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23599,
-      "expected": 23835,
+      "marketValue": 24621,
+      "expected": 24867,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 803,
-      "dealPct": 0.0337,
+      "dealDelta": -229,
+      "dealPct": -0.0092,
       "rating": "fair",
-      "dealScore": 0.308,
+      "dealScore": 0.6,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 16,
         "negotiability": "medium"
       },
       "trust": "verified"
@@ -742,22 +1204,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25152,
-      "expected": 25403,
+      "marketValue": 25106,
+      "expected": 25357,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": 603,
-      "dealPct": 0.0237,
+      "dealDelta": 649,
+      "dealPct": 0.0256,
       "rating": "fair",
-      "dealScore": 0.385,
+      "dealScore": 0.2,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 39,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 16,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -806,14 +1268,14 @@
     "series": "SEL 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 21774,
-    "price": 26138,
+    "price": 24990,
     "priceBasis": "listing",
-    "dealer": "Potamkin Hyundai Stone Mountain",
-    "dealerId": "d_4e564a2b0f1feb52",
-    "distanceMi": 19,
+    "dealer": "Potamkin Hyundai",
+    "dealerId": "d_a231e6b45e6ae710",
+    "distanceMi": 18,
     "state": "GA",
     "city": "Lilburn",
     "cpo": "none",
@@ -835,12 +1297,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 5,
+    "lastSeen": "2026-11-09",
+    "listedDays": 12,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 26138
+      },
+      {
+        "date": "2026-11-09",
+        "price": 24990
       }
     ],
     "sellerType": "franchise",
@@ -858,23 +1324,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24781,
-      "expected": 25029,
+      "marketValue": 24990,
+      "expected": 25240,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1109,
-      "dealPct": 0.0443,
+      "dealDelta": -250,
+      "dealPct": -0.0099,
       "rating": "fair",
-      "dealScore": 0.231,
+      "dealScore": 0.667,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 5,
-        "cohortMedianDaysListed": 22,
-        "negotiability": "low"
+        "listedDays": 12,
+        "cohortMedianDaysListed": 16,
+        "priceDrop": {
+          "total": 1148,
+          "pct": -0.0439,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -921,12 +1392,12 @@
     "series": "SEL 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "ELECTRIC",
+    "engine": "electric",
     "year": 2024,
     "mileage": 30640,
-    "price": 23649,
+    "price": 22600,
     "priceBasis": "listing",
-    "dealer": "VC Cars Gwinnett Inc",
+    "dealer": "VC Cars Gwinnett",
     "dealerId": "d_553e6638aa79596a",
     "distanceMi": 20,
     "state": "GA",
@@ -940,7 +1411,7 @@
     "url": "https://vccarsg.com/vdp/24276578/Used-2024-Hyundai-Ioniq-5-SEL-for-sale-in-Duluth-GA-30096",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DE3RU233251&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KN4DE3RU233251-1.jpg",
-    "photoCount": 1,
+    "photoCount": 37,
     "baseMsrp": 47400,
     "squishVin": "KM8KN4DERU",
     "accidentCount": 1,
@@ -950,12 +1421,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 54,
+    "lastSeen": "2026-11-09",
+    "listedDays": 61,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 23649
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22600
       }
     ],
     "sellerType": "independent",
@@ -976,7 +1451,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "SEL",
     "verifyLog": [
       {
@@ -1078,12 +1553,12 @@
     "series": "SEL 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric Motor",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 9455,
-    "price": 25727,
+    "price": 25617,
     "priceBasis": "listing",
-    "dealer": "Jim Ellis Hyundai",
+    "dealer": "Jim Ellis Hyundai Jim Ellis Auto Dealerships Commercial Division",
     "dealerId": "d_58da6eb4f6cb7730",
     "distanceMi": 12,
     "state": "GA",
@@ -1107,8 +1582,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 23,
+    "lastSeen": "2026-11-09",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -1117,6 +1592,10 @@
       {
         "date": "2026-11-02",
         "price": 25727
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25617
       }
     ],
     "sellerType": "franchise",
@@ -1135,24 +1614,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25768,
-      "expected": 25768,
+      "marketValue": 25298,
+      "expected": 25298,
       "adjustments": {},
-      "dealDelta": -41,
-      "dealPct": -0.0016,
+      "dealDelta": 319,
+      "dealPct": 0.0126,
       "rating": "fair",
-      "dealScore": 0.692,
+      "dealScore": 0.333,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 23,
-        "cohortMedianDaysListed": 22,
+        "listedDays": 30,
+        "cohortMedianDaysListed": 16,
         "priceDrop": {
-          "total": 616,
-          "pct": -0.0234,
-          "drops": 1
+          "total": 726,
+          "pct": -0.0276,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -1174,6 +1653,146 @@
       }
     ],
     "stock": "H11463"
+  },
+  {
+    "id": "api-km8kn4de4ru266811",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl Electric",
+    "year": 2024,
+    "mileage": 11037,
+    "price": 25396,
+    "priceBasis": "listing",
+    "dealer": "EchoPark Automotive Atlanta",
+    "dealerId": "d_bb9c5094e1906d91",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "KM8KN4DE4RU266811",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://sonicvipservices.com/used/Hyundai/2024-Hyundai-IONIQ-5-a3dfa6b9ac182aa76ad6c600596b39be.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DE4RU266811&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DE4RU266811-1.jpg",
+    "photoCount": 33,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 25396
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-km8kn4de5ru325994",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 18704,
+    "price": 21000,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "KM8KN4DE5RU325994",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KN4DE5RU325994",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DE5RU325994&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DE5RU325994-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 12,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21000
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8kn4de6ru285635",
@@ -1242,22 +1861,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25095,
-      "expected": 25346,
+      "marketValue": 25088,
+      "expected": 25339,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -2662,
-      "dealPct": -0.105,
+      "dealDelta": -2655,
+      "dealPct": -0.1048,
       "rating": "great",
-      "dealScore": 1.0,
+      "dealScore": 0.933,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 36,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 16,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -1380,12 +1999,12 @@
     "series": "SEL 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric Motor",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 11910,
-    "price": 25985,
+    "price": 25254,
     "priceBasis": "listing",
-    "dealer": "Jim Ellis Hyundai",
+    "dealer": "Jim Ellis Hyundai Jim Ellis Auto Dealerships Commercial Division",
     "dealerId": "d_58da6eb4f6cb7730",
     "distanceMi": 12,
     "state": "GA",
@@ -1409,8 +2028,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 23,
+    "lastSeen": "2026-11-09",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -1419,6 +2038,10 @@
       {
         "date": "2026-11-02",
         "price": 25985
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25254
       }
     ],
     "sellerType": "franchise",
@@ -1437,24 +2060,24 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25571,
-      "expected": 25571,
+      "marketValue": 25237,
+      "expected": 25237,
       "adjustments": {},
-      "dealDelta": 414,
-      "dealPct": 0.0162,
+      "dealDelta": 17,
+      "dealPct": 0.0007,
       "rating": "fair",
-      "dealScore": 0.538,
+      "dealScore": 0.467,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 23,
-        "cohortMedianDaysListed": 22,
+        "listedDays": 30,
+        "cohortMedianDaysListed": 16,
         "priceDrop": {
-          "total": 808,
-          "pct": -0.0302,
-          "drops": 1
+          "total": 1539,
+          "pct": -0.0574,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -1476,6 +2099,160 @@
       }
     ],
     "stock": "Fee"
+  },
+  {
+    "id": "api-km8kn4de6ru327012",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 12660,
+    "price": 22500,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Turquoise",
+    "interiorColor": "Black",
+    "vin": "KM8KN4DE6RU327012",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KN4DE6RU327012",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DE6RU327012&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DE6RU327012-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 12,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22500
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "SEL",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "SEL",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-km8kn4de7ru300112",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 29310,
+    "price": 21000,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "KM8KN4DE7RU300112",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KN4DE7RU300112",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DE7RU300112&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DE7RU300112-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21000
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8kn4de7ru333868",
@@ -1518,7 +2295,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 6,
@@ -1543,23 +2320,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24512,
-      "expected": 23042,
+      "marketValue": 24906,
+      "expected": 23412,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01
       },
-      "dealDelta": 449,
-      "dealPct": 0.0195,
+      "dealDelta": 79,
+      "dealPct": 0.0034,
       "rating": "fair",
-      "dealScore": 0.462,
+      "dealScore": 0.4,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 6,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 16,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -1592,7 +2369,8 @@
     ],
     "urlOrigin": "search",
     "stock": "Y333868",
-    "trimSearch": "SEL"
+    "trimSearch": "SEL",
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kn4de7ru336477",
@@ -1608,14 +2386,14 @@
     "series": "SEL 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 9711,
-    "price": 27138,
+    "price": 25990,
     "priceBasis": "listing",
-    "dealer": "Potamkin Hyundai Stone Mountain",
-    "dealerId": "d_4e564a2b0f1feb52",
-    "distanceMi": 19,
+    "dealer": "Potamkin Hyundai",
+    "dealerId": "d_a231e6b45e6ae710",
+    "distanceMi": 18,
     "state": "GA",
     "city": "Lilburn",
     "cpo": "none",
@@ -1633,16 +2411,20 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 5,
+    "lastSeen": "2026-11-09",
+    "listedDays": 12,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 27138
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25990
       }
     ],
     "sellerType": "franchise",
@@ -1660,23 +2442,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25748,
-      "expected": 26005,
+      "marketValue": 25292,
+      "expected": 25545,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1133,
-      "dealPct": 0.0436,
+      "dealDelta": 445,
+      "dealPct": 0.0174,
       "rating": "fair",
-      "dealScore": 0.154,
+      "dealScore": 0.267,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 5,
-        "cohortMedianDaysListed": 22,
-        "negotiability": "low"
+        "listedDays": 12,
+        "cohortMedianDaysListed": 16,
+        "priceDrop": {
+          "total": 1148,
+          "pct": -0.0423,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -1824,7 +2611,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-11-02",
     "listedDays": 22,
@@ -1854,20 +2641,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24765,
-      "expected": 24765,
+      "marketValue": 24985,
+      "expected": 24985,
       "adjustments": {},
-      "dealDelta": 0,
-      "dealPct": 0.0,
+      "dealDelta": -220,
+      "dealPct": -0.0088,
       "rating": "fair",
-      "dealScore": 0.615,
+      "dealScore": 0.533,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
         "listedDays": 22,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 16,
         "priceDrop": {
           "total": 311,
           "pct": -0.0124,
@@ -1892,7 +2679,8 @@
         "mileage": 21976,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kn4de9ru306199",
@@ -1911,7 +2699,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 51316,
-    "price": 21000,
+    "price": 20000,
     "priceBasis": "listing",
     "dealer": "Gas Charged Motors",
     "dealerId": "d_c6dc7bf3edb8e59c",
@@ -1937,12 +2725,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 82,
+    "lastSeen": "2026-11-09",
+    "listedDays": 89,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 21000
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20000
       }
     ],
     "sellerType": "independent",
@@ -1963,7 +2755,77 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09"
+  },
+  {
+    "id": "api-km8kn4dexru240228",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L",
+    "year": 2024,
+    "mileage": 5657,
+    "price": 28998,
+    "priceBasis": "listing",
+    "dealer": "CarMax Lithia Springs",
+    "dealerId": null,
+    "distanceMi": 13,
+    "state": "GA",
+    "city": "Lithia Springs",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "KM8KN4DEXRU240228",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.carmax.com/car/29199271",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DEXRU240228&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DEXRU240228-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Commercial Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 6,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 28998
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8kn4dexru248894",
@@ -2006,7 +2868,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 9,
@@ -2033,7 +2895,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-02",
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kn4dexru262391",
@@ -2049,12 +2912,12 @@
     "series": "SEL 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 44446,
-    "price": 21997,
+    "price": 22486,
     "priceBasis": "listing",
-    "dealer": "EchoPark Automotive Atlanta",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
     "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
@@ -2068,7 +2931,7 @@
     "url": "https://sonicvipservices.com/used/Hyundai/2024-Hyundai-IONIQ-5-84c2896fac183a39cb575a2fd98def31.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DEXRU262391&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KN4DEXRU262391-1.jpg",
-    "photoCount": 30,
+    "photoCount": 1,
     "baseMsrp": 47400,
     "squishVin": "KM8KN4DERU",
     "accidentCount": 0,
@@ -2078,12 +2941,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 4,
+    "lastSeen": "2026-11-09",
+    "listedDays": 11,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 21997
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22486
       }
     ],
     "sellerType": "independent",
@@ -2101,22 +2968,22 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22965,
-      "expected": 23194,
+      "marketValue": 24423,
+      "expected": 24667,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1197,
-      "dealPct": -0.0516,
+      "dealDelta": -2181,
+      "dealPct": -0.0884,
       "rating": "good",
-      "dealScore": 0.923,
+      "dealScore": 0.867,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 4,
-        "cohortMedianDaysListed": 22,
+        "listedDays": 11,
+        "cohortMedianDaysListed": 16,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -2200,7 +3067,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-11-02",
     "listedDays": 54,
@@ -2232,7 +3099,78 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-02",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-km8kn4dexru295326",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 36785,
+    "price": 21000,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Gray",
+    "vin": "KM8KN4DEXRU295326",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KN4DEXRU295326",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KN4DEXRU295326&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KN4DEXRU295326-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 47400,
+    "squishVin": "KM8KN4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 21000
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8kn4dexru315915",
@@ -2275,7 +3213,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-11-02",
     "listedDays": 30,
@@ -2318,7 +3256,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kn4dexru330737",
@@ -2423,9 +3362,9 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 23902,
-    "price": 25758,
+    "price": 25218,
     "priceBasis": "listing",
-    "dealer": "Nalley Hyundai",
+    "dealer": "NalleyHyundai Used",
     "dealerId": "d_83a2544bc104bd73",
     "distanceMi": 17,
     "state": "GA",
@@ -2439,7 +3378,7 @@
     "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KNDDF0RU300378",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDDF0RU300378&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KNDDF0RU300378-1.jpg",
-    "photoCount": 35,
+    "photoCount": 34,
     "baseMsrp": 50900,
     "squishVin": "KM8KNDDFRU",
     "accidentCount": null,
@@ -2449,8 +3388,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 26,
+    "lastSeen": "2026-11-09",
+    "listedDays": 33,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -2459,9 +3398,13 @@
       {
         "date": "2026-11-02",
         "price": 25758
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25218
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "urlOrigin": "stored",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
@@ -2479,7 +3422,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8knddf0ru328374",
@@ -2495,12 +3438,12 @@
     "series": "SEL 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "74KW + 165KW 320HP Dual Electric",
+    "engine": "electric",
     "year": 2024,
     "mileage": 15012,
     "price": 25000,
     "priceBasis": "listing",
-    "dealer": "BMVW Auto Sales",
+    "dealer": "Bmvw",
     "dealerId": "d_9a1299f922cbf553",
     "distanceMi": 15,
     "state": "GA",
@@ -2524,8 +3467,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 9,
+    "lastSeen": "2026-11-09",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -2547,23 +3490,23 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 25323,
-      "expected": 25576,
+      "marketValue": 25159,
+      "expected": 25411,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -576,
-      "dealPct": -0.0225,
+      "dealDelta": -411,
+      "dealPct": -0.0162,
       "rating": "fair",
-      "dealScore": 0.846,
+      "dealScore": 0.733,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 9,
-        "cohortMedianDaysListed": 22,
-        "negotiability": "low"
+        "listedDays": 16,
+        "cohortMedianDaysListed": 16,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },
@@ -2610,6 +3553,120 @@
     "powertrainSearch": "electric"
   },
   {
+    "id": "api-km8knddf1ru281677",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "SEL",
+    "trimFeed": "SEL",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "SEL 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 23752,
+    "price": 26500,
+    "priceBasis": "listing",
+    "dealer": "Rick Case Hyundai Roswell Used",
+    "dealerId": "d_3506a7b858d63182",
+    "distanceMi": 22,
+    "state": "GA",
+    "city": "Roswell",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Gray",
+    "vin": "KM8KNDDF1RU281677",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://gwinnettplacekia.com/used/Hyundai/2024-Hyundai-IONIQ-5-9dd8b6e7ac185c3a4b66caaaf7e66b3e.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDDF1RU281677&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KNDDF1RU281677-1.jpg",
+    "photoCount": 30,
+    "baseMsrp": 50900,
+    "squishVin": "KM8KNDDFRU",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 7,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 26500
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 24941,
+      "expected": 23444,
+      "adjustments": {
+        "accidents": -0.07,
+        "oneOwner": 0.01
+      },
+      "dealDelta": 3056,
+      "dealPct": 0.1303,
+      "rating": "overpriced",
+      "dealScore": 0.067,
+      "basis": "cohort",
+      "cohortN": 15,
+      "confidence": 1.0,
+      "ratingConfident": true,
+      "signals": {
+        "listedDays": 7,
+        "cohortMedianDaysListed": 16,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "SEL",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "oldcar.com",
+        "trim": "SEL",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 23750,
+        "price": 26993
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cuautosearch.com",
+        "trim": "SEL",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-km8knddf4ru240072",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -2623,12 +3680,12 @@
     "series": "SEL 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 27700,
-    "price": 23997,
+    "price": 24196,
     "priceBasis": "listing",
-    "dealer": "EchoPark Automotive Atlanta",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
     "dealerId": "d_bb9c5094e1906d91",
     "distanceMi": 21,
     "state": "GA",
@@ -2642,18 +3699,18 @@
     "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KNDDF4RU240072",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDDF4RU240072&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KNDDF4RU240072-1.jpg",
-    "photoCount": 29,
+    "photoCount": 1,
     "baseMsrp": 50900,
     "squishVin": "KM8KNDDFRU",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 24,
+    "lastSeen": "2026-11-09",
+    "listedDays": 31,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -2662,6 +3719,10 @@
       {
         "date": "2026-11-02",
         "price": 23997
+      },
+      {
+        "date": "2026-11-09",
+        "price": 24196
       }
     ],
     "sellerType": "independent",
@@ -2682,7 +3743,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02"
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8knddf5ru282203",
@@ -2701,9 +3762,9 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 27566,
-    "price": 26684,
+    "price": 26103,
     "priceBasis": "listing",
-    "dealer": "Nalley Hyundai",
+    "dealer": "NalleyHyundai Used",
     "dealerId": "d_83a2544bc104bd73",
     "distanceMi": 17,
     "state": "GA",
@@ -2717,7 +3778,7 @@
     "url": "https://www.nalleyinfinitimarietta.com/viewdetails/used/km8knddf5ru282203/2024-hyundai-ioniq-5-sport-utility?type=finance",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KNDDF5RU282203&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KNDDF5RU282203-1.jpg",
-    "photoCount": 35,
+    "photoCount": 34,
     "baseMsrp": 50900,
     "squishVin": "KM8KNDDFRU",
     "accidentCount": null,
@@ -2727,8 +3788,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 26,
+    "lastSeen": "2026-11-09",
+    "listedDays": 33,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -2737,9 +3798,13 @@
       {
         "date": "2026-11-02",
         "price": 26684
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26103
       }
     ],
-    "sellerType": "franchise",
+    "sellerType": "independent",
     "urlOrigin": "search",
     "powertrainVin": "electric",
     "powertrainConfidence": 1.0,
@@ -2755,26 +3820,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24317,
-      "expected": 24560,
+      "marketValue": 24845,
+      "expected": 25094,
       "adjustments": {
         "cpo": 0.01
       },
-      "dealDelta": 2124,
-      "dealPct": 0.0865,
-      "rating": "high",
-      "dealScore": 0.077,
+      "dealDelta": 1009,
+      "dealPct": 0.0402,
+      "rating": "fair",
+      "dealScore": 0.133,
       "basis": "cohort",
-      "cohortN": 13,
+      "cohortN": 15,
       "confidence": 1.0,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 26,
-        "cohortMedianDaysListed": 22,
+        "listedDays": 33,
+        "cohortMedianDaysListed": 16,
         "priceDrop": {
-          "total": 452,
-          "pct": -0.0167,
-          "drops": 1
+          "total": 1033,
+          "pct": -0.0381,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -2798,6 +3863,76 @@
     "stock": "NHYPRU282203"
   },
   {
+    "id": "api-km8kr4de1ru253051",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Limited 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 18103,
+    "price": 32990,
+    "priceBasis": "listing",
+    "dealer": "Potamkin Hyundai",
+    "dealerId": "d_a231e6b45e6ae710",
+    "distanceMi": 18,
+    "state": "GA",
+    "city": "Lilburn",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Atlas White",
+    "interiorColor": "Gray",
+    "vin": "KM8KR4DE1RU253051",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.potamkinatlanta.com/inventory/used-2024-hyundai-ioniq-5-limited-rwd-sport-utility-km8kr4de1ru253051/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KR4DE1RU253051&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KR4DE1RU253051-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 53500,
+    "squishVin": "KM8KR4DERU",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 32990
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
+  },
+  {
     "id": "api-km8kr4de3ru301939",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -2814,7 +3949,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2024,
     "mileage": 20861,
-    "price": 33345,
+    "price": 31120,
     "priceBasis": "listing",
     "dealer": "Hyundai of Kennesaw",
     "dealerId": "d_5f6ca56e352c6171",
@@ -2830,7 +3965,7 @@
     "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KR4DE3RU301939",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KR4DE3RU301939&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KR4DE3RU301939-1.jpg",
-    "photoCount": 6,
+    "photoCount": 35,
     "baseMsrp": 53500,
     "squishVin": "KM8KR4DERU",
     "accidentCount": 0,
@@ -2840,8 +3975,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 23,
+    "lastSeen": "2026-11-09",
+    "listedDays": 30,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -2850,6 +3985,10 @@
       {
         "date": "2026-11-02",
         "price": 33345
+      },
+      {
+        "date": "2026-11-09",
+        "price": 31120
       }
     ],
     "sellerType": "franchise",
@@ -2868,14 +4007,14 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 33501,
-      "expected": 34171,
+      "marketValue": 31623,
+      "expected": 32255,
       "adjustments": {
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": -826,
-      "dealPct": -0.0242,
+      "dealDelta": -1135,
+      "dealPct": -0.0352,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -2883,8 +4022,13 @@
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 23,
-        "cohortMedianDaysListed": 14,
+        "listedDays": 30,
+        "cohortMedianDaysListed": 17,
+        "priceDrop": {
+          "total": 2113,
+          "pct": -0.0636,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"
@@ -2957,7 +4101,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 7,
@@ -2982,20 +4126,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34674,
-      "expected": 34674,
+      "marketValue": 29106,
+      "expected": 29106,
       "adjustments": {},
-      "dealDelta": 69,
-      "dealPct": 0.002,
-      "rating": "fair",
-      "dealScore": 0.5,
+      "dealDelta": 5637,
+      "dealPct": 0.1937,
+      "rating": "overpriced",
+      "dealScore": 0.25,
       "basis": "pooled",
       "cohortN": 4,
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
         "listedDays": 7,
-        "cohortMedianDaysListed": 14,
+        "cohortMedianDaysListed": 17,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -3027,7 +4171,8 @@
       }
     ],
     "urlOrigin": "search",
-    "trimSearch": "Limited"
+    "trimSearch": "Limited",
+    "exitReason": "unseen"
   },
   {
     "id": "api-km8kr4de4ru270801",
@@ -3228,7 +4373,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-21",
     "lastSeen": "2026-11-02",
     "listedDays": 13,
@@ -3258,11 +4403,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 32931,
-      "expected": 32931,
+      "marketValue": 32844,
+      "expected": 32844,
       "adjustments": {},
-      "dealDelta": -69,
-      "dealPct": -0.0021,
+      "dealDelta": 18,
+      "dealPct": 0.0005,
       "rating": "fair",
       "dealScore": 0.75,
       "basis": "pooled",
@@ -3271,7 +4416,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 13,
-        "cohortMedianDaysListed": 14,
+        "cohortMedianDaysListed": 17,
         "priceDrop": {
           "total": 1881,
           "pct": -0.0541,
@@ -3319,7 +4464,78 @@
         "price": null
       }
     ],
-    "trimSite": "Limited"
+    "trimSite": "Limited",
+    "exitReason": "unseen"
+  },
+  {
+    "id": "api-km8kr4de8ru290081",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Limited",
+    "trimFeed": "Limited",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Limited 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 38044,
+    "price": 25000,
+    "priceBasis": "listing",
+    "dealer": "Gas Charged Motors",
+    "dealerId": "d_c6dc7bf3edb8e59c",
+    "distanceMi": 16,
+    "state": "GA",
+    "city": "Marietta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "KM8KR4DE8RU290081",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.autolist.com/hyundai-ioniq+5#vin=KM8KR4DE8RU290081",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KR4DE8RU290081&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/KM8KR4DE8RU290081-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 53500,
+    "squishVin": "KM8KR4DERU",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 19,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 25000
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "South Korea",
+    "plantSource": "vin1",
+    "trimConfidence": 0.35,
+    "trimVerifiedBy": "feed",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09"
   },
   {
     "id": "api-km8kr4dexru316695",
@@ -3335,12 +4551,12 @@
     "series": "Limited 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Other",
+    "engine": "electric",
     "year": 2024,
     "mileage": 12624,
-    "price": 32691,
+    "price": 33870,
     "priceBasis": "listing",
-    "dealer": "Rick Case Hyundai-Duluth",
+    "dealer": "Rick Case Hyundai of Duluth",
     "dealerId": "d_7bc05942db596f12",
     "distanceMi": 21,
     "state": "GA",
@@ -3354,7 +4570,7 @@
     "url": "https://express.rickcasemazda.com/express/used/KM8KR4DEXRU316695",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KM8KR4DEXRU316695&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KM8KR4DEXRU316695-1.jpg",
-    "photoCount": 29,
+    "photoCount": 1,
     "baseMsrp": 53500,
     "squishVin": "KM8KR4DERU",
     "accidentCount": 1,
@@ -3364,8 +4580,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 14,
+    "lastSeen": "2026-11-09",
+    "listedDays": 21,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -3374,6 +4590,10 @@
       {
         "date": "2026-11-02",
         "price": 32691
+      },
+      {
+        "date": "2026-11-09",
+        "price": 33870
       }
     ],
     "sellerType": "franchise",
@@ -3392,30 +4612,25 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 32445,
-      "expected": 30822,
+      "marketValue": 33888,
+      "expected": 32194,
       "adjustments": {
         "accidents": -0.07,
         "oneOwner": 0.01,
         "cpo": 0.01
       },
-      "dealDelta": 1869,
-      "dealPct": 0.0606,
+      "dealDelta": 1676,
+      "dealPct": 0.0521,
       "rating": "high",
-      "dealScore": 0.25,
+      "dealScore": 0.5,
       "basis": "pooled",
       "cohortN": 4,
       "confidence": 0.4,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 14,
-        "cohortMedianDaysListed": 14,
-        "priceDrop": {
-          "total": 189,
-          "pct": -0.0057,
-          "drops": 1
-        },
-        "negotiability": "high"
+        "listedDays": 21,
+        "cohortMedianDaysListed": 17,
+        "negotiability": "medium"
       },
       "trust": "verified"
     },

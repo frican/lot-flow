@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 10,
+    "lastSeen": "2026-11-09",
+    "listedDays": 17,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -67,8 +67,8 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
-    "trimSearch": "RS",
+    "searchedAt": "2026-11-09",
+    "trimSearch": "2LT",
     "powertrainSearch": "electric",
     "verifyLog": [
       {
@@ -80,6 +80,17 @@
         "powertrain": "electric",
         "strength": "snippet",
         "mileage": 29425,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "2LT",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
         "price": null
       }
     ]
@@ -98,10 +109,10 @@
     "series": "RS 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L 0Cyl electric",
+    "engine": "Other",
     "year": 2025,
     "mileage": 26371,
-    "price": 26976,
+    "price": 29967,
     "priceBasis": "listing",
     "dealer": "Buddy Chevrolet",
     "dealerId": "d_7b6d7d976effa9bc",
@@ -117,7 +128,7 @@
     "url": "https://buddychevy.com/used/Chevrolet/2025-Chevrolet-Blazer-EV-483756d5ac1858c9a0e64925ae2ca86f.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GNKDJRJ7SS131105&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GNKDJRJ7SS131105-1.jpg",
-    "photoCount": 1,
+    "photoCount": 35,
     "baseMsrp": 52900,
     "squishVin": "3GNKDJRJSS",
     "accidentCount": 0,
@@ -127,12 +138,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 67,
+    "lastSeen": "2026-11-09",
+    "listedDays": 74,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 26976
+      },
+      {
+        "date": "2026-11-09",
+        "price": 29967
       }
     ],
     "sellerType": "franchise",
@@ -143,14 +158,30 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
     "trimFlagged": true,
     "trimConflict": false,
     "comboConflict": false,
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "RS",
+    "powertrainSearch": "electric",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "RS",
+        "powertrain": "electric",
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   }
 ]

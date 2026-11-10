@@ -13,10 +13,10 @@
     "series": "Advanced 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "0.0L",
+    "engine": "0.0L 0Cyl Electric",
     "year": 2023,
     "mileage": 10113,
-    "price": 41998,
+    "price": 40998,
     "priceBasis": "listing",
     "dealer": "CarMax Town Center",
     "dealerId": "d_18bd36f40629047a",
@@ -32,7 +32,7 @@
     "url": "https://www.autolist.com/genesis-gv60#vin=KMUKCDTC4PU017798",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=KMUKCDTC4PU017798&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/KMUKCDTC4PU017798-1.jpg",
-    "photoCount": 1,
+    "photoCount": 29,
     "baseMsrp": 59290,
     "squishVin": "KMUKCDTCPU",
     "accidentCount": 0,
@@ -42,8 +42,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 17,
+    "lastSeen": "2026-11-09",
+    "listedDays": 24,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -52,6 +52,10 @@
       {
         "date": "2026-11-02",
         "price": 41998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 40998
       }
     ],
     "sellerType": "independent",
@@ -72,7 +76,7 @@
     "valuation": {
       "basis": "not-ready"
     },
-    "searchedAt": "2026-11-02",
+    "searchedAt": "2026-11-09",
     "trimSearch": "Performance",
     "verifyLog": [
       {
@@ -140,7 +144,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 6,
@@ -186,7 +190,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-kmukedtb2pu011533",
@@ -205,7 +210,7 @@
     "engine": "Electric (Dual)",
     "year": 2023,
     "mileage": 46436,
-    "price": 32837,
+    "price": 32231,
     "priceBasis": "listing",
     "dealer": "Genesis Of Kennesaw",
     "dealerId": "d_517869e4c5e6b864",
@@ -231,8 +236,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 6,
+    "lastSeen": "2026-11-09",
+    "listedDays": 13,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -241,6 +246,10 @@
       {
         "date": "2026-11-02",
         "price": 32837
+      },
+      {
+        "date": "2026-11-09",
+        "price": 32231
       }
     ],
     "sellerType": "franchise",
@@ -259,15 +268,26 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "basis": "none",
+      "marketValue": 33190,
+      "expected": 33522,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -1291,
+      "dealPct": -0.0385,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
       "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
       "signals": {
-        "listedDays": 6,
-        "cohortMedianDaysListed": 8,
+        "listedDays": 13,
+        "cohortMedianDaysListed": 14,
         "priceDrop": {
-          "total": 237,
-          "pct": -0.0072,
-          "drops": 1
+          "total": 843,
+          "pct": -0.0255,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -319,9 +339,9 @@
     "engine": "Electric",
     "year": 2023,
     "mileage": 25989,
-    "price": 41998,
+    "price": 40998,
     "priceBasis": "listing",
-    "dealer": "CarMax - Lithia Springs",
+    "dealer": "CarMax Lithia Springs",
     "dealerId": "d_3b08986731308aca",
     "distanceMi": 13,
     "state": "GA",
@@ -341,16 +361,20 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Corporate Fleet",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 9,
+    "lastSeen": "2026-11-09",
+    "listedDays": 16,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 41998
+      },
+      {
+        "date": "2026-11-09",
+        "price": 40998
       }
     ],
     "sellerType": "independent",
@@ -368,12 +392,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "basis": "none",
+      "marketValue": 40039,
+      "expected": 40440,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": 558,
+      "dealPct": 0.0138,
+      "rating": "fair",
+      "dealScore": 0.5,
+      "basis": "pooled",
       "cohortN": 2,
+      "confidence": 0.35,
+      "ratingConfident": false,
       "signals": {
-        "listedDays": 9,
-        "cohortMedianDaysListed": 8,
-        "negotiability": "low"
+        "listedDays": 16,
+        "cohortMedianDaysListed": 14,
+        "priceDrop": {
+          "total": 1000,
+          "pct": -0.0238,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },

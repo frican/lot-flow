@@ -1,5 +1,100 @@
 [
   {
+    "id": "api-3gpkhvrj3ss504823",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "EX",
+    "trimFeed": "EX",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "EX 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2025,
+    "mileage": 6179,
+    "price": 26496,
+    "priceBasis": "listing",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
+    "dealerId": "d_bb9c5094e1906d91",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "White",
+    "interiorColor": "Black",
+    "vin": "3GPKHVRJ3SS504823",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://sonicvipservices.com/used/Honda/2025-Honda-Prologue-a7a923c2ac1817dfac417dcdc30bf9a7.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHVRJ3SS504823&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GPKHVRJ3SS504823-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 50400,
+    "squishVin": "3GPKHVRJSS",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 4,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 26496
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "EX",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "cargurus.com",
+        "trim": "EX",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
     "id": "api-3gpkhwrm6ss500376",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -13,10 +108,10 @@
     "series": "Touring 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "FWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2025,
     "mileage": 9953,
-    "price": 29898,
+    "price": 29571,
     "priceBasis": "listing",
     "dealer": "Curry Honda",
     "dealerId": "d_c39e2b82ac07cf86",
@@ -32,18 +127,18 @@
     "url": "https://curryhondaga.com/certified/Honda/2025-Honda-Prologue--a6f11bf6ac184088ef41bc97c3ef44b0.htm",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHWRM6SS500376&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/3GPKHWRM6SS500376-1.jpg",
-    "photoCount": 36,
+    "photoCount": 1,
     "baseMsrp": 51700,
     "squishVin": "3GPKHWRMSS",
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
     "usageType": "Personal Use",
-    "flagged": true,
+    "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 47,
+    "lastSeen": "2026-11-09",
+    "listedDays": 54,
     "priceHistory": [
       {
         "date": "2026-11-01",
@@ -52,6 +147,10 @@
       {
         "date": "2026-11-02",
         "price": 29898
+      },
+      {
+        "date": "2026-11-09",
+        "price": 29571
       }
     ],
     "sellerType": "franchise",
@@ -62,15 +161,294 @@
     "powertrainConflict": false,
     "plantCountry": "Mexico",
     "plantSource": "vin1",
-    "trimConfidence": 0.35,
-    "trimVerifiedBy": "feed",
-    "trimFlagged": true,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
     "trimConflict": false,
     "comboConflict": false,
-    "cohortReady": false,
+    "cohortReady": true,
     "valuation": {
-      "basis": "not-ready"
-    }
+      "marketValue": 30094,
+      "expected": 30395,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -824,
+      "dealPct": -0.0271,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 54,
+        "cohortMedianDaysListed": 5,
+        "negotiability": "high"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Touring",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "driveway.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-3gpkhxrj3ss500556",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Touring",
+    "trimFeed": "Touring",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Touring 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2025,
+    "mileage": 6382,
+    "price": 32944,
+    "priceBasis": "listing",
+    "dealer": "Gwinnett Place Honda",
+    "dealerId": "d_67dd54f93f030d18",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Black",
+    "vin": "3GPKHXRJ3SS500556",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hendrickdodge.com/inventory/used-2025-honda-prologue-touring-awd-awd-suv-3gpkhxrj3ss500556/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ3SS500556&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GPKHXRJ3SS500556-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 54700,
+    "squishVin": "3GPKHXRJSS",
+    "accidentCount": null,
+    "ownerCount": null,
+    "oneOwner": null,
+    "usageType": null,
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 2,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 32944
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 30817,
+      "expected": 30817,
+      "adjustments": {},
+      "dealDelta": 2127,
+      "dealPct": 0.069,
+      "rating": "high",
+      "dealScore": 0.333,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 2,
+        "cohortMedianDaysListed": 5,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Touring",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "daleearnhardtjrbuickgmc.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "hendrickchevrolet.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "rickhendrickchevy.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
+  },
+  {
+    "id": "api-3gpkhxrj4ss518144",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Touring",
+    "trimFeed": "Touring",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Touring 4dr SUV AWD (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "AWD",
+    "engine": "electric",
+    "year": 2025,
+    "mileage": 27709,
+    "price": 26496,
+    "priceBasis": "listing",
+    "dealer": "EchoPark Automotive Atlanta Duluth",
+    "dealerId": "d_bb9c5094e1906d91",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Duluth",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Blue",
+    "interiorColor": "Gray",
+    "vin": "3GPKHXRJ4SS518144",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://sonicvipservices.com/used/Honda/2025-Honda-Prologue-a43d812bac1844b00b9822507034e0b9.htm",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=3GPKHXRJ4SS518144&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/3GPKHXRJ4SS518144-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 54700,
+    "squishVin": "3GPKHXRJSS",
+    "accidentCount": 0,
+    "ownerCount": 2,
+    "oneOwner": false,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 5,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 26496
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "Mexico",
+    "plantSource": "vin1",
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 26496,
+      "expected": 26099,
+      "adjustments": {
+        "owners": -0.015
+      },
+      "dealDelta": 397,
+      "dealPct": 0.0152,
+      "rating": "fair",
+      "dealScore": 0.667,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 5,
+        "cohortMedianDaysListed": 5,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Touring",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Touring",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ]
   },
   {
     "id": "api-3gpkhxrj8ss507227",
@@ -86,18 +464,18 @@
     "series": "Touring 4dr SUV AWD (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "AWD",
-    "engine": "Electric",
+    "engine": "electric",
     "year": 2025,
     "mileage": 8309,
-    "price": 30075,
+    "price": 31719,
     "priceBasis": "listing",
     "dealer": "Nalley Honda",
     "dealerId": "d_653d519837f52532",
     "distanceMi": 15,
     "state": "GA",
     "city": "Union City",
-    "cpo": "none",
-    "cpoFeed": false,
+    "cpo": "unknown",
+    "cpoFeed": true,
     "exteriorColor": "Snowfall Pearl",
     "interiorColor": "Black",
     "vin": "3GPKHXRJ8SS507227",
@@ -115,12 +493,16 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-11-01",
-    "lastSeen": "2026-11-02",
-    "listedDays": 29,
+    "lastSeen": "2026-11-09",
+    "listedDays": 36,
     "priceHistory": [
       {
         "date": "2026-11-01",
         "price": 30075
+      },
+      {
+        "date": "2026-11-09",
+        "price": 31719
       }
     ],
     "sellerType": "franchise",
@@ -139,6 +521,7 @@
     "cohortReady": false,
     "valuation": {
       "basis": "not-ready"
-    }
+    },
+    "searchedAt": "2026-11-09"
   }
 ]

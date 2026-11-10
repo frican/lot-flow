@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-09",
   "bands": {
     "great": -0.1,
     "good": -0.05,
@@ -25,38 +25,122 @@
       "year": 2024,
       "trim": "Touring",
       "powertrain": "electric",
-      "n": 6,
+      "n": 7,
       "mileageRange": [
-        10911,
+        10053,
         39935
       ],
       "theilSen": {
-        "slope": -0.0848,
-        "intercept": 29000.9
+        "slope": -0.1324,
+        "intercept": 30587.45
       },
       "ols": {
-        "slope": -0.0802,
-        "intercept": 28941.53
+        "slope": -0.1346,
+        "intercept": 30732.46
       },
       "parentKey": "Touring|electric",
       "msrp": 54700
+    },
+    "2024|Elite|electric": {
+      "year": 2024,
+      "trim": "Elite",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        4725,
+        5236
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Elite|electric",
+      "msrp": 57900
+    },
+    "2025|Touring|electric": {
+      "year": 2025,
+      "trim": "Touring",
+      "powertrain": "electric",
+      "n": 3,
+      "mileageRange": [
+        6382,
+        27709
+      ],
+      "theilSen": {
+        "slope": -0.3023,
+        "intercept": 34873.53
+      },
+      "ols": {
+        "slope": -0.2608,
+        "intercept": 33499.02
+      },
+      "parentKey": "Touring|electric",
+      "msrp": 54700
+    },
+    "2026|Touring|electric": {
+      "year": 2026,
+      "trim": "Touring",
+      "powertrain": "electric",
+      "n": 1,
+      "mileageRange": [
+        10009,
+        10009
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Touring|electric",
+      "msrp": 44200
     }
   },
   "parents": {
     "Touring|electric": {
-      "slope": -0.0848,
-      "intercept": 29000.9
+      "slope": -0.2026,
+      "intercept": 32273.68
     }
   },
   "depreciation": {
+    "EX|electric": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 9840,
+        "marketValue": 27761,
+        "msrp": 50400,
+        "retained": 0.551
+      }
+    ],
     "Touring|electric": [
       {
         "year": 2024,
         "age": 2,
-        "medianMileage": 25340,
-        "marketValue": 26853,
+        "medianMileage": 23703,
+        "marketValue": 27450,
         "msrp": 54700,
-        "retained": 0.491
+        "retained": 0.502
+      },
+      {
+        "year": 2025,
+        "age": 1,
+        "medianMileage": 9953,
+        "marketValue": 30094,
+        "msrp": 54700,
+        "retained": 0.55
+      },
+      {
+        "year": 2026,
+        "age": 0,
+        "medianMileage": 10009,
+        "marketValue": 29011,
+        "msrp": 44200,
+        "retained": 0.656
+      }
+    ],
+    "Elite|electric": [
+      {
+        "year": 2024,
+        "age": 2,
+        "medianMileage": 4980,
+        "marketValue": 32934,
+        "msrp": 57900,
+        "retained": 0.569
       }
     ]
   }

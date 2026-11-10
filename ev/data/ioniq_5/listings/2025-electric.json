@@ -86,7 +86,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 9256,
-    "price": 24891,
+    "price": 24792,
     "priceBasis": "listing",
     "dealer": "Southtowne Hyundai of Riverdale Genesis of Union City",
     "dealerId": "d_86f3979d218b17ef",
@@ -112,8 +112,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 30,
+    "lastSeen": "2026-11-09",
+    "listedDays": 37,
     "priceHistory": [
       {
         "date": "2026-10-21",
@@ -122,6 +122,10 @@
       {
         "date": "2026-11-02",
         "price": 24891
+      },
+      {
+        "date": "2026-11-09",
+        "price": 24792
       }
     ],
     "sellerType": "franchise",
@@ -138,11 +142,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27365,
-      "expected": 27365,
+      "marketValue": 26828,
+      "expected": 26828,
       "adjustments": {},
-      "dealDelta": -2474,
-      "dealPct": -0.0904,
+      "dealDelta": -2036,
+      "dealPct": -0.0759,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -150,12 +154,12 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 30,
-        "cohortMedianDaysListed": 30,
+        "listedDays": 37,
+        "cohortMedianDaysListed": 37,
         "priceDrop": {
-          "total": 1270,
-          "pct": -0.0485,
-          "drops": 1
+          "total": 1369,
+          "pct": -0.0523,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -230,7 +234,7 @@
     "engine": "0.0L 0Cyl electric",
     "year": 2025,
     "mileage": 12115,
-    "price": 24500,
+    "price": 23500,
     "priceBasis": "listing",
     "dealer": "Gas Charged Motors",
     "dealerId": "d_c6dc7bf3edb8e59c",
@@ -256,12 +260,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-21",
-    "lastSeen": "2026-11-02",
-    "listedDays": 131,
+    "lastSeen": "2026-11-09",
+    "listedDays": 138,
     "priceHistory": [
       {
         "date": "2026-10-21",
         "price": 24500
+      },
+      {
+        "date": "2026-11-09",
+        "price": 23500
       }
     ],
     "sellerType": "independent",
@@ -278,11 +286,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24719,
-      "expected": 24719,
+      "marketValue": 24276,
+      "expected": 24276,
       "adjustments": {},
-      "dealDelta": -219,
-      "dealPct": -0.0088,
+      "dealDelta": -776,
+      "dealPct": -0.032,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -290,8 +298,13 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 131,
-        "cohortMedianDaysListed": 131,
+        "listedDays": 138,
+        "cohortMedianDaysListed": 138,
+        "priceDrop": {
+          "total": 1000,
+          "pct": -0.0408,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"

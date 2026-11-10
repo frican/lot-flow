@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-11-10",
+  "bands": {
+    "great": -0.1,
+    "good": -0.05,
+    "fair": 0.05,
+    "high": 0.1
+  },
+  "cohorts": {
+    "2026|Sport|electric": {
+      "year": 2026,
+      "trim": "Sport",
+      "powertrain": "electric",
+      "n": 2,
+      "mileageRange": [
+        2874,
+        10760
+      ],
+      "theilSen": null,
+      "ols": null,
+      "parentKey": "Sport|electric",
+      "msrp": 130905
+    }
+  },
+  "parents": {},
+  "depreciation": {}
+}

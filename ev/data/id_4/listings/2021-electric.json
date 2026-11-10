@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 7,
+    "lastSeen": "2026-11-09",
+    "listedDays": 14,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -70,20 +70,20 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 18976,
-      "expected": 18976,
+      "marketValue": 18134,
+      "expected": 18134,
       "adjustments": {},
-      "dealDelta": 1685,
-      "dealPct": 0.0888,
-      "rating": "high",
+      "dealDelta": 2527,
+      "dealPct": 0.1394,
+      "rating": "overpriced",
       "dealScore": 1.0,
       "basis": "msrp_curve",
       "cohortN": 1,
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 7,
-        "cohortMedianDaysListed": 7,
+        "listedDays": 14,
+        "cohortMedianDaysListed": 14,
         "priceDrop": {
           "total": 1532,
           "pct": -0.069,
@@ -151,7 +151,7 @@
     "engine": "electric",
     "year": 2021,
     "mileage": 87426,
-    "price": 16385,
+    "price": 16363,
     "priceBasis": "listing",
     "dealer": "Olympic Auto Sales",
     "dealerId": "d_4559149db499c287",
@@ -177,8 +177,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 158,
+    "lastSeen": "2026-11-09",
+    "listedDays": 206,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -187,6 +187,10 @@
       {
         "date": "2026-11-02",
         "price": 16385
+      },
+      {
+        "date": "2026-11-09",
+        "price": 16363
       }
     ],
     "sellerType": "independent",
@@ -205,11 +209,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 14609,
-      "expected": 14609,
+      "marketValue": 14175,
+      "expected": 14175,
       "adjustments": {},
-      "dealDelta": 1776,
-      "dealPct": 0.1216,
+      "dealDelta": 2188,
+      "dealPct": 0.1544,
       "rating": "overpriced",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -217,12 +221,12 @@
       "confidence": 0.19,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 158,
-        "cohortMedianDaysListed": 158,
+        "listedDays": 206,
+        "cohortMedianDaysListed": 206,
         "priceDrop": {
-          "total": 75,
-          "pct": -0.0046,
-          "drops": 1
+          "total": 97,
+          "pct": -0.0059,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -280,14 +284,14 @@
     "series": "Pro S (Statement) 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "0.0L 0Cyl Electric",
+    "engine": "0.0L 0Cyl electric",
     "year": 2021,
     "mileage": 32367,
-    "price": 19285,
+    "price": 18876,
     "priceBasis": "listing",
     "dealer": "Gravity Motor Cars",
     "dealerId": "d_981bf38d3c5be7a2",
-    "distanceMi": 15,
+    "distanceMi": 12,
     "state": "GA",
     "city": "Marietta",
     "cpo": "none",
@@ -299,7 +303,7 @@
     "url": "https://www.gravityautos.com/inventory/2021-volkswagen-id-4-pro-s-WVGTMPE28MP041859",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=WVGTMPE28MP041859&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/WVGTMPE28MP041859-1.jpg",
-    "photoCount": 28,
+    "photoCount": 1,
     "baseMsrp": 44495,
     "squishVin": "WVGTMPE2MP",
     "accidentCount": 0,
@@ -309,8 +313,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 46,
+    "lastSeen": "2026-11-09",
+    "listedDays": 53,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -319,6 +323,10 @@
       {
         "date": "2026-11-02",
         "price": 19285
+      },
+      {
+        "date": "2026-11-09",
+        "price": 18876
       }
     ],
     "sellerType": "independent",
@@ -337,13 +345,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 22565,
-      "expected": 22227,
+      "marketValue": 21791,
+      "expected": 21464,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": -2942,
-      "dealPct": -0.1323,
+      "dealDelta": -2588,
+      "dealPct": -0.1206,
       "rating": "great",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -351,12 +359,12 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 46,
-        "cohortMedianDaysListed": 30,
+        "listedDays": 53,
+        "cohortMedianDaysListed": 33,
         "priceDrop": {
-          "total": 322,
-          "pct": -0.0164,
-          "drops": 1
+          "total": 731,
+          "pct": -0.0373,
+          "drops": 2
         },
         "negotiability": "high"
       },
@@ -530,13 +538,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 14467,
-      "expected": 14250,
+      "marketValue": 14832,
+      "expected": 14610,
       "adjustments": {
         "owners": -0.015
       },
-      "dealDelta": 3497,
-      "dealPct": 0.2454,
+      "dealDelta": 3137,
+      "dealPct": 0.2148,
       "rating": "overpriced",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -545,7 +553,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 13,
-        "cohortMedianDaysListed": 30,
+        "cohortMedianDaysListed": 33,
         "negotiability": "low"
       },
       "trust": "verified"

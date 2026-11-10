@@ -40,7 +40,7 @@
     "oneOwner": true,
     "usageType": "Rental Use",
     "flagged": true,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 105,
@@ -81,7 +81,8 @@
         "mileage": 82959,
         "price": 19800
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-ysmed3ka5pl141600",
@@ -99,8 +100,8 @@
     "drivetrain": "AWD",
     "engine": "electric",
     "year": 2023,
-    "mileage": 23179,
-    "price": 23893,
+    "mileage": 23187,
+    "price": 23493,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -126,12 +127,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 47,
+    "lastSeen": "2026-11-09",
+    "listedDays": 65,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 23893
+      },
+      {
+        "date": "2026-11-09",
+        "price": 23493
       }
     ],
     "sellerType": "independent",
@@ -148,13 +153,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23510,
-      "expected": 23745,
+      "marketValue": 23360,
+      "expected": 23594,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 148,
-      "dealPct": 0.0062,
+      "dealDelta": -101,
+      "dealPct": -0.0043,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -162,9 +167,14 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 47,
-        "cohortMedianDaysListed": 60,
-        "negotiability": "medium"
+        "listedDays": 65,
+        "cohortMedianDaysListed": 70,
+        "priceDrop": {
+          "total": 400,
+          "pct": -0.0167,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -225,7 +235,7 @@
     "engine": "electric",
     "year": 2023,
     "mileage": 21405,
-    "price": 23793,
+    "price": 22293,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -251,12 +261,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 47,
+    "lastSeen": "2026-11-09",
+    "listedDays": 65,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 23793
+      },
+      {
+        "date": "2026-11-09",
+        "price": 22293
       }
     ],
     "sellerType": "independent",
@@ -273,23 +287,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 23765,
-      "expected": 24002,
+      "marketValue": 22293,
+      "expected": 22516,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -209,
-      "dealPct": -0.0087,
+      "dealDelta": -223,
+      "dealPct": -0.0099,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.667,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 47,
-        "cohortMedianDaysListed": 44,
-        "negotiability": "medium"
+        "listedDays": 65,
+        "cohortMedianDaysListed": 58,
+        "priceDrop": {
+          "total": 1500,
+          "pct": -0.063,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -348,7 +367,7 @@
     "engine": "electric",
     "year": 2023,
     "mileage": 11414,
-    "price": 24793,
+    "price": 24093,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -374,12 +393,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 40,
+    "lastSeen": "2026-11-09",
+    "listedDays": 58,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 24793
+      },
+      {
+        "date": "2026-11-09",
+        "price": 24093
       }
     ],
     "sellerType": "independent",
@@ -396,23 +419,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24821,
-      "expected": 25070,
+      "marketValue": 23567,
+      "expected": 23803,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -277,
-      "dealPct": -0.011,
+      "dealDelta": 290,
+      "dealPct": 0.0122,
       "rating": "fair",
-      "dealScore": 1.0,
+      "dealScore": 0.333,
       "basis": "pooled",
-      "cohortN": 2,
-      "confidence": 0.35,
+      "cohortN": 3,
+      "confidence": 0.375,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 40,
-        "cohortMedianDaysListed": 44,
-        "negotiability": "medium"
+        "listedDays": 58,
+        "cohortMedianDaysListed": 58,
+        "priceDrop": {
+          "total": 700,
+          "pct": -0.0282,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -469,6 +497,128 @@
     "powertrainSearch": "electric"
   },
   {
+    "id": "api-ysmeg3kaxpl145326",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Long Range Single Motor",
+    "trimFeed": "Long Range Single Motor",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Long Range Single Motor 4dr Hatchback (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "FWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2023,
+    "mileage": 18644,
+    "price": 22164,
+    "priceBasis": "listing",
+    "dealer": "ALM Kennesaw",
+    "dealerId": "d_ce152b218e144b05",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Kennesaw",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Jupiter",
+    "interiorColor": "Black",
+    "vin": "YSMEG3KAXPL145326",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.hyundailumberton.com/inventory/used-2023-polestar-2-long-range-single-motor-fwd-4d-hatchback-ysmeg3kaxpl145326/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=YSMEG3KAXPL145326&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/YSMEG3KAXPL145326-1.jpg",
+    "photoCount": 1,
+    "baseMsrp": 48400,
+    "squishVin": "YSMEG3KAPL",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Lease",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 3,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 22164
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "trimConfidence": 0.92,
+    "trimVerifiedBy": "search",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 22645,
+      "expected": 22872,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -708,
+      "dealPct": -0.0309,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "pooled",
+      "cohortN": 3,
+      "confidence": 0.375,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 3,
+        "cohortMedianDaysListed": 58,
+        "negotiability": "low"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Long Range Single Motor",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "almkiaperry.com",
+        "trim": "Long Range Single Motor",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 20920
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "almhyundaiwest.com",
+        "trim": "Long Range Single Motor",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 20920
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "hyundaiathens.com",
+        "trim": "Long Range Single Motor",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 22920
+      }
+    ]
+  },
+  {
     "id": "api-ysmet3ka0pl135092",
     "discoveredBy": "auto.dev",
     "seenBy": [
@@ -485,7 +635,7 @@
     "engine": "Electric",
     "year": 2023,
     "mileage": 14477,
-    "price": 26988,
+    "price": 26298,
     "priceBasis": "listing",
     "dealer": "Malones Automotive",
     "dealerId": "d_6d6750d19d48a302",
@@ -511,12 +661,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 64,
+    "lastSeen": "2026-11-09",
+    "listedDays": 82,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 26988
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26298
       }
     ],
     "sellerType": "independent",
@@ -533,13 +687,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 27301,
-      "expected": 27574,
+      "marketValue": 26298,
+      "expected": 26561,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -586,
-      "dealPct": -0.0213,
+      "dealDelta": -263,
+      "dealPct": -0.0099,
       "rating": "fair",
       "dealScore": 0.667,
       "basis": "cohort",
@@ -547,8 +701,13 @@
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 64,
-        "cohortMedianDaysListed": 67,
+        "listedDays": 82,
+        "cohortMedianDaysListed": 81,
+        "priceDrop": {
+          "total": 690,
+          "pct": -0.0256,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"
@@ -599,10 +758,10 @@
     "engine": "electric",
     "year": 2023,
     "mileage": 18765,
-    "price": 25875,
+    "price": 25375,
     "priceBasis": "listing",
     "dealer": "Carvilla",
-    "dealerId": "d_b02399a282f601a1",
+    "dealerId": "d_d1b1a05ac2cd3504",
     "distanceMi": 21,
     "state": "GA",
     "city": "Kennesaw",
@@ -625,12 +784,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 70,
+    "lastSeen": "2026-11-09",
+    "listedDays": 88,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 25875
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25375
       }
     ],
     "sellerType": "independent",
@@ -647,13 +810,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26859,
-      "expected": 27128,
+      "marketValue": 25905,
+      "expected": 26164,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1253,
-      "dealPct": -0.0462,
+      "dealDelta": -789,
+      "dealPct": -0.0302,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "cohort",
@@ -661,8 +824,13 @@
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 70,
-        "cohortMedianDaysListed": 67,
+        "listedDays": 88,
+        "cohortMedianDaysListed": 81,
+        "priceDrop": {
+          "total": 500,
+          "pct": -0.0193,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"
@@ -724,7 +892,7 @@
     "oneOwner": true,
     "usageType": "Corporate Fleet",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 74,
@@ -748,13 +916,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24883,
-      "expected": 25132,
+      "marketValue": 24633,
+      "expected": 24879,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -632,
-      "dealPct": -0.0251,
+      "dealDelta": -379,
+      "dealPct": -0.0152,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -763,7 +931,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 74,
-        "cohortMedianDaysListed": 60,
+        "cohortMedianDaysListed": 70,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -818,7 +986,8 @@
     ],
     "trimSite": "Long Range Dual Motor",
     "powertrainSite": "electric",
-    "stock": "116450"
+    "stock": "116450",
+    "exitReason": "unseen"
   },
   {
     "id": "api-ysmet3ka4pl129554",
@@ -861,7 +1030,7 @@
     "oneOwner": true,
     "usageType": "Lease",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-10-22",
     "listedDays": 70,
@@ -885,13 +1054,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26159,
-      "expected": 26421,
+      "marketValue": 25284,
+      "expected": 25537,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1246,
-      "dealPct": -0.0471,
+      "dealDelta": -362,
+      "dealPct": -0.0142,
       "rating": "fair",
       "dealScore": 0.833,
       "basis": "cohort",
@@ -900,7 +1069,7 @@
       "ratingConfident": true,
       "signals": {
         "listedDays": 70,
-        "cohortMedianDaysListed": 67,
+        "cohortMedianDaysListed": 81,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -943,7 +1112,8 @@
         "price": null
       }
     ],
-    "trimSearch": "Long Range Dual Motor Performance"
+    "trimSearch": "Long Range Dual Motor Performance",
+    "exitReason": "unseen"
   },
   {
     "id": "api-ysmet3ka7pl114143",
@@ -962,7 +1132,7 @@
     "engine": "electric",
     "year": 2023,
     "mileage": 19243,
-    "price": 28293,
+    "price": 26093,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -988,12 +1158,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 47,
+    "lastSeen": "2026-11-09",
+    "listedDays": 65,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 28293
+      },
+      {
+        "date": "2026-11-09",
+        "price": 26093
       }
     ],
     "sellerType": "independent",
@@ -1010,23 +1184,28 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26810,
-      "expected": 27078,
+      "marketValue": 25861,
+      "expected": 26120,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 1215,
-      "dealPct": 0.0449,
+      "dealDelta": -27,
+      "dealPct": -0.001,
       "rating": "fair",
-      "dealScore": 0.167,
+      "dealScore": 0.333,
       "basis": "cohort",
       "cohortN": 6,
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 47,
-        "cohortMedianDaysListed": 67,
-        "negotiability": "medium"
+        "listedDays": 65,
+        "cohortMedianDaysListed": 81,
+        "priceDrop": {
+          "total": 2200,
+          "pct": -0.0778,
+          "drops": 1
+        },
+        "negotiability": "high"
       },
       "trust": "verified"
     },
@@ -1097,11 +1276,11 @@
     "drivetrain": "AWD",
     "engine": "electric",
     "year": 2023,
-    "mileage": 23391,
-    "price": 26695,
+    "mileage": 23406,
+    "price": 25995,
     "priceBasis": "listing",
     "dealer": "Carvilla",
-    "dealerId": "d_b02399a282f601a1",
+    "dealerId": "d_d1b1a05ac2cd3504",
     "distanceMi": 21,
     "state": "GA",
     "city": "Kennesaw",
@@ -1124,12 +1303,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-10-22",
-    "listedDays": 70,
+    "lastSeen": "2026-11-09",
+    "listedDays": 88,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 26695
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25995
       }
     ],
     "sellerType": "independent",
@@ -1146,22 +1329,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26382,
-      "expected": 26645,
+      "marketValue": 25480,
+      "expected": 25735,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 50,
-      "dealPct": 0.0019,
+      "dealDelta": 260,
+      "dealPct": 0.0101,
       "rating": "fair",
-      "dealScore": 0.5,
+      "dealScore": 0.167,
       "basis": "cohort",
       "cohortN": 6,
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 70,
-        "cohortMedianDaysListed": 67,
+        "listedDays": 88,
+        "cohortMedianDaysListed": 81,
+        "priceDrop": {
+          "total": 700,
+          "pct": -0.0262,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"
@@ -1223,7 +1411,7 @@
     "engine": "electric",
     "year": 2023,
     "mileage": 24335,
-    "price": 27095,
+    "price": 25395,
     "priceBasis": "listing",
     "dealer": "Grand Motorcars Kennesaw",
     "dealerId": "d_0eadbace9cc2ac88",
@@ -1249,12 +1437,16 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 62,
+    "lastSeen": "2026-11-09",
+    "listedDays": 80,
     "priceHistory": [
       {
         "date": "2026-10-22",
         "price": 27095
+      },
+      {
+        "date": "2026-11-09",
+        "price": 25395
       }
     ],
     "sellerType": "independent",
@@ -1271,22 +1463,27 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 26284,
-      "expected": 26547,
+      "marketValue": 25395,
+      "expected": 25649,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 548,
-      "dealPct": 0.0206,
+      "dealDelta": -254,
+      "dealPct": -0.0099,
       "rating": "fair",
-      "dealScore": 0.333,
+      "dealScore": 0.5,
       "basis": "cohort",
       "cohortN": 6,
       "confidence": 0.75,
       "ratingConfident": true,
       "signals": {
-        "listedDays": 62,
-        "cohortMedianDaysListed": 67,
+        "listedDays": 80,
+        "cohortMedianDaysListed": 81,
+        "priceDrop": {
+          "total": 1700,
+          "pct": -0.0627,
+          "drops": 1
+        },
         "negotiability": "high"
       },
       "trust": "verified"

@@ -32,7 +32,7 @@
     "url": "https://versatilecollections.com/vdp/23847851/Used-2024-Volkswagen-ID4-S-Sports-Tech-Panoramic-Leather-Massage-Seats-HID-for-sale-in-Alpharetta-GA-30075",
     "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V25MPE83RC005429&partner=FRD_2",
     "primaryImage": "https://retail.photos.vin/1V25MPE83RC005429-1.jpg",
-    "photoCount": 1,
+    "photoCount": 66,
     "baseMsrp": 44855,
     "squishVin": "1V25MPE8RC",
     "accidentCount": 0,
@@ -42,8 +42,8 @@
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 85,
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
     "priceHistory": [
       {
         "date": "2026-11-02",
@@ -65,13 +65,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24380,
-      "expected": 24624,
+      "marketValue": 24386,
+      "expected": 24630,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -837,
-      "dealPct": -0.034,
+      "dealDelta": -843,
+      "dealPct": -0.0342,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -79,8 +79,8 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 85,
-        "cohortMedianDaysListed": 62,
+        "listedDays": 92,
+        "cohortMedianDaysListed": 66,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -166,7 +166,7 @@
     "oneOwner": true,
     "usageType": "Personal Use",
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-10-22",
     "lastSeen": "2026-11-02",
     "listedDays": 40,
@@ -196,13 +196,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 24405,
-      "expected": 24649,
+      "marketValue": 24399,
+      "expected": 24643,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 349,
-      "dealPct": 0.0142,
+      "dealDelta": 355,
+      "dealPct": 0.0144,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -211,7 +211,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 40,
-        "cohortMedianDaysListed": 62,
+        "cohortMedianDaysListed": 66,
         "priceDrop": {
           "total": 1000,
           "pct": -0.0385,
@@ -269,7 +269,8 @@
         "mileage": null,
         "price": null
       }
-    ]
+    ],
+    "exitReason": "unseen"
   },
   {
     "id": "api-1v25mpe8xrc010854",
@@ -285,14 +286,14 @@
     "series": "S 4dr SUV (electric DD)",
     "transmission": "Direct Drive",
     "drivetrain": "RWD",
-    "engine": "Electric Motor",
+    "engine": "electric",
     "year": 2024,
     "mileage": 15002,
-    "price": 26195,
+    "price": 23545,
     "priceBasis": "listing",
-    "dealer": "Hoover Volkswagen of Lithia Springs",
+    "dealer": "Hoover Volkswagen Lithia Springs",
     "dealerId": "d_dc7c89d9f36bc8bb",
-    "distanceMi": 13,
+    "distanceMi": 12,
     "state": "GA",
     "city": "Lithia Springs",
     "cpo": "none",
@@ -314,8 +315,8 @@
     "flagged": true,
     "gone": false,
     "firstSeen": "2026-10-22",
-    "lastSeen": "2026-11-02",
-    "listedDays": 18,
+    "lastSeen": "2026-11-09",
+    "listedDays": 25,
     "priceHistory": [
       {
         "date": "2026-10-22",
@@ -324,6 +325,10 @@
       {
         "date": "2026-11-02",
         "price": 26195
+      },
+      {
+        "date": "2026-11-09",
+        "price": 23545
       }
     ],
     "sellerType": "franchise",
@@ -363,9 +368,9 @@
     "engine": "electric",
     "year": 2024,
     "mileage": 19534,
-    "price": 20300,
+    "price": 20541,
     "priceBasis": "listing",
-    "dealer": "Nalley Volkswagen of Alpharetta",
+    "dealer": "Nalley Volkswagen",
     "dealerId": "d_1f16ed20138a9923",
     "distanceMi": 20,
     "state": "GA",
@@ -385,16 +390,20 @@
     "accidentCount": 0,
     "ownerCount": 1,
     "oneOwner": true,
-    "usageType": "Personal Use",
+    "usageType": "Lease",
     "flagged": false,
     "gone": false,
     "firstSeen": "2026-11-02",
-    "lastSeen": "2026-11-02",
-    "listedDays": 3,
+    "lastSeen": "2026-11-09",
+    "listedDays": 10,
     "priceHistory": [
       {
         "date": "2026-11-02",
         "price": 20300
+      },
+      {
+        "date": "2026-11-09",
+        "price": 20541
       }
     ],
     "sellerType": "franchise",
@@ -412,13 +421,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21205,
-      "expected": 21417,
+      "marketValue": 21414,
+      "expected": 21628,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": -1117,
-      "dealPct": -0.0521,
+      "dealDelta": -1087,
+      "dealPct": -0.0503,
       "rating": "good",
       "dealScore": 1.0,
       "basis": "pooled",
@@ -426,8 +435,8 @@
       "confidence": 0.35,
       "ratingConfident": false,
       "signals": {
-        "listedDays": 3,
-        "cohortMedianDaysListed": 22,
+        "listedDays": 10,
+        "cohortMedianDaysListed": 25,
         "negotiability": "low"
       },
       "trust": "verified"
@@ -448,6 +457,101 @@
       }
     ],
     "urlOrigin": "search"
+  },
+  {
+    "id": "api-1v2bmpe81rc001866",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Standard",
+    "trimFeed": "Standard",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Standard 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "electric",
+    "year": 2024,
+    "mileage": 28640,
+    "price": 18987,
+    "priceBasis": "listing",
+    "dealer": "Versatile Collection",
+    "dealerId": "d_0ace63eb219d3d6e",
+    "distanceMi": 20,
+    "state": "GA",
+    "city": "Alpharetta",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Gray",
+    "interiorColor": "Gray",
+    "vin": "1V2BMPE81RC001866",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://vc-car.com/vdp/23938242/Used-2024-Volkswagen-ID4-Standard-RWD-BSM-Lane-Assist-Camera-Heating-Seats-for-sale-in-Alpharetta-GA-30075",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2BMPE81RC001866&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2BMPE81RC001866-1.jpg",
+    "photoCount": 61,
+    "baseMsrp": 39735,
+    "squishVin": "1V2BMPE8RC",
+    "accidentCount": 1,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": true,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 92,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 18987
+      }
+    ],
+    "sellerType": "independent",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.772,
+    "trimVerifiedBy": "search",
+    "trimFlagged": true,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": false,
+    "valuation": {
+      "basis": "not-ready"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSearch": "Pro S",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "capitalone.com",
+        "trim": "Standard",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "edmunds.com",
+        "trim": "Pro S",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": 1363
+      }
+    ]
   },
   {
     "id": "api-1v2bmpe86rc017447",
@@ -516,13 +620,13 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 21093,
-      "expected": 21304,
+      "marketValue": 21125,
+      "expected": 21336,
       "adjustments": {
         "oneOwner": 0.01
       },
-      "dealDelta": 694,
-      "dealPct": 0.0326,
+      "dealDelta": 662,
+      "dealPct": 0.031,
       "rating": "fair",
       "dealScore": 0.5,
       "basis": "pooled",
@@ -531,7 +635,7 @@
       "ratingConfident": false,
       "signals": {
         "listedDays": 40,
-        "cohortMedianDaysListed": 22,
+        "cohortMedianDaysListed": 25,
         "negotiability": "high"
       },
       "trust": "verified"
@@ -575,5 +679,132 @@
     ],
     "powertrainSearch": "electric",
     "exitReason": "unseen"
+  },
+  {
+    "id": "api-1v2crpe86rc023271",
+    "discoveredBy": "auto.dev",
+    "seenBy": [
+      "auto.dev"
+    ],
+    "trim": "Pro",
+    "trimFeed": "Pro",
+    "powertrain": "electric",
+    "powertrainFeed": "electric",
+    "fuel": "Electric",
+    "series": "Pro 4dr SUV (electric DD)",
+    "transmission": "Direct Drive",
+    "drivetrain": "RWD",
+    "engine": "0.0L 0Cyl electric",
+    "year": 2024,
+    "mileage": 6059,
+    "price": 24900,
+    "priceBasis": "listing",
+    "dealer": "Stone Mountain Volkswagen",
+    "dealerId": "d_b6808c61f14482d4",
+    "distanceMi": 21,
+    "state": "GA",
+    "city": "Snellville",
+    "cpo": "none",
+    "cpoFeed": false,
+    "exteriorColor": "Black",
+    "interiorColor": "Gray",
+    "vin": "1V2CRPE86RC023271",
+    "notes": "Auto-found (Auto.dev). VERIFY TRIM + POWERTRAIN.",
+    "url": "https://www.stonemountainvw.com/inventory/certified-used-2024-volkswagen-id-4-pro-rwd-4d-sport-utility-1v2crpe86rc023271/",
+    "carfaxUrl": "https://www.carfax.com/VehicleHistory/p/Report.cfx?vin=1V2CRPE86RC023271&partner=FRD_2",
+    "primaryImage": "https://retail.photos.vin/1V2CRPE86RC023271-1.jpg",
+    "photoCount": 33,
+    "baseMsrp": 44875,
+    "squishVin": "1V2CRPE8RC",
+    "accidentCount": 0,
+    "ownerCount": 1,
+    "oneOwner": true,
+    "usageType": "Personal Use",
+    "flagged": false,
+    "gone": false,
+    "firstSeen": "2026-11-09",
+    "lastSeen": "2026-11-09",
+    "listedDays": 18,
+    "priceHistory": [
+      {
+        "date": "2026-11-09",
+        "price": 24900
+      }
+    ],
+    "sellerType": "franchise",
+    "powertrainVin": "electric",
+    "powertrainConfidence": 1.0,
+    "powertrainVerifiedBy": "single",
+    "powertrainFlagged": false,
+    "powertrainConflict": false,
+    "plantCountry": "United States",
+    "plantSource": "vin1",
+    "trimConfidence": 0.992,
+    "trimVerifiedBy": "site",
+    "trimFlagged": false,
+    "trimConflict": false,
+    "comboConflict": false,
+    "cohortReady": true,
+    "valuation": {
+      "marketValue": 25130,
+      "expected": 25381,
+      "adjustments": {
+        "oneOwner": 0.01
+      },
+      "dealDelta": -481,
+      "dealPct": -0.019,
+      "rating": "fair",
+      "dealScore": 1.0,
+      "basis": "msrp_curve",
+      "cohortN": 1,
+      "confidence": 0.19,
+      "ratingConfident": false,
+      "signals": {
+        "listedDays": 18,
+        "cohortMedianDaysListed": 18,
+        "negotiability": "medium"
+      },
+      "trust": "verified"
+    },
+    "searchedAt": "2026-11-09",
+    "trimSite": "Pro",
+    "verifyLog": [
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "site",
+        "host": "stonemountainvw.com",
+        "trim": "Pro",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": 6059,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "vinanalytics.com",
+        "trim": "Pro",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      },
+      {
+        "date": "2026-11-09",
+        "how": "search",
+        "tier": "search",
+        "host": "autostoday.com",
+        "trim": "Pro",
+        "powertrain": null,
+        "strength": "snippet",
+        "mileage": null,
+        "price": null
+      }
+    ],
+    "urlOrigin": "search",
+    "stock": "P6306",
+    "trimSearch": "Pro"
   }
 ]

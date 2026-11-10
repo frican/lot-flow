@@ -40,7 +40,7 @@
     "oneOwner": null,
     "usageType": null,
     "flagged": false,
-    "gone": false,
+    "gone": true,
     "firstSeen": "2026-11-02",
     "lastSeen": "2026-11-02",
     "listedDays": 1,
@@ -65,11 +65,11 @@
     "comboConflict": false,
     "cohortReady": true,
     "valuation": {
-      "marketValue": 34879,
-      "expected": 34879,
+      "marketValue": 33873,
+      "expected": 33873,
       "adjustments": {},
-      "dealDelta": 303,
-      "dealPct": 0.0087,
+      "dealDelta": 1309,
+      "dealPct": 0.0386,
       "rating": "fair",
       "dealScore": 1.0,
       "basis": "msrp_curve",
@@ -113,6 +113,7 @@
     "urlOrigin": "search",
     "stock": "Number",
     "trimSearch": "Select",
-    "powertrainSearch": "electric"
+    "powertrainSearch": "electric",
+    "exitReason": "unseen"
   }
 ]
